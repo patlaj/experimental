@@ -15,6 +15,8 @@
 <link rel="stylesheet" href="https://gc-proto.github.io/cra-contactus/GCWeb/css/theme.css">
 <!--<link rel="stylesheet" href="https://gc-proto.github.io/cra-contactus/GCWeb/css/custom.css">//-->
 <link rel="stylesheet" href="files/navigation.css">
+<link rel="stylesheet" href="files/breadcrumb.css">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 <!--<![endif]-->
 <!--[if lt IE 9]>
@@ -98,10 +100,10 @@
   <h2>You are here:</h2>
   <div class="container">
    <ol class="breadcrumb">
-     <li><a href="https://gc-proto.github.io/canada-child-benefit-2/validation/en.html">Home</a></li>
-     <li><a href='https://gc-proto.github.io/canada-child-benefit-2/validation/services/taxes.html'>Taxes</a></li>
-     <li><a href='https://gc-proto.github.io/canada-child-benefit-2/validation/services/taxes/child-and-family-benefits.html'>Child and family benefits</a></li>
-     <li><a href='https://gc-proto.github.io/canada-child-benefit-2/validation/revenue-agency/services/child-family-benefits/canada-child-benefit.html'>Canada Child Benefit</a></li>
+     <li class="hidden-xs hidden-sm"><a href="https://gc-proto.github.io/canada-child-benefit-2/validation/en.html">Home</a></li>
+     <li class="hidden-xs hidden-sm"><a href='https://gc-proto.github.io/canada-child-benefit-2/validation/services/taxes.html'>Taxes</a></li>
+     <li class="hidden-xs hidden-sm"><a href='https://gc-proto.github.io/canada-child-benefit-2/validation/services/taxes/child-and-family-benefits.html'>Child and family benefits</a></li>
+     <li class="no-break-breadcrumb"><a href='https://gc-proto.github.io/canada-child-benefit-2/validation/revenue-agency/services/child-family-benefits/canada-child-benefit.html'>Canada Child Benefit</a></li>
    </ol>
   </div>
  </nav>
@@ -294,36 +296,7 @@
   		<script src="./wet-boew/js/ie8-wet-boew2.min.js"></script>
   		<![endif]-->
 <script src="https://gc-proto.github.io/cra-contactus/GCWeb/js/theme.js"></script>
-<script src="https://gc-proto.github.io/cra-contactus/js/checkboxes.js"></script>
-<script src="https://gc-proto.github.io/cra-contactus/js/extended.js"></script>
-<script>
-  $(document).ready(function() {
-  var holidays = {};
-  holidays["4-19"] = true;
-  holidays["4-21"] = true;
-  holidays["4-22"] = true;
-  $(".need-date-2").each(function(index, element) {
-    var el = $(element);
-    var date = new Date();
-    var hour = date.getHours();
-    var minutes = date.getMinutes();
-    var day = date.getDay();
-    var month = date.getMonth();
-    var dayOfMonth = date.getDate();
-    var lineOpen = Number(el.data("day" + day + "-open"));
-    var lineClose = Number(el.data("day" + day + "-close"));
-    var closeClock = (lineClose - 12);
-    var nextDay = Number(el.data("day" + (day + 1) + "-open"));
-    console.log(lineOpen, lineClose);
-    var isHoliday = holidays["" + month + "-" + dayOfMonth + ""];
-    if (!isHoliday && hour >= lineOpen && hour <= lineClose) {
-      el.find(".open-or-closed-2").html('<label class="label label-success">Open until ' + closeClock +'PM</label>');
-    } else {
-      el.find(".open-or-closed-2").html('<label class="label label-danger">Closed until ' + nextDay + 'AM</label>');
-    }
-  });
-  });
-  </script>
+
 	<script src="files/navigation.js"></script>
 </body>
 </html>
