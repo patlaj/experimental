@@ -2,7 +2,7 @@
 
 p {
   font-size: 20px;
-  font-family: 'Noto';
+  font-family: 'Noto Sans', sans-serif;
   line-height: 1.5;
 }
 .gc-box {
@@ -12,25 +12,35 @@ p {
 .gc-brand {
   background-color: black;
   padding: 1em 2em 1em 2em;
-  height: 3em;
+  height: 4em;
 
 }
 .gc-fip {
   float: left;
-  width: 20em;
-  padding: .5em 0 0 0;
+  width: 30%;
 }
 .gc-wordmark {
   float: right;
-  width: 10em;
+  width: 15%;
 }
 
+@media only screen and (max-width: 800px) {
+.gc-wordmark {
+  width: 25%;
+}
+.gc-fip {
+  display: none;
+}
+}
 
 @media only screen and (max-width: 600px) {
 .gc-wordmark {
   width: 35%;
 }
-.gc-fip {
-  display: none;
+}
+
+@media only screen and (max-width: 375px) {
+.gc-wordmark {
+  width: 50%;
 }
 }
