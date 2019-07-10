@@ -34,10 +34,10 @@ p {
 .gc-wordmark {
   width: 35%;
 }
-
+/* 
 .gc-brand {
   height: 5em;
-}
+} */
 
 .gc-fip {
   visibility: hidden;
