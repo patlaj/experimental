@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&subset=latin,latin-ext');
+
+p {
+  font-size: 20px;
+  font-family: 'Noto';
+  line-height: 1.5;
+}
+.gc-box {
+  border: black solid 3px;
+  padding: 1em 2em 1em 2em;
+}
+
+.gc-brand {
+  background-color: black;
+  padding: 1em 2em 1em 2em;
+  height: 3em;
+
+}
+
+.gc-fip {
+  float: left;
+  width: 20em;
+  padding: .5em 0 0 0;
+}
+
+.gc-wordmark {
+  float: right;
+  width: 10em;
+}
