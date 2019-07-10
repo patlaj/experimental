@@ -27,3 +27,20 @@ p {
   float: right;
   width: 10em;
 }
+
+
+@media only screen and (max-width: 565px) {
+
+.gc-wordmark {
+  width: 35%;
+}
+
+.gc-brand {
+  height: 6em;
+}
+
+.gc-fip {
+  visibility: hidden;
+}
+
+}
