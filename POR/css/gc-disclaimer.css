@@ -40,7 +40,7 @@ p {
 }
 
 .gc-fip {
-  visibility: hidden;
+  display: none;
 }
 
 }
