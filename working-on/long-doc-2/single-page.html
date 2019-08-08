@@ -1307,7 +1307,9 @@
 
       <![endif]-->
   <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
-  <script>
+
+
+<script>
   var $window = $(window),
   $stickyEl = $('#toc'),
   $footerDiv = $('.pagedetails'),
@@ -1324,16 +1326,11 @@
 
   $('#toc').css({"maxHeight":($footerDiv.offset().top - $(window).scrollTop())+"px"})
 
-// only adds sticky class and footer maths if it's in desktop
+// only adds sticky class if it's in desktop size
   $(window).width();
-  console.log($(window).width());
   if ($window.width() > 769) {
     $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
   }
-
-  // $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
-  // var scrollPosition = $(window).height() + $(window).scrollTop();
-  // $stickyEl.toggleClass('overfooter', $footerDiv.offset().top < scrollPosition);
 
   });
 
