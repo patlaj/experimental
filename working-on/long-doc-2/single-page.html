@@ -45,14 +45,6 @@
     		font-size: 1.5em;
     }
 
-    #toc, #toc.sticky {
-      background-color: white !important;
-      z-index: 1;
-      padding: 1em 1em 1em 1em;
-      /* width: 500px !important; */
-
-    }
-
 
     .gcweb-v2~#wb-bc ol {
 
@@ -69,11 +61,30 @@
 
     }
 
-    @media screen and (min-width 1200px) {
-		#desktop-left-toc.sticky {
-			/*width: 350px;*/
-		}
-	}
+
+    html {
+        background: white;
+        color: red;
+        font-size: 1.4em;
+    }
+    html.mobile {
+        background: blue;
+        color: white;
+        font-size: 1em;
+    }
+
+  /* long doc stuff */
+
+  @media screen and (max-width: 991px) {
+
+  #toc, #toc.sticky {
+    background-color: white !important;
+    z-index: 1;
+    padding: 1em 1em 1em 1em;
+    display: none;
+  }
+}
+
 
 	#toc.sticky {
 		position: fixed !important;
@@ -189,15 +200,16 @@
     <div class="container">
 
       <div class="row">
+
+        <section class="visible-xs visible-sm"><a class="btn show-menu">Open the menu</a></section>
         <div class="col-sm-4">
-          <aside>
 
           <nav id="toc" data-spy="affix" data-toggle="toc" class="affix">
             <h2 class="h3" style="margin-top:40px;">Search the specification</h2>
 
             <form id="find-in-doc" class="form-inline">
         <label for="btngrp-search2" class="wb-inv">Search this document</label>
-        <div class="input-group" style="width: 350px;">
+        <div class="input-group" style="width: 340px;">
           <input type="text" id="nickname" class="form-control" id="btngrp-search2" placeholder="" />
           <span class="input-group-btn">
             <button class="btn btn-primary" id="docsearchbutton" onclick="submitForm()" type="button">Find</button>
@@ -270,7 +282,6 @@
 
                 </ul>
               </nav>
-</aside>
         </div>
         <div class="col-md-8 mrgn-tp-lg">  <div class="profile firsth1" style="font-size: 19px;">
            <h1 property="name" id="wb-cont">Canada.ca Content and Information Architecture Specification</h1>
@@ -1329,15 +1340,86 @@
   </script>
 
   <script>
+  var $window = $(window);
 
-  // $(document).ready(function() {
-  //   $('#toc').attr('tabIndex', -1);
-  //   console.log('hi');
-  //
+  $(window).resize(function(){
+    if ($window.width() < 514) {
+      $('.longdoc-toc-link').addClass('mobile-toc');
+    }
+    // else {
+    //   $('.longdoc-toc-link').removeClass('mobile-toc');
+    // }
+
+    $('.mobile-toc').click(function(){
+     $( '#toc').hide();
+     console.log('hi');
+   });
+
+  });
+
+
+
+    // $window
+    //   .resize(resize);
+    //   .trigger('resize');
+
+
+
+  // $( '.longdoc-toc-link' ).click(function() {
+  //   $( this ).toggleClass('longdoc-toc-link mobile-toc');
+  //    console.log('hi');
   // });
 
+  // (function($) {
+  //
+  // })(jQuery);
 
-  </script>
+  // (function($) {
+  //     var $window = $(window),
+  //         $li = $('li');
+  //
+  //     function resize() {
+  //         if ($window.width() < 514) {
+  //             return $li.switchClass('longdoc-toc-link', 'mobile-toc');
+  //         }
+  //
+  //         $li.switchClass('mobile-toc', 'longdoc-toc-link');
+  //     }
+  //
+  //     console.log('hi');
+  //
+  //     $window
+  //         .resize(resize)
+  //         .trigger('resize');
+  // })(jQuery);
+
+  // need on window width swap class....
+
+    // $(document).ready(function() {
+    //   $('#toc').attr('tabIndex', -1);
+    //   console.log('hi');
+    //
+    // });
+
+  // to-do:
+  // -write display: none menu on mobile/tablet view
+  // -menu button display: visible
+  // -
+  // - width of menu based on browser window
+
+    </script>
+
+  <script>
+
+  $('.show-menu').click(function(){
+   $( '#toc').show();
+
+ });
+
+
+</script>
+
+
 
   </body>
 </html>
