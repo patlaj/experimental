@@ -65,11 +65,15 @@
 
   @media screen and (max-width: 991px) {
 
-  #toc, #toc.sticky {
+  #toc {
     background-color: white !important;
     z-index: 1;
     padding: 1em 1em 1em 1em;
     display: none;
+  }
+
+  .sticky, .overfooter {
+    display: none !important;
   }
 }
 
@@ -1307,7 +1311,8 @@
   var $window = $(window),
   $stickyEl = $('#toc'),
   $footerDiv = $('.pagedetails'),
-  elTop = $stickyEl.offset().top;
+  elTop = $stickyEl.offset().top,
+  scrollPosition = $(window).height() + $(window).scrollTop();
 
   console.log(elTop);
 
@@ -1319,8 +1324,15 @@
 
   $('#toc').css({"maxHeight":($footerDiv.offset().top - $(window).scrollTop())+"px"})
 
-  $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
-  var scrollPosition = $(window).height() + $(window).scrollTop();
+// only adds sticky class and footer maths if it's in desktop
+  $(window).width();
+  console.log($(window).width());
+  if ($window.width() > 769) {
+    $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
+  }
+
+  // $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
+  // var scrollPosition = $(window).height() + $(window).scrollTop();
   // $stickyEl.toggleClass('overfooter', $footerDiv.offset().top < scrollPosition);
 
   });
