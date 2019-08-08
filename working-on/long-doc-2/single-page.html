@@ -101,7 +101,10 @@
    overflow-y: auto;
   }
 
-
+.red {
+  color: red;
+  background-color: red;
+}
 
 
     </style>
@@ -211,14 +214,15 @@
 
 <h2 class="h3">Table of contents</h2>
             <ul class="nav" >
-                <li class="active"><a href="#who-has-to-use-this-design-system">Who has to use this design system</a>
-                    <ul class="nav">
-                      <li class="longdoc-toc-link"><a href="#out-of-scope-situations">Out-of-scope situations</a></li>
-                      <li class="longdoc-toc-link"><a href="#using-the-web-experience-toolkit">Using the Web Experience Toolkit</a></li>
-                    </ul>
+                <li class="active longdoc-toc-link"><a href="#who-has-to-use-this-design-system">Who has to use this design system</a>
                 </li>
-
-                <li class="longdoc-toc-link"><a href="#mandatory-elements">Mandatory elements</a>
+                  <li class="longdoc-toc-link"><a href="#out-of-scope-situations">Out-of-scope situations</a></li>
+                  <li><a href="#using-the-web-experience-toolkit">Using the Web Experience Toolkit</a>
+                    <ul class="nav">
+                      <li class="longdoc-toc-link"><a href="#adapting">Adapting for out-of-scope situations</a></li>
+                    </ul>
+                  </li>
+                <li class="menu-drilldown"><a href="#mandatory-elements">Mandatory elements</a>
                     <ul class="nav">
                       <li class="longdoc-toc-link"><a href="#typog">Typography</a></li>
                       <li class="longdoc-toc-link"><a href="#colours">Colours</a></li>
@@ -299,12 +303,12 @@
 <li>enterprises  and organizations that are not part of the Government of Canada </li>
 
 </ul>
-<h2>Using the Web Experience Toolkit</h2>
+<h2 id="using-the-web-experience-toolkit">Using the Web Experience Toolkit</h2>
 <p>All institutions are encouraged to use the components in the <a href="http://www.tbs-sct.gc.ca/hgw-cgf/oversight-surveillance/communications/ws-nw/wet-boew-eng.asp">Web Experience  Toolkit</a>&nbsp;for  both their internal and external web products. These components are open source and free. They reflect the results of  ongoing usability testing. They make it easier to meet accessibility requirements and  provide responsive design for a variety of devices with a range of screen  sizes.</p>
 
 <section>
 
-<h3 id="using-the-web-experience-toolkit">Adapting the Web Experience Toolkit for out-of-scope situations</h3>
+<h3 id="adapting">Adapting the Web Experience Toolkit for out-of-scope situations</h3>
 
 <p>If your website or service is out of scope for the Canada.ca design system, but you wish to use the Web Experience Toolkit, you must make the following minimum  modifications.</p>
 
@@ -1348,7 +1352,7 @@
  }
     $('.mobile-toc').click(function(){
     $( '#toc').hide();
- });
+  });
 
 
   $(window).resize(function(){
@@ -1420,6 +1424,16 @@
    $( '#toc').show();
 
  });
+
+ // $('.menu-drilldown').click(function(){
+ //   $('.menu-drilldown').addClass('active');
+ //   return false;
+ $('.menu-drilldown').one('click', function(e) {
+   $('.menu-drilldown').addClass('active');
+   e.preventDefault();
+   return false;
+});
+
 
 
 </script>
