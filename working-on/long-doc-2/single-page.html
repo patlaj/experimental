@@ -61,18 +61,6 @@
 
     }
 
-
-    html {
-        background: white;
-        color: red;
-        font-size: 1.4em;
-    }
-    html.mobile {
-        background: blue;
-        color: white;
-        font-size: 1em;
-    }
-
   /* long doc stuff */
 
   @media screen and (max-width: 991px) {
@@ -1342,17 +1330,26 @@
   <script>
   var $window = $(window);
 
-  $(window).resize(function(){
-    if ($window.width() < 514) {
-      $('.longdoc-toc-link').addClass('mobile-toc');
-    }
-    // else {
-    //   $('.longdoc-toc-link').removeClass('mobile-toc');
-    // }
-
+  $(window).width();
+  console.log($(window).width());
+  if ($window.width() < 769) {
+    $('.longdoc-toc-link').addClass('mobile-toc');
+  } else {
+    $('.longdoc-toc-link').removeClass('mobile-toc');
+ }
     $('.mobile-toc').click(function(){
-     $( '#toc').hide();
-     console.log('hi');
+    $( '#toc').hide();
+ });
+
+
+  $(window).resize(function(){
+    if ($window.width() < 769) {
+      $('.longdoc-toc-link').addClass('mobile-toc');
+    } else {
+      $('.longdoc-toc-link').removeClass('mobile-toc');
+    }
+      $('.mobile-toc').click(function(){
+      $( '#toc').hide();
    });
 
   });
@@ -1402,10 +1399,9 @@
     // });
 
   // to-do:
-  // -write display: none menu on mobile/tablet view
-  // -menu button display: visible
-  // -
-  // - width of menu based on browser window
+  // -write display: none menu on mobile/tablet view - yess
+  // -menu button display: visible - yes
+  // - width of menu based on browser window - yes
 
     </script>
 
