@@ -12,6 +12,8 @@
 <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
 <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css">
 <link rel="stylesheet" href="./toc.css">
+<link rel="stylesheet" href="./in-page.css">
+
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script> 		<!-- makes ToC work -->
@@ -29,85 +31,6 @@
 
 
 		<![endif]-->
-    <style>
-
-    body {
-      font-size: 20px !important;
-    }
-
-    body .pagedetails, footer, .breadcrumb, #wb-bnr {
-      font-size: 16px !important;
-    }
-    @media screen and (max-width: 737px) {
-    #wb-bc li:before {
-    		color: #333;
-    		content: "<"!important;
-    		font-size: 1.5em;
-    }
-
-
-    .gcweb-v2~#wb-bc ol {
-
-      margin-top: 5px !important;
-    }
-
-    }
-    @media screen and (min-width: 737px) {
-    .no-break-breadcrumb {
-    	display: inline-block!important;
-    }
-
-
-
-    }
-
-  /* long doc stuff */
-
-  @media screen and (max-width: 991px) {
-
-  #toc {
-    background-color: white !important;
-    z-index: 1;
-    padding: 1em 1em 1em 1em;
-    display: none;
-  }
-
-  .sticky, .overfooter {
-    display: none !important;
-  }
-}
-
-
-	#toc.sticky {
-		position: fixed !important;
-		top: 0px;
-		width: 375px;
-		bottom: 0px;
-		overflow-y: auto;
-	}
-	#toc.overfooter {
-		/* position: relative !important; */
-		bottom: 0px!important;
-		top: 0;
-    /* color: red !important;*/
-    /* max-height: 18em !important; */
-    overflow-y: scroll;
-
-	}
-
-#toc {
-   position: sticky;
-   margin-left: -13px;
-   overflow-y: auto;
-  }
-
-.red {
-  color: red;
-  background-color: red;
-}
-
-
-    </style>
 <noscript><link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/noscript.min.css" /></noscript>
 </head>
 
@@ -192,12 +115,11 @@
 
 
 
-    <div class="container">
-
+<main role="main" property="mainContentOfPage" class="container">
       <div class="row">
 
-        <section class="visible-xs visible-sm"><a class="btn show-menu">Open the menu</a></section>
-        <div class="col-sm-4">
+        <section class="visible-xs visible-sm"><a class="btn btn-primary show-menu" style="color: white !important;">Table of contents</a> <a class="btn">Search</a></section>
+        <div class="col-md-4 col-xs-12 col-sm-12">
 
           <nav id="toc" data-spy="affix" data-toggle="toc" class="affix">
             <h2 class="h3" style="margin-top:40px;">Search the specification</h2>
@@ -252,7 +174,7 @@
                   </li>
 
 
-                <li class="longdoc-toc-link"><a href="#organizing">Organizing content</a>
+                <li class="longdoc-toc-link"><a class="menu-drilldown" href="#organizing">Organizing content</a>
                   <ul class="nav">
                     <li class="longdoc-toc-link"><a href="#find">How people find tasks</a></li>
                     <li class="longdoc-toc-link"><a href="#user-need">User-need categories for destination content</a>
@@ -269,7 +191,7 @@
 
                   </li>
 
-                  <li class="longdoc-toc-link"><a href="#design">Designing content</a>
+                  <li class="longdoc-toc-link"><a class="menu-drilldown" href="#design">Designing content</a>
                     <ul class="nav">
                       <li class="longdoc-toc-link"><a href="#how-to-design">How to design for Canada.ca</a></li>
                       <li class="longdoc-toc-link"><a href="#principles">Design principles</a></li>

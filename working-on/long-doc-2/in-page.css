@@ -1,0 +1,78 @@
+/* not need anymore, fixed dwith main tag
+
+body {
+  font-size: 20px !important;
+}
+
+body .pagedetails, footer, .breadcrumb, #wb-bnr {
+  font-size: 16px !important;
+} */
+
+
+@media screen and (max-width: 737px) {
+#wb-bc li:before {
+    color: #333;
+    content: "<"!important;
+    font-size: 1.5em;
+}
+
+
+.gcweb-v2~#wb-bc ol {
+
+  margin-top: 5px !important;
+}
+
+}
+@media screen and (min-width: 737px) {
+.no-break-breadcrumb {
+  display: inline-block!important;
+}
+
+
+
+}
+
+/* long doc stuff */
+
+@media screen and (max-width: 991px) {
+
+#toc {
+background-color: white !important;
+z-index: 1;
+padding: 1em 1em 1em 1em;
+display: none;
+}
+
+.sticky, .overfooter {
+display: none !important;
+}
+}
+
+
+#toc.sticky {
+position: fixed !important;
+top: 0px;
+width: 375px;
+bottom: 0px;
+overflow-y: auto;
+}
+#toc.overfooter {
+/* position: relative !important; */
+bottom: 0px!important;
+top: 0;
+/* color: red !important;*/
+/* max-height: 18em !important; */
+overflow-y: scroll;
+
+}
+
+#toc {
+position: sticky;
+margin-left: -13px;
+overflow-y: auto;
+}
+
+.red {
+color: red;
+background-color: red;
+}
