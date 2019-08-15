@@ -39,7 +39,7 @@ body .pagedetails, footer, .breadcrumb, #wb-bnr {
 #toc {
 background-color: white !important;
 z-index: 1;
-padding: 1em 1em 1em 1em;
+padding: 1em 1em 1em 2em;
 display: none;
 position: absolute !important;
 
@@ -55,7 +55,7 @@ display: none !important;
 #toc.sticky {
 position: fixed !important;
 top: 0px;
-width: 375px;
+width: 400px;
 bottom: 0px;
 overflow-y: auto;
 }

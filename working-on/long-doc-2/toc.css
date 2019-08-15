@@ -57,12 +57,34 @@ nav[data-toggle=toc] .nav>li>a:hover {
     color: #26374A;
     text-decoration: none;
     background-color: transparent;
-    border-left: 3px solid #26374A
+    border-left: 5px solid #26374A
 }
 
 nav[data-toggle=toc] .nav>.active:focus>a,
 nav[data-toggle=toc] .nav>.active:hover>a,
 nav[data-toggle=toc] .nav>.active>a {
+    padding-left: 18px;
+    font-weight: 700;
+    color: #26374A;
+    background-color: transparent;
+    border-left: 5px solid #26374A
+}
+
+/* 2nd layer of toc */
+nav[data-toggle=toc] ul.nav ul.nav>li>a:focus,
+nav[data-toggle=toc] ul.nav ul.nav>li>a:hover {
+    margin-left: 16px;
+    padding-left: 18px;
+    color: #26374A;
+    text-decoration: none;
+    background-color: transparent;
+    border-left: 3px solid #26374A
+}
+
+nav[data-toggle=toc]  ul.nav ul.nav>.active:focus>a,
+nav[data-toggle=toc]  ul.nav ul.nav>.active:hover>a,
+nav[data-toggle=toc]  ul.nav ul.nav>.active>a {
+    margin-left: 16px;
     padding-left: 18px;
     font-weight: 700;
     color: #26374A;
@@ -74,7 +96,7 @@ nav[data-toggle=toc] .nav>.active>a {
 
 nav[data-toggle=toc] ul.nav ul.nav ul.nav>li>a:focus,
 nav[data-toggle=toc] ul.nav ul.nav ul.nav>li>a:hover {
-    padding-left: 28px;
+    padding-left: 18px;
     color: #26374A;
     text-decoration: none;
     background-color: transparent;
@@ -84,7 +106,7 @@ nav[data-toggle=toc] ul.nav ul.nav ul.nav>li>a:hover {
 nav[data-toggle=toc]  ul.nav ul.nav ul.nav>.active:focus>a,
 nav[data-toggle=toc]  ul.nav ul.nav ul.nav>.active:hover>a,
 nav[data-toggle=toc]  ul.nav ul.nav ul.nav>.active>a {
-    padding-left: 28px;
+    padding-left: 18px;
     font-weight: 700;
     color: #26374A;
     background-color: transparent;
