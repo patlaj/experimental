@@ -61,6 +61,6 @@ $('.menu-drilldown').click(function(){
 
 // shows the menu on mobile when clicked
 $('.show-menu').click(function(){
- $( '#toc').show();
+ $( '#toc').toggle();
 
 });
