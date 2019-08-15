@@ -55,7 +55,7 @@ display: none !important;
 #toc.sticky {
 position: fixed !important;
 top: 0px;
-width: 400px;
+width: 395px; /*need to write this to change on screen width */
 bottom: 0px;
 overflow-y: auto;
 }
