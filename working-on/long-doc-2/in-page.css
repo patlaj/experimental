@@ -41,11 +41,14 @@ background-color: white !important;
 z-index: 1;
 padding: 1em 1em 1em 1em;
 display: none;
+position: absolute !important;
+
 }
 
 .sticky, .overfooter {
 display: none !important;
 }
+
 }
 
 
