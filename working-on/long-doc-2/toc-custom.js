@@ -21,15 +21,15 @@ if ($window.width() < 1025) {
 }
 
 if ($window.width() > 1024) {
-  $('#toc').css({"maxWidth":($(window).width() / 3.1)+"px"})
+  $('#toc').css({"maxWidth":($(window).width() / 3.15)+"px"})
 }
 
 if ($window.width() > 1225) {
-  $('#toc').css({"maxWidth":($(window).width() / 3.2)+"px"})
+  $('#toc').css({"maxWidth":($(window).width() / 3.12)+"px"})
 }
 
 if ($window.width() > 1325) {
-  $('#toc').css({"maxWidth":($(window).width() / 3.5)+"px"})
+  $('#toc').css({"maxWidth":($(window).width() / 3.35)+"px"})
 }
 
 if ($window.width() > 1425) {
@@ -41,15 +41,15 @@ if ($window.width() > 1525) {
 }
 
 if ($window.width() > 1625) {
-  $('#toc').css({"maxWidth":($(window).width() / 4.3)+"px"})
+  $('#toc').css({"maxWidth":($(window).width() / 4.2)+"px"})
 }
 
 if ($window.width() > 1725) {
-  $('#toc').css({"maxWidth":($(window).width() / 4.6)+"px"})
+  $('#toc').css({"maxWidth":($(window).width() / 4.4)+"px"})
 }
 
 if ($window.width() > 1825) {
-  $('#toc').css({"maxWidth":($(window).width() / 4.8)+"px"})
+  $('#toc').css({"maxWidth":($(window).width() / 4.7)+"px"})
 }
 
 if ($window.width() > 1925) {
