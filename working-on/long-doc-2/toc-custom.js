@@ -15,12 +15,26 @@ $window.scroll(function() {
 
 
 $('#toc').css({"maxHeight":($footerDiv.offset().top - $(window).scrollTop())+"px"})
+$('#toc').css({"maxWidth":($(window).width() / 3.3)+"px"})
+
 
 // only adds sticky class if it's in desktop size
 $(window).width();
 if ($window.width() > 769) {
   $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
+  // $stickyEl.css('width', '26%', $window.scrollTop() > elTop);
 }
+
+
+// control width of sticky class
+// $(window).width();
+// if ($window.width() > 769) {
+//   $stickyEl.css('width', '26%');
+//   $stickyEl.css('width', '100%;', $window.scrollTop() > elTop);
+// }
+
+
+// reset width when at top of screen
 
 });
 
@@ -32,7 +46,7 @@ $(window).width();
 console.log($(window).width());
 if ($window.width() < 769) {
   $('.longdoc-toc-link').addClass('mobile-toc');
-  $('.longdoc-toc-link').css('width', '33%');
+  $('#toc').css('width', '100%');
 
 } else {
   $('.longdoc-toc-link').removeClass('mobile-toc');
