@@ -32,6 +32,8 @@ $(window).width();
 console.log($(window).width());
 if ($window.width() < 769) {
   $('.longdoc-toc-link').addClass('mobile-toc');
+  $('.longdoc-toc-link').css('width', '33%');
+
 } else {
   $('.longdoc-toc-link').removeClass('mobile-toc');
 }
