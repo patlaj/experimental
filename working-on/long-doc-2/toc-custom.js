@@ -13,10 +13,48 @@ $window.scroll(function() {
   console.log("Max-height = " + ($footerDiv.offset().top - $(window).scrollTop()));
 // $(window).scrollTop() -
 
-
 $('#toc').css({"maxHeight":($footerDiv.offset().top - $(window).scrollTop())+"px"})
-$('#toc').css({"maxWidth":($(window).width() / 3.3)+"px"})
+// $('#toc').css({"maxWidth":($(window).width() / 3.3)+"px"})
 
+if ($window.width() < 1025) {
+  $('#toc').css({"maxWidth":($(window).width() / 3)+"px"})
+}
+
+if ($window.width() > 1024) {
+  $('#toc').css({"maxWidth":($(window).width() / 3.1)+"px"})
+}
+
+if ($window.width() > 1225) {
+  $('#toc').css({"maxWidth":($(window).width() / 3.2)+"px"})
+}
+
+if ($window.width() > 1325) {
+  $('#toc').css({"maxWidth":($(window).width() / 3.5)+"px"})
+}
+
+if ($window.width() > 1425) {
+  $('#toc').css({"maxWidth":($(window).width() / 3.75)+"px"})
+}
+
+if ($window.width() > 1525) {
+  $('#toc').css({"maxWidth":($(window).width() / 3.95)+"px"})
+}
+
+if ($window.width() > 1625) {
+  $('#toc').css({"maxWidth":($(window).width() / 4.3)+"px"})
+}
+
+if ($window.width() > 1725) {
+  $('#toc').css({"maxWidth":($(window).width() / 4.6)+"px"})
+}
+
+if ($window.width() > 1825) {
+  $('#toc').css({"maxWidth":($(window).width() / 4.8)+"px"})
+}
+
+if ($window.width() > 1925) {
+  $('#toc').css({"maxWidth":($(window).width() / 5)+"px"})
+}
 
 // only adds sticky class if it's in desktop size
 $(window).width();
