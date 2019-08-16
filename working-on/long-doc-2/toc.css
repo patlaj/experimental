@@ -18,37 +18,15 @@
   font-weight: 700;
 }
 
- .firsth1 {margin:7px 0 0; padding:0}
- .firsth1 h1 {
- 	padding-bottom: 0;
- 	font-size: 1.4em;
- 	color: #777;
- 	float: none;
- 	padding-left: 0px;
- 	padding-right: 15px;
- 	font-weight: 400;
- 	border:none;
- 	margin:0;
- }
- @media all and (max-width: 991px) {
-  .firsth1 h1 {
- 	color: #333;
- 	font-weight: 600;
- 	font-size: 1.7em;
- 	}
- }
-
-body p, body p ul  {
-  font-size: 20px !important;
-  line-height: 1.65em !important;
-}
 
 nav[data-toggle=toc] .nav>li>a {
     display: block;
-    padding: 5px 20px;
+    padding: 5px 18px;
     font-size: 18px;
+    line-height: 1.5;
     font-weight: 500;
-    color: #666
+    margin-bottom: .3em;
+    color: #5f5f5f
 }
 
 nav[data-toggle=toc] .nav>li>a:focus,
