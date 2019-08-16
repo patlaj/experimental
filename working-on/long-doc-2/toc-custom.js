@@ -21,15 +21,15 @@ if ($window.width() < 1025) {
 }
 
 if ($window.width() > 1024) {
-  $('#toc').css({"maxWidth":($(window).width() / 3.15)+"px"})
+  $('#toc').css({"maxWidth":($(window).width() / 3.55)+"px"})
 }
 
 if ($window.width() > 1225) {
-  $('#toc').css({"maxWidth":($(window).width() / 3.12)+"px"})
+  $('#toc').css({"maxWidth":($(window).width() / 3.15)+"px"})
 }
 
 if ($window.width() > 1325) {
-  $('#toc').css({"maxWidth":($(window).width() / 3.35)+"px"})
+  $('#toc').css({"maxWidth":($(window).width() / 3.6)+"px"})
 }
 
 if ($window.width() > 1425) {
