@@ -1,19 +1,15 @@
+// shows the menu on mobile when clicked
+$('.show-menu').click(function(){
+ $( '#toc').toggle();
+});
 
 // adds stick behaviour based on window location
 var $window = $(window),
 $stickyEl = $('#toc'),
 $footerDiv = $('.pagedetails'),
 elTop = $stickyEl.offset().top,
+elMenuTop = $('#btn-toc').offset().top,
 scrollPosition = $(window).height() + $(window).scrollTop();
-
-
-// shows the menu on mobile when clicked
-$('.show-menu').click(function(){
-  console.log('hi');
-
- $( '#toc').toggle();
-
-});
 
 console.log(elTop);
 
@@ -74,6 +70,14 @@ if ($window.width() > 1925) {
 $(window).width();
 if ($window.width() > 992) {
   $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
+  $('#btn-toc').toggleClass('btn-toc-style', $window.scrollTop() > elTop);
+  // $stickyEl.css('width', '26%', $window.scrollTop() > elTop);
+}
+
+// adds sticky
+$(window).width();
+if ($window.width() < 992) {
+  $('#btn-toc').toggleClass('btn-toc-style', $window.scrollTop() > elMenuTop);
   // $stickyEl.css('width', '26%', $window.scrollTop() > elTop);
 }
 

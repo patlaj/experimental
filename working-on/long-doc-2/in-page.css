@@ -106,6 +106,14 @@ overflow-y: auto;
 #btn-toc
 {
 position: sticky;
-top: 5px;
+top: 0px;
 z-index: 1
+}
+
+.btn-toc-style {
+  background-color: #335075;
+}
+
+.btn-toc-style .btn {
+  border-style: none !important;
 }
