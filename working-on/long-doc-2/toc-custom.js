@@ -15,8 +15,13 @@ $window.scroll(function() {
 
 $('#toc').css({"maxHeight":($footerDiv.offset().top - $(window).scrollTop())+"px"})
 // $('#toc').css({"maxWidth":($(window).width() / 3.3)+"px"})
+// dont know if there's an easier way to write this, but this works for now //
 
-if ($window.width() < 1025) {
+if ($window.width() < 992) {
+  $('#toc').css({"width":(100)+"%"})
+}
+
+if ($window.width() > 992) {
   $('#toc').css({"maxWidth":($(window).width() / 3)+"px"})
 }
 
@@ -58,7 +63,7 @@ if ($window.width() > 1925) {
 
 // only adds sticky class if it's in desktop size
 $(window).width();
-if ($window.width() > 769) {
+if ($window.width() > 992) {
   $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
   // $stickyEl.css('width', '26%', $window.scrollTop() > elTop);
 }
@@ -72,8 +77,6 @@ if ($window.width() > 769) {
 // }
 
 
-// reset width when at top of screen
-
 });
 
 
@@ -82,20 +85,20 @@ var $window = $(window);
 
 $(window).width();
 console.log($(window).width());
-if ($window.width() < 769) {
-  $('.longdoc-toc-link').addClass('mobile-toc');
-  $('#toc').css('width', '100%');
-
-} else {
-  $('.longdoc-toc-link').removeClass('mobile-toc');
-}
-  $('.mobile-toc').click(function(){
-  $( '#toc').hide();
-});
+// if ($window.width() < 992) {
+//   $('.longdoc-toc-link').addClass('mobile-toc');
+//   // $('#toc').css('width', '100%');
+//
+// } else {
+//   $('.longdoc-toc-link').removeClass('mobile-toc');
+// }
+//   $('.mobile-toc').click(function(){
+//   $( '#toc').hide();
+// });
 
 
 $(window).resize(function(){
-  if ($window.width() < 769) {
+  if ($window.width() < 992) {
     $('.longdoc-toc-link').addClass('mobile-toc');
   } else {
     $('.longdoc-toc-link').removeClass('mobile-toc');
