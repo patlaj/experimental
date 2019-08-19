@@ -1,13 +1,3 @@
-/* not need anymore, fixed dwith main tag
-
-body {
-  font-size: 20px !important;
-}
-
-body .pagedetails, footer, .breadcrumb, #wb-bnr {
-  font-size: 16px !important;
-} */
-
 h1 span.stacked {
             display: flex;
             flex-direction: column-reverse;
@@ -24,11 +14,6 @@ h1 span.stacked span:nth-child(2) {
 }
 h1 span.stacked span:nth-child(1) {
             margin-top: -1.1em;
-}
-
-img.pattern-demo {
--webkit-filter: drop-shadow(3px 3px 5px #aaaaaa);
-filter: drop-shadow(3px 3px 5px #aaaaaa);
 }
 
 /* fixes mobile scaling, the long URL examples cause horizitonal overflow */
@@ -107,11 +92,12 @@ overflow-y: auto;
 {
 position: sticky;
 top: 0px;
-z-index: 1
+z-index: 2
 }
 
 .btn-toc-style {
   background-color: #335075;
+  height: 45px;
 }
 
 .btn-toc-style .btn {
