@@ -83,7 +83,7 @@ display: none !important;
 #toc.sticky {
 position: fixed !important;
 top: 0px;
-/* width: 395px; done with jquery now */ 
+/* width: 395px; done with jquery now */
 bottom: 0px;
 overflow-y: auto;
 }
@@ -103,7 +103,9 @@ margin-left: -13px;
 overflow-y: auto;
 }
 
-.red {
-color: red;
-background-color: red;
+#btn-toc
+{
+position: sticky;
+top: 5px;
+z-index: 1
 }

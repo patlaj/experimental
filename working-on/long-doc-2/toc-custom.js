@@ -6,6 +6,15 @@ $footerDiv = $('.pagedetails'),
 elTop = $stickyEl.offset().top,
 scrollPosition = $(window).height() + $(window).scrollTop();
 
+
+// shows the menu on mobile when clicked
+$('.show-menu').click(function(){
+  console.log('hi');
+
+ $( '#toc').toggle();
+
+});
+
 console.log(elTop);
 
 $window.scroll(function() {
@@ -114,10 +123,4 @@ $(window).resize(function(){
 $('.menu-drilldown').click(function(){
   $(this).parent().toggleClass('active');
   return false;
-});
-
-// shows the menu on mobile when clicked
-$('.show-menu').click(function(){
- $( '#toc').toggle();
-
 });
