@@ -113,8 +113,11 @@ console.log($(window).width());
 $(window).resize(function(){
   if ($window.width() < 992) {
     $('.longdoc-toc-link').addClass('mobile-toc');
+    // $('#toc').addClass('mobile-toc-scroll');
   } else {
     $('.longdoc-toc-link').removeClass('mobile-toc');
+    // $('#toc').removeClass('mobile-toc-scroll');
+
   }
     $('.mobile-toc').click(function(){
     $( '#toc').hide();

@@ -46,8 +46,21 @@ h1 span.stacked span:nth-child(1) {
 
 /* long doc stuff */
 
+
+
+
+
 @media screen and (max-width: 991px) {
 
+  #toc.mobile-toc-scroll {
+    position: fixed !important;
+    top: 50px !important; /* need to write this to change depending on window position */
+    overflow: scroll !important;
+    width: 100% !important;
+    z-index: 10 !important;
+    height: 100% !important;
+  }
+  
 #toc {
 background-color: white !important;
 z-index: 1;
