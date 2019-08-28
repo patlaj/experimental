@@ -20,7 +20,8 @@ $window.scroll(function() {
 
 $('#toc').css({"maxHeight":($footerDiv.offset().top - $(window).scrollTop())+"px"})
 // $('#toc').css({"maxWidth":($(window).width() / 3.3)+"px"})
-// dont know if there's an easier way to write this, but this works for now //
+
+// defines width of menu so it doesn't overlap content in desktop views - dont know if there's an easier way to write this, but this works
 
 if ($window.width() < 992) {
   $('#toc').css({"width":(100)+"%"})
@@ -93,7 +94,7 @@ if ($window.width() < 992) {
 });
 
 
-// detects when in mobile and adds classes to control the mobile-toc behaviour to hide menu
+// detects when in mobile and adds classes to control the mobile-toc behaviour to hide menu, and the alignment of the menu to the bttn
 var $window = $(window);
 
 $(window).width();
@@ -101,7 +102,7 @@ console.log($(window).width());
 // detects initial size of window
 if ($window.width() < 992) {
   $('.longdoc-toc-link').addClass('mobile-toc');
-  // $('#toc').css('width', '100%');
+  $("#toc").css("top","50px");
 
 } else {
   $('.longdoc-toc-link').removeClass('mobile-toc');
@@ -114,11 +115,8 @@ if ($window.width() < 992) {
 $(window).resize(function(){
   if ($window.width() < 992) {
     $('.longdoc-toc-link').addClass('mobile-toc');
-    // $('#toc').addClass('mobile-toc-scroll');
   } else {
     $('.longdoc-toc-link').removeClass('mobile-toc');
-    // $('#toc').removeClass('mobile-toc-scroll');
-
   }
     $('.mobile-toc').click(function(){
     $( '#toc').hide();
