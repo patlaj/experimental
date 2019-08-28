@@ -98,18 +98,19 @@ var $window = $(window);
 
 $(window).width();
 console.log($(window).width());
-// if ($window.width() < 992) {
-//   $('.longdoc-toc-link').addClass('mobile-toc');
-//   // $('#toc').css('width', '100%');
-//
-// } else {
-//   $('.longdoc-toc-link').removeClass('mobile-toc');
-// }
-//   $('.mobile-toc').click(function(){
-//   $( '#toc').hide();
-// });
+// detects initial size of window
+if ($window.width() < 992) {
+  $('.longdoc-toc-link').addClass('mobile-toc');
+  // $('#toc').css('width', '100%');
 
+} else {
+  $('.longdoc-toc-link').removeClass('mobile-toc');
+}
+  $('.mobile-toc').click(function(){
+  $( '#toc').hide();
+});
 
+// used to detect behaviour when resizing
 $(window).resize(function(){
   if ($window.width() < 992) {
     $('.longdoc-toc-link').addClass('mobile-toc');
