@@ -31,14 +31,22 @@ $window.scroll(function() {
 
 $('#toc').css({"maxHeight":($footerDiv.offset().top - $(window).scrollTop())+"px"})
 
+
 // write the toc position based on scroll position/ offset
+
+if ($menuButton.offset().top - $(window).scrollTop() === 0) {
+  $("#toc").css("top","15px");
+  } else {
+  $("#toc").css("top","");
+}
+
 // $('#toc').css({"top":($menuButton.offset())+"px"})
 // $('#toc').css({"top":($menuButton.offset().top)+"px"})
 // $('#toc').css({"top":($menuButton.position())+"px"})
 // console.log($menuButton.position());
 // console.log($menuButton.offset());
 // console.log($menuButton.offset().top);
-// console.log("Top = " + ($menuButton.offset().top - $(window).scrollTop())); // this will tell me when top is 0 and should be 50px...
+console.log("Top = " + ($menuButton.offset().top - $(window).scrollTop())); // this will tell me when top is 0 and should be 50px...
 
 
 

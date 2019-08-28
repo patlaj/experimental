@@ -28,6 +28,9 @@ h1 span.stacked span:nth-child(1) {
     font-size: 1.5em;
 }
 
+#toc {
+  margin-top: 25px;
+}
 
 .gcweb-v2~#wb-bc ol {
 
