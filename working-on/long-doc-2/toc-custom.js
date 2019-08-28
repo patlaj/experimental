@@ -35,7 +35,7 @@ $('#toc').css({"maxHeight":($footerDiv.offset().top - $(window).scrollTop())+"px
 // write the toc position based on scroll position/ offset
 
 if ($menuButton.offset().top - $(window).scrollTop() === 0) {
-  $("#toc").css("top","15px");
+  $("#toc").css("top","10px"); 
   } else {
   $("#toc").css("top","");
 }
