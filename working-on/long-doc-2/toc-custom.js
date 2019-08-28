@@ -26,14 +26,22 @@ scrollPosition = $(window).height() + $(window).scrollTop();
 
 $window.scroll(function() {
   // console.log($(window).scrollTop());
-  console.log("Max-height = " + ($footerDiv.offset().top - $(window).scrollTop()));
+  // console.log("Max-height = " + ($footerDiv.offset().top - $(window).scrollTop()));
 // $(window).scrollTop() -
 
 $('#toc').css({"maxHeight":($footerDiv.offset().top - $(window).scrollTop())+"px"})
 
 // write the toc position based on scroll position/ offset
+// $('#toc').css({"top":($menuButton.offset())+"px"})
+// $('#toc').css({"top":($menuButton.offset().top)+"px"})
 // $('#toc').css({"top":($menuButton.position())+"px"})
 // console.log($menuButton.position());
+// console.log($menuButton.offset());
+// console.log($menuButton.offset().top);
+// console.log("Top = " + ($menuButton.offset().top - $(window).scrollTop())); // this will tell me when top is 0 and should be 50px...
+
+
+
 
 
 // $('#toc').css({"maxWidth":($(window).width() / 3.3)+"px"})
