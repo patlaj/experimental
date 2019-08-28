@@ -1,24 +1,41 @@
 // shows the menu on mobile when clicked
 $('.show-menu').click(function(){
  $( '#toc').toggle();
+
+ // not working as hoped, won't switch between the two...
+ // if ( (!$window.width() < 992) && (!$window.scrollTop() < elTop )) {
+ //   $("#toc").css("top","50px");
+ //  }
+ //
+ //  if ( (!$window.width() < 992) && (!$window.scrollTop() > elTop )) {
+ //    $("#toc").css("top","0px");
+ //   }
+
 });
 
 // adds stick behaviour based on window location
 var $window = $(window),
 $stickyEl = $('#toc'),
 $footerDiv = $('.pagedetails'),
+$menuButton = $('#btn-toc'),
 elTop = $stickyEl.offset().top,
 elMenuTop = $('#btn-toc').offset().top,
 scrollPosition = $(window).height() + $(window).scrollTop();
 
-console.log(elTop);
+// console.log(elTop);
 
 $window.scroll(function() {
-  console.log($(window).scrollTop());
+  // console.log($(window).scrollTop());
   console.log("Max-height = " + ($footerDiv.offset().top - $(window).scrollTop()));
 // $(window).scrollTop() -
 
 $('#toc').css({"maxHeight":($footerDiv.offset().top - $(window).scrollTop())+"px"})
+
+// write the toc position based on scroll position/ offset
+// $('#toc').css({"top":($menuButton.position())+"px"})
+// console.log($menuButton.position());
+
+
 // $('#toc').css({"maxWidth":($(window).width() / 3.3)+"px"})
 
 // defines width of menu so it doesn't overlap content in desktop views - dont know if there's an easier way to write this, but this works
@@ -82,15 +99,6 @@ if ($window.width() < 992) {
   // $stickyEl.css('width', '26%', $window.scrollTop() > elTop);
 }
 
-
-// control width of sticky class
-// $(window).width();
-// if ($window.width() > 769) {
-//   $stickyEl.css('width', '26%');
-//   $stickyEl.css('width', '100%;', $window.scrollTop() > elTop);
-// }
-
-
 });
 
 
@@ -102,8 +110,7 @@ console.log($(window).width());
 // detects initial size of window
 if ($window.width() < 992) {
   $('.longdoc-toc-link').addClass('mobile-toc');
-  $("#toc").css("top","50px");
-
+  // $("#toc").css("top","50px"); // write the offset...
 } else {
   $('.longdoc-toc-link').removeClass('mobile-toc');
 }
