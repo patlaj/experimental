@@ -117,7 +117,6 @@ overflow-y: scroll;
 }
 
 #toc {
-
 position: sticky;
 position: -webkit-sticky;
 position: -moz-sticky;
@@ -127,8 +126,7 @@ margin-left: -13px;
 overflow-y: auto;
 }
 
-#btn-toc
-{
+#btn-toc {
 -webkit-transform: translate3d(0,0,1px); /*for safari */
 transform: translate3d(0,0,1px); /*for safari */
 position: sticky;
