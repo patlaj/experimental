@@ -66,7 +66,7 @@ h1 span.stacked span:nth-child(1) {
   } */
 
 #toc {
-/*for safari*/
+/*for safari - doesn't really help much...*/
 -webkit-transform: translate3d(0,0,1px);
 transform: translate3d(0,0,1px);
 display: flex;
@@ -86,7 +86,7 @@ height: 100%; /*double check this change doesn't mess anything else up... doesn'
 :target:before {
 content:"";
 display:block;
-height:60px; /* fixed header height*/
+height:60px; /* how much space to create */
 }
 
 .sticky, .overfooter {
@@ -114,7 +114,12 @@ overflow-y: scroll;
 }
 
 #toc {
+
 position: sticky;
+position: -webkit-sticky;
+position: -moz-sticky;
+position: -ms-sticky;
+position: -o-sticky;
 margin-left: -13px;
 overflow-y: auto;
 }

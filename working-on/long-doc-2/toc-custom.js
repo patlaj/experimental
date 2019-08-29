@@ -32,10 +32,10 @@ $window.scroll(function() {
 $('#toc').css({"maxHeight":($footerDiv.offset().top - $(window).scrollTop())+"px"})
 
 
-// write the toc position based on scroll position/ offset
+// write the toc position based on scroll position/ offset - but doesn't seem to be working in Safari...
 
 if ($menuButton.offset().top - $(window).scrollTop() === 0) {
-  $("#toc").css("top","10px"); 
+  $("#toc").css("top","10px");
   } else {
   $("#toc").css("top","");
 }
@@ -46,7 +46,7 @@ if ($menuButton.offset().top - $(window).scrollTop() === 0) {
 // console.log($menuButton.position());
 // console.log($menuButton.offset());
 // console.log($menuButton.offset().top);
-console.log("Top = " + ($menuButton.offset().top - $(window).scrollTop())); // this will tell me when top is 0 and should be 50px...
+console.log("Top = " + ($menuButton.offset().top - $(window).scrollTop())); // this will tell me when top is 0
 
 
 
@@ -126,7 +126,6 @@ console.log($(window).width());
 // detects initial size of window
 if ($window.width() < 992) {
   $('.longdoc-toc-link').addClass('mobile-toc');
-  // $("#toc").css("top","50px"); // write the offset...
 } else {
   $('.longdoc-toc-link').removeClass('mobile-toc');
 }
