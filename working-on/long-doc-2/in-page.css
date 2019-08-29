@@ -73,8 +73,14 @@ display: none;
 /* position: absolute !important; */
 position: fixed !important; /*double check this change doesn't mess anything else up... doesn't seem to */
 height: 100%; /*double check this change doesn't mess anything else up... doesn't seem to */
+}
 
 
+/* prevents title from being hidden in mobile view when clicked, maybe a cleaner way? */
+:target:before {
+content:"";
+display:block;
+height:60px; /* fixed header height*/
 }
 
 .sticky, .overfooter {
