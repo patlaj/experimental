@@ -34,11 +34,11 @@ $('#toc').css({"maxHeight":($footerDiv.offset().top - $(window).scrollTop())+"px
 
 // write the toc position based on scroll position/ offset - but doesn't seem to be working in Safari...
 
-if ($menuButton.offset().top - $(window).scrollTop() === 0) {
-  $('#toc').addClass('top');
-} else {
-  $('#toc').removeClass('top');
-}
+// if ($menuButton.offset().top - $(window).scrollTop() === 0) {
+//   $('#toc').addClass('top');
+// } else {
+//   $('#toc').removeClass('top');
+// }
   // $("#toc").css("top","10px");
   // } else {
   // $("#toc").css("top","");
@@ -104,18 +104,20 @@ if ($window.width() > 1925) {
   $('#toc').css({"maxWidth":($(window).width() / 5)+"px"})
 }
 
-// only adds sticky class if it's in desktop size
+// only adds sticky class if it's in desktop size, also adds full-width button and #toc classes
 $(window).width();
 if ($window.width() > 992) {
   $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
-  $('#btn-toc').toggleClass('btn-toc-style', $window.scrollTop() > elTop);
+  // $('#btn-toc').toggleClass('btn-toc-style', $window.scrollTop() > elTop); // what does this do? turn off to see
+  // $('#toc').toggleClass('top', $window.scrollTop() > elTop); // for safari ? // does this do anything?
   // $stickyEl.css('width', '26%', $window.scrollTop() > elTop);
 }
 
-// adds sticky
+// adds mobile sticky #toc design stuff
 $(window).width();
 if ($window.width() < 992) {
   $('#btn-toc').toggleClass('btn-toc-style', $window.scrollTop() > elMenuTop);
+  $('#toc').toggleClass('top', $window.scrollTop() > elMenuTop); // for safari ? //
   // $stickyEl.css('width', '26%', $window.scrollTop() > elTop);
 }
 
