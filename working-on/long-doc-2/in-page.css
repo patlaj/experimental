@@ -66,6 +66,12 @@ h1 span.stacked span:nth-child(1) {
   } */
 
 #toc {
+/*for safari*/
+-webkit-transform: translate3d(0,0,1px);
+transform: translate3d(0,0,1px);
+display: flex;
+align-items: stretch;
+/* */
 background-color: white !important;
 z-index: 1;
 margin-left: 0px !important;
