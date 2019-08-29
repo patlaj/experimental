@@ -257,9 +257,9 @@ dir="ltr"><![endif]-->
     <p>All institutions who have to follow the Canada.ca design system have to implement the following mandatory elements:</p>
 
 
-                 <h2 id="typog">Typography</h2>
+<h2 id="typog">Typography</h2>
 
-                 <p>Fonts should be easily readable across devices. We use a combination of Lato for headings, and Noto sans for body text.</p>
+ <p>Fonts should be easily readable across devices. We use a combination of Lato for headings, and Noto sans for body text.</p>
 
                  <b>Desktop and tablet default font specification</b>
                  <ul>
@@ -338,10 +338,200 @@ dir="ltr"><![endif]-->
 
                  </ul>
 
-                 <h3 id="breadcrumb">Breadcrumb trail</h3>
-                 <h3 id="signature">Government of Canada signature</h3>
-                 <h3 id="language">Language toggle link</h3>
-                 <h3 id="theme_menu">Theme and topic menu</h3>
+<h3 id="breadcrumb">Breadcrumb trail</h3>
+<p><span class="label label-danger">Mandatory on standard pages</span></p>
+
+ <p>A horizontal series of links known as a “breadcrumb trail” gives people a sense of where they are in relation to the site structure.</p>
+    <p>The links in the breadcrumb trail are not intended to reflect the path by which the visitor arrived at the current location. Rather, the links always represent the location of the current page as it stands in relation to the site’s user navigation model.</p>
+
+	<figure>
+
+		<figcaption class="caption"><b>Breadcrumb trail</b></figcaption>
+
+			<img src="https://design.canada.ca/images/breadcrumb-en.png" alt="Breadcrumb trail appears on the lower left of the Canada.ca header">
+
+	</figure>
+	</section>
+    <section>
+      <h4>Objective</h4>
+      <p>The purpose of the breadcrumb trail is to reinforce a visitor’s current location in the Canada.ca user navigation model. It indicates the location of the current page in relation to its parent in the site structure. It also provides a simple method to navigate to higher levels in the site structure.</p>
+    </section>
+	<section>
+<h4>When to use the breadcrumb trail</h4>
+<p>The breadcrumb trail is mandatory on all pages, except campaign pages and transactional pages. For more information, go to the <a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/mandatory-elements.html#header-footer">Mandatory elements of the design system</a>.</p>
+</section>
+    <section>
+      <h4>How to implement the breadcrumb trail</h4>
+      <ul>
+				<li>The first item is always “Home”, which always links to the Canada.ca home page in the current language</li>
+				<li>The current page is never displayed at the end of the breadcrumb trail</li>
+				<li>Use a greater-then sign (&gt;) to separate levels</li>
+				<li>Longer page titles are to be shortened where possible to reduce the space required to display the trail</li>
+      </ul>
+			<p>Each page or section name on the Canada.ca site should be associated with a shortened version of the name, for the purposes of breadcrumb and other navigation systems.</p>
+			<p>For example, when on the “Planning a business” page in the Business and industry theme, the breadcrumb trail will be:</p>
+	<p class="mrgn-tp-md">Home&nbsp;&nbsp; &gt;&nbsp;&nbsp; Business&nbsp;&nbsp; &gt;&nbsp;&nbsp; Starting a business</p>
+    </section>
+    <section>
+      <h4>Example breadcrumb trail links</h4>
+      <p>The breadcrumb trail always begins with "Home". Proper usage for different locations on Canada.ca is as follows:</p>
+      <dl>
+        <dt><b>Theme pages</b></dt>
+        <dd>Home</dd>
+        <dt><b>First-level topic pages</b></dt>
+        <dd>Home&nbsp;&nbsp; &gt;&nbsp;&nbsp; [Parent theme]</dd>
+        <dt><b>Mid-level topic pages</b></dt>
+        <dd>Home &nbsp;&nbsp; &gt;&nbsp;&nbsp; [Parent theme] &nbsp;&nbsp; &gt;&nbsp;&nbsp; [Parent topic]</dd>
+
+        <dt><b>Institutional profile pages</b></dt>
+        <dd>Home</dd>
+        <dt><b>Organizational profile pages</b></dt>
+        <dd>Home</dd>
+        <dt><b>Partnering and collaborative arrangement profile pages</b></dt>
+        <dd>Home</dd>
+        <dt><b>Services</b></dt>
+        <dd>Home &nbsp;&nbsp; &gt;&nbsp;&nbsp; [Parent theme] &nbsp;&nbsp; &gt;&nbsp;&nbsp; [Parent topic]</dd>
+        <dt><b>Search engine results pages</b></dt>
+        <dd>Home &nbsp;&nbsp; &gt;&nbsp;&nbsp;  Search</dd>
+      </dl>
+    </section>
+
+<h3 id="signature">Government of Canada signature</h3>
+<p><span class="label label-danger">Mandatory on all pages</span></p>
+
+<p>The Government of Canada signature as specified in Federal Identity Program (FIP) policy instruments is prominently featured in the global header on all public-facing websites.</p>
+<figure>
+<figcaption><b>Government of Canada signature</b></figcaption>
+<img class="img-border" src="https://design.canada.ca/images/sig-en.png" alt="Government of Canada signature at the top left of the Canada.ca standard page design">
+</figure>
+</section>
+<section>
+	<h4>Objective</h4>
+	<p>The purpose of the Government of Canada signature is to provide an easily identifiable corporate identity. This signature also serves as a universal link back to the site’s home page in each language.</p>
+</section>
+<section>
+<h4>When to use the Government of Canada signature</h4>
+<p>The Government of Canada signature is mandatory on all pages. For more information, go to the <a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/mandatory-elements.html#header-footer">Mandatory elements of the design system</a>.</p>
+</section>
+<section>
+	<h4>How to implement the Government of Canada signature</h4>
+	<ul>
+		<li>The Government of Canada signature appears in the upper-left corner of the page</li>
+
+<li>The image is presented as an image file and must be formatted according to Federal Identity Program design specifications</li>
+		<li>The image is provided as a Scalable Vector Graphics (SVG) file, configured to scale automatically according to screen size</li>
+		<li>The image is hyperlinked to the Canada.ca home page in the appropriate official language</li>
+	</ul>
+</section>
+<h3 id="language">Language toggle link</h3>
+<p><span class="label label-danger">Mandatory on all pages</span></p>
+
+<p>All public-facing Government of Canada content is available in both official languages, at a minimum. A language toggle link in the global site header gives people access to the corresponding page in the other official language.</p>
+<figure>
+		<figcaption><b>Language toggle link</b></figcaption>
+		<img src="https://design.canada.ca/images/lang-toggle-en.png" alt="Language toggle link appears on the upper right of the Canada.ca template">
+</figure>
+</section>
+<section>
+	<h4>Objective</h4>
+	<p>The language toggle link always leads people to the equivalent page in the other official language, ensuring that people are able to switch between languages without losing track of where they were before switching.</p>
+</section>
+<section>
+<h4>When to use the language toggle link</h4>
+<p>The language toggle link is mandatory on all pages. For more information, go to the <a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/mandatory-elements.html#header-footer">Mandatory elements of the design system</a>.</p>
+</section>
+<section>
+	<h4>How to implement the language toggle link</h4>
+	<ul>
+		<li>The language toggle link consists of only one element—a simple text link indicating either “English” or “<span lang="fr">Français</span>”</li>
+		<li>The link is always presented in the top right corner of the global header area, regardless of the screen size</li>
+
+	</ul>
+<h3 id="theme_menu">Theme and topic menu</h3>
+<section>
+<p><span class="label label-danger">Mandatory on standard pages</span></p>
+<p>The top tasks from all Government of Canada websites are organized into topics and then grouped into the 15 main themes of Canada.ca, represented in the theme and topic menu.</p>
+<figure class="mrgn-bttm-lg">
+<figcaption><b>Large screen version of the theme and topic menu with flyout open</b></figcaption>
+<img src="https://design.canada.ca/images/theme-menu-flyout-en.png" class="img-responsive" alt="Large screen version of global navigation menu showing the “Travel” theme navigation menu, opened to reveal 8 topics under that theme."> </figure>
+<figure class="mrgn-bttm-lg">
+<figcaption><b>Small screen version of the theme and topic menu</b></figcaption>
+<img src="https://design.canada.ca/images/menu-mobile-closed-en.png" class="img-responsive" alt="Image of small screen version of global navigation menu triggered by user-action. The panel includes footer links at the bottom."> </figure>
+<figure class="mrgn-bttm-lg">
+<figcaption><b>Small screen version of the theme and topic menu with theme submenu opened</b></figcaption>
+<img src="https://design.canada.ca/images/menu-mobile-open-en.png" class="img-responsive" alt="Image of small screen version of global navigation menu triggered by user-action. The panel shows the Travel menu opened with sub-topics displayed, with Business and industry below."> </figure>
+	<figure class="mrgn-bttm-lg">
+<figcaption><b>Small screen version of the theme and topic menu with most requested submenu opened</b></figcaption>
+<img src="https://design.canada.ca/images/menu-mobile-mr-en.png" class="img-responsive" alt="Image of small screen version of global navigation menu triggered by user-action. The panel includes footer links at the bottom."> </figure>
+</section>
+<section>
+<h4>Objective</h4>
+<p>The purpose of the theme and topic menu is to help people discover or locate tasks and content available in the deeper parts of the site’s information architecture. </p>
+<p>This menu allows access to all Government of Canada content and is available to people across Canada.ca to facilitate movement, findability and access.</p>
+</section>
+<section>
+<h4>When to use the theme and topic menu</h4>
+<p>The theme and topic menu is mandatory on all pages, except campaign pages and transactional pages. For more information, go to the <a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/mandatory-elements.html#header-footer">Mandatory elements of the design system</a>.</p>
+</section>
+<section>
+<h4>How to implement the theme and topic menu</h4>
+<p>The theme and topic menu must always adhere to the themes and topics for Canada.ca. The  labels that are used in this menu should correspond with the <a href="https://www.canada.ca/en/government/about/design-system/topic-tree-content-types.html#tree">Topic tree for Canada.ca</a>.</p>
+<p>The  global header and footer cannot be altered and must remain consistent, wherever  it is used.</p>
+
+<section>
+	<h5>On large screens</h5>
+	<ul>
+
+<li>The menu is triggered by hovering or clicking on the menu button (labeled “MENU” with a downwards caret) located near the upper left of the site, below the Government of Canada signature.</li>
+<li>Once opened, the menu reveals a list of the 15 main Canada.ca themes, arranged in the following order:
+ <ul>
+		<li>Jobs and the workplace</li>
+		<li>Immigration and citizenship</li>
+		<li>Travel and tourism</li>
+		<li>Business and industry</li>
+					<li>Benefits</li>
+					<li>Health</li>
+					<li>Taxes</li>
+					<li>Environment and natural resources</li>
+					<li>National security and defence</li>
+					<li>Culture, history and sport</li>
+					<li>Policing, justice and emergencies</li>
+					<li>Transport and infrastructure</li>
+					<li>Canada and the world</li>
+					<li>Money and finances</li>
+					<li>Science and innovation</li>
+	 </ul>
+ </li>
+
+		<li>Clicking or hovering on one of the 15 themes reveals a flyout containing the following:
+			<ul>
+				<li>the first item in this flyout is always a link to the landing page for the theme itself, followed by a list of topic links and then a list of most requested links</li>
+				<li>topics listed are the first-level topics within that theme, as per the Canada.ca topic tree</li>
+				<li>most requested links are based on the highest demand items for that theme. See Most requested in the design patterns for details</li>
+	<li>topics and most requested links appearing on theme pages must match the order in which they appear in the menu</li>
+				<li>no additional links or text may be added to the submenus</li>
+				<li>the last item in this submenu is always a link to more information, leading to the landing page for the theme itself</li>
+			</ul>
+		</li>
+
+	</ul>
+</section>
+<section>
+	<h5>On smaller screens</h5>
+	<ul>
+<li>The menu is triggered by tapping on the menu button (labeled MENU with a downwards caret) located in the upper left upper left of the site, below the Government of Canada signature and site search box</li>
+<li>Once opened, the menu reveals a list of the 15 main Canada.ca themes, arranged in the same order as on large screens</li>
+<li>Tapping on one of the 15 themes reveals the top topics for that theme, followed by a submenu containing the most requested links
+ <ul>
+	<li>The most requested submenu is triggered by tapping</li>
+	<li>All items in these submenus must correspond to what appears on large screens</li>
+	</ul>
+		</li>
+<li>The menu may be dismissed with a close button (labeled “Close” with a large “X” beside it) placed in the upper-right corner of the menu panel.</li>
+
+	</ul>
+</section>
+</section>
 
                  <h2 id="footer">Footer</h2>
 
