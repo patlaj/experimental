@@ -35,14 +35,14 @@ $('#toc').css({"maxHeight":($footerDiv.offset().top - $(window).scrollTop())+"px
 // write the toc position based on scroll position/ offset - but doesn't seem to be working in Safari...
 
 if ($menuButton.offset().top - $(window).scrollTop() === 0) {
-  $('#toc').addClass('.top');
+  $('#toc').addClass('top');
 } else {
-  $('#toc').removeClass('.top');
+  $('#toc').removeClass('top');
 }
   // $("#toc").css("top","10px");
   // } else {
   // $("#toc").css("top","");
-}
+// }
 
 // $('#toc').css({"top":($menuButton.offset())+"px"})
 // $('#toc').css({"top":($menuButton.offset().top)+"px"})
