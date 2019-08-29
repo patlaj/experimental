@@ -70,12 +70,11 @@ h1 span.stacked span:nth-child(1) {
   top: 10px !important;
 }
 #toc {
-/*for safari - doesn't really help much...*/
--webkit-transform: translate3d(0,0,1px);
-transform: translate3d(0,0,1px);
-display: flex;
-align-items: stretch;
-/* */
+
+-webkit-transform: translate3d(0,0,1px); /*for safari */
+transform: translate3d(0,0,1px); /*for safari */
+display: flex; /*for safari */
+align-items: stretch; /*for safari */
 background-color: white !important;
 z-index: 1;
 margin-left: 0px !important;
@@ -130,6 +129,8 @@ overflow-y: auto;
 
 #btn-toc
 {
+-webkit-transform: translate3d(0,0,1px); /*for safari */
+transform: translate3d(0,0,1px); /*for safari */
 position: sticky;
 position: -webkit-sticky;
 position: -moz-sticky;
