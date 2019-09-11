@@ -7,7 +7,7 @@ dir="ltr"><![endif]-->
 
 <head>
     <meta charset="utf-8">
-    <title>Context-specific features - Government of Canada design system - Canada.ca</title>
+    <title>Contextual alerts - Government of Canada design system - Canada.ca</title>
 
     <meta content="width=device-width,initial-scale=1" name="viewport">
     <meta name="description">
@@ -168,14 +168,14 @@ dir="ltr"><![endif]-->
               <li class="longdoc-toc-link"><a href="./multi-p-ds-components-carousels.html">Carousels</a></li>
               <li class="longdoc-toc-link"><a href="./multi-p-ds-components-charts.html">Charts and graphs</a></li>
               <li class="longdoc-toc-link"><a href="./multi-p-ds-components-collapsible.html">Collapsible content <label class="label longdoc label-warning small"><small>Updated</small></label></a></li>
-              <li class="active"><a class="menu-drilldown" href="#features">Context-specific features</a>
+              <li class="longdoc-toc-link"><a href="./multi-p-ds-components-features.html">Context-specific features</a></li>
+              <li class="active"><a class="menu-drilldown" href="#alerts">Contextual alerts</a>
                 <ul class="nav">
                   <li class="longdoc-toc-link"><a href="#when">When to use this pattern</a></li>
                   <li class="longdoc-toc-link"><a href="#how">How to use this pattern</a></li>
                   <li class="longdoc-toc-link"><a href="#example">Working example</a></li>
                 </ul>
               </li>
-              <li class="longdoc-toc-link"><a href="./multi-p-ds-components-alerts.html">Contextual alerts</a></li>
               <li class="longdoc-toc-link"><a href="./multi-p-ds-components-tables.html">Data tables</a></li>
               <li class="longdoc-toc-link"><a href="./multi-p-ds-components-overlay.html">Disclaimer overlay</a></li>
               <li class="longdoc-toc-link"><a href="./multi-p-ds-components-links.html">Download links</a></li>
@@ -253,89 +253,65 @@ dir="ltr"><![endif]-->
   </div>
 
   <div class="col-md-8 mrgn-tp-lg">
-    <h1 property="name" id="features" dir="ltr">
+    <h1 property="name" id="alerts" dir="ltr">
       <span class="stacked" role="text">
-        <span>Context-specific features </span>: <span>Government of Canada design system</span>
+        <span>Contextual alerts </span>: <span>Government of Canada design system</span>
       </span>
     </h1>
 
     <section>
-
-<p>Context-specific features  are in-page components used to promote government activities, initiatives,  programs and services.</p>
+<p>Alerts are notice boxes for important new information that needs to appear in a pre-existing context.</p>
 <section>
 <h2 id="when">When to use this pattern</h2>
+<p>Use contextual alerts to:</p>
 <ul>
-	<li>Use this component to promote government activities, initiatives, programs and services that       are relevant to the page on which they appear</li>
-		 <li>Do not use this component to promote activities and       initiatives that are not relevant to their context</li>
-		 <li>Do not use this component when a person's flow must not be       interrupted, as in a transactional process</li>
-		 <li>Do not duplicate content or links from other components on       the page</li>
+	<li>bring a person’s attention to an important change at the page or subsection level like service or site outage, recent changes to a process or service</li>
+	<li>provide feedback in response to a user-action, for example confirm success, notify a person of errors</li>
+</ul>
+<p>Do not use contextual alerts:</p>
+<ul>
+	<li>to provide information about a normal step in a process or task; or</li>
+	<li>to simply add emphasis to content</li>
 </ul>
 </section>
 <section>
-
 <h2 id="how">How to use this pattern</h2>
 <ul>
-	<li>Context-specific features always comprise a link and an       image, with optional header and description text</li>
-
-	<li>On navigation templates (such as theme or topic pages), use 2 or 3 features side-by-side, with each link placed above the image and the description placed underneath the image</li>
-	<li>On destination templates (such as generic pages), limit use       to a single feature with the image placed to the left of the link and       description</li>
-	<li>On navigation  pages, always use a header. The default wording for this block is “Features.”  Use more specific headings where possible to provide stronger context for a person</li>
-	<li>On destination pages, use of a header is optional. When using       a header, always use a specific wording to provide context </li>
-
-	<li>Position context-specific features   after the main content of the page, but before the footer section</li>
-	<li>Use a maximum of 40 characters for the hyperlink text</li>
-	<li>If the image is linked,&nbsp;it must point to the same destination as the text  link</li>
-	<li>Do not use the images to display text
+	<li>Place the alert in the appropriate context, according to the following specifications:
 		<ul>
-			<li>text on feature images may be difficult to read on a small screen </li>
-			<li>images may instead focus on photography and illustration </li>
-			<li>incidental snippets of text, such as text appearing on photographed objects, wordmarks in logos, #hashtags, etc., are acceptable</li>
+			<li>if the alert applies to the entire site, place it at the top of the page above the main heading</li>
+			<li>for an alert that applies strictly to the page, place it underneath the page heading</li>
+			<li>when the alert applies to only a subsection of the page, place it at the most appropriate place within that subsection like underneath the subsection heading, or between 2 paragraphs</li>
 		</ul>
 	</li>
-	<li>Keep the description text short and concise
+	<li>Style the alert based on the significance of the content of the alert, using the following scheme:
 		<ul>
-			<li>1 or 2 lines is ideal </li>
-			<li>do not exceed 3 lines of text (which works out to approximately 145 characters with spaces)</li>
+			<li>blue—for informational content, such as relevant information or helpful tips</li>
+			<li>green—to convey success, such as to confirm a submission or the completion of a task</li>
+			<li>yellow—for warnings, such as system outages or problems</li>
+			<li>red—to notify a person of errors, such as an invalid submission of data in a form</li>
 		</ul>
 	</li>
-	<li>The description link text and  header must be different
-		<ul>
-			<li>do not repeat multi-word phrases in any of the header,        link or description text</li>
-		</ul>
-	</li>
-	<li>Use the defined presentation classes included in the Canada.ca <abbr title="Web Experience Toolkit">WET</abbr> theme</li>
-	<li>For image sizing details, consult the <a href="http://wet-boew.github.io/themes-dist/GCWeb/index-en.html">Canada.ca GitHub page</a></li>
+	<li>Use only <abbr title="Web Experience Toolkit">WET</abbr> alert styles</li>
+	<li>written for a grade 6-8 reading level</li>
 </ul>
 </section>
 <section>
 <h2 id="example">Working example</h2>
 <ul>
-	<li><a href="http://wet-boew.github.io/themes-dist/GCWeb/theme-en.html">Theme template</a></li>
+	<li><a href="http://wet-boew.github.io/wet-boew-styleguide/design/alerts-en.html">WET: Alerts</a></li>
 </ul>
 </section>
 <section class="panel panel-primary">
 <header class="panel-heading">
-	<h3 class="panel-title">Destination page example with a single feature</h3>
+	<h3 class="panel-title">Example</h3>
 </header>
 <div class="panel-body">
 	<figure class="mrgn-bttm-sm">
-		<figcaption class="text-center"><b>Promotional feature tiles pattern</b></figcaption>
-		<img src="https://www.canada.ca/content/dam/tbs-sct/images/government-communications/canada-content-style-guide/promotional-feature-tiles-eng.jpg" class="img-responsive center-block" alt="Screenshot illustrating a the context-specific feature pattern with  a single heading, image, link and description on Canada.ca. Details on this graphic can be found in the surrounding text."></figure>
+		<figcaption class="text-center"><b>Contextual alerts pattern</b></figcaption>
+		<img src="https://www.canada.ca/content/dam/tbs-sct/images/government-communications/canada-content-style-guide/contextual-alerts-pattern-eng.jpg" class="img-responsive center-block" alt="Screenshot illustrating the contextual alert pattern on Canada.ca. Details on this graphic can be found in the surrounding text."></figure>
 </div>
 </section>
-
-<section class="panel panel-primary">
-<header class="panel-heading">
-	<h3 class="panel-title">Navigation page example with three features</h3>
-</header>
-<div class="panel-body">
-	<figure class="mrgn-bttm-sm">
-		<figcaption class="text-center"><b>Promotional feature tiles pattern</b></figcaption>
-		<img src="https://www.canada.ca/content/dam/tbs-sct/images/government-communications/canada-content-style-guide/promotional-feature-tiles1-eng.jpg" class="img-responsive center-block" alt="Screenshot illustrating the context-specific features pattern with a group of 3 sets of links, images and descriptions placed under a single heading on Canada.ca. Details on this graphic can be found in the surrounding text."></figure>
-</div>
-</section>
-
-
 </section>
 
     <div class="clearfix"></div>
