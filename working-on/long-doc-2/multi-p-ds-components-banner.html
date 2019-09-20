@@ -112,7 +112,7 @@ dir="ltr"><![endif]-->
 
 </style>
 
-<main property="mainContentOfPage" class="container">
+<main property="mainContentOfPage" class="container wb-prettify">
   <div class="row">
     <section id="btn-toc" class="col-sm-12 visible-xs visible-sm"><a class="btn btn-primary show-menu col-sm-3 col-xs-9" style="color: white !important;"><i class="fas fa-bars"></i>&nbsp Table of contents</a> <a class="btn btn-primary col-sm-1 col-xs-3 pull-right" style="color: white !important;"><i class="fas fa-search"></i></a></section>
     <div class="mgrn-tp-xl visible-sm"><p><br></p></div> <!-- temp test fix for menu covering button -->
@@ -246,41 +246,66 @@ dir="ltr"><![endif]-->
         <span>Promotional feature banner</span>: <span>Government of Canada design system</span>
       </span>
     </h1>
+
     <section>
-	<p>Promotional feature banners are in-page components used to promote government-wide and institution-specific activities, initiatives, programs, and services.</p>
-	<section>
-	<h2 id="when">When to use this pattern</h2>
-	<ul>
-		<li>Use this component to promote timely, current activities and initiatives</li>
-		<li>Only use this component on navigation or landing pages; do not use with destination content</li>
-		<li>Do not use this component when a person’s flow must not be interrupted, as in a transactional process</li>
-		<li>Do not duplicate content from other promotional components on the page</li>
-	</ul>
-	</section>
-	<section>
-	<h2 id="how">How to use this pattern</h2>
-	<ul>
-		<li>Promotional feature banners are full-width, narrow-height components that comprise text, imagery, and links</li>
-		<li>A maximum of 65 characters is allowed for all text (including link label)</li>
-		<li>Both text and imagery must be linked, but all links in the feature banner must point to the same destination; alternatively, the entire container must operate as a single linked area</li>
-		<li>Textual elements must be coded as HTML text—do not embed text into imagery</li>
-		<li>To ensure responsiveness at varying screen sizes, do not use a single static image for this component</li>
-		<li>Use the defined presentation classes included in the Canada.ca <abbr title="Web Experience Toolkit">WET</abbr> theme</li>
-		<li>For image sizing details, consult the <a href="http://wet-boew.github.io/themes-dist/GCWeb/index-en.html">Canada.ca GitHub page</a></li>
-	</ul>
-	</section>
-  <h2 id="example">Working example</h2>
-	<section class="panel panel-primary">
-	<header class="panel-heading">
-		<h3 class="panel-title">Example</h3>
-	</header>
-	<div class="panel-body">
-		<figure class="mrgn-bttm-sm">
-			<figcaption class="text-center"><b>Promotional feature banner pattern</b></figcaption>
-			<img src="https://www.canada.ca/content/dam/tbs-sct/images/government-communications/canada-content-style-guide/promotional-feature-banner-eng.jpg" class="img-responsive center-block" alt="Screenshot illustrating the promotional feature banner pattern on Canada.ca. Details on this graphic can be found in the surrounding text."></figure>
-	</div>
-	</section>
-	</section>
+      <p>Promotional feature banners are in-page components used to promote government-wide and institution-specific activities, initiatives, programs, and services.</p>
+    </section>
+
+    <section>
+      <h2 id="when">When to use this pattern</h2>
+      <ul>
+        <li>Use this component to promote timely, current activities and initiatives</li>
+        <li>Only use this component on navigation or landing pages; do not use with destination content</li>
+        <li>Do not use this component when a person’s flow must not be interrupted, as in a transactional process</li>
+        <li>Do not duplicate content from other promotional components on the page</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="how">How to implement</h2>
+      <ul>
+        <li>Promotional feature banners are full-width, narrow-height components that comprise text, imagery, and links</li>
+        <li>A maximum of 65 characters is allowed for all text (including link label)</li>
+        <li>Both text and imagery must be linked, but all links in the feature banner must point to the same destination; alternatively, the entire container must operate as a single linked area</li>
+        <li>Textual elements must be coded as HTML text—do not embed text into imagery</li>
+        <li>To ensure responsiveness at varying screen sizes, do not use a single static image for this component</li>
+        <li>Use the defined presentation classes included in the Canada.ca <abbr title="Web Experience Toolkit">WET</abbr> theme</li>
+        <li>For image sizing details, consult the <a href="http://wet-boew.github.io/themes-dist/GCWeb/index-en.html">Canada.ca GitHub page</a></li>
+      </ul>
+
+      <div class="pattern-demo">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mrgn-bttm-md">
+            <a href="#">
+              <figure>
+                <figcaption>[Feature hyperlink text]</figcaption>
+                <img src="https://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" alt="" class="img-responsive thumbnail mrgn-bttm-sm">
+                <p>Brief description of the feature being promoted.</p>
+              </figure>
+            </a>
+          </div>
+        </div>
+			</div>
+			<details>
+				<summary>Code</summary>
+<pre class="prettyprint"><code>&#x3C;div class=&#x22;row&#x22;&#x3E;
+ &#x3C;div class=&#x22;col-lg-4 col-md-6 mrgn-bttm-md&#x22;&#x3E;
+  &#x3C;a href=&#x22;#&#x22;&#x3E;
+   &#x3C;figure&#x3E;
+    &#x3C;figcaption&#x3E;[Feature hyperlink text]&#x3C;/figcaption&#x3E;
+    &#x3C;img src=&#x22;https://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png&#x22; alt=&#x22;&#x22; class=&#x22;img-responsive thumbnail mrgn-bttm-sm&#x22;&#x3E;
+    &#x3C;p&#x3E;Brief description of the feature being promoted.&#x3C;/p&#x3E;
+   &#x3C;/figure&#x3E;
+  &#x3C;/a&#x3E;
+ &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+			</details>
+    </section>
+
+    <section>
+      <h2 id="discuss">Discussion</h2>
+      <p><a href="?">Discuss the pattern in github issues</a></p>
+    </section>
 
 
     <div class="clearfix"></div>
