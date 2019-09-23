@@ -252,110 +252,117 @@ dir="ltr"><![endif]-->
 
     <section>
       <p>The expand/collapse pattern allows content to be hidden until requested by the user. The pattern consists of a trigger link that shows or hides the collapsible content.</p>
-    </section>
 
-    <section>
-      <h2>On this page</h2>
-      <ul>
-      	<li><a href="#research">Research</a></li>
-      	<li><a href="#rationale">When to use</a></li>
-      	<li><a href="#cautions">What to avoid</a></li>
-      	<li><a href="#how">How to implement</a></li>
-      	<li><a href="#discuss">Discussion</a></li>
-        <li><a href="#changes">Latest changes</a></li>
-      </ul>
-    </section>
-
-    <section>
-      <h2 id="research">Research</h2>
-      <dl>
-        <dt>Testing</dt>
-        <dd>The use of collapsible content to incite people to choose between options was tested successfully during 2 optimization projects done with content from the Canada Revenue Agency.</dd>
-      </dl>
-
-      <h2 id="rationale">When to use</h2>
-      <p>Collapsible content can be used in 2 situations: </p>
-      <ul>
-        <li>present a choice when the answers are mutually exclusive, meaning they don’t overlap with one another</li>
-        <li>present secondary information</li>
-      </ul>
-      <h3>Choice between mutually exclusive answers</h3>
-      <p>Use this component when people need to get different answers based on their situation, and these answers are mutually exclusive.</p>
-      <p>This reduces the risk of having people wrongly think they got the answer that applies to their situation.</p>
-      <h3>Presenting secondary information</h3>
-      <p>Use this component to prevent secondary content from getting in the way of the primary task.</p>
-      <p>This can be content that applies to most people, but that only a few people may need to use (like a privacy statement, or additional details not needed to accomplish the main task).</p>
-      <p>It can also be content that applies only to a minority of people (like when there is specific information for a specific audience).</p>
-    </section>
-
-    <section>
-      <h2 id="cautions">What to avoid</h2>
-      <p>Don't use this component for content that is needed by the majority of people to accomplish the main task on the page, unless you are using it for mutually exclusive answers.</p>
-
-      <p>Don't use this component if: </p>
-      <ul>
-        <li>you need people to answer several questions to get the answer that applies to them</li>
-        <li>one of the mutually exclusive answers has multiple sub-tasks or more than one page of supporting content</li>
-      </ul>
-
-      <p>In these cases, use <a href="./multi-p-ds-components-interactive.html">interactive questions</a> instead.</p>
-
-    </section>
-
-    <section>
-      <h2 id="how">Implementation and example</h2>
-      <p>Use only the <a href="http://wet-boew.github.io/wet-boew/demos/details/details-en.html"><abbr title="Web Experience Toolkit">WET</abbr> Details/Summary component</a> for this pattern.</p>
-      <h3>Choice between mutually exclusive answers</h3>
-      <div class="pattern-demo">
-        <h3>Determine if you are in a shared custody situation</h3>
-        <p>Does the child spend their time:</p>
-        <ul class="list-unstyled">
-          <li>
-            <details>
-              <summary>about equally between both parents</summary>
-              <p>If the child shares their time about equally between the parents, then both parents are considered to have <strong>shared custody</strong> of that child:</p>
-              <ul>
-                <li>each parent must apply for Canada child benefit separately</li>
-                <li>the <abbr title="Canada Revenue Agency">CRA</abbr> will calculate the amount each parent will get separately, using their respective family income</li>
-                <li>each parent will get exactly 50% of what they would have gotten if they had sole custody of the child, calculated based on their own income</li>
-                <li>the <abbr title="Canada Revenue Agency">CRA</abbr> will not split the amount using other percentages, or give the full amount to one of the parents</li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <details>
-              <summary>mostly with you</summary>
-              <p>If the child lives with you most of the time, you are considered to have <strong>primary custody</strong> for the purposes of the Canada child benefit:</p>
-              <ul>
-                <li>only you can apply for Canada child benefit</li>
-                <li>the <abbr title="Canada Revenue Agency">CRA</abbr> will calculate your payment based on your family net income (not taking into account the other parent's income)</li>
-                <li>the <abbr title="Canada Revenue Agency">CRA</abbr> will not split the amount between you and the other parent</li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <details>
-              <summary>mostly with the other parent</summary>
-              <p>If the child lives with the other parent most of the time, the other parent is considered to have <strong>primary custody</strong> for the purposes of the Canada child benefit:</p>
-              <ul>
-                <li>only the other parent can apply for Canada child benefit</li>
-                <li>the <abbr title="Canada Revenue Agency">CRA</abbr> will calculate their payment based on their family net income (not taking into account your income)</li>
-                <li>the <abbr title="Canada Revenue Agency">CRA</abbr> will not split the amount between you and the other parent</li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <details>
-              <summary>mostly with the other parent, but temporarily mostly with you</summary>
-              <p id="change">Changes in custody can sometimes be temporary. This can happen, for example, if the child usually lives with one parent, but goes to live with the other parent for the summer.</p>
-              <p>In these cases, the parent that gets custody on a temporary basis can <a href="./apply.html#apply">apply to get Canada child benefit payments</a> for that period. When the child returns to live with the other parent, that parent needs to reapply to start getting the payments again.</p>
-            </details>
-          </li>
+      <section>
+        <h2>On this page</h2>
+        <ul>
+        	<li><a href="#research">Research</a></li>
+        	<li><a href="#rationale">When to use</a></li>
+        	<li><a href="#cautions">What to avoid</a></li>
+        	<li><a href="#how">How to implement</a></li>
+        	<li><a href="#discuss">Discussion</a></li>
+          <li><a href="#changes">Latest changes</a></li>
         </ul>
-      </div>
-      <details>
-        <summary>Code</summary>
-<pre class="prettyprint"><code>&#x3C;h3&#x3E;Determine if you are in a shared custody situation&#x3C;/h3&#x3E;
+      </section>
+
+      <section>
+        <h2 id="research">Research</h2>
+        <dl>
+          <dt>Testing</dt>
+          <dd>The use of collapsible content to incite people to choose between options was tested successfully during 2 optimization projects done with content from the Canada Revenue Agency.</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2 id="rationale">When to use</h2>
+        <p>Collapsible content can be used in 2 situations: </p>
+        <ul>
+          <li>present a choice when the answers are mutually exclusive, meaning they don’t overlap with one another</li>
+          <li>present secondary information</li>
+        </ul>
+
+        <section>
+          <h3>Choice between mutually exclusive answers</h3>
+          <p>Use this component when people need to get different answers based on their situation, and these answers are mutually exclusive.</p>
+          <p>This reduces the risk of having people wrongly think they got the answer that applies to their situation.</p>
+          <h3>Presenting secondary information</h3>
+          <p>Use this component to prevent secondary content from getting in the way of the primary task.</p>
+          <p>This can be content that applies to most people, but that only a few people may need to use (like a privacy statement, or additional details not needed to accomplish the main task).</p>
+          <p>It can also be content that applies only to a minority of people (like when there is specific information for a specific audience).</p>
+        </section>
+
+      </section>
+
+      <section>
+        <h2 id="cautions">What to avoid</h2>
+        <p>Don't use this component for content that is needed by the majority of people to accomplish the main task on the page, unless you are using it for mutually exclusive answers.</p>
+
+        <p>Don't use this component if: </p>
+        <ul>
+          <li>you need people to answer several questions to get the answer that applies to them</li>
+          <li>one of the mutually exclusive answers has multiple sub-tasks or more than one page of supporting content</li>
+        </ul>
+
+        <p>In these cases, use <a href="./multi-p-ds-components-interactive.html">interactive questions</a> instead.</p>
+
+      </section>
+
+      <section>
+        <h2 id="how">Implementation and example</h2>
+        <p>Use only the <a href="http://wet-boew.github.io/wet-boew/demos/details/details-en.html"><abbr title="Web Experience Toolkit">WET</abbr> Details/Summary component</a> for this pattern.</p>
+
+        <section>
+          <h3>Choice between mutually exclusive answers</h3>
+          <div class="pattern-demo">
+            <h3>Determine if you are in a shared custody situation</h3>
+            <p>Does the child spend their time:</p>
+            <ul class="list-unstyled">
+              <li>
+                <details>
+                  <summary>about equally between both parents</summary>
+                  <p>If the child shares their time about equally between the parents, then both parents are considered to have <strong>shared custody</strong> of that child:</p>
+                  <ul>
+                    <li>each parent must apply for Canada child benefit separately</li>
+                    <li>the <abbr title="Canada Revenue Agency">CRA</abbr> will calculate the amount each parent will get separately, using their respective family income</li>
+                    <li>each parent will get exactly 50% of what they would have gotten if they had sole custody of the child, calculated based on their own income</li>
+                    <li>the <abbr title="Canada Revenue Agency">CRA</abbr> will not split the amount using other percentages, or give the full amount to one of the parents</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>mostly with you</summary>
+                  <p>If the child lives with you most of the time, you are considered to have <strong>primary custody</strong> for the purposes of the Canada child benefit:</p>
+                  <ul>
+                    <li>only you can apply for Canada child benefit</li>
+                    <li>the <abbr title="Canada Revenue Agency">CRA</abbr> will calculate your payment based on your family net income (not taking into account the other parent's income)</li>
+                    <li>the <abbr title="Canada Revenue Agency">CRA</abbr> will not split the amount between you and the other parent</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>mostly with the other parent</summary>
+                  <p>If the child lives with the other parent most of the time, the other parent is considered to have <strong>primary custody</strong> for the purposes of the Canada child benefit:</p>
+                  <ul>
+                    <li>only the other parent can apply for Canada child benefit</li>
+                    <li>the <abbr title="Canada Revenue Agency">CRA</abbr> will calculate their payment based on their family net income (not taking into account your income)</li>
+                    <li>the <abbr title="Canada Revenue Agency">CRA</abbr> will not split the amount between you and the other parent</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>mostly with the other parent, but temporarily mostly with you</summary>
+                  <p id="change">Changes in custody can sometimes be temporary. This can happen, for example, if the child usually lives with one parent, but goes to live with the other parent for the summer.</p>
+                  <p>In these cases, the parent that gets custody on a temporary basis can <a href="./apply.html#apply">apply to get Canada child benefit payments</a> for that period. When the child returns to live with the other parent, that parent needs to reapply to start getting the payments again.</p>
+                </details>
+              </li>
+            </ul>
+          </div>
+          <details>
+            <summary>Code</summary>
+            <pre class="prettyprint"><code>&#x3C;h3&#x3E;Determine if you are in a shared custody situation&#x3C;/h3&#x3E;
 &#x3C;p&#x3E;Does the child spend their time:&#x3C;/p&#x3E;
 &#x3C;ul class=&#x22;list-unstyled&#x22;&#x3E;
  &#x3C;li&#x3E;
@@ -400,34 +407,37 @@ dir="ltr"><![endif]-->
   &#x3C;/details&#x3E;
  &#x3C;/li&#x3E;
 &#x3C;/ul&#x3E;</code></pre>
-  		</details>
+  		    </details>
 
-      <h3>Presenting secondary information</h3>
-      <div class="pattern-demo">
-        <h3>Estimate your payments</h3>
-        <p>Use the estimator to help you plan your budget.</p>
-        <p>For example, you can estimate what amount you would get if:</p>
-        <ul>
-          <li>you have a new child</li>
-          <li>your income changes</li>
-          <li>if you start or end shared custody</li>
-        </ul>
-        <details>
-          <summary>See the math behind Canada child benefit payments</summary>
-          <h3>How are payments calculated</h3>
-          <p>Every month, Canada child benefit payments are adjusted based on:</p>
-          <ul>
-            <li>the number of children in your care</li>
-            <li>the age of your children</li>
-            <li>your marital status</li>
-            <li>your family net income from the previous year</li>
-          </ul>
-          <p>...</p>
-        </details>
-      </div>
-      <details>
-        <summary>Code</summary>
-        <pre class="prettyprint"><code>&#x3C;h3&#x3E;Estimate your payments&#x3C;/h3&#x3E;
+        </section>
+
+        <section>
+          <h3>Presenting secondary information</h3>
+          <div class="pattern-demo">
+            <h3>Estimate your payments</h3>
+            <p>Use the estimator to help you plan your budget.</p>
+            <p>For example, you can estimate what amount you would get if:</p>
+            <ul>
+              <li>you have a new child</li>
+              <li>your income changes</li>
+              <li>if you start or end shared custody</li>
+            </ul>
+            <details>
+              <summary>See the math behind Canada child benefit payments</summary>
+              <h3>How are payments calculated</h3>
+              <p>Every month, Canada child benefit payments are adjusted based on:</p>
+              <ul>
+                <li>the number of children in your care</li>
+                <li>the age of your children</li>
+                <li>your marital status</li>
+                <li>your family net income from the previous year</li>
+              </ul>
+              <p>...</p>
+            </details>
+          </div>
+          <details>
+            <summary>Code</summary>
+            <pre class="prettyprint"><code>&#x3C;h3&#x3E;Estimate your payments&#x3C;/h3&#x3E;
 &#x3C;p&#x3E;Use the estimator to help you plan your budget.&#x3C;/p&#x3E;
 &#x3C;p&#x3E;For example, you can estimate what amount you would get if:&#x3C;/p&#x3E;
 &#x3C;ul&#x3E;
@@ -446,21 +456,24 @@ dir="ltr"><![endif]-->
   &#x3C;li&#x3E;your family net income from the previous year&#x3C;/li&#x3E;
  &#x3C;/ul&#x3E;
  &#x3C;p&#x3E;...&#x3C;/p&#x3E;
-&#x3C;/details&#x3E;
-        </code></pre>
-      </details>
+&#x3C;/details&#x3E;</code></pre>
+          </details>
+        </section>
+
+      </section>
+
+      <section>
+  			<h2 id="discuss">Discussion</h2>
+  			<p><a href="https://github.com/canada-ca/design-system-systeme-conception/issues">Discuss the pattern in github issues</a></p>
+      </section>
+
+      <section>
+        <h2 id="changes">Latest changes</h2>
+        <p><strong>2019-08-30:</strong> guidance was changed to allow the use of expand/collapse for mutually exclusive answers.</p>
+      </section>
+
     </section>
 
-    <section>
-			<h2 id="discuss">Discussion</h2>
-			<p><a href="https://github.com/canada-ca/design-system-systeme-conception/issues">Discuss the pattern in github issues</a></p>
-    </section>
-
-    <section>
-      <h2 id="changes">Latest changes</h2>
-      <p><strong>2019-08-30:</strong> guidance was changed to allow the use of expand/collapse for mutually exclusive answers.</p>
-    </section>
-    
     <div class="clearfix"></div>
     <div class="row pagedetails">
       <div class="col-sm-6 col-lg-4 mrgn-tp-sm">

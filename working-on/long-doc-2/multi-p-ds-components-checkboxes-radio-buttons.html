@@ -251,70 +251,71 @@ dir="ltr"><![endif]-->
 
     <section>
       <p>Checkboxes and radio buttons with large touch targets to support behavioural patterns of interacting with the form element, and not the label.</p>
-    </section>
 
-    <section>
-    	<h2>On this page</h2>
-    	<ul>
-    		<li><a href="#research">Research</a></li>
-    		<li><a href="#when">When to use</a></li>
-    		<li><a href="#when">What to avoid</a></li>
-    		<li><a href="#how">How to implement</a></li>
-    		<li><a href="#discuss">Discussion</a></li>
-    	</ul>
-    </section>
+      <section>
+      	<h2>On this page</h2>
+      	<ul>
+      		<li><a href="#research">Research</a></li>
+      		<li><a href="#when">When to use</a></li>
+      		<li><a href="#when">What to avoid</a></li>
+      		<li><a href="#how">How to implement</a></li>
+      		<li><a href="#discuss">Discussion</a></li>
+      	</ul>
+      </section>
 
-  	<section>
-  		<h2 id="research">Research</h2>
-  		<dl>
-  			<dt>Testing</dt>
-  			<dd>Explanation of the testing / blog article link</dd>
-  		</dl>
-  	</section>
+    	<section>
+    		<h2 id="research">Research</h2>
+    		<dl>
+    			<dt>Testing</dt>
+    			<dd>Explanation of the testing / blog article link</dd>
+    		</dl>
+    	</section>
 
-  	<section>
-  		<h2 id="when">When to use</h2>
-  		<p>Checkboxes and radio buttons should be used in interactive questions, such as in application forms for a service, wizards, or checklists.</p>
-  		<p>Use of interactive questions or checklists is highly encouraged on Canada.ca.</p>
-  	</section>
+    	<section>
+    		<h2 id="when">When to use</h2>
+    		<p>Checkboxes and radio buttons should be used in interactive questions, such as in application forms for a service, wizards, or checklists.</p>
+    		<p>Use of interactive questions or checklists is highly encouraged on Canada.ca.</p>
+    	</section>
 
-  	<section>
-  		<h2 id="cautions">What to avoid</h2>
-  		<p>Do not use checkboxes or radio buttons if presenting options that are not easily comparable. Consider using navigation patterns such as <a href="https://design.canada.ca/common-design-patterns/services-information.html">doormat links</a>.</p>
-  		<p>For a stand alone question with few options and a manageable amount of content per option that does not require separate pages, consider using expand/collapse or tabs.</p>
-  	</section>
+    	<section>
+    		<h2 id="cautions">What to avoid</h2>
+    		<p>Do not use checkboxes or radio buttons if presenting options that are not easily comparable. Consider using navigation patterns such as <a href="https://design.canada.ca/common-design-patterns/services-information.html">doormat links</a>.</p>
+    		<p>For a stand alone question with few options and a manageable amount of content per option that does not require separate pages, consider using expand/collapse or tabs.</p>
+    	</section>
 
-  	<section>
-  		<h2 id="how">When to use and how to implement</h2>
-  		<h3 id="large-checkbox-component">Large checkboxes</h3>
-  		<p><strong>When to use:</strong> Use large checkboxes when one or more selections can be made to answer a question. It can also be used for a checklist, with short labels that do not break across lines.</p>
-  		<p><strong>What to avoid:</strong> Do not use the large checkbox design when making a checklist with items that break across multiple lines or when there is a single item that can be checked. For these situations, use the <a href="#small-checkbox-component">small checkboxes</a>.</p>
+    	<section>
+    		<h2 id="how">When to use and how to implement</h2>
 
-  		<div class="mrgn-tp-lg pattern-demo">
-  	    <legend class="h5">Which of the following pets do you keep?</legend>
-  			<ul class="list-unstyled can-ca-form">
-  				<li class="checkbox">
-  				    <input type="checkbox" id="checkbox_1">
-  				    <label for="checkbox_1">Cat</label>
-  				</li>
-  				<li class="checkbox">
-  				    <input type="checkbox" id="checkbox_2">
-  				    <label for="checkbox_2">Dog</label>
-  				</li>
-  				<li class="checkbox">
-  				    <input type="checkbox" id="checkbox_3">
-  				    <label for="checkbox_3">Goldfish</label>
-  				</li>
-  				<li class="checkbox">
-  				    <input type="checkbox" id="checkbox_4">
-  				    <label for="checkbox_4">Hamster</label>
-  				</li>
-  			</ul>
-  			<input type="submit" value="Continue" class="btn btn-primary mrgn-bttm-md">
-  		</div>
-  		<details>
-  			<summary>Code</summary>
-			<pre class="prettyprint"><code>&#x3C;div class=&#x22;mrgn-tp-lg&#x22;&#x3E;
+        <section>
+      		<h3 id="large-checkbox-component">Large checkboxes</h3>
+      		<p><strong>When to use:</strong> Use large checkboxes when one or more selections can be made to answer a question. It can also be used for a checklist, with short labels that do not break across lines.</p>
+      		<p><strong>What to avoid:</strong> Do not use the large checkbox design when making a checklist with items that break across multiple lines or when there is a single item that can be checked. For these situations, use the <a href="#small-checkbox-component">small checkboxes</a>.</p>
+
+      		<div class="mrgn-tp-lg pattern-demo">
+      	    <legend class="h5">Which of the following pets do you keep?</legend>
+      			<ul class="list-unstyled can-ca-form">
+      				<li class="checkbox">
+      				    <input type="checkbox" id="checkbox_1">
+      				    <label for="checkbox_1">Cat</label>
+      				</li>
+      				<li class="checkbox">
+      				    <input type="checkbox" id="checkbox_2">
+      				    <label for="checkbox_2">Dog</label>
+      				</li>
+      				<li class="checkbox">
+      				    <input type="checkbox" id="checkbox_3">
+      				    <label for="checkbox_3">Goldfish</label>
+      				</li>
+      				<li class="checkbox">
+      				    <input type="checkbox" id="checkbox_4">
+      				    <label for="checkbox_4">Hamster</label>
+      				</li>
+      			</ul>
+      			<input type="submit" value="Continue" class="btn btn-primary mrgn-bttm-md">
+      		</div>
+      		<details>
+      			<summary>Code</summary>
+    			<pre class="prettyprint"><code>&#x3C;div class=&#x22;mrgn-tp-lg&#x22;&#x3E;
  &#x3C;legend class=&#x22;h5&#x22;&#x3E;Which of the following pets do you keep?&#x3C;/legend&#x3E;
  &#x3C;ul class=&#x22;list-unstyled can-ca-form&#x22;&#x3E;
   &#x3C;li class=&#x22;checkbox&#x22;&#x3E;
@@ -336,72 +337,74 @@ dir="ltr"><![endif]-->
  &#x3C;/ul&#x3E;
  &#x3C;input type=&#x22;submit&#x22; value=&#x22;Continue&#x22; class=&#x22;btn btn-primary mrgn-bttm-md&#x22;&#x3E;
 &#x3C;/div&#x3E;</code></pre>
-  		</details>
+  		    </details>
+        </section>
 
-  		<h3 id="small-checkbox-component">Small checkboxes</h3>
-  		<p><strong>When to use:</strong> Use small checkboxes when making a checklist with items that would break across multiple lines or when there is a single item that can be checked.</p>
-  		<p><strong>What to avoid:</strong> Do not use the small checkbox design for answers to a question or checklists with labels without line breaks. For these situations, use the <a href="#large-checkbox-component">large checkboxes</a>.</p>
+        <section>
+      		<h3 id="small-checkbox-component">Small checkboxes</h3>
+      		<p><strong>When to use:</strong> Use small checkboxes when making a checklist with items that would break across multiple lines or when there is a single item that can be checked.</p>
+      		<p><strong>What to avoid:</strong> Do not use the small checkbox design for answers to a question or checklists with labels without line breaks. For these situations, use the <a href="#large-checkbox-component">large checkboxes</a>.</p>
 
-  		<div class="wb-tabs">
-  			<div class="tabpanels">
-  				<details id="single-small-checkbox-example">
-  					<summary>Single item</summary>
-  					<div class="pattern-demo">
-  						<ul class="list-unstyled can-ca-form">
-  							<li class="checkbox checkbox-small">
-  								<input type="checkbox" id="confirmation-checkbox">
-  								<label for="confirmation-checkbox">Home address is the same as mailing address</label>
-  							</li>
-  						</ul>
-  					</div>
-  					<details>
-  						<summary>Code</summary>
-  						<pre class="prettyprint"><code>&#x3C;ul class=&#x22;list-unstyled can-ca-form&#x22;&#x3E;
+      		<div class="wb-tabs">
+      			<div class="tabpanels">
+      				<details id="single-small-checkbox-example">
+      					<summary>Single item</summary>
+      					<div class="pattern-demo">
+      						<ul class="list-unstyled can-ca-form">
+      							<li class="checkbox checkbox-small">
+      								<input type="checkbox" id="confirmation-checkbox">
+      								<label for="confirmation-checkbox">Home address is the same as mailing address</label>
+      							</li>
+      						</ul>
+      					</div>
+      					<details>
+      						<summary>Code</summary>
+      						<pre class="prettyprint"><code>&#x3C;ul class=&#x22;list-unstyled can-ca-form&#x22;&#x3E;
  &#x3C;li class=&#x22;checkbox checkbox-small&#x22;&#x3E;
   &#x3C;input type=&#x22;checkbox&#x22; id=&#x22;confirmation-checkbox&#x22;&#x3E;
   &#x3C;label for=&#x22;confirmation-checkbox&#x22;&#x3E;Home address is the same as mailing address&#x3C;/label&#x3E;
  &#x3C;/li&#x3E;
 &#x3C;/ul&#x3E;</code></pre>
-  					</details>
-  				</details>
-  				<details id="checklist-small-checkbox-example">
-  					<summary>Checklist</summary>
-  					<div class="pattern-demo">
-  					<p>To be eligible, you must meet all of the following conditions:</p>
-  					<ul class="list-unstyled can-ca-form">
-  						<li class="checkbox checkbox-small">
-  							<input type="checkbox" id="elibility1">
-  							<label for="elibility1">You have a child that is under 18 years of age</label>
-  						</li>
-  						<li class="checkbox checkbox-small">
-  							<input type="checkbox" id="elibility2">
-  							<label for="elibility2">The child lives with you all the time, or at least about half of the time (see <a href="#shared">Custody arrangements and your benefits</a>)</label>
-  						</li>
-  						<li class="checkbox checkbox-small">
-  							<input type="checkbox" id="elibility3">
-  							<label for="elibility3">You are primarily responsible for the care and upbringing of the child (see <a href="#primary">Who is primarily responsible</a>)</label>
-  						</li>
-  						<li class="checkbox checkbox-small">
-  							<input type="checkbox" id="elibility4">
-  							<label for="elibility4">You are a resident of Canada for tax purposes</label>
-  						</li>
-  						<li class="checkbox checkbox-small">
-  							<input type="checkbox" id="elibility5">
-  							<label for="elibility5">You or your spouse or common-law partner must be <strong>any of the following</strong>:
-  								<ul>
-  									<li>a Canadian citizen</li>
-  									<li>a permanent resident</li>
-  									<li>a protected person (refugee)</li>
-  									<li>a temporary resident who has lived in Canada for the previous 18 months, and who has a valid permit in the 19th month</li>
-  									<li>an Indigenous person who meets the definition of "Indian" under the <a href="https://laws-lois.justice.gc.ca/eng/acts/i-5/page-1.html">Indian Act</a></li>
-  								</ul>
-  							</label>
-  						</li>
-  					</ul>
-  					</div>
-  					<details>
-  						<summary>Code</summary>
-						<pre class="prettyprint"><code>&#x3C;p&#x3E;To be eligible, you must meet all of the following conditions:&#x3C;/p&#x3E;
+      					</details>
+      				</details>
+      				<details id="checklist-small-checkbox-example">
+      					<summary>Checklist</summary>
+      					<div class="pattern-demo">
+      					<p>To be eligible, you must meet all of the following conditions:</p>
+      					<ul class="list-unstyled can-ca-form">
+      						<li class="checkbox checkbox-small">
+      							<input type="checkbox" id="elibility1">
+      							<label for="elibility1">You have a child that is under 18 years of age</label>
+      						</li>
+      						<li class="checkbox checkbox-small">
+      							<input type="checkbox" id="elibility2">
+      							<label for="elibility2">The child lives with you all the time, or at least about half of the time (see <a href="#shared">Custody arrangements and your benefits</a>)</label>
+      						</li>
+      						<li class="checkbox checkbox-small">
+      							<input type="checkbox" id="elibility3">
+      							<label for="elibility3">You are primarily responsible for the care and upbringing of the child (see <a href="#primary">Who is primarily responsible</a>)</label>
+      						</li>
+      						<li class="checkbox checkbox-small">
+      							<input type="checkbox" id="elibility4">
+      							<label for="elibility4">You are a resident of Canada for tax purposes</label>
+      						</li>
+      						<li class="checkbox checkbox-small">
+      							<input type="checkbox" id="elibility5">
+      							<label for="elibility5">You or your spouse or common-law partner must be <strong>any of the following</strong>:
+      								<ul>
+      									<li>a Canadian citizen</li>
+      									<li>a permanent resident</li>
+      									<li>a protected person (refugee)</li>
+      									<li>a temporary resident who has lived in Canada for the previous 18 months, and who has a valid permit in the 19th month</li>
+      									<li>an Indigenous person who meets the definition of "Indian" under the <a href="https://laws-lois.justice.gc.ca/eng/acts/i-5/page-1.html">Indian Act</a></li>
+      								</ul>
+      							</label>
+      						</li>
+      					</ul>
+      					</div>
+      					<details>
+      						<summary>Code</summary>
+						      <pre class="prettyprint"><code>&#x3C;p&#x3E;To be eligible, you must meet all of the following conditions:&#x3C;/p&#x3E;
 &#x3C;ul class=&#x22;list-unstyled can-ca-form&#x22;&#x3E;
  &#x3C;li class=&#x22;checkbox checkbox-small&#x22;&#x3E;
   &#x3C;input type=&#x22;checkbox&#x22; id=&#x22;elibility1&#x22;&#x3E;
@@ -432,47 +435,49 @@ dir="ltr"><![endif]-->
   &#x3C;/label&#x3E;
  &#x3C;/li&#x3E;
 &#x3C;/ul&#x3E;</code></pre>
-  					</details>
-  				</details>
-  			</div>
-  		</div>
+      					</details>
+      				</details>
+      			</div>
+      		</div>
+        </section>
 
-  		<h3>Radio buttons</h3>
-  		<p><strong>When to use:</strong> Use radio buttons when only one selection can be made.</p>
+        <section>
+      		<h3>Radio buttons</h3>
+      		<p><strong>When to use:</strong> Use radio buttons when only one selection can be made.</p>
 
-  		<div class="mrgn-tp-lg pattern-demo">
-  			<legend class="h5 ">What is your marital status?</legend>
-  			<ul class="list-unstyled can-ca-form">
-  				<li class="radio">
-  					<input id="married" type="radio" name="marital-status">
-  					<label for="married">Married</label>
-  				</li>
-  				<li class="radio">
-  					<input id="single" type="radio" name="marital-status">
-  					<label for="single">Single</label>
-  				</li>
-  				<li class="radio">
-  					<input id="divorced" type="radio" name="marital-status">
-  					<label for="divorced">Divorced</label>
-  				</li>
-  				<li class="radio">
-  					<input id="widowed" type="radio" name="marital-status">
-  					<label for="widowed">Widowed</label>
-  				</li>
-  				<li class="radio">
-  					<input id="separated" type="radio" name="marital-status">
-  					<label for="separated">Separated</label>
-  				</li>
-  				<li class="radio">
-  					<input id="common-law" type="radio" name="marital-status">
-  					<label for="common-law">Common law</label>
-  				</li>
-  			</ul>
-  			<input type="submit" value="Continue" class="btn btn-primary mrgn-bttm-md">
-  		</div>
-  		<details>
-  			<summary>Code</summary>
-			<pre class="prettyprint"><code>&#x3C;legend class=&#x22;h5 &#x22;&#x3E;What is your marital status?&#x3C;/legend&#x3E;
+      		<div class="mrgn-tp-lg pattern-demo">
+      			<legend class="h5 ">What is your marital status?</legend>
+      			<ul class="list-unstyled can-ca-form">
+      				<li class="radio">
+      					<input id="married" type="radio" name="marital-status">
+      					<label for="married">Married</label>
+      				</li>
+      				<li class="radio">
+      					<input id="single" type="radio" name="marital-status">
+      					<label for="single">Single</label>
+      				</li>
+      				<li class="radio">
+      					<input id="divorced" type="radio" name="marital-status">
+      					<label for="divorced">Divorced</label>
+      				</li>
+      				<li class="radio">
+      					<input id="widowed" type="radio" name="marital-status">
+      					<label for="widowed">Widowed</label>
+      				</li>
+      				<li class="radio">
+      					<input id="separated" type="radio" name="marital-status">
+      					<label for="separated">Separated</label>
+      				</li>
+      				<li class="radio">
+      					<input id="common-law" type="radio" name="marital-status">
+      					<label for="common-law">Common law</label>
+      				</li>
+      			</ul>
+      			<input type="submit" value="Continue" class="btn btn-primary mrgn-bttm-md">
+      		</div>
+      		<details>
+      			<summary>Code</summary>
+    			<pre class="prettyprint"><code>&#x3C;legend class=&#x22;h5 &#x22;&#x3E;What is your marital status?&#x3C;/legend&#x3E;
  &#x3C;ul class=&#x22;list-unstyled can-ca-form&#x22;&#x3E;
   &#x3C;li class=&#x22;radio&#x22;&#x3E;
    &#x3C;input id=&#x22;married&#x22; type=&#x22;radio&#x22; name=&#x22;marital-status&#x22;&#x3E;
@@ -500,40 +505,46 @@ dir="ltr"><![endif]-->
   &#x3C;/li&#x3E;
  &#x3C;/ul&#x3E;
 &#x3C;input type=&#x22;submit&#x22; value=&#x22;Continue&#x22; class=&#x22;btn btn-primary mrgn-bttm-md&#x22;&#x3E;</code></pre>
-  		</details>
+  		    </details>
+        </section>
 
-  		<h3>Configuration options</h3>
-  		<table class="table">
-  			<thead>
-  				<tr>
-  					<th>Option</th>
-  					<th>Description</th>
-  					<th>How to configure</th>
-  				</tr>
-  			</thead>
-  			<tbody>
-  				<tr>
-  					<td>Disabled state</td>
-  					<td>Disabled inputs will not be clickable. Visual indications include greying out the control and adding a 'stop' cursor icon on hover.</td>
-  					<td>To toggle a disabled state:
-  						<ul>
-  							<li>Add the class 'is-disabled' to the list item of the checkbox or radio item</li>
-  							<li>Add a "disabled" attribute to the input field</li>
-  						</ul>
-  					</td>
-  				</tr>
-  				<tr>
-  					<td>Inline state</td>
-  					<td>Inline radio buttons or checkboxes will display side by side on larger screens and wrap to new lines, rather than vertically.</td>
-  					<td>Add the "form-label-inline" class to each checkbox or radio button label.</td>
-  				</tr>
-  			</tbody>
-  		</table>
-  	</section>
+        <section>
+      		<h3>Configuration options</h3>
+      		<table class="table">
+      			<thead>
+      				<tr>
+      					<th>Option</th>
+      					<th>Description</th>
+      					<th>How to configure</th>
+      				</tr>
+      			</thead>
+      			<tbody>
+      				<tr>
+      					<td>Disabled state</td>
+      					<td>Disabled inputs will not be clickable. Visual indications include greying out the control and adding a 'stop' cursor icon on hover.</td>
+      					<td>To toggle a disabled state:
+      						<ul>
+      							<li>Add the class 'is-disabled' to the list item of the checkbox or radio item</li>
+      							<li>Add a "disabled" attribute to the input field</li>
+      						</ul>
+      					</td>
+      				</tr>
+      				<tr>
+      					<td>Inline state</td>
+      					<td>Inline radio buttons or checkboxes will display side by side on larger screens and wrap to new lines, rather than vertically.</td>
+      					<td>Add the "form-label-inline" class to each checkbox or radio button label.</td>
+      				</tr>
+      			</tbody>
+      		</table>
+      	</section>
 
-    <section>
-      <h2 id="discuss">Discussion</h2>
-      <p><a href="?">Discuss the pattern in github issues</a></p>
+      </section>
+
+      <section>
+        <h2 id="discuss">Discussion</h2>
+        <p><a href="?">Discuss the pattern in github issues</a></p>
+      </section>
+
     </section>
 
     <div class="clearfix"></div>
