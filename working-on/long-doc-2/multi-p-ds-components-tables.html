@@ -254,6 +254,7 @@ dir="ltr"><![endif]-->
         <h2>On this page</h2>
         <ul>
           <li><a href="#when">When to use</a></li>
+          <li><a href="#cautions">What to avoid</a></li>
           <li><a href="#how">How to implement</a></li>
           <li><a href="#discuss">Discussion</a></li>
         </ul>
@@ -261,25 +262,145 @@ dir="ltr"><![endif]-->
 
       <section>
         <h2 id="when">When to use</h2>
+        <p>Use data tables to present data.</p>
+        <p>Consider using tables for navigation to a large number of pages that are closely related, such as in a funding finder.</p>
+      </section>
+
+      <section>
+        <h2 id="cautions">What to avoid</h2>
+        <p>Do not use data tables:</p>
         <ul>
-        	<li>Use data tables to present data</li>
-        	<li>Do not use data tables to force layout for text</li>
+        	<li>To force layout for text</li>
+          <li>For navigation to a small number of pages</li>
+          <li>For navigation to pages that aren't comparable and related, such as mixing province and city page links</li>
         </ul>
       </section>
 
       <section>
         <h2 id="how">How to implement</h2>
-        <ul>
-        	<li>Use defined presentation classes for tables included in <abbr title="Web Experience Toolkit">WET</abbr></li>
-        	<li>Ensure each column treats only one data facet</li>
-        	<li>Where possible, use <abbr title="Web Experience Toolkit">WET</abbr> 4 tables to enable sorting and filtering controls
-        		<ul>
-        			<li>this is recommended when there are more than 12 rows</li>
-        		</ul>
-        	</li>
-        	<li>Add optional pagination controls for any table with more than 12 rows</li>
-        	<li>Never include tabular data as an image</li>
-        </ul>
+
+        <section>
+          <h3>Basic and striped tables</h3>
+          <dl class="dl-horizontal">
+            <dt>When to use:</dt>
+            <dd>Only use basic and striped tables for small amounts of data, for instance, as accompaniment to a simple chart or graph.</dd>
+          </dl>
+          <p><strong>When to use:</strong> Only use basic and striped tables for small amounts of data, for instance, as accompaniment to a simple chart or graph.</p>
+          <h4 class="inline">When to use:</h4> Only use basic and striped tables for small amounts of data, for instance, as accompaniment to a simple chart or graph.</p>
+
+          <p><strong>CSS configuration:</strong> For a basic table without striping, remove the 'table-striped' class.</p>
+
+          <div class="pattern-demo">
+            <table class="table table-striped">
+              <caption>Population growth in 2018/19</caption>
+              <thead>
+                <tr>
+                  <th>Quarter</th>
+                  <th>Persons</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Q2 2018</td>
+                  <td class="nowrap">36,890,168</td>
+                </tr>
+                <tr>
+                  <td>Q3 2018</td>
+                  <td class="nowrap">37,058,856</td>
+                </tr>
+                <tr>
+                  <td>Q4 2018</td>
+                  <td class="nowrap">37,242,571</td>
+                </tr>
+                <tr>
+                  <td>Q1 2019</td>
+                  <td class="nowrap">37,314,442</td>
+                </tr>
+                <tr>
+                  <td>Q2 2019</td>
+                  <td class="nowrap">37,412,852</td>
+                </tr>
+              </tbody>
+            </table>
+            <p><strong>Source:</strong> Statistics Canada.  <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000901">Table  17-10-0009-01   Population estimates, quarterly</a></p>
+          </div>
+          <details>
+            <summary>Code</summary>
+            <pre class="prettyprint"><code>&#x3C;table class=&#x22;table&#x22;&#x3E;
+ &#x3C;caption&#x3E;Population growth in 2018/19&#x3C;/caption&#x3E;
+ &#x3C;thead&#x3E;
+  &#x3C;tr&#x3E;
+   &#x3C;th&#x3E;Quarter&#x3C;/th&#x3E;
+   &#x3C;th&#x3E;Persons&#x3C;/th&#x3E;
+  &#x3C;/tr&#x3E;
+ &#x3C;/thead&#x3E;
+ &#x3C;tbody&#x3E;
+  &#x3C;tr&#x3E;
+   &#x3C;td&#x3E;Q2 2018&#x3C;/td&#x3E;
+   &#x3C;td class=&#x22;nowrap&#x22;&#x3E;36,890,168&#x3C;/td&#x3E;
+  &#x3C;/tr&#x3E;
+  &#x3C;tr&#x3E;
+   &#x3C;td&#x3E;Q3 2018&#x3C;/td&#x3E;
+   &#x3C;td class=&#x22;nowrap&#x22;&#x3E;37,058,856&#x3C;/td&#x3E;
+  &#x3C;/tr&#x3E;
+  &#x3C;tr&#x3E;
+   &#x3C;td&#x3E;Q4 2018&#x3C;/td&#x3E;
+   &#x3C;td class=&#x22;nowrap&#x22;&#x3E;37,242,571&#x3C;/td&#x3E;
+  &#x3C;/tr&#x3E;
+  &#x3C;tr&#x3E;
+   &#x3C;td&#x3E;Q1 2019&#x3C;/td&#x3E;
+   &#x3C;td class=&#x22;nowrap&#x22;&#x3E;37,314,442&#x3C;/td&#x3E;
+  &#x3C;/tr&#x3E;
+  &#x3C;tr&#x3E;
+   &#x3C;td&#x3E;Q2 2019&#x3C;/td&#x3E;
+   &#x3C;td class=&#x22;nowrap&#x22;&#x3E;37,412,852&#x3C;/td&#x3E;
+  &#x3C;/tr&#x3E;
+ &#x3C;/tbody&#x3E;
+&#x3C;/table&#x3E;
+&#x3C;p&#x3E;&#x3C;</code></pre>
+          </details>
+        </section>
+
+        <section>
+          <h3>Striped table</h3>
+          <p><strong>When to use:</strong> Filtering and sorting is encouraged for anything more than the most basic datasets. </p>
+          <div class="pattern-demo">
+
+          </div>
+          <details>
+            <summary>Code</summary>
+            <pre class="prettyprint"><code>
+</code></pre>
+          </details>
+        </section>
+
+        <section>
+          <h3>Filterable/sortable table</h3>
+          <p><strong>When to use:</strong> Filtering and sorting is encouraged for anything more than the most basic datasets. </p>
+          <div class="pattern-demo">
+
+          </div>
+          <details>
+            <summary>Code</summary>
+            <pre class="prettyprint"><code>
+</code></pre>
+          </details>
+        </section>
+
+        <section>
+          <h3>Modal table</h3>
+          <p><strong>When to use:</strong> Basic tables should   </p>
+          <p><strong>Implementation guidelines:</strong></p>
+          <div class="pattern-demo">
+
+          </div>
+          <details>
+            <summary>Code</summary>
+            <pre class="prettyprint"><code>
+</code></pre>
+          </details>
+        </section>
+
       </section>
 
 <section>
