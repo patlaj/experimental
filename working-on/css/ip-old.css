@@ -1,43 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&subset=latin,latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin,latin-ext');
 
-.ip-cover-img {
+.fadeimg {
 	background-image: url("https://test.canada.ca/canada-child-benefit-2/post-validation/GCWeb/images/CRAHQexterior-white.jpg");
 	background-repeat: no-repeat;
 	background-position: right;
-	margin-top: 15px;
-	padding-bottom: 25px;
+	margin-top: 15px !important;
+	padding-bottom: 25px !important;
 }
 
-.most-requested li {
-	font-family: Lato, sans-serif;
-	font-size: 17px;
-	font-weight: 600;
-	line-height: 26px;
-	margin-top: 0
-
-}
-
-/* supports the 3 column layout for MR instead of 4 columns */
-.list-responsive-3 > li {
-    float: left;
-    padding-right: 5px;
-    width: 50%
-}
-
-.list-responsive-3 > li:nth-child(2n+2) {
-    clear: right
-}
-
-.list-responsive-3:before,
-.list-responsive-3:after {
-    content: " ";
-    display: table
-}
-
-.list-responsive-3:after {
-    clear: both
-}
 
 
 .followus {
@@ -144,8 +115,6 @@ aside.feature .pstn-tp-xs {background:#fff; padding:4px;}
 ul.feeds-cont li a {
 	font-weight: bold;
 }
-
-
 .mr-home {
 
 	font-size: 17px !important;
@@ -155,9 +124,58 @@ ul.feeds-cont li a {
 }
 
 
+/* font size in li of breadcrumb */
+
+.cust-breadcrumb {
+
+	font-size: 16px !important;
+
+
+
+}
+
+
+
+/* removing padding that pushes content down a lot */
+
+
+
+.breadcrumb {
+
+/*	margin-top: 0px !important; */
+}
+
+
+
+
+.text-banner {
+
+	color: black;
+	margin-top: 8px;
+
+
+}
 
 .mini-h2s {
 	font-size: 1.2em !important;
+}
+.text-background-1 {
+
+		background-color: white;
+		padding-top: 20px !important;
+	/*	text-shadow: 2px 2px 4px #111; */
+
+		/* opacity: .95; */
+
+}
+
+
+.text-background-2 {
+
+		background-color: white;
+		padding-bottom: 20px;
+	/*	text-shadow: 2px 2px 4px #111; */
+		/* opacity: .95; */
 }
 
 
@@ -201,6 +219,18 @@ ul.feeds-cont li a {
 }
 
 
+.img-banner {
+
+	background-image: url("../../scenarioA/img/CRAHQexterior.jpg");
+	background-color: #26374a;
+  background-repeat: no-repeat;
+  background-size:100% auto;
+  width: 100%;
+	padding-top: 25px;
+	padding-bottom: 0px;
+
+
+}
 
 
 section.lnkbx ul {
@@ -210,11 +240,7 @@ section.lnkbx ul {
 }
 
 
-@media screen and (min-width: 1200px) {
-.list-responsive-3 > li {
-    width: 33%;
-}
-}
+
 
 @media screen and (max-width: 800px) {
 
@@ -223,12 +249,9 @@ section.lnkbx ul {
 	font-size: 19px !important;
 }
 
-.ip-cover-img {
+.fadeimg {
 	background-image: url("none") !important;
 
-}
-.most-requested li {
-	font-size: 19px;
 }
 
 }
