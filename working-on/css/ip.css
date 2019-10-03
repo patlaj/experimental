@@ -99,4 +99,8 @@ ul.feeds-cont li a {
 	float: left !important;
 	}
 
+.ip-cover-hide {
+		background-image: url("none") !important;
+}
+
 }
