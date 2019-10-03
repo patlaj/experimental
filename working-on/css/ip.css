@@ -181,4 +181,8 @@ section.lnkbx ul {
         width: 100%
     }
 
+.mobile-left {
+	float: left !important;
+}
+
 }
