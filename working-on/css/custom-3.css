@@ -706,3 +706,11 @@ body .alert .text-default {
 	border: 1px solid #e3e3e3;
 	box-shadow: 0px 0px 10px #ddd;
 }
+
+/*missing h1 class things */
+.h1 {
+  border-bottom: 1px solid #af3c43;
+  margin-bottom: .2em;
+  margin-top: 1em;
+  padding-bottom: .2em;
+}
