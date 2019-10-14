@@ -35,530 +35,7 @@
 		<![endif]-->
 <noscript><link rel="stylesheet" href="./wet-boew/css/noscript.min.css" /></noscript>
 
-<!-- **************** Various schema examples using json-ld for the contact related phone numbers **************** -->
-<!--
-<script type="application/ld+json">
-//schema without opening hours for organization
-			{
-		    "@context": "http://schema.org",
-		    "@type": "GovernmentOrganization",
-		    "name": "Canada Revenue Agency",
-		    "url": "https://www.canada.ca/en/revenue-agency.html",
-		    "parentOrganization": {
-		      "@type": "GovernmentOrganization",
-		      "name": "Government of Canada",
-		      "url": "http://www.canada.ca/"
-		    },
-        "contactPoint": [ //contact point for org vs task
-          {
-            "@type": "ContactPoint",
-            "contactType": "Personal taxes, benefits and refunds",
-            "productSupported": ["Change address","Update name on file","Change marital status","Set up direct deposit or change bank account information"],
-            "telephone": "+1-800-959-82812",
-            "contactOption" : "TollFree",
-            "areaServed": ["CA","US"]
-          },
-          {
-            "@type": "ContactPoint",
-            "contactType": "Personal taxes, benefits and refunds",
-            "productSupported": ["Change address","Update name on file","Change marital status","Set up direct deposit or change bank account information"],
-            "telephone": "+613-940-8495"
-          }
-        ]
-		  }
-	</script>
-<script type="application/ld+json">
-//schema with opening hours for organization
-			{
-		    "@context": "http://schema.org",
-		    "@type": "GovernmentOrganization",
-		    "name": "Canada Revenue Agency",
-		    "url": "https://www.canada.ca/en/revenue-agency.html",
-		    "parentOrganization": {
-		      "@type": "GovernmentOrganization",
-		      "name": "Government of Canada",
-		      "url": "http://www.canada.ca/"
-		    },
-        "contactPoint": [ //contact point for org vs task
-          {
-            "@type": "ContactPoint",
-            "contactType": "Personal taxes, benefits and refunds",
-            "productSupported": ["Change address","Update name on file","Change marital status","Set up direct deposit or change bank account information"],
-            "telephone": "+1-800-959-82812",
-            "contactOption" : "TollFree",
-            "areaServed": ["CA","US"],
-            "hoursAvailable": [
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Monday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Tuesday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Wednesday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Thursday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Friday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Monday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-04-30",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Tuesday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-04-30",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Wednesday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-04-30",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Thursday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-04-30",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Friday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-12-31",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Saturday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-12-31",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "specialOpeningHoursSpecification",
-                  "validFrom": "2019-03-30",
-                  "validThrough": "2019-03-30"
-              },
-              {
-                  "@type": "specialOpeningHoursSpecification",
-                  "validFrom": "2019-04-22",
-                  "validThrough": "2019-04-22"
-              },
-              {
-                  "@type": "specialOpeningHoursSpecification",
-                  "validFrom": "2019-05-21",
-                  "validThrough": "2019-05-21"
-              }
-            ]
-          },
-          {
-            "@type": "ContactPoint",
-            "contactType": "Personal taxes, benefits and refunds",
-            "productSupported": ["Change address","Update name on file","Change marital status","Set up direct deposit or change bank account information"],
-            "telephone": "+613-940-8495",
-            "hoursAvailable": [
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Monday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00+0500",
-                  "closes":  "17:00:00+0500"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Tuesday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Wednesday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Thursday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Friday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Monday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-04-30",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Tuesday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-04-30",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Wednesday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-04-30",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Thursday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-04-30",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Friday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-12-31",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Saturday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-12-31",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "specialOpeningHoursSpecification",
-                  "validFrom": "2019-03-30",
-                  "validThrough": "2019-03-30"
-              },
-              {
-                  "@type": "specialOpeningHoursSpecification",
-                  "validFrom": "2019-04-22",
-                  "validThrough": "2019-04-22"
-              },
-              {
-                  "@type": "specialOpeningHoursSpecification",
-                  "validFrom": "2019-05-21",
-                  "validThrough": "2019-05-21"
-              }
-            ]
-          }
-        ]
-		  }
-	</script>
-  <script type="application/ld+json">
-//schema json-ld for service page, such as option C
-  {
-    "@context": "http://schema.org",
-    "@type": "GovernmentService",
-    "name": "Get a Notice of Assessment",
-    "serviceType": "Personal and business taxes",
-    "operator": {
-      "@type": "GovernmentOrganization",
-      "name": "Canada Revenue Agency",
-      "url": "https://www.canada.ca/en/revenue-agency.html",
-      "parentOrganization": {
-        "@type": "GovernmentOrganization",
-        "name": "Government of Canada",
-        "url": "http://www.canada.ca/"
-      }
-    },
-    "availableChannel": {
-      "@type": "ServiceChannel",
-      "servicePhone":  {
-        "@type" : "ContactPoint"
-        "contactPoint": [
-          {
-            "@type": "ContactPoint",
-            "contactType": "Personal taxes, benefits and refunds",
-            "productSupported": ["Change address","Update name on file","Change marital status","Set up direct deposit or change bank account information"],
-            "telephone": "+1-800-959-82812",
-            "contactOption" : "TollFree",
-            "areaServed": ["CA","US"],
-            "hoursAvailable": [
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Monday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Tuesday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Wednesday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Thursday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Friday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Monday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-04-30",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Tuesday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-04-30",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Wednesday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-04-30",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Thursday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-04-30",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Friday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-12-31",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Saturday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-12-31",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "specialOpeningHoursSpecification",
-                  "validFrom": "2019-03-30",
-                  "validThrough": "2019-03-30"
-              },
-              {
-                  "@type": "specialOpeningHoursSpecification",
-                  "validFrom": "2019-04-22",
-                  "validThrough": "2019-04-22"
-              },
-              {
-                  "@type": "specialOpeningHoursSpecification",
-                  "validFrom": "2019-05-21",
-                  "validThrough": "2019-05-21"
-              }
-            ]
-          },
-          {
-            "@type": "ContactPoint",
-            "contactType": "Personal taxes, benefits and refunds",
-            "productSupported": ["Change address","Update name on file","Change marital status","Set up direct deposit or change bank account information"],
-            "telephone": "+613-940-8495",
-            "hoursAvailable": [
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Monday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00+0500",
-                  "closes":  "17:00:00+0500"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Tuesday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Wednesday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Thursday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Friday",
-                  "validFrom": "2019-05-01",
-                  "validThrough": "2020-02-18",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Monday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-04-30",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Tuesday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-04-30",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Wednesday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-04-30",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Thursday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-04-30",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Friday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-12-31",
-                  "opens":  "09:00:00",
-                  "closes":  "21:00:00"
-              },
-              {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "http://schema.org/Saturday",
-                  "validFrom": "2019-02-18",
-                  "validThrough": "2019-12-31",
-                  "opens":  "09:00:00",
-                  "closes":  "17:00:00"
-              },
-              {
-                  "@type": "specialOpeningHoursSpecification",
-                  "validFrom": "2019-03-30",
-                  "validThrough": "2019-03-30"
-              },
-              {
-                  "@type": "specialOpeningHoursSpecification",
-                  "validFrom": "2019-04-22",
-                  "validThrough": "2019-04-22"
-              },
-              {
-                  "@type": "specialOpeningHoursSpecification",
-                  "validFrom": "2019-05-21",
-                  "validThrough": "2019-05-21"
-              }
-            ]
-          }
-        ]
-      }
-    }
-  }
-  </script>
--->
+
 </head>
 <body class="page-type-nav" vocab="http://schema.org/" typeof="WebPage">
 <ul id="wb-tphp">
@@ -653,7 +130,65 @@
 </header>
 
 
+
+
+<!-- design for:
+ - stick to top always
+ - stick to top only when scrolled
+ - stay in position under BC -->
+
+<style>
+
+.alpha {
+
+}
+
+.alpha-tp {
+ position: sticky;
+ top: 0;
+}
+
+.alpha-pill {
+
+}
+
+
+#alpha-bnr {
+ top: 0;
+ width: 100%;
+ left: 0;
+ display: inline-block;
+ position: fixed;
+ background-clip: border-box;
+ background-color: #fff;
+ border: 0;
+ border-radius: 0;
+ display: none;
+ -webkit-transform: translateZ(0);
+ transform: translateZ(0);
+ z-index: 1050
+}
+
+.wb-overlay {
+
+}
+</style>
+
+<section class="alpha-tp alpha container">
+  <small><span class="alpha-pill">Alpha</span>: This is an experimental page for public testing. <a href="#">Provide feedback to help us improve our content</a>.</small>
+
+</section>
+
 <main role="main" property="mainContentOfPage" class="container">
+
+<section id="alpha" class="wb-inv wb-inview" data-inview="alpha-bnr"></section>
+
+<section id="alpha-bnr">
+
+  <header><h2 class="wb-inv">Alpha service</h2></header>
+  <small><span class="alpha-pill">Alpha</span>: This is an experimental page for public testing. <a href="#">Provide feedback to help us improve our content</a>.</small>
+
+</section>
 
     <h1 property="name" id="wb-cont" dir="ltr">Contact the Canada Revenue Agency</h1>
     <div class="row">
