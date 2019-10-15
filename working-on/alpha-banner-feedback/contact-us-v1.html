@@ -37,6 +37,7 @@
 
 
 </head>
+
 <body class="page-type-nav" vocab="http://schema.org/" typeof="WebPage">
 <ul id="wb-tphp">
 <li class="wb-slc">
@@ -139,19 +140,48 @@
 
 <style>
 
-.alpha {
-
+.alpha-top {
+  /* border-bottom: 1px solid black !important; */
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+  z-index: 100;
 }
 
-.alpha-tp {
- position: sticky;
- top: 0;
+.alpha {
+  /* border-bottom: 1px solid black; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* background-color: white; */
+  z-index: 100;
+}
+
+.alpha-sticky {
+  position: sticky;
+  top: 0;
 }
 
 .alpha-pill {
 
+  background-color: black;
+  border: none;
+  color: white;
+  font-weight: 700;
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 0px;
+
 }
 
+.alpha-fill {
+  background-color: #f2f2f2;
+  padding: .6em 1em .6em .6em;
+}
 
 #alpha-bnr {
  top: 0;
@@ -169,26 +199,17 @@
  z-index: 1050
 }
 
-.wb-overlay {
 
-}
 </style>
 
-<section class="alpha-tp alpha container">
-  <small><span class="alpha-pill">Alpha</span>: This is an experimental page for public testing. <a href="#">Provide feedback to help us improve our content</a>.</small>
+<section class="alpha container">
+  <h2 class="wb-inv">This is an Alpha service</h2>
+  <small><span class="alpha-pill">Alpha</span><span class="alpha-fill">This is an experimental page for public testing. <a href="#">Provide feedback to help us improve our content</a>.</span></small>
 
 </section>
 
 <main role="main" property="mainContentOfPage" class="container">
 
-<section id="alpha" class="wb-inv wb-inview" data-inview="alpha-bnr"></section>
-
-<section id="alpha-bnr">
-
-  <header><h2 class="wb-inv">Alpha service</h2></header>
-  <small><span class="alpha-pill">Alpha</span>: This is an experimental page for public testing. <a href="#">Provide feedback to help us improve our content</a>.</small>
-
-</section>
 
     <h1 property="name" id="wb-cont" dir="ltr">Contact the Canada Revenue Agency</h1>
     <div class="row">
