@@ -38,12 +38,6 @@
 
 </head>
 
-<section class="alpha-top">
-  <h2 class="wb-inv">This is an Alpha service</h2>
-    <div class="container">
-      <small><label class="alpha-label">Alpha</label>&nbsp;&nbsp; This is an experimental page for public testing. <a href="#">Provide feedback to help us improve our content</a>.</small>
-  </div>
-</section>
 
 <body class="page-type-nav" vocab="http://schema.org/" typeof="WebPage">
 <ul id="wb-tphp">
@@ -147,24 +141,6 @@
 
 <style>
 
-.alpha-top {
-  /* border-bottom: 1px solid black !important; */
-  padding-top: 2px !important;
-  padding-bottom: 2px !important;
-  /* position: sticky; */  /* turn this on if you want it to follow along and stick to the top */
-  top: 0;
-  background-color: #f2f2f2;
-  z-index: 100;
-}
-
-.alpha {
-  /* border-bottom: 1px solid black; */
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: white;
-  z-index: 100;
-}
-
 
 .alpha-label {
 
@@ -172,21 +148,74 @@
   border: none;
   color: white;
   font-weight: 700;
-  padding: 8px 8px;
+  padding: 2px 8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin: 4px 2px;
   border-radius: 0px;
   font-size: 14px !important;
+  max-width: 60px;
 
 
 }
 
-.alpha-fill {
-  background-color: #f2f2f2;
-  padding: .6em 1em .6em .6em;
+.alpha-label-2 {
+
+  background-color:;
+  border-left: #333 8px solid !important;
+  border: #333 1px solid;
+  color: #333;
+  font-weight: 700;
+  padding: 0px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 0px;
+  font-size: 14px !important;
+  max-width: 65px;
+
+
 }
+
+.beta-label {
+
+  background-color: #0052A3;
+  border: none;
+  color: white;
+  font-weight: 700;
+  padding: 2px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 0px;
+  font-size: 14px !important;
+  min-width: 57px;
+
+}
+
+
+.beta-label-2 {
+
+  background-color:;
+  border-left: #0052A3 8px solid !important;
+  border: #0052A3 1px solid;
+  color: #0052A3;
+  font-weight: 700;
+  padding: 0px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 0px;
+  font-size: 14px !important;
+  min-width: 65px;
+
+}
+
+
 
 </style>
 
@@ -196,6 +225,19 @@
 
     <h1 property="name" id="wb-cont" dir="ltr">Contact the Canada Revenue Agency</h1>
     <div class="row">
+
+      <label class="alpha-label">Alpha</label>
+      <br>
+        <label class="beta-label">Beta</label>
+        <br>
+
+        <label class="alpha-label-2">Alpha</label>
+
+      <br>
+      <label class="beta-label-2">Beta</label>
+
+
+
         <section class="col-md-12 mrgn-bttm-lg">
         <h2 class="mini-h2s">Most frequent contacts</h2>
         <div class="wb-eqht row">
