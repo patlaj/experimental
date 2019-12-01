@@ -13,6 +13,7 @@
 .guidance-nav {
   color: white;
   text-decoration: underline;
+  padding-top: 10px;
 }
 
 .guidance-nav a:visited {
@@ -43,4 +44,12 @@
 .beta-fill, .alpha-fill {
   background-color: #f2f2f2;
   padding: .6em 1em .6em .6em;
+}
+
+@media only screen and (max-width: 600px) {
+.pstn-get-code {
+  position: absolute;
+  top:0;
+  right:0;
+}
 }
