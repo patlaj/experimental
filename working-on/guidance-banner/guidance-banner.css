@@ -9,13 +9,13 @@
 }
 
 .guidance-nav {
-  color: white;
+  color: white !important;
   text-decoration: underline;
   padding-top: 10px;
 }
 
 .guidance-nav a:visited {
-  color: white;
+  color: white !important;
 }
 
 
