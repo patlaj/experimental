@@ -1,0 +1,2717 @@
+
+<!DOCTYPE html>
+<html lang="en" class="govuk-template no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title>Table – GOV.UK Design System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/assets/images/favicon.ico" type="image/x-icon" />
+      <link rel="mask-icon" href="/assets/images/govuk-mask-icon.svg" color="#0b0c0c">
+      <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="/assets/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="/assets/images/govuk-apple-touch-icon.png">
+
+
+
+
+  <meta name="og:title" content="Table">
+  <meta name="description" content="Use the table component to make information easier to compare and scan for users">
+  <meta name="og:description" content="Use the table component to make information easier to compare and scan for users">
+  <link rel="canonical" href="https://design-system.service.gov.uk/components/table/" />
+  <!--[if lt IE 9]>
+    <link href="/stylesheets/main-ie8-bb1d45481f2b1ae0f559d77ebfffd953.css" rel="stylesheet" media="all" />
+    <script src="/javascripts/head-ie8-a371085ca251931cc9b5360c7da328f6.js"></script>
+  <![endif]-->
+  <!--[if !IE 8]><!-->
+    <link href="https://design-system.service.gov.uk/stylesheets/main-08a07e5d81e94967c8968c557464a246.css" rel="stylesheet" media="all" />
+
+<script>
+// Normalize doNotTrack implementations, see https://caniuse.com/#feat=do-not-track
+var DO_NOT_TRACK_ENABLED = (
+  navigator.doNotTrack === '1' ||
+  navigator.doNotTrack === 'yes' || // Firefox 31 and below
+  navigator.msDoNotTrack === '1' || // IE 9 - 10
+  window.doNotTrack === '1' // IE 11 / Edge 16 and below
+)
+
+// If the user has enabled 'DoNotTrack', we should not load Google Tag Manager (and therefore, Google Analytics.)
+if (!DO_NOT_TRACK_ENABLED && !window.__TESTS_RUNNING) {
+  // Google Tag Manager
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer', 'GTM-53XG2JT');
+  // End Google Tag Manager
+}
+</script>
+
+
+  <!--<![endif]-->
+  <!-- <script src="https://design-system.service.gov.uk/javascripts/vendor/modernizr.js"></script> -->
+
+
+
+    <meta property="og:image" content="https://design-system.service.gov.uk/assets/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+
+
+      <a href="#main-content" class="govuk-skip-link">Skip to main content</a>
+
+
+
+
+
+
+<div class="app-pane app-pane--enabled" id="top">
+
+<div class="app-cookie-banner js-cookie-banner">
+  <p class="app-width-container">GOV.UK uses cookies to make the site simpler. <a href="/cookies" class="govuk-link">Find out more about cookies</a></p>
+</div>
+
+  <header class="govuk-header app-header" role="banner" data-module="govuk-header">
+  <div class="govuk-header__container app-width-container app-header__container">
+    <div class="govuk-header__logo app-header__logo">
+      <a href="/" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <svg
+            role="presentation"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewbox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+            <image src="/assets/images/govuk-logotype-crown.png" xlink:href="" class="govuk-header__logotype-crown-fallback-image" width="36" height="32"></image>
+          </svg>
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span>
+        <span class="govuk-header__product-name">
+          Design System
+        </span>
+      </a>
+    </div>
+    <div class="app-site-search" data-module="app-search" data-search-index="/search-index-d02e71ecd84201f3f97e0410001c75f6.json">
+      <label class="govuk-visually-hidden" for="app-site-search__input">Search Design system</label>
+      <a class="app-site-search__link govuk-link" href="/sitemap">Sitemap</a>
+    </div>
+    <div class="app-header-mobile-nav-toggler-wrapper">
+      <button id="app-mobile-nav-toggler" class="govuk-button app-header-mobile-nav-toggler js-app-mobile-nav-toggler" aria-controls="app-mobile-nav">
+        Menu
+      </button>
+    </div>
+  </div>
+</header>
+
+  <nav id="app-mobile-nav" class="app-mobile-nav js-app-mobile-nav" role="navigation">
+  <ul class="app-mobile-nav__list">
+
+      <li>
+        <div class="app-mobile-nav-subnav-toggler">
+          <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler" href="/get-started/">
+            Get started
+          </a>
+        </div>
+
+          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav " aria-label="Get started">
+            <li class="app-mobile-nav__subnav-item">
+              <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/get-started/">
+                Get started overview
+              </a>
+            </li>
+
+              <li>
+
+                  <h4 class="app-mobile-nav__theme">Setup guides</h4>
+
+                <ul class="app-mobile-nav__list">
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/get-started/prototyping/">
+                        Prototyping
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/get-started/production/">
+                        Production
+                      </a>
+                    </li>
+
+                </ul>
+              </li>
+
+              <li>
+
+                  <h4 class="app-mobile-nav__theme">How to guides</h4>
+
+                <ul class="app-mobile-nav__list">
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/get-started/updating-your-code/">
+                        Updating from GOV.UK Elements and Frontend Toolkit
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/get-started/labels-legends-headings/">
+                        Making labels and legends headings
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/get-started/extending-and-modifying-components/">
+                        Extending and modifying components in production
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/get-started/focus-states/">
+                        Understanding focus state styles
+                      </a>
+                    </li>
+
+                </ul>
+              </li>
+
+          </ul>
+
+      </li>
+
+      <li>
+        <div class="app-mobile-nav-subnav-toggler">
+          <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler" href="/styles/">
+            Styles
+          </a>
+        </div>
+
+          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav " aria-label="Styles">
+            <li class="app-mobile-nav__subnav-item">
+              <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/styles/">
+                Styles overview
+              </a>
+            </li>
+
+              <li>
+
+                <ul class="app-mobile-nav__list">
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/styles/colour/">
+                        Colour
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/styles/images/">
+                        Images
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/styles/layout/">
+                        Layout
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/styles/page-template/">
+                        Page template
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/styles/spacing/">
+                        Spacing
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/styles/typography/">
+                        Typography
+                      </a>
+                    </li>
+
+                </ul>
+              </li>
+
+          </ul>
+
+      </li>
+
+      <li>
+        <div class="app-mobile-nav-subnav-toggler app-mobile-nav__subnav-toggler--active">
+          <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler" href="/components/">
+            Components
+          </a>
+        </div>
+
+          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav app-mobile-nav__subnav--active" aria-label="Components">
+            <li class="app-mobile-nav__subnav-item">
+              <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/">
+                Components overview
+              </a>
+            </li>
+
+              <li>
+
+                <ul class="app-mobile-nav__list">
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/accordion/">
+                        Accordion
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/back-link/">
+                        Back link
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/breadcrumbs/">
+                        Breadcrumbs
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/button/">
+                        Button
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/character-count/">
+                        Character count
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/checkboxes/">
+                        Checkboxes
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/date-input/">
+                        Date input
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/details/">
+                        Details
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/error-message/">
+                        Error message
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/error-summary/">
+                        Error summary
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/fieldset/">
+                        Fieldset
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/file-upload/">
+                        File upload
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/footer/">
+                        Footer
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/header/">
+                        Header
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/inset-text/">
+                        Inset text
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/panel/">
+                        Panel
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/phase-banner/">
+                        Phase banner
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/radios/">
+                        Radios
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/select/">
+                        Select
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/skip-link/">
+                        Skip link
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/summary-list/">
+                        Summary list
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item app-mobile-nav__subnav-item--current">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/table/">
+                        Table
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/tabs/">
+                        Tabs
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/tag/">
+                        Tag
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/text-input/">
+                        Text input
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/textarea/">
+                        Textarea
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/warning-text/">
+                        Warning text
+                      </a>
+                    </li>
+
+                </ul>
+              </li>
+
+          </ul>
+
+      </li>
+
+      <li>
+        <div class="app-mobile-nav-subnav-toggler">
+          <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler" href="/patterns/">
+            Patterns
+          </a>
+        </div>
+
+          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav " aria-label="Patterns">
+            <li class="app-mobile-nav__subnav-item">
+              <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/">
+                Patterns overview
+              </a>
+            </li>
+
+              <li>
+
+                  <h4 class="app-mobile-nav__theme">Ask users for…</h4>
+
+                <ul class="app-mobile-nav__list">
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/addresses/">
+                        Addresses
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/bank-details/">
+                        Bank details
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/dates/">
+                        Dates
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/email-addresses/">
+                        Email addresses
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/ethnic-group/">
+                        Ethnic groups
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/gender-or-sex/">
+                        Gender or sex
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/names/">
+                        Names
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/national-insurance-numbers/">
+                        National Insurance numbers
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/passwords/">
+                        Passwords
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/payment-card-details/">
+                        Payment card details
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/telephone-numbers/">
+                        Telephone numbers
+                      </a>
+                    </li>
+
+                </ul>
+              </li>
+
+              <li>
+
+                  <h4 class="app-mobile-nav__theme">Help users to…</h4>
+
+                <ul class="app-mobile-nav__list">
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/check-a-service-is-suitable/">
+                        Check a service is suitable
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/check-answers/">
+                        Check answers
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/confirm-an-email-address/">
+                        Confirm an email address
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/create-a-username/">
+                        Create a username
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/create-accounts/">
+                        Create accounts
+                      </a>
+                    </li>
+
+                </ul>
+              </li>
+
+              <li>
+
+                  <h4 class="app-mobile-nav__theme">Pages</h4>
+
+                <ul class="app-mobile-nav__list">
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/confirmation-pages/">
+                        Confirmation pages
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/page-not-found-pages/">
+                        Page not found pages
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/problem-with-the-service-pages/">
+                        There is a problem with the service pages
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/question-pages/">
+                        Question pages
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/service-unavailable-pages/">
+                        Service unavailable pages
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/start-pages/">
+                        Start pages
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/step-by-step-navigation/">
+                        Step by step navigation
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/task-list-pages/">
+                        Task list pages
+                      </a>
+                    </li>
+
+                </ul>
+              </li>
+
+          </ul>
+
+      </li>
+
+      <li>
+        <div class="app-mobile-nav-subnav-toggler">
+          <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler" href="/community/">
+            Community
+          </a>
+        </div>
+
+          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav " aria-label="Community">
+            <li class="app-mobile-nav__subnav-item">
+              <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/community/">
+                Community overview
+              </a>
+            </li>
+
+              <li>
+
+                <ul class="app-mobile-nav__list">
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/community/backlog/">
+                        Backlog
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/community/propose-a-content-change-using-github/">
+                        Propose a content change using GitHub
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/community/propose-a-component-or-pattern/">
+                        Propose a component or pattern
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/community/develop-a-component-or-pattern/">
+                        Develop a component or pattern
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/community/contribution-criteria/">
+                        Contribution criteria
+                      </a>
+                    </li>
+
+                    <li class="app-mobile-nav__subnav-item">
+                      <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/community/design-system-working-group/">
+                        Design System working group
+                      </a>
+                    </li>
+
+                </ul>
+              </li>
+
+          </ul>
+
+      </li>
+
+  </ul>
+</nav>
+
+
+<div class="app-phase-banner__wrapper">
+
+    <div class="govuk-phase-banner app-phase-banner app-width-container">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="/get-in-touch">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+
+
+</div>
+
+  <nav class="app-navigation govuk-clearfix">
+  <ul class="app-navigation__list app-width-container">
+
+    <li class="app-navigation__list-item">
+      <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="/get-started/" data-topnav="Get started">Get started</a>
+    </li>
+
+    <li class="app-navigation__list-item">
+      <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="/styles/" data-topnav="Styles">Styles</a>
+    </li>
+
+    <li class="app-navigation__list-item app-navigation__list-item--current">
+      <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="/components/" data-topnav="Components">Components</a>
+    </li>
+
+    <li class="app-navigation__list-item">
+      <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="/patterns/" data-topnav="Patterns">Patterns</a>
+    </li>
+
+    <li class="app-navigation__list-item">
+      <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="/community/" data-topnav="Community">Community</a>
+    </li>
+
+  </ul>
+</nav>
+
+
+<div class="app-pane__body app-width-container">
+  <div class="app-pane__subnav app-hide-mobile">
+    <nav class="app-subnav">
+
+
+
+
+
+
+
+
+
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/accordion/">Accordion</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/back-link/">Back link</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/breadcrumbs/">Breadcrumbs</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/button/">Button</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/character-count/">Character count</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/checkboxes/">Checkboxes</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/date-input/">Date input</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/details/">Details</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/error-message/">Error message</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/error-summary/">Error summary</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/fieldset/">Fieldset</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/file-upload/">File upload</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/footer/">Footer</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/header/">Header</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/inset-text/">Inset text</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/panel/">Panel</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/phase-banner/">Phase banner</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/radios/">Radios</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/select/">Select</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/skip-link/">Skip link</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/summary-list/">Summary list</a>
+
+            </li>
+
+            <li class="app-subnav__section-item app-subnav__section-item--current">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/table/">Table</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/tabs/">Tabs</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/tag/">Tag</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/text-input/">Text input</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/textarea/">Textarea</a>
+
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/warning-text/">Warning text</a>
+
+            </li>
+
+          </ul>
+
+
+
+
+
+
+
+
+</nav>
+
+  </div>
+  <div class="app-pane__content">
+    <main id="main-content" class="app-content" role="main">
+      <div class="app-content__header">
+
+        <span class="govuk-caption-xl">
+          Components
+        </span>
+
+        <h1 class="govuk-heading-xl">
+
+          Table
+
+        </h1>
+      </div>
+
+
+
+      <div class="app-prose-scope">
+        <p>Use the table component to make information easier to compare and scan for users.</p>
+<div class="app-example-wrapper" id="table-example" data-module="app-tabs">
+  <div class="app-example app-example--tabs">
+    <a href="/components/table/default/index.html" class="app-example__new-window" target="_blank">
+      Open this
+
+      <span class="govuk-visually-hidden">table</span>
+      example in a new window
+    </a>
+    <iframe title="Table example" data-module="app-example-frame" class="app-example__frame app-example__frame--resizable app-example__frame--m" src="./table.html" frameBorder="0" loading="lazy"></iframe>
+  </div>
+  <span id="options-table-example"></span>
+  <ul class="app-tabs" role="tablist">
+    <li class="app-tabs__item js-tabs__item" role="presentation"><a href="#table-example-html" role="tab" aria-controls="table-example-html" data-track="tab-html">HTML</a></li>
+    <li class="app-tabs__item js-tabs__item" role="presentation"><a href="#table-example-nunjucks" role="tab" aria-controls="table-example-nunjucks" data-track="tab-nunjucks">Nunjucks</a></li>
+  </ul>
+  <div class="app-tabs__heading js-tabs__heading"><a href="#table-example-html" role="tab" aria-controls="table-example-html" data-track="tab-html">HTML</a></div>
+  <div class="app-tabs__container js-tabs__container" id="table-example-html" role="tabpanel">
+    <pre data-module="app-copy"><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">caption</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__caption"</span>&gt;</span>Dates and amounts<span class="hljs-tag">&lt;/<span class="hljs-name">caption</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">thead</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__head"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"col"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>Date<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"col"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>Amount<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__body"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"row"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>First 6 weeks<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>£109.80 per week<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"row"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>Next 33 weeks<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>£109.80 per week<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"row"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>Total estimated pay<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>£4,282.20<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span></code></pre>
+  </div>
+  <div class="app-tabs__heading js-tabs__heading"><a href="#table-example-nunjucks" role="tab" aria-controls="table-example-nunjucks" data-track="tab-nunjucks">Nunjucks</a></div>
+  <div class="app-tabs__container js-tabs__container" id="table-example-nunjucks" role="tabpanel">
+
+
+      <details class="govuk-details app-options" data-module="govuk-details" id="options-table-example-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      <span data-components='github-component-arguments'>Nunjucks macro options</span>
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+
+        <p>
+        Use options to customise the appearance, content and behaviour of a component when using a macro, for example, changing the text.
+        </p>
+        <p>
+        Some options are required for the macro to work; these are marked as "Required" in the option description.
+        </p>
+        <p>
+        If you're using Nunjucks macros in production with "html" options, or ones ending with "html", you must sanitise the HTML to protect against  <a href="https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting">cross-site scripting exploits</a>.
+        </p>
+
+          <table class="govuk-table app-options__table" id="options-table-example--primary">
+            <caption class="govuk-table__caption govuk-heading-m  govuk-visually-hidden">Primary options</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
+                <th class="govuk-table__header" scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">rows</th>
+                  <td class="govuk-table__cell ">array</td>
+                  <td class="govuk-table__cell ">
+                      <strong>Required.</strong>
+                    Array of table rows and cells.
+                      See <a href="#options-table-example--rows">rows</a>.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">head</th>
+                  <td class="govuk-table__cell ">array</td>
+                  <td class="govuk-table__cell ">
+                    Array of table head cells.
+                      See <a href="#options-table-example--head">head</a>.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">caption</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Caption text
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">captionClasses</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes for caption text size. Classes should correspond to the available typography heading classes.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">firstCellIsHeader</th>
+                  <td class="govuk-table__cell ">boolean</td>
+                  <td class="govuk-table__cell ">
+                    If set to true, first cell in table row will be a TH instead of a TD.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">classes</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes to add to the table container.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">attributes</th>
+                  <td class="govuk-table__cell ">object</td>
+                  <td class="govuk-table__cell ">
+                    HTML attributes (for example data attributes) to add to the table container.
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+          <table class="govuk-table app-options__table" id="options-table-example--rows">
+            <caption class="govuk-table__caption govuk-heading-m ">Options for rows</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
+                <th class="govuk-table__header" scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">text</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                      <strong>Required.</strong>
+                    If <code>html</code> is set, this is not required. Text for cells in table rows. If <code>html</code> is provided, the <code>text</code> argument will be ignored.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">html</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                      <strong>Required.</strong>
+                    If <code>text</code> is set, this is not required. HTML for cells in table rows. If <code>html</code> is provided, the <code>text</code> argument will be ignore
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">format</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Specify format of a cell. Currently we only use &quot;numeric&quot;.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">classes</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes to add to the table row cell.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">colspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many columns a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">rowspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many rows a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">attributes</th>
+                  <td class="govuk-table__cell ">object</td>
+                  <td class="govuk-table__cell ">
+                    HTML attributes (for example data attributes) to add to the table cell.
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+          <table class="govuk-table app-options__table" id="options-table-example--head">
+            <caption class="govuk-table__caption govuk-heading-m ">Options for head</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
+                <th class="govuk-table__header" scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">text</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    If <code>html</code> is set, this is not required. Text for table head cells. If <code>html</code> is provided, the <code>text</code> argument will be ignored.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">html</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    If <code>text</code> is set, this is not required. HTML for table head cells. If <code>html</code> is provided, the <code>text</code> argument will be ignore
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">format</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Specify format of a cell. Currently we only use &quot;numeric&quot;.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">classes</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes to add to the table head cell.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">colspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many columns a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">rowspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many rows a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">attributes</th>
+                  <td class="govuk-table__cell ">object</td>
+                  <td class="govuk-table__cell ">
+                    HTML attributes (for example data attributes) to add to the table cell.
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+
+
+  </div>
+</details>
+
+    <pre data-module="app-copy"><code class="hljs js">{% <span class="hljs-keyword">from</span> <span class="hljs-string">"govuk/components/table/macro.njk"</span> <span class="hljs-keyword">import</span> govukTable %}
+
+{{ govukTable({
+  <span class="hljs-attr">caption</span>: <span class="hljs-string">"Dates and amounts"</span>,
+  <span class="hljs-attr">firstCellIsHeader</span>: <span class="hljs-literal">true</span>,
+  <span class="hljs-attr">head</span>: [
+    {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">"Date"</span>
+    },
+    {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">"Amount"</span>
+    }
+  ],
+  <span class="hljs-attr">rows</span>: [
+    [
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"First 6 weeks"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£109.80 per week"</span>
+      }
+    ],
+    [
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"Next 33 weeks"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£109.80 per week"</span>
+      }
+    ],
+    [
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"Total estimated pay"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£4,282.20"</span>
+      }
+    ]
+  ]
+}) }}</code></pre>
+  </div>
+</div>
+
+
+
+<h2 id="when-to-use-this-component">When to use this component</h2>
+<p>Use the table component to let users to compare information in rows and columns.</p>
+<h2 id="when-not-to-use-this-component">When not to use this component</h2>
+<p>Never use the table component to layout content on a page. Instead, use the <a href="../../styles/layout#grid-system">grid system</a>.</p>
+<h2 id="how-it-works">How it works</h2>
+<h3 id="table-captions">Table captions</h3>
+<p>Use the <code>&lt;caption&gt;</code> element to describe a table in the same way you would use a heading. A caption helps users find, navigate and understand tables.</p>
+<h3 id="table-headers">Table headers</h3>
+<p>Use table headers to tell users what the rows and columns represent. Use the <code>scope</code> attribute to help users of assistive technology distinguish between row and column headers.</p>
+<p>There are 2 ways to use the table component. You can use HTML or, if you are using <a href="https://mozilla.github.io/nunjucks/">Nunjucks</a> or the <a href="https://govuk-prototype-kit.herokuapp.com">GOV.UK Prototype Kit</a>, you can use the Nunjucks macro.</p>
+<div class="app-example-wrapper" id="table-second-example" data-module="app-tabs">
+  <div class="app-example app-example--tabs">
+    <a href="./table.html" class="app-example__new-window" target="_blank">
+      Open this
+
+      <span class="govuk-visually-hidden">table second</span>
+      example in a new window
+    </a>
+    <iframe title="Table second example" data-module="app-example-frame" class="app-example__frame app-example__frame--resizable app-example__frame--m" src="./table.html" frameBorder="0" loading="lazy"></iframe>
+  </div>
+  <span id="options-table-second-example"></span>
+  <ul class="app-tabs" role="tablist">
+    <li class="app-tabs__item js-tabs__item" role="presentation"><a href="#table-second-example-html" role="tab" aria-controls="table-second-example-html" data-track="tab-html">HTML</a></li>
+    <li class="app-tabs__item js-tabs__item" role="presentation"><a href="#table-second-example-nunjucks" role="tab" aria-controls="table-second-example-nunjucks" data-track="tab-nunjucks">Nunjucks</a></li>
+  </ul>
+  <div class="app-tabs__heading js-tabs__heading"><a href="#table-second-example-html" role="tab" aria-controls="table-second-example-html" data-track="tab-html">HTML</a></div>
+  <div class="app-tabs__container js-tabs__container" id="table-second-example-html" role="tabpanel">
+    <pre data-module="app-copy"><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">caption</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__caption"</span>&gt;</span>Dates and amounts<span class="hljs-tag">&lt;/<span class="hljs-name">caption</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">thead</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__head"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"col"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>Date<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"col"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>Amount<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__body"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"row"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>First 6 weeks<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>£109.80 per week<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"row"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>Next 33 weeks<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>£109.80 per week<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"row"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>Total estimated pay<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>£4,282.20<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span></code></pre>
+  </div>
+  <div class="app-tabs__heading js-tabs__heading"><a href="#table-second-example-nunjucks" role="tab" aria-controls="table-second-example-nunjucks" data-track="tab-nunjucks">Nunjucks</a></div>
+  <div class="app-tabs__container js-tabs__container" id="table-second-example-nunjucks" role="tabpanel">
+
+
+      <details class="govuk-details app-options" data-module="govuk-details" id="options-table-second-example-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      <span data-components='github-component-arguments'>Nunjucks macro options</span>
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+
+        <p>
+        Use options to customise the appearance, content and behaviour of a component when using a macro, for example, changing the text.
+        </p>
+        <p>
+        Some options are required for the macro to work; these are marked as "Required" in the option description.
+        </p>
+        <p>
+        If you're using Nunjucks macros in production with "html" options, or ones ending with "html", you must sanitise the HTML to protect against  <a href="https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting">cross-site scripting exploits</a>.
+        </p>
+
+          <table class="govuk-table app-options__table" id="options-table-second-example--primary">
+            <caption class="govuk-table__caption govuk-heading-m  govuk-visually-hidden">Primary options</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
+                <th class="govuk-table__header" scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">rows</th>
+                  <td class="govuk-table__cell ">array</td>
+                  <td class="govuk-table__cell ">
+                      <strong>Required.</strong>
+                    Array of table rows and cells.
+                      See <a href="#options-table-second-example--rows">rows</a>.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">head</th>
+                  <td class="govuk-table__cell ">array</td>
+                  <td class="govuk-table__cell ">
+                    Array of table head cells.
+                      See <a href="#options-table-second-example--head">head</a>.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">caption</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Caption text
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">captionClasses</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes for caption text size. Classes should correspond to the available typography heading classes.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">firstCellIsHeader</th>
+                  <td class="govuk-table__cell ">boolean</td>
+                  <td class="govuk-table__cell ">
+                    If set to true, first cell in table row will be a TH instead of a TD.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">classes</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes to add to the table container.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">attributes</th>
+                  <td class="govuk-table__cell ">object</td>
+                  <td class="govuk-table__cell ">
+                    HTML attributes (for example data attributes) to add to the table container.
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+          <table class="govuk-table app-options__table" id="options-table-second-example--rows">
+            <caption class="govuk-table__caption govuk-heading-m ">Options for rows</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
+                <th class="govuk-table__header" scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">text</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                      <strong>Required.</strong>
+                    If <code>html</code> is set, this is not required. Text for cells in table rows. If <code>html</code> is provided, the <code>text</code> argument will be ignored.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">html</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                      <strong>Required.</strong>
+                    If <code>text</code> is set, this is not required. HTML for cells in table rows. If <code>html</code> is provided, the <code>text</code> argument will be ignore
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">format</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Specify format of a cell. Currently we only use &quot;numeric&quot;.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">classes</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes to add to the table row cell.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">colspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many columns a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">rowspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many rows a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">attributes</th>
+                  <td class="govuk-table__cell ">object</td>
+                  <td class="govuk-table__cell ">
+                    HTML attributes (for example data attributes) to add to the table cell.
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+          <table class="govuk-table app-options__table" id="options-table-second-example--head">
+            <caption class="govuk-table__caption govuk-heading-m ">Options for head</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
+                <th class="govuk-table__header" scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">text</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    If <code>html</code> is set, this is not required. Text for table head cells. If <code>html</code> is provided, the <code>text</code> argument will be ignored.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">html</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    If <code>text</code> is set, this is not required. HTML for table head cells. If <code>html</code> is provided, the <code>text</code> argument will be ignore
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">format</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Specify format of a cell. Currently we only use &quot;numeric&quot;.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">classes</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes to add to the table head cell.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">colspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many columns a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">rowspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many rows a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">attributes</th>
+                  <td class="govuk-table__cell ">object</td>
+                  <td class="govuk-table__cell ">
+                    HTML attributes (for example data attributes) to add to the table cell.
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+
+
+  </div>
+</details>
+
+    <pre data-module="app-copy"><code class="hljs js">{% <span class="hljs-keyword">from</span> <span class="hljs-string">"govuk/components/table/macro.njk"</span> <span class="hljs-keyword">import</span> govukTable %}
+
+{{ govukTable({
+  <span class="hljs-attr">caption</span>: <span class="hljs-string">"Dates and amounts"</span>,
+  <span class="hljs-attr">firstCellIsHeader</span>: <span class="hljs-literal">true</span>,
+  <span class="hljs-attr">head</span>: [
+    {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">"Date"</span>
+    },
+    {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">"Amount"</span>
+    }
+  ],
+  <span class="hljs-attr">rows</span>: [
+    [
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"First 6 weeks"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£109.80 per week"</span>
+      }
+    ],
+    [
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"Next 33 weeks"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£109.80 per week"</span>
+      }
+    ],
+    [
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"Total estimated pay"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£4,282.20"</span>
+      }
+    ]
+  ]
+}) }}</code></pre>
+  </div>
+</div>
+
+
+
+<h2 id="numbers-in-a-table">Numbers in a table</h2>
+<p>When comparing columns of numbers, align the numbers to the right in table cells.</p>
+<div class="app-example-wrapper" id="numbers-in-a-table-example" data-module="app-tabs">
+  <div class="app-example app-example--tabs">
+    <a href="./table.html" class="app-example__new-window" target="_blank">
+      Open this
+
+      <span class="govuk-visually-hidden">numbers in a table</span>
+      example in a new window
+    </a>
+    <iframe title="Numbers in a table example" data-module="app-example-frame" class="app-example__frame app-example__frame--resizable app-example__frame--m" src="./table.html" frameBorder="0" loading="lazy"></iframe>
+  </div>
+  <span id="options-numbers-in-a-table-example"></span>
+  <ul class="app-tabs" role="tablist">
+    <li class="app-tabs__item js-tabs__item" role="presentation"><a href="#numbers-in-a-table-example-html" role="tab" aria-controls="numbers-in-a-table-example-html" data-track="tab-html">HTML</a></li>
+    <li class="app-tabs__item js-tabs__item" role="presentation"><a href="#numbers-in-a-table-example-nunjucks" role="tab" aria-controls="numbers-in-a-table-example-nunjucks" data-track="tab-nunjucks">Nunjucks</a></li>
+  </ul>
+  <div class="app-tabs__heading js-tabs__heading"><a href="#numbers-in-a-table-example-html" role="tab" aria-controls="numbers-in-a-table-example-html" data-track="tab-html">HTML</a></div>
+  <div class="app-tabs__container js-tabs__container" id="numbers-in-a-table-example-html" role="tabpanel">
+    <pre data-module="app-copy"><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">caption</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__caption"</span>&gt;</span>Months and rates<span class="hljs-tag">&lt;/<span class="hljs-name">caption</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">thead</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__head"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"col"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>Month you apply<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"col"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header govuk-table__header--numeric"</span>&gt;</span>Rate for bicycles<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"col"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header govuk-table__header--numeric"</span>&gt;</span>Rate for vehicles<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__body"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"row"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>January<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell govuk-table__cell--numeric"</span>&gt;</span>£85<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell govuk-table__cell--numeric"</span>&gt;</span>£95<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"row"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>February<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell govuk-table__cell--numeric"</span>&gt;</span>£75<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell govuk-table__cell--numeric"</span>&gt;</span>£55<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"row"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>March<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell govuk-table__cell--numeric"</span>&gt;</span>£165<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell govuk-table__cell--numeric"</span>&gt;</span>£125<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span></code></pre>
+  </div>
+  <div class="app-tabs__heading js-tabs__heading"><a href="#numbers-in-a-table-example-nunjucks" role="tab" aria-controls="numbers-in-a-table-example-nunjucks" data-track="tab-nunjucks">Nunjucks</a></div>
+  <div class="app-tabs__container js-tabs__container" id="numbers-in-a-table-example-nunjucks" role="tabpanel">
+
+
+      <details class="govuk-details app-options" data-module="govuk-details" id="options-numbers-in-a-table-example-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      <span data-components='github-component-arguments'>Nunjucks macro options</span>
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+
+        <p>
+        Use options to customise the appearance, content and behaviour of a component when using a macro, for example, changing the text.
+        </p>
+        <p>
+        Some options are required for the macro to work; these are marked as "Required" in the option description.
+        </p>
+        <p>
+        If you're using Nunjucks macros in production with "html" options, or ones ending with "html", you must sanitise the HTML to protect against  <a href="https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting">cross-site scripting exploits</a>.
+        </p>
+
+          <table class="govuk-table app-options__table" id="options-numbers-in-a-table-example--primary">
+            <caption class="govuk-table__caption govuk-heading-m  govuk-visually-hidden">Primary options</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
+                <th class="govuk-table__header" scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">rows</th>
+                  <td class="govuk-table__cell ">array</td>
+                  <td class="govuk-table__cell ">
+                      <strong>Required.</strong>
+                    Array of table rows and cells.
+                      See <a href="#options-numbers-in-a-table-example--rows">rows</a>.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">head</th>
+                  <td class="govuk-table__cell ">array</td>
+                  <td class="govuk-table__cell ">
+                    Array of table head cells.
+                      See <a href="#options-numbers-in-a-table-example--head">head</a>.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">caption</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Caption text
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">captionClasses</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes for caption text size. Classes should correspond to the available typography heading classes.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">firstCellIsHeader</th>
+                  <td class="govuk-table__cell ">boolean</td>
+                  <td class="govuk-table__cell ">
+                    If set to true, first cell in table row will be a TH instead of a TD.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">classes</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes to add to the table container.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">attributes</th>
+                  <td class="govuk-table__cell ">object</td>
+                  <td class="govuk-table__cell ">
+                    HTML attributes (for example data attributes) to add to the table container.
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+          <table class="govuk-table app-options__table" id="options-numbers-in-a-table-example--rows">
+            <caption class="govuk-table__caption govuk-heading-m ">Options for rows</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
+                <th class="govuk-table__header" scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">text</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                      <strong>Required.</strong>
+                    If <code>html</code> is set, this is not required. Text for cells in table rows. If <code>html</code> is provided, the <code>text</code> argument will be ignored.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">html</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                      <strong>Required.</strong>
+                    If <code>text</code> is set, this is not required. HTML for cells in table rows. If <code>html</code> is provided, the <code>text</code> argument will be ignore
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">format</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Specify format of a cell. Currently we only use &quot;numeric&quot;.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">classes</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes to add to the table row cell.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">colspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many columns a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">rowspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many rows a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">attributes</th>
+                  <td class="govuk-table__cell ">object</td>
+                  <td class="govuk-table__cell ">
+                    HTML attributes (for example data attributes) to add to the table cell.
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+          <table class="govuk-table app-options__table" id="options-numbers-in-a-table-example--head">
+            <caption class="govuk-table__caption govuk-heading-m ">Options for head</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
+                <th class="govuk-table__header" scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">text</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    If <code>html</code> is set, this is not required. Text for table head cells. If <code>html</code> is provided, the <code>text</code> argument will be ignored.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">html</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    If <code>text</code> is set, this is not required. HTML for table head cells. If <code>html</code> is provided, the <code>text</code> argument will be ignore
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">format</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Specify format of a cell. Currently we only use &quot;numeric&quot;.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">classes</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes to add to the table head cell.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">colspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many columns a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">rowspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many rows a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">attributes</th>
+                  <td class="govuk-table__cell ">object</td>
+                  <td class="govuk-table__cell ">
+                    HTML attributes (for example data attributes) to add to the table cell.
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+
+
+  </div>
+</details>
+
+    <pre data-module="app-copy"><code class="hljs js">{% <span class="hljs-keyword">from</span> <span class="hljs-string">"govuk/components/table/macro.njk"</span> <span class="hljs-keyword">import</span> govukTable %}
+
+{{ govukTable({
+  <span class="hljs-attr">caption</span>: <span class="hljs-string">"Months and rates"</span>,
+  <span class="hljs-attr">firstCellIsHeader</span>: <span class="hljs-literal">true</span>,
+  <span class="hljs-attr">head</span>: [
+    {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">"Month you apply"</span>
+    },
+    {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">"Rate for bicycles"</span>,
+      <span class="hljs-attr">format</span>: <span class="hljs-string">"numeric"</span>
+    },
+    {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">"Rate for vehicles"</span>,
+      <span class="hljs-attr">format</span>: <span class="hljs-string">"numeric"</span>
+    }
+  ],
+  <span class="hljs-attr">rows</span>: [
+    [
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"January"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£85"</span>,
+        <span class="hljs-attr">format</span>: <span class="hljs-string">"numeric"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£95"</span>,
+        <span class="hljs-attr">format</span>: <span class="hljs-string">"numeric"</span>
+      }
+    ],
+    [
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"February"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£75"</span>,
+        <span class="hljs-attr">format</span>: <span class="hljs-string">"numeric"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£55"</span>,
+        <span class="hljs-attr">format</span>: <span class="hljs-string">"numeric"</span>
+      }
+    ],
+    [
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"March"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£165"</span>,
+        <span class="hljs-attr">format</span>: <span class="hljs-string">"numeric"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£125"</span>,
+        <span class="hljs-attr">format</span>: <span class="hljs-string">"numeric"</span>
+      }
+    ]
+  ]
+}) }}</code></pre>
+  </div>
+</div>
+
+
+
+<h2 id="custom-column-widths">Custom column widths</h2>
+<p>You can use the <a href="../../styles/spacing#width-override-classes">width override classes</a> to set the width of table columns.</p>
+<div class="app-example-wrapper" id="custom-width-using-override-classes-table-example" data-module="app-tabs">
+  <div class="app-example app-example--tabs">
+    <a href="/components/table/column-widths/index.html" class="app-example__new-window" target="_blank">
+      Open this
+
+      <span class="govuk-visually-hidden">custom width using override classes – table</span>
+      example in a new window
+    </a>
+    <iframe title="Custom width using override classes – Table example" data-module="app-example-frame" class="app-example__frame app-example__frame--resizable app-example__frame--m" src="./table.html" frameBorder="0" loading="lazy"></iframe>
+  </div>
+  <span id="options-custom-width-using-override-classes-table-example"></span>
+  <ul class="app-tabs" role="tablist">
+    <li class="app-tabs__item js-tabs__item" role="presentation"><a href="#custom-width-using-override-classes-table-example-html" role="tab" aria-controls="custom-width-using-override-classes-table-example-html" data-track="tab-html">HTML</a></li>
+    <li class="app-tabs__item js-tabs__item" role="presentation"><a href="#custom-width-using-override-classes-table-example-nunjucks" role="tab" aria-controls="custom-width-using-override-classes-table-example-nunjucks" data-track="tab-nunjucks">Nunjucks</a></li>
+  </ul>
+  <div class="app-tabs__heading js-tabs__heading"><a href="#custom-width-using-override-classes-table-example-html" role="tab" aria-controls="custom-width-using-override-classes-table-example-html" data-track="tab-html">HTML</a></div>
+  <div class="app-tabs__container js-tabs__container" id="custom-width-using-override-classes-table-example-html" role="tabpanel">
+    <pre data-module="app-copy"><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">caption</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__caption"</span>&gt;</span>Month you apply<span class="hljs-tag">&lt;/<span class="hljs-name">caption</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">thead</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__head"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"col"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header govuk-!-width-one-half"</span>&gt;</span>Date<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"col"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header govuk-!-width-one-quarter"</span>&gt;</span>Rate for vehicles<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"col"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header govuk-!-width-one-quarter"</span>&gt;</span>Rate for bicycles<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__body"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"row"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>First 6 weeks<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>£109.80 per week<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>59.10 per week<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"row"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>Next 33 weeks<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>£159.80 per week<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>£89.10 per week<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"row"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>Total estimated pay<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>£4,282.20<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>£2,182.20<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span></code></pre>
+  </div>
+  <div class="app-tabs__heading js-tabs__heading"><a href="#custom-width-using-override-classes-table-example-nunjucks" role="tab" aria-controls="custom-width-using-override-classes-table-example-nunjucks" data-track="tab-nunjucks">Nunjucks</a></div>
+  <div class="app-tabs__container js-tabs__container" id="custom-width-using-override-classes-table-example-nunjucks" role="tabpanel">
+
+
+      <details class="govuk-details app-options" data-module="govuk-details" id="options-custom-width-using-override-classes-table-example-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      <span data-components='github-component-arguments'>Nunjucks macro options</span>
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+
+        <p>
+        Use options to customise the appearance, content and behaviour of a component when using a macro, for example, changing the text.
+        </p>
+        <p>
+        Some options are required for the macro to work; these are marked as "Required" in the option description.
+        </p>
+        <p>
+        If you're using Nunjucks macros in production with "html" options, or ones ending with "html", you must sanitise the HTML to protect against  <a href="https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting">cross-site scripting exploits</a>.
+        </p>
+
+          <table class="govuk-table app-options__table" id="options-custom-width-using-override-classes-table-example--primary">
+            <caption class="govuk-table__caption govuk-heading-m  govuk-visually-hidden">Primary options</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
+                <th class="govuk-table__header" scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">rows</th>
+                  <td class="govuk-table__cell ">array</td>
+                  <td class="govuk-table__cell ">
+                      <strong>Required.</strong>
+                    Array of table rows and cells.
+                      See <a href="#options-custom-width-using-override-classes-table-example--rows">rows</a>.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">head</th>
+                  <td class="govuk-table__cell ">array</td>
+                  <td class="govuk-table__cell ">
+                    Array of table head cells.
+                      See <a href="#options-custom-width-using-override-classes-table-example--head">head</a>.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">caption</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Caption text
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">captionClasses</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes for caption text size. Classes should correspond to the available typography heading classes.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">firstCellIsHeader</th>
+                  <td class="govuk-table__cell ">boolean</td>
+                  <td class="govuk-table__cell ">
+                    If set to true, first cell in table row will be a TH instead of a TD.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">classes</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes to add to the table container.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">attributes</th>
+                  <td class="govuk-table__cell ">object</td>
+                  <td class="govuk-table__cell ">
+                    HTML attributes (for example data attributes) to add to the table container.
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+          <table class="govuk-table app-options__table" id="options-custom-width-using-override-classes-table-example--rows">
+            <caption class="govuk-table__caption govuk-heading-m ">Options for rows</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
+                <th class="govuk-table__header" scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">text</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                      <strong>Required.</strong>
+                    If <code>html</code> is set, this is not required. Text for cells in table rows. If <code>html</code> is provided, the <code>text</code> argument will be ignored.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">html</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                      <strong>Required.</strong>
+                    If <code>text</code> is set, this is not required. HTML for cells in table rows. If <code>html</code> is provided, the <code>text</code> argument will be ignore
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">format</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Specify format of a cell. Currently we only use &quot;numeric&quot;.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">classes</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes to add to the table row cell.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">colspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many columns a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">rowspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many rows a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">attributes</th>
+                  <td class="govuk-table__cell ">object</td>
+                  <td class="govuk-table__cell ">
+                    HTML attributes (for example data attributes) to add to the table cell.
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+          <table class="govuk-table app-options__table" id="options-custom-width-using-override-classes-table-example--head">
+            <caption class="govuk-table__caption govuk-heading-m ">Options for head</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
+                <th class="govuk-table__header" scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">text</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    If <code>html</code> is set, this is not required. Text for table head cells. If <code>html</code> is provided, the <code>text</code> argument will be ignored.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">html</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    If <code>text</code> is set, this is not required. HTML for table head cells. If <code>html</code> is provided, the <code>text</code> argument will be ignore
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">format</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Specify format of a cell. Currently we only use &quot;numeric&quot;.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">classes</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes to add to the table head cell.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">colspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many columns a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">rowspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many rows a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">attributes</th>
+                  <td class="govuk-table__cell ">object</td>
+                  <td class="govuk-table__cell ">
+                    HTML attributes (for example data attributes) to add to the table cell.
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+
+
+  </div>
+</details>
+
+    <pre data-module="app-copy"><code class="hljs js">{% <span class="hljs-keyword">from</span> <span class="hljs-string">"govuk/components/table/macro.njk"</span> <span class="hljs-keyword">import</span> govukTable %}
+
+{{ govukTable({
+  <span class="hljs-attr">caption</span>: <span class="hljs-string">"Month you apply"</span>,
+  <span class="hljs-attr">firstCellIsHeader</span>: <span class="hljs-literal">true</span>,
+  <span class="hljs-attr">head</span>: [
+    {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">"Date"</span>,
+      <span class="hljs-attr">classes</span>: <span class="hljs-string">'govuk-!-width-one-half'</span>
+    },
+    {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">"Rate for vehicles"</span>,
+      <span class="hljs-attr">classes</span>: <span class="hljs-string">'govuk-!-width-one-quarter'</span>
+    },
+    {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">"Rate for bicycles"</span>,
+      <span class="hljs-attr">classes</span>: <span class="hljs-string">'govuk-!-width-one-quarter'</span>
+    }
+  ],
+  <span class="hljs-attr">rows</span>: [
+    [
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"First 6 weeks"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£109.80 per week"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"59.10 per week"</span>
+      }
+    ],
+    [
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"Next 33 weeks"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£159.80 per week"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£89.10 per week"</span>
+      }
+    ],
+    [
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"Total estimated pay"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£4,282.20"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£2,182.20"</span>
+      }
+    ]
+  ]
+}) }}</code></pre>
+  </div>
+</div>
+
+
+
+<p>If the <a href="../../styles/spacing#width-override-classes">width override classes</a> do not meet your needs you can create your own width classes and apply them to the cells in the table head. These can be added using the <code>classes</code> option in the Nunjucks macro or adding the class directly to the individual cells within <code>govuk-table__head</code> as below.</p>
+<p>To learn more about this, read guidance on <a href="https://design-system.service.gov.uk/get-started/extending-and-modifying-components/">extending and modifying components in production</a>.</p>
+<div class="app-example-wrapper" id="custom-width-using-custom-classes-table-example" data-module="app-tabs">
+  <div class="app-example app-example--tabs">
+    <a href="/components/table/column-widths-custom-classes/index.html" class="app-example__new-window" target="_blank">
+      Open this
+
+      <span class="govuk-visually-hidden">custom width using custom classes – table</span>
+      example in a new window
+    </a>
+    <iframe title="Custom width using custom classes – Table example" data-module="app-example-frame" class="app-example__frame app-example__frame--resizable app-example__frame--m" src="/components/table/column-widths-custom-classes/index.html" frameBorder="0" loading="lazy"></iframe>
+  </div>
+  <span id="options-custom-width-using-custom-classes-table-example"></span>
+  <ul class="app-tabs" role="tablist">
+    <li class="app-tabs__item js-tabs__item" role="presentation"><a href="#custom-width-using-custom-classes-table-example-html" role="tab" aria-controls="custom-width-using-custom-classes-table-example-html" data-track="tab-html">HTML</a></li>
+    <li class="app-tabs__item js-tabs__item" role="presentation"><a href="#custom-width-using-custom-classes-table-example-nunjucks" role="tab" aria-controls="custom-width-using-custom-classes-table-example-nunjucks" data-track="tab-nunjucks">Nunjucks</a></li>
+  </ul>
+  <div class="app-tabs__heading js-tabs__heading"><a href="#custom-width-using-custom-classes-table-example-html" role="tab" aria-controls="custom-width-using-custom-classes-table-example-html" data-track="tab-html">HTML</a></div>
+  <div class="app-tabs__container js-tabs__container" id="custom-width-using-custom-classes-table-example-html" role="tabpanel">
+    <pre data-module="app-copy"><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">caption</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__caption"</span>&gt;</span>Month you apply<span class="hljs-tag">&lt;/<span class="hljs-name">caption</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">thead</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__head"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"col"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header app-custom-class"</span>&gt;</span>Date<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"col"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header app-custom-class"</span>&gt;</span>Rate for vehicles<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"col"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header app-custom-class"</span>&gt;</span>Rate for bicycles<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__body"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"row"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>First 6 weeks<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>£109.80 per week<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>59.10 per week<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"row"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>Next 33 weeks<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>£159.80 per week<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>£89.10 per week<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"row"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__header"</span>&gt;</span>Total estimated pay<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>£4,282.20<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"govuk-table__cell"</span>&gt;</span>£2,182.20<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span></code></pre>
+  </div>
+  <div class="app-tabs__heading js-tabs__heading"><a href="#custom-width-using-custom-classes-table-example-nunjucks" role="tab" aria-controls="custom-width-using-custom-classes-table-example-nunjucks" data-track="tab-nunjucks">Nunjucks</a></div>
+  <div class="app-tabs__container js-tabs__container" id="custom-width-using-custom-classes-table-example-nunjucks" role="tabpanel">
+
+
+      <details class="govuk-details app-options" data-module="govuk-details" id="options-custom-width-using-custom-classes-table-example-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      <span data-components='github-component-arguments'>Nunjucks macro options</span>
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+
+        <p>
+        Use options to customise the appearance, content and behaviour of a component when using a macro, for example, changing the text.
+        </p>
+        <p>
+        Some options are required for the macro to work; these are marked as "Required" in the option description.
+        </p>
+        <p>
+        If you're using Nunjucks macros in production with "html" options, or ones ending with "html", you must sanitise the HTML to protect against  <a href="https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting">cross-site scripting exploits</a>.
+        </p>
+
+          <table class="govuk-table app-options__table" id="options-custom-width-using-custom-classes-table-example--primary">
+            <caption class="govuk-table__caption govuk-heading-m  govuk-visually-hidden">Primary options</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
+                <th class="govuk-table__header" scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">rows</th>
+                  <td class="govuk-table__cell ">array</td>
+                  <td class="govuk-table__cell ">
+                      <strong>Required.</strong>
+                    Array of table rows and cells.
+                      See <a href="#options-custom-width-using-custom-classes-table-example--rows">rows</a>.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">head</th>
+                  <td class="govuk-table__cell ">array</td>
+                  <td class="govuk-table__cell ">
+                    Array of table head cells.
+                      See <a href="#options-custom-width-using-custom-classes-table-example--head">head</a>.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">caption</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Caption text
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">captionClasses</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes for caption text size. Classes should correspond to the available typography heading classes.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">firstCellIsHeader</th>
+                  <td class="govuk-table__cell ">boolean</td>
+                  <td class="govuk-table__cell ">
+                    If set to true, first cell in table row will be a TH instead of a TD.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">classes</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes to add to the table container.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">attributes</th>
+                  <td class="govuk-table__cell ">object</td>
+                  <td class="govuk-table__cell ">
+                    HTML attributes (for example data attributes) to add to the table container.
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+          <table class="govuk-table app-options__table" id="options-custom-width-using-custom-classes-table-example--rows">
+            <caption class="govuk-table__caption govuk-heading-m ">Options for rows</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
+                <th class="govuk-table__header" scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">text</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                      <strong>Required.</strong>
+                    If <code>html</code> is set, this is not required. Text for cells in table rows. If <code>html</code> is provided, the <code>text</code> argument will be ignored.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">html</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                      <strong>Required.</strong>
+                    If <code>text</code> is set, this is not required. HTML for cells in table rows. If <code>html</code> is provided, the <code>text</code> argument will be ignore
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">format</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Specify format of a cell. Currently we only use &quot;numeric&quot;.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">classes</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes to add to the table row cell.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">colspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many columns a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">rowspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many rows a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">attributes</th>
+                  <td class="govuk-table__cell ">object</td>
+                  <td class="govuk-table__cell ">
+                    HTML attributes (for example data attributes) to add to the table cell.
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+          <table class="govuk-table app-options__table" id="options-custom-width-using-custom-classes-table-example--head">
+            <caption class="govuk-table__caption govuk-heading-m ">Options for head</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
+                <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
+                <th class="govuk-table__header" scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">text</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    If <code>html</code> is set, this is not required. Text for table head cells. If <code>html</code> is provided, the <code>text</code> argument will be ignored.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">html</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    If <code>text</code> is set, this is not required. HTML for table head cells. If <code>html</code> is provided, the <code>text</code> argument will be ignore
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">format</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Specify format of a cell. Currently we only use &quot;numeric&quot;.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">classes</th>
+                  <td class="govuk-table__cell ">string</td>
+                  <td class="govuk-table__cell ">
+                    Classes to add to the table head cell.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">colspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many columns a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">rowspan</th>
+                  <td class="govuk-table__cell ">integer</td>
+                  <td class="govuk-table__cell ">
+                    Specify how many rows a cell extends.
+                  </td>
+                </tr>
+                <tr class="govuk-table__row">
+                  <th class="govuk-table__header" scope="row">attributes</th>
+                  <td class="govuk-table__cell ">object</td>
+                  <td class="govuk-table__cell ">
+                    HTML attributes (for example data attributes) to add to the table cell.
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+
+
+  </div>
+</details>
+
+    <pre data-module="app-copy"><code class="hljs js">{% <span class="hljs-keyword">from</span> <span class="hljs-string">"govuk/components/table/macro.njk"</span> <span class="hljs-keyword">import</span> govukTable %}
+
+{{ govukTable({
+  <span class="hljs-attr">caption</span>: <span class="hljs-string">"Month you apply"</span>,
+  <span class="hljs-attr">firstCellIsHeader</span>: <span class="hljs-literal">true</span>,
+  <span class="hljs-attr">head</span>: [
+    {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">"Date"</span>,
+      <span class="hljs-attr">classes</span>: <span class="hljs-string">'app-custom-class'</span>
+    },
+    {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">"Rate for vehicles"</span>,
+      <span class="hljs-attr">classes</span>: <span class="hljs-string">'app-custom-class'</span>
+    },
+    {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">"Rate for bicycles"</span>,
+      <span class="hljs-attr">classes</span>: <span class="hljs-string">'app-custom-class'</span>
+    }
+  ],
+  <span class="hljs-attr">rows</span>: [
+    [
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"First 6 weeks"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£109.80 per week"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"59.10 per week"</span>
+      }
+    ],
+    [
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"Next 33 weeks"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£159.80 per week"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£89.10 per week"</span>
+      }
+    ],
+    [
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"Total estimated pay"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£4,282.20"</span>
+      },
+      {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">"£2,182.20"</span>
+      }
+    ]
+  ]
+}) }}</code></pre>
+  </div>
+</div>
+
+
+
+      </div>
+
+
+
+
+
+
+  <h2 class="govuk-heading-l govuk-!-padding-top-4">Help improve this page</h2>
+
+
+    <p class="govuk-body">
+    To help make sure the Table page is useful, relevant and up to date, you can:
+    </p>
+    <ul class="govuk-list govuk-list--bullet">
+      <li>
+        <a class="govuk-link app-contact-panel__link" href="https://github.com/alphagov/govuk-design-system-backlog/issues/61">
+          share research or feedback about
+
+            the
+
+          Table
+           component
+
+          on GitHub
+        </a>
+      </li>
+      <li>
+        <a class="govuk-link app-contact-panel__link" href="https://github.com/alphagov/govuk-design-system/edit/master/src/components/table/index.md.njk">
+          propose a change to this page
+        </a> – read more about
+        <a class="govuk-link app-contact-panel__link" href="/community/propose-a-content-change-using-github/">
+          how to propose changes in GitHub
+        </a>
+      </li>
+    </ul>
+
+
+
+<div class="app-contact-panel">
+  <h2 class="app-contact-panel__heading">Need help?</h2>
+
+  <p class="govuk-body app-contact-panel__body">
+    If you’ve got a question about the GOV.UK Design System you can contact the team:
+  </p>
+  <ul class="govuk-list govuk-list--bullet govuk-!-margin-bottom-0">
+    <li>
+      on
+      <a class="govuk-link app-contact-panel__link" href="https://ukgovernmentdigital.slack.com/app_redirect?channel=govuk-design-system" data-hsupport="slack">
+        #govuk-design-system channel on cross-government Slack
+      </a>
+    </li>
+    <li class="govuk-!-margin-bottom-0">
+      by email at
+      <a class="govuk-link app-contact-panel__link" href="mailto:govuk-design-system-support@digital.cabinet-office.gov.uk" data-hsupport="email">
+        govuk-design-system-support@digital.cabinet-office.gov.uk
+      </a>.
+    </li>
+  </ul>
+</div>
+
+
+    </main>
+  </div>
+  <div class="app-back-to-top app-back-to-top--hidden" data-module="app-back-to-top">
+  <a class="govuk-link govuk-link--no-visited-state app-back-to-top__link" href="#top">
+    <svg role="presentation" focusable="false" class="app-back-to-top__icon" xmlns="http://www.w3.org/2000/svg" width="13" height="17" viewBox="0 0 13 17">
+      <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
+    </svg>Back to top
+  </a>
+</div>
+
+</div>
+
+
+<footer class="govuk-footer app-footer app-footer--full" role="contentinfo">
+  <div class="govuk-width-container app-width-container">
+
+      <div class="govuk-footer__navigation">
+
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">Related resources</h2>
+
+
+              <ul class="govuk-footer__list govuk-footer__list--columns-1">
+
+
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/government-design-principles">
+                        Government Design Principles
+                      </a>
+                    </li>
+
+
+
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/service-manual">
+                        GOV.UK Service Manual
+                      </a>
+                    </li>
+
+
+              </ul>
+
+          </div>
+
+      </div>
+      <hr class="govuk-footer__section-break">
+
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+
+          <h2 class="govuk-visually-hidden">Support links</h2>
+
+            <ul class="govuk-footer__inline-list">
+
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="/accessibility">
+                    Accessibility
+                  </a>
+                </li>
+
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="/sitemap">
+                    Sitemap
+                  </a>
+                </li>
+
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="/cookies">
+                    Cookies
+                  </a>
+                </li>
+
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="/privacy-policy">
+                    Privacy policy
+                  </a>
+                </li>
+
+            </ul>
+
+
+            <div class="govuk-footer__meta-custom">
+              Built by the <a href="/design-system-team" class="govuk-footer__link">GOV.UK Design System team</a>
+            </div>
+
+
+        <svg
+          role="presentation"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewbox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+</div>
+
+
+
+
+
+<!-- <script src="/javascripts/govuk-frontend-5753eb8c432aff547f0ba0dd31f63889.js"></script> -->
+  <!--[if !IE 8]><!-->
+    <!-- <script src="/javascripts/application-7e3f8068f83df061dfc46a244c7b1ac3.js"></script> -->
+  <!--<![endif]-->
+  <!--[if lt IE 9]>
+    <script src="/javascripts/application-ie8-e558392cf4a0a061363e6d4c51520b23.js"></script>
+  <![endif]-->
+
+  </body>
+</html>
