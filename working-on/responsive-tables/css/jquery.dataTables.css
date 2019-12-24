@@ -533,7 +533,7 @@ table.dataTable td {
 
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) { /* have to fudge the break point for the demo */
     .dataTables_wrapper .dataTables_info,
     .dataTables_wrapper .dataTables_paginate {
         float: none;
@@ -545,7 +545,7 @@ table.dataTable td {
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) { /* have to fudge the break point for the demo */
     .dataTables_wrapper .dataTables_length,
     .dataTables_wrapper .dataTables_filter {
         float: left;
@@ -558,7 +558,7 @@ table.dataTable td {
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /* have to fudge the break point for the demo */
   .dataTables_wrapper .dataTables_filter {
     padding-left:20px;
   }
