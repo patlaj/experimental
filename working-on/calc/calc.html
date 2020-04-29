@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+	<title>Canada Emergency Wage Subsidy (CEWS) – Canada.ca</title>
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	<meta name=”robots” content=”noindex”>
+	<!-- Meta data -->
+	<!-- Meta data-->
+	<!-- Load closure template scripts -->
+	<script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/cdts/compiled/soyutils.js"></script>
+	<script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/cdts/compiled/wet-en.js"></script>
+	<link href="https://test.canada.ca/covid-19-guidance/proto/css/alpha-beta-banner.css" rel="stylesheet">
+	<link href="../css/cews.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+	<!-- Write closure template -->
+	<script type="text/javascript">
+		document.write(wet.builder.refTop({
+		}));
+	</script>
+	<style>
+		.provisional output {
+			display: inline;
+		}
+	</style>
+</head>
+
+<body vocab="http://schema.org/" typeof="WebPage">
+	<div id="def-top">
+	</div>
+	<!-- Write closure template -->
+	<script type="text/javascript">
+		var defTop = document.getElementById("def-top");
+		defTop.outerHTML = wet.builder.top({
+			lngLinks: [{
+
+				lang: "fr",
+				href: "#",
+				text: "Français"
+			}],
+			breadcrumbs: [{
+				title: "Canada.ca",
+				href: "https://www.canada.ca/en.html"
+			}, {
+				title: "Business and industry",
+				href: "https://www.canada.ca/en/services/business.html"
+			}, {
+				title: "Canada Emergency Wage Subsidy (CEWS)",
+				href: "index.html"
+			}],
+			search: true,
+			siteMenu: true,
+			showPreContent: true
+		});
+	</script>
+	<main property="mainContentOfPage" class="container">
+
+		<p>A basic library for calculating things</p>
+
+		<section class="provisional">
+			<h2>Calculate</h2>
+			<form class="wb-calc" action="#" id="form-calc" method="get">
+				<div class="form-group">
+					<label class="control-label" for="ProvOrTerr" id="labelProv">Province or territory</label>
+					<select class="form-control" id="ProvOrTerr" name="Province">
+						<option selected="selected" value="">Select</option>
+						<option value="0.0">Alberta</option>
+						<option value="0.07">British Columbia</option>
+						<option value="0.08">Manitoba</option>
+						<option value="0.10">New Brunswick</option>
+						<option value="0.10">Newfoundland and Labrador</option>
+						<option value="0.05">Northwest Territories</option>
+						<option value="0.10">Nova Scotia</option>
+						<option value="0.05">Nunavut</option>
+						<option value="0.08">Ontario</option>
+						<option value="0.09">Prince Edward Island</option>
+						<option value="0.09975">Quebec</option>
+						<option value="0.05">Saskatchewan</option>
+						<option value="0.0">Yukon</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label class="control-label" for="priceinput" id="pricelabel">Amount</label>
+					<input class="form-control" id="priceinput" type="number">
+				</div>
+<!-- 				<fieldset class="chkbxrdio-grp">
+					<legend for="BefOrAft" id="SwitchLabel">Amount entered is:</legend>
+					<label for="BefOrAft" id="SwitchLabel">
+						<input name="BefOrAft" type="radio" title="Before taxes" value="1">
+						Before taxes
+					</label>
+					<label for="BefOrAft" id="SwitchLabel">
+						<input name="BefOrAft" type="radio" title="After taxes" value="2">
+						After taxes
+					</label>
+				</fieldset> -->
+				<button class="btn btn-primary mrgn-tp-sm" id="calculate" type="submit">Calculate</button>
+			</form>
+			<section class="mrgn-tp-lg">
+				<p><b>GST (5%)</b>: <output for="priceinput" data-wb-calc-eqnum="BefOrAft" data-wb-calc-equation1="#priceinput * 0.05" data-wb-calc='{"equation": "(#priceinput / (1 + 0.05 + #ProvOrTerr)) * 0.05", "rounded": "2"}'></output></p>
+				<p><b>PST (<output for="ProvOrTerr" data-wb-calc='{"equation": "#ProvOrTerr * 100", "rounded": "0"}'></output>%)</b>: <output data-wb-calc='{"equation": "(#priceinput / (1 + 0.05 + #ProvOrTerr)) * #ProvOrTerr", "rounded": "2"}'></output></p>
+				<p><b>Total</b>: <output for="priceinput" data-wb-calc='{"equation": "#priceinput / (1 + 0.05 + #ProvOrTerr)", "rounded": "2"}'></output></p>
+				<p><b>TEST</b>: <output for="priceinput" data-wb-calc='{"equation": "10 * ( 25 - 5 ) + #priceinput * #ProvOrTerr +", "rounded": "2"}'></output></p>
+			</section>
+		</section>
+
+		<div id="def-preFooter"></div>
+		<!-- Write closure template -->
+		<script type="text/javascript">
+			var defPreFooter = document.getElementById("def-preFooter");
+			defPreFooter.outerHTML = wet.builder.preFooter({
+				dateModified: "2020-04-20",
+				showPostContent: true,
+				showFeedback: true,
+				showShare: true
+			});
+		</script>
+	</main>
+	<div id="def-footer"></div>
+	<!-- Write closure template -->
+	<script type="text/javascript">
+		var defFooter = document.getElementById("def-footer");
+		defFooter.outerHTML = wet.builder.footer({
+			showFooter: true,
+			showFeatures: true
+		});
+	</script>
+	<!-- Write closure template -->
+	<script type="text/javascript">
+		document.write(wet.builder.refFooter({
+		}));
+	</script>
+	<script src="https://test.canada.ca/covid-19-guidance/proto/js/alpha-banner.js"></script>
+	<script src="../js/wb-calc.js"></script>
+</body>
+
+</html>
