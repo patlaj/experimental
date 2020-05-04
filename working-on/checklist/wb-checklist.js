@@ -21,9 +21,6 @@
        * @param {jQuery Event} event Event that triggered the function call
        */
       init = function( event ) {
-        // Start initialization
-        // returns DOM object = proceed with init
-        // returns undefined = do not proceed with init (e.g., already initialized)
         var elm = wb.init( event, componentName, selector ),
             $elm;
 
