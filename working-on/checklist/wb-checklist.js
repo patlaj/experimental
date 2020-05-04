@@ -13,47 +13,40 @@
    * variables that are common to all instances of the plugin on a page.
    */
   var componentName = "wb-checklist",
-    selector = "." + componentName,
-    initEvent = "wb-init" + selector,
-    $document = wb.doc,
-    /**
-     * @method init
-     * @param {jQuery Event} event Event that triggered the function call
-     */
-    init = function( event ) {
-      // Start initialization
-      // returns DOM object = proceed with init
-      // returns undefined = do not proceed with init (e.g., already initialized)
-      var elm = wb.init( event, componentName, selector ),
-          $elm;
+      selector = "." + componentName,
+      initEvent = "wb-init" + selector,
+      $document = wb.doc,
+      /**
+       * @method init
+       * @param {jQuery Event} event Event that triggered the function call
+       */
+      init = function( event ) {
+        // Start initialization
+        // returns DOM object = proceed with init
+        // returns undefined = do not proceed with init (e.g., already initialized)
+        var elm = wb.init( event, componentName, selector ),
+            $elm;
 
-      if ( elm ) {
-        $elm = $( elm );
-        var $elms = $elm.find($("[role='checkbox']"));
-        for (let i = 0; i < $elms.length; i++) {
-          this.domNode = $elms.get(i);
-          this.keyCode = Object.freeze({
-            "RETURN": 13,
-            "SPACE": 32
-          })
-          this.domNode.tabIndex = 0;
-          if (!$(this.domNode).attr("aria-checked")) {
-            $(this.domNode).attr("aria-checked", "false");
+        if ( elm ) {
+          $elm = $( elm );
+          var $elms = $elm.find($("[role='checkbox']"));
+          for (let i = 0; i < $elms.length; i++) {
+            this.domNode = $elms.get(i);
+            this.keyCode = Object.freeze({
+              "RETURN": 13,
+              "SPACE": 32
+            })
+            this.domNode.tabIndex = 0;
+            if (!$(this.domNode).attr("aria-checked")) {
+              $(this.domNode).attr("aria-checked", "false");
+            }
           }
-        }
 
         $elm.trigger( "click" );
         $elm.trigger( "keydown" );
 
         wb.ready( $elm, componentName );
       }
-    },
-    toggleCheckbox = function() {
-      if( $elm.attr("aria-checked") === "true" ) {
-        $elm.attr("aria-checked", "false");
-      } else {
-        $elm.attr("aria-checked", "true");
-      };
     };
   // Add your plugin event handler
   $document.on( "click", selector, function( event ) {
@@ -67,10 +60,16 @@
   } );
 
   $document.on( "keydown", selector, function( event ) {
-    var flag = false;
+    var elm = event.target,
+        $elm = $( elm ),
+        flag = false;
     switch (event.keyCode) {
       case this.keyCode.SPACE:
-        this.toggleCheckbox();
+        if( $elm.attr("aria-checked") === "true" ) {
+          $elm.attr("aria-checked", "false");
+        } else {
+          $elm.attr("aria-checked", "true");
+        }
         flag = true;
         break;
 
