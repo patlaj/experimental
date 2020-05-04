@@ -25,22 +25,64 @@
       // returns DOM object = proceed with init
       // returns undefined = do not proceed with init (e.g., already initialized)
       var elm = wb.init( event, componentName, selector ),
-        $elm;
+          $elm;
+
       if ( elm ) {
         $elm = $( elm );
-        // ... Do the plugin initialisation
-        // Call my custom event
-        $elm.trigger( "name.of.your.event" );
-        // Identify that initialization has completed
+        var $elms = $elm.find($("[role='checkbox']"));
+        for (let i = 0; i < $elms.length; i++) {
+          this.domNode = $elms.get(i);
+          this.keyCode = Object.freeze({
+            "RETURN": 13,
+            "SPACE": 32
+          })
+          this.domNode.tabIndex = 0;
+          if (!$(this.domNode).attr("aria-checked")) {
+            $(this.domNode).attr("aria-checked", "false");
+          }
+        }
+
+        $elm.trigger( "click" );
+        $elm.trigger( "keydown" );
+
         wb.ready( $elm, componentName );
       }
+    },
+    toggleCheckbox = function() {
+      if( $elm.attr("aria-checked") === "true" ) {
+        $elm.attr("aria-checked", "false");
+      } else {
+        $elm.attr("aria-checked", "true");
+      };
     };
   // Add your plugin event handler
-  $document.on( "name.of.your.event", selector, function( event ) {
-    var elm = event.currentTarget,
-      $elm = $( elm );
-    $elm.append( "Checklist" );
+  $document.on( "click", selector, function( event ) {
+    var elm = event.target,
+        $elm = $( elm );
+    if( $elm.attr("aria-checked") === "true" ) {
+      $elm.attr("aria-checked", "false");
+    } else {
+      $elm.attr("aria-checked", "true");
+    }
   } );
+
+  $document.on( "keydown", selector, function( event ) {
+    var flag = false;
+    switch (event.keyCode) {
+      case this.keyCode.SPACE:
+        this.toggleCheckbox();
+        flag = true;
+        break;
+
+      default:
+        break;
+    }
+
+    if (flag) {
+      event.stopPropagation();
+      event.preventDefault();
+    }
+  });
   // Bind the init event of the plugin
   $document.on( "timerpoke.wb " + initEvent, selector, init );
   // Add the timer poke to initialize the plugin
