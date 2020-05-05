@@ -16,43 +16,51 @@
       selector = "." + componentName,
       initEvent = "wb-init" + selector,
       $document = wb.doc,
+      defaults = {},
+
       /**
        * @method init
        * @param {jQuery Event} event Event that triggered the function call
        */
       init = function( event ) {
         var elm = wb.init( event, componentName, selector ),
-            $elm;
+            $elm,
+            settings;
 
         if ( elm ) {
           $elm = $( elm );
-          var $elms = $elm.find($("[role='checkbox']"));
-          for (let i = 0; i < $elms.length; i++) {
-            this.domNode = $elms.get(i);
-            this.keyCode = Object.freeze({
-              "RETURN": 13,
-              "SPACE": 32
-            })
+          settings = $.extend( 
+            true,
+            {},
+            defaults,
+            window[ componentName ],
+            wb.getData( $elm.find( $( ".group_checkbox" ) ) )
+          );
+
+          var $elms = $elm.find( $( "[role='checkbox']" ) );
+ 
+          for ( let i = 0; i < $elms.length; i++ ) {
+            this.domNode = $elms.get( i );
             this.domNode.tabIndex = 0;
-            if (!$(this.domNode).attr("aria-checked")) {
-              $(this.domNode).attr("aria-checked", "false");
+            if ( !$( this.domNode ).attr( "aria-checked" ) ) {
+              $( this.domNode ).attr( "aria-checked", "false" );
             }
           }
+        }
 
         $elm.trigger( "click" );
         $elm.trigger( "keydown" );
 
         wb.ready( $elm, componentName );
-      }
-    };
+      };
   // Add your plugin event handler
   $document.on( "click", selector, function( event ) {
     var elm = event.target,
         $elm = $( elm );
-    if( $elm.attr("aria-checked") === "true" ) {
-      $elm.attr("aria-checked", "false");
+    if( $elm.attr( "aria-checked" ) === "true" ) {
+      $elm.attr( "aria-checked", "false" );
     } else {
-      $elm.attr("aria-checked", "true");
+      $elm.attr( "aria-checked", "true" );
     }
   } );
 
@@ -60,12 +68,13 @@
     var elm = event.target,
         $elm = $( elm ),
         flag = false;
-    switch (event.keyCode) {
-      case this.keyCode.SPACE:
-        if( $elm.attr("aria-checked") === "true" ) {
-          $elm.attr("aria-checked", "false");
+    switch ( event.keyCode ) {
+      case 32:
+      case 13: 
+        if( $elm.attr( "aria-checked" ) === "true" ) {
+          $elm.attr( "aria-checked", "false" );
         } else {
-          $elm.attr("aria-checked", "true");
+          $elm.attr( "aria-checked", "true" );
         }
         flag = true;
         break;
@@ -74,7 +83,7 @@
         break;
     }
 
-    if (flag) {
+    if ( flag ) {
       event.stopPropagation();
       event.preventDefault();
     }
