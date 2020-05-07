@@ -2,7 +2,7 @@
  * @title WET-BOEW Checklist plugin
  * @overview Plugin contained to show an example of a custom WET checklist plugin
  * @license wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
- * @author @ux-tbs
+ * @author @delisma
  */
 ( function( $, window, wb ) {
   "use strict";
@@ -16,7 +16,12 @@
       selector = "." + componentName,
       initEvent = "wb-init" + selector,
       $document = wb.doc,
-      defaults = {},
+      defaults = {
+        toggle: {
+          stateOn: true,
+          stateOff: false
+        },
+      },
 
       /**
        * @method init
@@ -66,9 +71,10 @@
 
   $document.on( "keydown", selector, function( event ) {
     var elm = event.target,
+        which = event.which,
         $elm = $( elm ),
         flag = false;
-    switch ( event.keyCode ) {
+    switch ( which ) {
       case 32:
       case 13: 
         if( $elm.attr( "aria-checked" ) === "true" ) {

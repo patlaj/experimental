@@ -12,7 +12,16 @@
 		<script>
 			document.write(wet.builder.refTop({
 			}));
-		</script>
+    </script>
+    <style>
+      li + li.bg-info {
+        background-color: #d9edf7;
+        padding-bottom: 32px;
+        margin-bottom: 0;
+        margin-left: -40px;
+        padding-left: 40px;
+      }
+    </style>
 	</head>
 	<body vocab="http://schema.org/" typeof="WebPage">
 		<div id="def-top"></div>
@@ -70,7 +79,7 @@
               You are 15 years of age or older when you apply
             </div>
           </li>
-          <li>
+          <li class="bg-info">
             <div role="checkbox"
                  class="group_checkbox mrgn-tp-lg"
                  aria-checked="false"
