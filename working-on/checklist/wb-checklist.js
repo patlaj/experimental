@@ -43,7 +43,7 @@
           );
 
           var $elms = $elm.find( $( "[role='checkbox']" ) );
- 
+
           for ( let i = 0; i < $elms.length; i++ ) {
             this.domNode = $elms.get( i );
             this.domNode.tabIndex = 0;
