@@ -25,13 +25,13 @@
   margin-top:0;
 }
 
-/* .alpha .test-gcweb-menu .parent-list > li ul {
- color: green !important;
-} */
+/*.alpha .test-gcweb-menu .parent-list > li ul {*/
+/*  color: pink !important;*/
+/*}*/
 
-/* .test-gcweb-menu [role=menu] [role=menu] [role=menu] li:last-child {
+.test-gcweb-menu [role=menu] [role=menu] [role=menu] li:last-child {
   left:0px !important;
-} */
+}
 
 .alpha .test-gcweb-menu [role=menu]>li:first-child {
     border-top:0px;
@@ -58,7 +58,7 @@
 .alpha .test-gcweb-menu li p {
   font-size: 16px;
   line-height: 1.65;
-  font-weight: 300;
+  font-weight: 300 !important;
   margin-top: -6px;
 }
 
@@ -81,7 +81,7 @@
     border-left: 5px solid #26374a;
     -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
-    z-index: 20; 
+    z-index: 20; /* temp until I fix footer */
     left: 310px;
     width: 816px;
     padding: 0px 28px;
@@ -113,25 +113,14 @@
   color: white;
 }
 
+
+
 /* most requested controls */
 
-.alpha .test-gcweb-menu [role=menu] [role=menu] [role=menuitem][aria-haspopup=true], .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menuitem][aria-haspopup=true]:hover {
-    color: #333;
-    background-color: white;
-}
-
-
-.alpha .test-gcweb-menu .parent-list > li > ul > li:nth-child(2) {
-    width: 40%;
+.alpha .test-gcweb-menu [role=menu] [role=menu] li:last-child {
+    width: 40% !important;
+    top: 0;
     left: 536px;
-    position: absolute;
-    top: 0em;
-}
-
-
-.alpha .test-gcweb-menu [role=menu] [role=menu] li:nth-child(2) [role=menu] {
-    list-style: disc;
-    padding-top: 0;
 }
 
 .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu] li a {
@@ -139,14 +128,14 @@
 }
 
 .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu]  {
-  border-left: 2px solid #f5f5f5;
+  border-left: 2px solid #f5f5f5 !important;
 }
 .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu] li, .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu] li:first-child  {
-  width: 100%;
+  width: 100% !important;
   margin-left:20px;
   margin-bottom: .35em;
-  font-weight:200;
-  font-size: 17px;
+  font-weight:200 !important;
+  font-size: 17px !important;
   line-height: 1.65;
 }
 
@@ -155,6 +144,7 @@
   .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menuitem][aria-haspopup=true], .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menuitem][aria-haspopup=true]:hover {
       color: #333 !important;
       background-color: white !important;
+      /*font-size: 20px;*/
       padding-left: 1em;
       border-left: 2px solid #f5f5f5;
   }
@@ -175,11 +165,6 @@
     position: inherit;
   } */
 
-    .alpha .test-gcweb-menu [role=menu] [role=menu] li:nth-child(2) {
-        left: 0;
-        position: relative;
-    }
-
     .alpha .test-gcweb-menu [role=menuitem][aria-expanded=true]:first-child {
         width:100%;
     }
@@ -190,6 +175,10 @@
     .alpha .test-gcweb-menu [role=menu] [role=menu] li:last-child [role=menuitem],
     .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu] li:first-child [role=menuitem] {
         text-decoration: underline;
+    }
+
+    .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menuitem] {
+        text-decoration:none;
     }
 
     .alpha .test-gcweb-menu [role=menu] [role=menu] li:last-child {
@@ -422,11 +411,11 @@
     margin-bottom: 0
 }
 
-/* .test-gcweb-menu [role=menu] [role=menu] li:last-child {
+.test-gcweb-menu [role=menu] [role=menu] li:last-child {
     left: 400px;
     position: absolute;
     top: 4.5em
-} */
+}
 
 .test-gcweb-menu [role=menu] [role=menu] [role=menu] li:last-child {
     left: auto;
@@ -542,10 +531,10 @@
     .test-gcweb-menu [aria-expanded=true]:not(button) + [role=menu] li {
         margin-left: 65px
     }
-    /* .test-gcweb-menu [aria-expanded=true]:not(button) + [role=menu] li:first-child [role=menuitem],
+    .test-gcweb-menu [aria-expanded=true]:not(button) + [role=menu] li:first-child [role=menuitem],
     .test-gcweb-menu [aria-expanded=true]:not(button) + [role=menu] li:last-child [role=menuitem] {
         padding-left: 65px
-    } */
+    }
     .test-gcweb-menu [aria-expanded=true]:not(button) + [role=menu] li:first-child,
     .test-gcweb-menu [aria-expanded=true]:not(button) + [role=menu] li:last-child {
         margin-left: 0
