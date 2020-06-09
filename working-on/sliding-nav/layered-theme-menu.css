@@ -154,9 +154,14 @@
 /* Mobile view  */
 
 @media screen and (max-width: 991px) {
-  /* .alpha .test-gcweb-menu [role=menu] {
-    position: inherit;
-  } */
+
+    .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu] li, .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu] li:first-child {
+        margin-bottom: -0.3em;
+    }
+
+    .alpha .test-gcweb-menu li p {
+        font-size: 18px;
+    }
 
     .alpha .test-gcweb-menu [role=menu]  li:first-child h3 {
         display: none;
@@ -220,7 +225,8 @@
     .alpha .test-gcweb-menu [aria-haspopup]:not(button):after,
     .alpha .test-gcweb-menu [role=treegrid] > [role=row] > [role=rowheader]:after {
         float: right;
-        content: "\203A"
+        content: "\203A";
+        font-size: 1.5em;
     }
 
     .alpha .test-gcweb-menu [aria-haspopup][aria-expanded=true]:not(button):after,
