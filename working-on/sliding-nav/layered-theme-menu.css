@@ -158,6 +158,15 @@
     position: inherit;
   } */
 
+    .alpha .test-gcweb-menu [role=menu]  li:first-child h3 {
+        display: none;
+    }
+
+    .alpha .test-gcweb-menu .parent-list > li > a {
+        font-size: 18px;
+        border-bottom: #f5f5f5 solid 1px;
+    }
+
     .alpha .test-gcweb-menu [role=menuitem][aria-expanded=true]:first-child {
         width:100%;
     }
@@ -216,9 +225,9 @@
 
     .alpha .test-gcweb-menu [aria-haspopup][aria-expanded=true]:not(button):after,
     .alpha .test-gcweb-menu [role=treegrid] > [role=row][aria-expanded=true] > [role=rowheader]:after {
-        font-family: "FontAwesome";
-        font-weight: 600;
-        content: "\f078"
+        /* font-family: "FontAwesome";
+        font-weight: 600; */
+        content: ""
     }
 }
 
