@@ -117,10 +117,18 @@
 
 /* most requested controls */
 
-.alpha .test-gcweb-menu [role=menu] [role=menu] li:last-child {
-    width: 40% !important;
-    top: 0;
+
+.alpha .test-gcweb-menu .parent-list > li > ul > li:nth-child(2) {
+    width: 40%;
     left: 536px;
+    position: absolute;
+    top: 0em;
+}
+
+
+.alpha .test-gcweb-menu [role=menu] [role=menu] li:nth-child(2) [role=menu] {
+    list-style: disc;
+    padding-top: 0;
 }
 
 .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu] li a {
@@ -155,6 +163,12 @@
 
 @media screen and (max-width: 991px) {
 
+     .alpha .test-gcweb-menu [role=menu] [role=menu] li:nth-child(2) {
+        left: 0;
+        position: relative;
+    }
+
+
     .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu] li, .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu] li:first-child {
         margin-bottom: -0.3em;
     }
@@ -163,7 +177,7 @@
         font-size: 18px;
     }
 
-    .alpha .test-gcweb-menu [role=menu]  li:first-child h3 {
+    .alpha .test-gcweb-menu [role=menu]  li  h3 {
         display: none;
     }
 
@@ -243,9 +257,9 @@
         border-left:0px !important;
     }
 
-    .alpha .test-gcweb-menu [role=menu] [role=menu] li:last-child {
+    /* .alpha .test-gcweb-menu [role=menu] [role=menu] li:nth-child(2){
         width:100% !important;
-    }
+    } */
 
     .alpha .test-gcweb-menu [role=menu] [role=menu] li:last-child {
         left:0 !important;
@@ -446,11 +460,11 @@
     margin-bottom: 0
 }
 
-.test-gcweb-menu [role=menu] [role=menu] li:last-child {
+/* .test-gcweb-menu [role=menu] [role=menu] li:last-child {
     left: 400px;
     position: absolute;
     top: 4.5em
-}
+} */
 
 .test-gcweb-menu [role=menu] [role=menu] [role=menu] li:last-child {
     left: auto;
