@@ -1575,10 +1575,10 @@
     function scrollIntoViewIfNeeded(target) {
       var rect = target.getBoundingClientRect();
       if (rect.bottom > window.innerHeight) {
-          target.scrollIntoView(false);
+          target.scrollIntoView({behavior: "smooth", block: "end"});
       }
       if (rect.top < 0) {
-          target.scrollIntoView();
+          target.scrollIntoView({behavior: "smooth", block: "start"});
       } 
     }
     $(".parent-list > li > a").on("click",function (e) {
@@ -1586,13 +1586,9 @@
       e.preventDefault();
       $(".parent-list ul").hide();
       $(".parent-list > li > a").attr("aria-expanded","false");
-      $([document.documentElement, document.body]).animate({
-        scrollTop: $(this).offset().top
-      }, 500, function() {
-        $(link).parent().find("ul").show();
-        $(link).attr("aria-expanded","true");
-      });
-      //scrollIntoViewIfNeeded($(this)[0]);
+      $(link).parent().find("ul").show();
+      $(link).attr("aria-expanded","true");
+      scrollIntoViewIfNeeded($(this)[0]);
       
     });
   </script>  <!-- need this one -->
