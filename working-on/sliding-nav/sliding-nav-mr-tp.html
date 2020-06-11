@@ -1592,6 +1592,54 @@
       
     });
   </script>  <!-- need this one -->
+  <script>
+      $( document ).ready(function() {
+      if ($('#jobs').attr('aria-expanded') === "true") {
+      $('.test-gcweb-menu').attr('style', 'min-height: 900px;');
+      } else if ($('#immigration').attr('aria-expanded') === "true") {
+      $('#canada-sign-in').attr('href', '/landing/sign-your-ircc-secure-account');
+      $('.test-gcweb-menu').attr('style', 'min-height: 1100px;');
+      } else if ($('#travel').attr('aria-expanded') === "true") {
+      $('.test-gcweb-menu').attr('style', 'min-height: 1000px;');
+      } else if ($('#business').attr('aria-expanded') === "true") {
+      $('.test-gcweb-menu').attr('style', 'min-height: 1200px;');
+      } else if ($('#health').attr('aria-expanded') === "true") {
+      $('.test-gcweb-menu').attr('style', 'min-height: 1000px;');
+      } else if ($('#veterans').attr('aria-expanded') === "true") {
+      $('#canada-sign-in').attr('href', '/landing/my-vac-account');
+      } else if ($('#taxes').attr('aria-expanded') === "true") {
+      $('#canada-sign-in').attr('href',
+      'https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html');
+      } else {
+      $('#canada-sign-in').attr('href', '/landing/sign-government-canada-online-account');
+      }
+      });
+      
+      $( ".parent-list li" ).click(function() {
+      if ($('#jobs').attr('aria-expanded') === "true") {
+      $('.test-gcweb-menu').attr('style', 'min-height: 900px;');
+      } else if ($('#immigration').attr('aria-expanded') === "true") {
+      $('#canada-sign-in').attr('href', '/landing/sign-your-ircc-secure-account');
+      $('.test-gcweb-menu').attr('style', 'min-height: 1100px;');
+      } else if ($('#travel').attr('aria-expanded') === "true") {
+      $('.test-gcweb-menu').attr('style', 'min-height: 1000px;');
+      } else if ($('#business').attr('aria-expanded') === "true") {
+      $('.test-gcweb-menu').attr('style', 'min-height: 1200px;');
+      } else if ($('#health').attr('aria-expanded') === "true") {
+      $('.test-gcweb-menu').attr('style', 'min-height: 1000px;');
+      } else if ($('#veterans').attr('aria-expanded') === "true") {
+      $('#canada-sign-in').attr('href', '/landing/my-vac-account');
+      $('.test-gcweb-menu').removeAttr('style', 'height');
+      } else if ($('#taxes').attr('aria-expanded') === "true") {
+      $('#canada-sign-in').attr('href',
+      'https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html');
+      $('.test-gcweb-menu').removeAttr('style', 'height');
+      } else {
+      $('#canada-sign-in').attr('href', '/landing/sign-government-canada-online-account');
+      $('.test-gcweb-menu').removeAttr('style', 'height');
+      }
+      });
+  </script>
   <script src="https://wayfinding.alpha.experimentation.ca/libraries/wet-boew/js/wet-boew.min.js?qbezih"></script>
   <script>
     document.getElementById('submissionPage').value = location.href;
