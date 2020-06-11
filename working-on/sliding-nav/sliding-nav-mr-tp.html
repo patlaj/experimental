@@ -1582,18 +1582,20 @@
       } 
     }
     $(".parent-list > li > a").on("click",function (e) {
+      var link = this;
       e.preventDefault();
       $(".parent-list ul").hide();
       $(".parent-list > li > a").attr("aria-expanded","false");
-      $(this).parent().find("ul").show();
-      $(this).attr("aria-expanded","true");
-      scrollIntoViewIfNeeded($(this)[0]);
-      //$([document.documentElement, document.body]).animate({
-      //  scrollTop: $(this).offset().top
-      //}, 200);
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $(this).offset().top
+      }, 500, function() {
+        $(link).parent().find("ul").show();
+        $(link).attr("aria-expanded","true");
+      });
+      //scrollIntoViewIfNeeded($(this)[0]);
+      
     });
   </script>  <!-- need this one -->
-  <script src="https://wayfinding.alpha.experimentation.ca/sites/default/files/js/js_JsEBLJGnqXN0R8C2bIf1LkaGEFSkVWs1DxNo455ZDXc.js"></script>
   <script src="https://wayfinding.alpha.experimentation.ca/libraries/wet-boew/js/wet-boew.min.js?qbezih"></script>
   <script>
     document.getElementById('submissionPage').value = location.href;
