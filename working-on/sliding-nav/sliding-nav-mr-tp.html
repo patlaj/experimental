@@ -1563,7 +1563,36 @@
 			<script src="./wet-boew/js/ie8-wet-boew2.min.js"></script>
       <![endif]-->
       <script src="https://wayfinding.alpha.experimentation.ca/sites/default/files/js/js_UUBCyI8Ney5Iu-g-hNuLFxSw0r5_z_F5AhHCEm-Ep-w.js"></script>
-  <script src="https://wayfinding.alpha.experimentation.ca/sites/default/files/js/js_GCFewss87lp9qgKYcKroQxreRbPQDa1MEMSg63TqsXQ.js"></script>  <!-- need this one -->
+  <script>
+    $=jQuery;
+    $(document).on("ready",function (event) {
+        let searchParams = new URLSearchParams(window.location.search);
+        if (searchParams.has('t')) {
+            let a = $('a').filter(function(index) { return jQuery(this).text() === searchParams.get("t"); });
+            a.click();
+        }
+    });
+    function scrollIntoViewIfNeeded(target) {
+      var rect = target.getBoundingClientRect();
+      if (rect.bottom > window.innerHeight) {
+          target.scrollIntoView(false);
+      }
+      if (rect.top < 0) {
+          target.scrollIntoView();
+      } 
+    }
+    $(".parent-list > li > a").on("click",function (e) {
+      e.preventDefault();
+      $(".parent-list ul").hide();
+      $(".parent-list > li > a").attr("aria-expanded","false");
+      $(this).parent().find("ul").show();
+      $(this).attr("aria-expanded","true");
+      scrollIntoViewIfNeeded($(this)[0]);
+      //$([document.documentElement, document.body]).animate({
+      //  scrollTop: $(this).offset().top
+      //}, 200);
+    });
+  </script>  <!-- need this one -->
   <script src="https://wayfinding.alpha.experimentation.ca/sites/default/files/js/js_JsEBLJGnqXN0R8C2bIf1LkaGEFSkVWs1DxNo455ZDXc.js"></script>
   <script src="https://wayfinding.alpha.experimentation.ca/libraries/wet-boew/js/wet-boew.min.js?qbezih"></script>
   <script>
