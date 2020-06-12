@@ -60,7 +60,7 @@
 .alpha .test-gcweb-menu li p {
   font-size: 16px;
   line-height: 1.65;
-  font-weight: 300 !important;
+  font-weight: 300;
   margin-top: -6px;
 }
 
@@ -138,7 +138,7 @@
 }
 
 .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu]  {
-  border-left: 2px solid #f5f5f5 !important;
+  border-left: 2px solid #f5f5f5;
 }
 .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu] li, .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu] li:first-child  {
   width: 100%;
@@ -174,9 +174,9 @@
         position: relative;
     }
 
-    .alpha .test-gcweb-menu li h4 {
+    /* .alpha .test-gcweb-menu li h4 {
         padding-top:.7em;
-    }
+    } */
 
     .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu] li, .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu] li:first-child {
         margin-bottom: -0.3em;
@@ -226,7 +226,14 @@
         background-color:white;
     }
     .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu] {
-        border-left: 0px !important;
+        border-left: 0px;
+    }
+
+
+    .alpha .test-gcweb-menu .parent-list > li > ul > li:nth-child(2) {
+        border-left: 2px solid #f5f5f5;
+        padding-left: .75em;
+        margin-top: 1em;
     }
 
     .alpha .test-gcweb-menu [aria-expanded=true]:not(button) + [role=menu] li {
