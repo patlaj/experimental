@@ -186,9 +186,9 @@
         font-size: 18px;
     }
 
-    .alpha .test-gcweb-menu [role=menu]  li  h3 {
+    /* .alpha .test-gcweb-menu [role=menu]  li  h3 {
         display: none;
-    }
+    } */
 
     .alpha .test-gcweb-menu .parent-list > li > a {
         font-size: 18px;

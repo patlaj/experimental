@@ -41,6 +41,10 @@
       background-color: #dfdfdf;
     }
 
+    .mobile-nav-toggle {
+      margin-bottom: 1.5em;
+    }
+
 @media screen and (min-width: 992px) {
     .mobile-nav-toggle {
     display: none;
@@ -1666,7 +1670,7 @@
             $(".parent-list > li > a").click(function () {
               $(".mobile-nav-toggle").removeClass("wb-inv");
               $(".parent-list > li > a").css("display", "none");
-              $(this).css("display", "block");
+              // $(this).css("display", "block");
             });
           }
 
