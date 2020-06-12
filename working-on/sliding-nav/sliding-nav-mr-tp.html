@@ -1645,16 +1645,19 @@
       //   });
         $(document).on('resize, ready', function () {
             // Add class if screen size equals
-            var $window = $(window),
-              $html = $('main');
+            var $window = $(window);
+              // $html = $('main');
 
-            function resize() {
-              $html.removeClass('mobile-activate');
+            function resize() 
+            {
+              // $html.removeClass('mobile-activate');
 
-              if ($window.width() < 992) {
-                return $html.addClass('mobile-activate');
-              }
+              // if ($window.width() < 992) {
+              //   return $html.addClass('mobile-activate');
+              // }
+              
             }
+
             $window.resize(resize).trigger('resize');
 
             $(".mobile-nav-toggle").click(function () {
@@ -1662,10 +1665,11 @@
             $(".parent-list > li > a").css("display", "block");
             $(".parent-list > li > a").attr("aria-expanded", "false");
             $(".parent-list > li  ul").css("display", "none");
+
             });
 
 
-          if ($window.width() < 992) {
+           if ($window.width() < 992) {
             
             $(".parent-list > li > a").click(function () {
               $(".mobile-nav-toggle").removeClass("wb-inv");
