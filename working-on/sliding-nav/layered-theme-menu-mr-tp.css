@@ -191,7 +191,7 @@
     /* banding */
 
     .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu] li, .alpha .test-gcweb-menu [role=menu] [role=menu] [role=menu] li:first-child {
-        margin-left: 28px !important;
+        margin-left: 38px !important;
     }
     .alpha .test-gcweb-menu .parent-list > li > ul > li:nth-child(2) {
         border-left: 0px !important;
