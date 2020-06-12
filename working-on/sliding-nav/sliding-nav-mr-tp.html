@@ -1659,6 +1659,7 @@
         $(document).on('resize, ready', function () {
             // Add class if screen size equals
             var $window = $(window);
+            var hideThemes = $(".parent-list > li > a");
               // $html = $('main');
 
             function resize() 
@@ -1694,6 +1695,12 @@
               // $(this).css("display", "block");
             });
           }
+
+
+          if ($(".parent-list > li > a").attr("aria-expanded", "false") && $window.width() < 992) {
+            $(".parent-list > li > a").css("display", "none");
+          }
+          
 
           });
 
