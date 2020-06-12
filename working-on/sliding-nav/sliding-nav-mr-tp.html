@@ -34,6 +34,37 @@
     gtag('js', new Date());
     gtag('config', 'UA-105628416-2');
   </script>
+
+  <style>
+
+    .mobile-activate .parent-list > li > a {
+      color: red !important;
+    }
+
+    .mobile-nav-toggle:hover {
+      background-color: #dfdfdf;
+    }
+
+@media screen and (min-width: 992px) {
+    .mobile-nav-toggle {
+    display: none;
+  }
+}
+
+ @media screen and (max-width: 991px) {
+
+  .alpha .test-gcweb-menu [role=menuitem][aria-expanded=false] {
+    display: none;
+  }
+
+  .alpha .test-gcweb-menu .parent-list > li > a  {
+    background-color: white !important;
+    font-size: 20px;
+    border-left:  5px solid #26374a;
+
+  }
+} 
+  </style>
  
 </head>
 
@@ -101,10 +132,13 @@
   <main property="mainContentOfPage" typeof="WebPageElement">
 
   <div class="alpha">
+          <div class="col-md-12"> <p class="mobile-nav-toggle"> <- back demo</p></div>
+
     <!-- <span class="fas fa-chevron-right"></span> -->
     <div class="gcweb-v2 test-gcweb-menu" typeof="SiteNavigationElement">
       <div class="container">
         <ul aria-orientation="vertical" class="parent-list" role="menu">
+
           <li role="presentation"><a aria-controls="gc-mnu-jobs" aria-expanded="false" aria-haspopup="true" href="#"
               id="jobs" role="menuitem" tabindex="-1">Jobs</a>
             <ul aria-orientation="vertical" id="gc-mnu-jobs" role="menu">
@@ -1591,6 +1625,60 @@
     });
   </script>  <!-- need this one -->
   <script>
+      // $(document).ready(function () {
+      //   var $window = $(window);
+      //   var hideThemes = $(".parent-list > li > a");
+      //   if (hideThemes.attr("aria-expanded","false") && ($window.width() < 992) ) {
+      //     $(hideThemes).addClass("wb-inv");
+      //   } else {
+      //     $(hideThemes).removeClass("wb-inv");
+      //   }
+      // });
+
+      // $(".parent-list > li > a").click(function () {
+      //   (".parent-list > li > a") && ($window.width() < 992)) {
+      //     $(".parent-list > li > a").addClass("wb-inv");
+      
+      //   });
+
+      $(".mobile-nav-toggle").click(function () {
+        $(".mobile-nav-toggle").addClass("wb-inv");
+        $(".parent-list > li > a").css("display", "block");
+        $(".parent-list > li > a").attr("aria-expanded", "false");
+        $(".parent-list > li  ul").css("display", "none");
+      });
+  
+
+      // gotta get this stuff hitting mobile only... how?
+
+      $(".mobile-activate .alpha .test-gcweb-menu .parent-list > li > a").click(function () {
+          $(".mobile-nav-toggle").removeClass("wb-inv");
+          $(".parent-list > li > a").css("display", "none");
+          $(this).css("display", "block");
+        });
+
+  </script>
+
+
+  <script>
+    $(document).on('resize, ready', function () {
+        // Add class if screen size equals
+        var $window = $(window),
+          $html = $('main');
+
+        function resize() {
+          $html.removeClass('mobile-activate');
+
+          if ($window.width() < 992 ) {
+            return $html.addClass('mobile-activate');
+          }
+        }
+        $window.resize(resize).trigger('resize');
+      });
+
+  </script>
+
+  <script>
       $( document ).ready(function() {
       if ($('#jobs').attr('aria-expanded') === "true") {
       $('.test-gcweb-menu').attr('style', 'min-height: 900px;');
@@ -1641,12 +1729,6 @@
   <script src="https://wayfinding.alpha.experimentation.ca/libraries/wet-boew/js/wet-boew.min.js?qbezih"></script>
   <script>
     document.getElementById('submissionPage').value = location.href;
-  </script>
-  <script>
-    $('#cul-his-sp').click(function (e) {
-      e.preventDefault();
-      return false;      
-      });
   </script>
 </body>
 </html>
