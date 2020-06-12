@@ -1604,7 +1604,40 @@
 			<script src="./wet-boew/js/ie8-wet-boew2.min.js"></script>
       <![endif]-->
       <script src="https://wayfinding.alpha.experimentation.ca/sites/default/files/js/js_UUBCyI8Ney5Iu-g-hNuLFxSw0r5_z_F5AhHCEm-Ep-w.js"></script>
-  <script>
+        <script>
+          $ = jQuery;
+          $(document).on("ready", function (event) {
+            let searchParams = new URLSearchParams(window.location.search);
+            if (searchParams.has('t')) {
+              let a = $('a').filter(function (index) { return jQuery(this).text() === searchParams.get("t"); });
+              a.click();
+            }
+          });
+          function scrollIntoViewIfNeeded(target) {
+            var rect = target.getBoundingClientRect();
+            if (rect.bottom > window.innerHeight) {
+              target.scrollIntoView(false);
+            }
+            if (rect.top < 0) {
+              target.scrollIntoView();
+            }
+          }
+          $(".parent-list > li > a").on("click", function (e) {
+            var link = this;
+            e.preventDefault();
+            $(".parent-list ul").hide();
+            $(".parent-list > li > a").attr("aria-expanded", "false");
+            $([document.documentElement, document.body]).animate({
+              scrollTop: $(this).offset().top
+            }, 500, function () {
+              $(link).parent().find("ul").show();
+              $(link).attr("aria-expanded", "true");
+            });
+            //scrollIntoViewIfNeeded($(this)[0]);
+
+          });
+        </script>
+  <!-- <script>
     $=jQuery;
     $(document).on("ready",function (event) {
         let searchParams = new URLSearchParams(window.location.search);
@@ -1632,7 +1665,7 @@
       scrollIntoViewIfNeeded($(this)[0]);
       
     });
-  </script>  <!-- need this one -->
+  </script>  need this one -->
   <script>
       // $(document).ready(function () {
       //   var $window = $(window);
