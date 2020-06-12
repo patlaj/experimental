@@ -159,6 +159,10 @@
   .alpha .test-gcweb-menu [role=menu] [role=menu] {
     position: absolute;
   }
+
+  .mobile-nav-toggle {
+    display: none;
+  }
 }
 
 /* Mobile view  */
