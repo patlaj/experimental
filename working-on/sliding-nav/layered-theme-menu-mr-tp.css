@@ -165,8 +165,10 @@
 
 @media screen and (max-width: 991px) {
 
+
     .alpha .test-gcweb-menu [role=menu] [role=menu] {
         margin-top:-7px;
+        /* border-left:0px; */
     }
 
      .alpha .test-gcweb-menu [role=menu] [role=menu] li:nth-child(2) {
