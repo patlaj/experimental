@@ -37,10 +37,6 @@
 
   <style>
 
-    .mobile-activate .parent-list > li > a {
-      color: red !important;
-    }
-
     .mobile-nav-toggle:hover {
       background-color: #dfdfdf;
     }
@@ -57,12 +53,15 @@
     display: none;
   }
 
-  .alpha .test-gcweb-menu .parent-list > li > a  {
+  /* .alpha .test-gcweb-menu .parent-list > li > a  {
     background-color: white !important;
-    font-size: 20px;
+    font-size: 22px;
     border-left:  5px solid #26374a;
+    color: #333 !important;
+    font-weight: bold;
+  } */
 
-  }
+
 } 
   </style>
  
@@ -132,7 +131,7 @@
   <main property="mainContentOfPage" typeof="WebPageElement">
 
   <div class="alpha">
-          <div class="col-md-12"> <p class="mobile-nav-toggle"> <- back demo</p></div>
+          <div class="col-md-12"> <p class="mobile-nav-toggle"> <- back </p></div>
 
     <!-- <span class="fas fa-chevron-right"></span> -->
     <div class="gcweb-v2 test-gcweb-menu" typeof="SiteNavigationElement">
@@ -1640,42 +1639,40 @@
       //     $(".parent-list > li > a").addClass("wb-inv");
       
       //   });
+        $(document).on('resize, ready', function () {
+            // Add class if screen size equals
+            var $window = $(window),
+              $html = $('main');
 
-      $(".mobile-nav-toggle").click(function () {
-        $(".mobile-nav-toggle").addClass("wb-inv");
-        $(".parent-list > li > a").css("display", "block");
-        $(".parent-list > li > a").attr("aria-expanded", "false");
-        $(".parent-list > li  ul").css("display", "none");
-      });
-  
+            function resize() {
+              $html.removeClass('mobile-activate');
 
-      // gotta get this stuff hitting mobile only... how?
+              if ($window.width() < 992) {
+                return $html.addClass('mobile-activate');
+              }
+            }
+            $window.resize(resize).trigger('resize');
 
-      $(".mobile-activate .alpha .test-gcweb-menu .parent-list > li > a").click(function () {
-          $(".mobile-nav-toggle").removeClass("wb-inv");
-          $(".parent-list > li > a").css("display", "none");
-          $(this).css("display", "block");
-        });
-
-  </script>
+            $(".mobile-nav-toggle").click(function () {
+            $(".mobile-nav-toggle").addClass("wb-inv");
+            $(".parent-list > li > a").css("display", "block");
+            $(".parent-list > li > a").attr("aria-expanded", "false");
+            $(".parent-list > li  ul").css("display", "none");
+            });
 
 
-  <script>
-    $(document).on('resize, ready', function () {
-        // Add class if screen size equals
-        var $window = $(window),
-          $html = $('main');
-
-        function resize() {
-          $html.removeClass('mobile-activate');
-
-          if ($window.width() < 992 ) {
-            return $html.addClass('mobile-activate');
+          if ($window.width() < 992) {
+            
+            $(".parent-list > li > a").click(function () {
+              $(".mobile-nav-toggle").removeClass("wb-inv");
+              $(".parent-list > li > a").css("display", "none");
+              $(this).css("display", "block");
+            });
           }
-        }
-        $window.resize(resize).trigger('resize');
-      });
 
+          });
+
+      
   </script>
 
   <script>
