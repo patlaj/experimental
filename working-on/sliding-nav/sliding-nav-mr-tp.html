@@ -1655,14 +1655,17 @@
           target.scrollIntoView({behavior: "smooth", block: "start"});
       } 
     }
-    $(".parent-list > li > a").on("click",function (e) {
-      var link = this;
-      e.preventDefault();
-      $(".parent-list ul").hide();
-      $(".parent-list > li > a").attr("aria-expanded","false");
-      $(link).parent().find("ul").show();
-      $(link).attr("aria-expanded","true");
-      scrollIntoViewIfNeeded($(this)[0]);
+    $(".parent-list > li > a").on("click", function (e) {
+        var link = this;
+        e.preventDefault();
+        $(".parent-list ul").hide();
+        $(".parent-list > li > a").attr("aria-expanded", "false");
+        $([document.documentElement, document.body]).animate({
+          scrollTop: $(this).offset().top
+        }, 1, function () {
+          $(link).parent().find("ul").show();
+          $(link).attr("aria-expanded", "true");
+        });
       
     });
   </script> <!-- need this one -->
