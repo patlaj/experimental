@@ -1627,10 +1627,10 @@
         $(link).parent().find("ul").show();
         $(link).attr("aria-expanded", "true");
         
-        if ($("html").hasClass("wb-mobile")) {
+        if ($("html").hasClass("smallview")) {
           $([document.documentElement, document.body]).animate({
             scrollTop: $(".mobile-nav-toggle").offset().top
-          }, 1);
+          }, 1000);
         }
       });
   </script> 
