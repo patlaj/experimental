@@ -1,0 +1,57 @@
+body {
+  letter-spacing: 0.12em;
+  word-spacing: 0.16em;
+}
+
+main {
+  font-size: 125%;
+  line-height: 1.5;
+}
+main p + ul,
+main p + ol {
+  margin-top: 1em;
+}
+
+main p {
+  margin: 0 0 2em 0;
+}
+
+main li,
+main li ul,
+main li ol {
+  margin-top: 1em;
+}
+
+main h1,
+main h2,
+main h3,
+main h4,
+main h5 {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+main h1 {
+  font-size: 2.2em;
+}
+
+main h2 {
+  font-size: 2em;
+}
+
+main h3 {
+  font-size: 1.6em;
+}
+
+main h4 {
+  font-size: 1.25em;
+}
+
+main h5 {
+  font-size: 1em;
+}
+
+small,
+.small {
+  font-size: 0.8em;
+}
