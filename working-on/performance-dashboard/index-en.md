@@ -26,6 +26,17 @@ lastmod: '2021-04-04'
   <dd>This service does not have any service fees.</dd>
 </dl>
 
+## Top task performance on Canada.ca (September 2021)
+
+| Task | Success | 
+| --- | --- | 
+| Check online mail | Online | 71% |
+| Get a copy of a notice of assessment or reassessment | 68% | 
+| See my T4 information | 60% |
+| Find out when I can expect my tax refund | 60% |
+| Open a My Account | 44% |
+{: .wb-table.table.table-striped.table-hover.dataTable.no-footer}
+
 ## Online availability of services and total applications
 If all the applicable components for a specific service are available online, that service is considered fully online.
 
