@@ -30,11 +30,11 @@ lastmod: '2021-04-04'
 
 | Task | Successful completion | Since last survey | 
 | --- | --- | --- |
-| Check online mail | 71% | No change | 
 | Get a copy of a notice of assessment or reassessment | 68% | +0.2% |
 | See my T4 information | 60% | No change |
-| Find out when I can expect my tax refund | 60% | -1.1% |
+| Check online mail | 71% | No change | 
 | Open a My Account | 44% | -0.3% |
+| Find out when I can expect my tax refund | 60% | -1.1% |
 {: .wb-table.table.table-striped.table-hover.dataTable.no-footer}
 
 ## Online availability of services and total applications
