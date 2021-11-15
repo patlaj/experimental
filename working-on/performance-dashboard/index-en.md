@@ -26,15 +26,24 @@ lastmod: '2021-04-04'
   <dd>This service does not have any service fees.</dd>
 </dl>
 
-## Related task performance on Canada.ca (September 2021)
+## Top task performance on Canada.ca (September 2021)
+<p>This service has 13 tasks in the Government of Canada (GC) top 100. </p>
 
-| Task | Successful completion | Since last survey | 
-| --- | --- | --- |
-| Get a copy of a notice of assessment or reassessment | 68% | +0.2% |
-| See my T4 information | 60% | No change |
-| Check online mail | 71% | No change | 
-| Open a My Account | 44% | -0.3% |
-| Find out when I can expect my tax refund | 60% | -1.1% |
+| Task | Rank (GC top 100) | Success rate | Since last survey | 
+| --- | --- | --- | --- |
+| Get a copy of a notice of assessment or reassessment | 4 | 68% | +0.2% |
+| See my T4 information | 7 | 60% | No change |
+| Check online mail | 8 | 71% | No change | 
+| Open a My Account | 19 | 44% | -0.3% |
+| Find out when I can expect my tax refund | 28 | 60% | -1.1% |
+| Make a payment to the Canada Revenue Agency | 29 | 64% | -1.1% |
+| Find my TFSA contribution limit | 35 | 69% | -1.1% |
+| File a GST/HST return | 36 | 77% | -1.1% |
+| Find out which tax deductions, credits, or expenses I can claim | 36 | 77% | -1.1% |
+| Find my RRSP contribution limit | 49 | 72% | -1.1% |
+| Change my address with the Canada Revenue Agency | 63 | 32% | -1.1% |
+| Start direct deposit or change banking information | 64 | 48% | -1.1% |
+| Find tax software | 65 | 60% | -1.1% |
 {: .wb-table.table.table-striped.table-hover.dataTable.no-footer}
 
 ## Online availability of services and total applications
