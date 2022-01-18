@@ -75,76 +75,14 @@
 			</div>
 
 
-<h3 id="h-2-1">Basic buttons</h3>
-<p>Browsers show certain elements as a button. However, there is often a lack of visual consistency for each button type. Each browser can have a different button default appearance. Verify your buttons on different browsers for consitency.</p>
-
-
-<div class="ds-modifier">
-			<form>
-			<!--<p><span class="lead mrgn-tp-0"><span class="fas fa-tools"></span> Modify the design</span></p>-->
-			<div class="row">
-			<div class="col-xs-6 col-sm-3">	
-			<div class="radioselected">
-				<div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#btn1", "class": "btn-default btn-success btn-primary btn-info btn-warning btn-danger btn-link btn-call-to-action"} ]}'>
-					<p><span class="h4">Type</span></p>
-					<ul>
-						<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-default", "live": true}, {"action": "toggle", "toggle": ".cl-default", "live": true}]'>Default</li>
-						<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-primary", "live": true}, {"action": "toggle", "toggle": "#primary, .cl-primary", "live": true}]'>Primary</li>
-						<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-success", "live": true}, {"action": "toggle", "toggle": "#success, .cl-success", "live": true}]'>Success</li>			
-						<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-info", "live": true}, {"action": "toggle", "toggle": "#info, .cl-info", "live": true}]'>Info</li>
-						<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-warning", "live": true}, {"action": "toggle", "toggle": "#warning, .cl-warning", "live": true}]'>Warning</li>
-						<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-danger", "live": true}, {"action": "toggle", "toggle": "#danger, .cl-danger", "live": true}]'>Danger</li>
-						<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-link", "live": true}, {"action": "toggle", "toggle": "#link, .cl-link", "live": true}]'>Link</li>
-						<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-call-to-action", "live": true}, {"action": "toggle", "toggle": ".cl-call, #supertask", "live": true}]'>Supertask</li>
-					</ul>
-				</div>
-				</div>
-				</div>
-			
-			<div class="col-xs-6 col-sm-3">		
-				<div class="radioselected">
-				<div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#btn1", "class": "btn-sm btn-xs btn-lg"} ]}'>
-					<p><span class="h4">Size</span></p>
-					<ul>
-						<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "", "live": true}]'>Default</li>
-						
-						<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-lg", "live": true}, {"action": "toggle", "toggle": ".cl-lg", "live": true}]'>Large</li>					
-						<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-sm", "live": true}, {"action": "toggle", "toggle": ".cl-sm", "live": true}]'>Small</li>
-						<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-xs", "live": true}, {"action": "toggle", "toggle": "#extrasmall, .cl-xs", "live": true}]'>Extra small</li>					
-					</ul>
-				</div>
-				</div>
-				</div>
-				<div class="col-xs-6 col-sm-3">	
-				<div class="radioselected">
-				<div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#btn1", "class": "active disabled"} ]}'>
-					<p><span class="h4">State</span></p>
-					<ul>
-						<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "", "live": true}]'>Default</li>
-						<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "active", "live": true}, {"action": "toggle", "toggle": ".cl-active", "live": true}]'>Active</li>
-						<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "disabled", "live": true}, {"action": "toggle", "toggle": ".cl-disabled", "live": true}]'>Disabled</li>
-					</ul>
-				</div>
-				</div>
-				</div>
-								<div class="col-xs-6 col-sm-3">	
-				<div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"checkbox", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#btn1", "class": "btn-block"} ]}'>
-					<p class=""><span class="h4">Width</span></p>
-					<ul>
-						<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-block", "live": true}, {"action": "toggle", "toggle": ".cl-block", "live": true}]'>Full-width</li>
-					</ul>
-				</div>
-</div>
-			</div>
-			</form>
-		</div>
-
 		<div class="" style="height:100px;">
 			<div class="container mrgn-tp-xl">
 		<p class="text-center">Header area - placeholder</p>
 			</div>
 		</div>
 		</header>
+
+		<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
 
     <div class="container">
 			<h1 style="border-bottom: none;">Heading</h1>
@@ -158,10 +96,11 @@
 				<li><a href="#">Accessibility statement? (or is this under how to implement)</a></li>
 			</ul>
 
+			<mark>We need to decide what states we need before this design layout can be completed</mark>
+
 						<div class="row">
 							<div class="col-md-12 mrgn-tp-lg" style="border: 2px solid #ccc; height: 600px;">
 <h3 id="h-2-1">Basic buttons</h3>
-<mark>We need to decide what states we need before this design layout can be completed</mark>
 
 
 <div class="ds-modifier">
@@ -256,499 +195,588 @@
 				
 			</div>
 
-			 <div class="row">
-            <div class="col-md-9 col-xs-12 mrgn-tp-md pull-right">
-                <div id="demo" class="pattern-demo pattern-demo-component">
-                    <div id="primary-demo" class="component-demo hidden">
-                        <div id="base-primary-layout" class="layout-demo">
-                            <iframe title="Primary button with active and disabled states layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/base-primary.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                        <div id="block-primary-layout" class="layout-demo">
-                            <iframe title="Full width primary button layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/block-primary.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                        <div id="group-primary-layout" class="layout-demo hidden">
-                            <iframe title="Grouped primary buttons layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/group-primary.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                        <div id="sizing-primary-layout" class="layout-demo hidden">
-                            <iframe title="Primary button layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/sizing-primary.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                    </div>
-                    <div id="secondary-demo" class="component-demo">
-                        <div id="base-secondary-layout" class="layout-demo example-frame-bkg">
-                            <iframe title="Secondary button with active and disabled states layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/base-secondary.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                        <div id="block-secondary-layout" class="layout-demo example-frame-bkg">
-                            <iframe title="Full width secondary button layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/block-secondary.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                        <div id="group-secondary-layout" class="layout-demo hidden">
-                            <iframe title="Grouped secondary buttons layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/group-secondary.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                        <div id="sizing-secondary-layout" class="layout-demo hidden">
-                            <iframe title="Secondary button layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/sizing-secondary.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                    </div>
-                    <div id="link-demo" class="component-demo hidden">
-                        <div id="base-link-layout" class="layout-demo">
-                            <iframe title="Link button with active and disabled states layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/base-link.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                        <div id="block-link-layout" class="layout-demo">
-                            <iframe title="Full width link button layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/block-link.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                        <div id="sizing-link-layout" class="layout-demo hidden">
-                            <iframe title="Text button in disabled state layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/sizing-link.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                    </div>
-                    <div id="call-to-action-demo" class="component-demo hidden">
-                        <div id="base-call-to-action-layout" class="layout-demo">
-                            <iframe title="Call to action button with active and disabled states layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/base-call-to-action.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                        <div id="block-call-to-action-layout" class="layout-demo">
-                            <iframe title="Full width call to action button layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/block-call-to-action.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                        <div id="sizing-call-to-action-layout" class="layout-demo hidden">
-                            <iframe title="Call to action button in disabled state layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/sizing-call-to-action.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                    </div>
-                    <div id="danger-demo" class="component-demo hidden">
-                        <div id="base-danger-layout" class="layout-demo">
-                            <iframe title="Danger button with active and disabled states layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/base-danger.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                        <div id="block-danger-layout" class="layout-demo">
-                            <iframe title="Full width danger button layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/block-danger.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                        <div id="sizing-danger-layout" class="layout-demo hidden">
-                            <iframe title="Danger button in disabled state layout example" class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/sizing-danger.html" frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
-                        </div>
-                    </div>
-                    <div class="btn-group">
-                        <button id="resize-iframe-mobile" class="btn btn-default"><span class="fas fa-mobile-alt"></span> <strong>SM</strong></button>
-                        <button id="resize-iframe-tablet" class="btn btn-default"><span class="fas fa-tablet-alt"></span> <strong>MD</strong></button>
-                        <button id="resize-iframe-desktop" class="btn btn-default"><span class="fas fa-desktop"></span> <strong>LG</strong></button>
-                     </div>   
-                </div>
-            </div>
-            <div class="col-md-3 pull-left">
-                <div class="mrgn-bttm-sm">
-                    <fieldset>
-                        <label for="design-variant-menu" class="h5">Design variant</label>
-                        <select id="design-variant-menu" class="form-control">
-                            <option value="primary">Primary</option>
-                            <option value="secondary">Secondary</option>
-                            <option value="link">Link</option>
-                            <option value="call-to-action">Call to action</option>
-                            <option value="pagination">Pagination</option>
-                        </select>
-                    </fieldset>
-                 </div>
-                 <div id="primary-submenu" class="mrgn-bttm-sm doormat-options layout-submenu hidden">
-                    <fieldset>
-                        <label for="primary-layout-menu" class="h5">States</label>
-                        <select id="primary-layout-menu" class="form-control layout-variant-menu">
-                            <option value="base-primary">Basic</option>
-                            <option value="block-primary">Full width</option>
-                            <option value="group-primary">Grouped</option>
-                            <option value="sizing-primary">Alternate sizes</option>
-                        </select>
-                    </fieldset>
-                 </div>
-                 <div id="secondary-submenu" class="mrgn-bttm-sm doormat-options layout-submenu">
-                    <fieldset>
-                        <label for="secondary-layout-menu" class="h5">States</label>
-                        <select id="secondary-layout-menu" class="form-control layout-variant-menu">
-                            <option value="base-secondary">Basic</option>
-                            <option value="block-secondary">Full width</option>
-                            <option value="group-secondary">Grouped</option>
-                            <option value="sizing-secondary">Alternate sizes</option>
-                        </select>
-                    </fieldset>
-                 </div>
-                 <div id="link-submenu" class="mrgn-bttm-sm doormat-options layout-submenu hidden">
-                    <fieldset>
-                       <label for="link-layout-menu" class="h5">States</label>
-                        <select id="link-layout-menu" class="form-control layout-variant-menu">
-                            <option value="block-link">Basic</option>
-                            <option value="block-link">Full width</option>
-                            <option value="sizing-link">Alternate sizes</option>
-                        </select>
-                    </fieldset>
-                 </div>
-                 <div id="call-to-action-submenu" class="mrgn-bttm-sm doormat-options layout-submenu hidden">
-                    <fieldset>
-                        <label for="call-to-action-layout-menu" class="h5">States</label>
-                        <select id="call-to-action-layout-menu" class="form-control layout-variant-menu">
-                            <option value="base-call-to-action">Basic</option>
-                            <option value="block-call-to-action">Full width</option>
-                            <option value="sizing-call-to-action">Alternate sizes</option>
-                        </select>
-                    </fieldset>
-                 </div>
-                 <div id="danger-submenu" class="mrgn-bttm-sm doormat-options layout-submenu hidden">
-                    <fieldset>
-                        <label for="danger-layout-menu" class="h5">States</label>
-                        <select id="danger-layout-menu" class="form-control layout-variant-menu">
-                            <option value="base-danger">Basic</option>
-                            <option value="block-danger">Full width</option>
-                            <option value="sizing-danger">Alternate sizes</option>
-                        </select>
-                    </fieldset>
-                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-9 col-xs-12 mrgn-tp-lg pull-right">
-                <div id="primary-code" class="component-code hidden">
-                    <div id="default-primary-code" class="layout-code">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-primary"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-primary"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                    <div id="active-primary-code" class="layout-code hidden">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-primary active"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-primary active"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                    <div id="disabled-primary-code" class="layout-code hidden">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-primary disabled"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-primary disabled"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div id="secondary-code" class="component-code">
-                    <div id="base-secondary-code" class="layout-code">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-default"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-default"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                    <div id="block-secondary-code" class="layout-code hidden">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-default active"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-default active"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                    <div id="group-secondary-code" class="layout-code hidden">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-default disabled"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-default disabled"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                    <div id="sizing-secondary-code" class="layout-code hidden">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-default disabled"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-default disabled"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div id="link-code" class="component-code hidden">
-                    <div id="base-link-code" class="layout-code">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-link"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-link"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                    <div id="block-link-code" class="layout-code hidden">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-link active"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-link active"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                    <div id="group-link-code" class="layout-code hidden">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-link disabled"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-link disabled"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                    <div id="sizing-link-code" class="layout-code hidden">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-link disabled"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-link disabled"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div id="call-to-action-code" class="component-code hidden">
-                    <div id="base-call-to-action-code" class="layout-code">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-call-to-action"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-call-to-action"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                    <div id="block-call-to-action-code" class="layout-code hidden">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-call-to-action active"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-call-to-action active"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                    <div id="group-call-to-action-code" class="layout-code hidden">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-call-to-action disabled"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-call-to-action disabled"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                    <div id="sizing-call-to-action-code" class="layout-code hidden">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-call-to-action disabled"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-call-to-action disabled"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div id="danger-code" class="component-code hidden">
-                    <div id="default-danger-code" class="layout-code">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-danger"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-danger"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                    <div id="active-danger-code" class="layout-code hidden">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-danger active"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-danger active"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                    <div id="disabled-danger-code" class="layout-code hidden">
-                        <div class="code-variant wet4-variant">
-                            <pre><code>&lt;button class="btn btn-danger disabled"&gt;Action&lt;/button&gt;</code></pre>
-                            <pre><code>&lt;a class="btn btn-danger disabled"&gt;Action&lt;/a&gt;</code></pre>
-                        </div>
-                        <div class="code-variant react-variant hidden">
-                            <h3>ReactJS</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                        <div class="code-variant angular-variant hidden">
-                            <h3>Angular</h3>
-                            <p>Doesn't exist yet. Want to contribute?</p>
-                            <p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html" class="btn btn-default">Contribute to the design system</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 pull-left">
-                <div class="mrgn-bttm-sm">
-                    <fieldset>
-                    <label for="code-variant-menu" class="h5">Code variant</label>
-                    <select id="code-variant-menu" class="form-control">
-                        <option value="wet4">WET 4</option>
-                        <option value="react">ReactJS</option>
-                        <option value="angular">Angular</option>
-                    </select>
-                    </fieldset>
-                </div>
-            </div>
-        </div>
-        <section>
-            <h2 id="how">Customisation</h2>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Option</th>
-                        <th>Description</th>
-                        <th>How to use</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Full width</td>
-                        <td>Make a button occupy the full width of its column.</td>
-                        <td>Add the class <code>btn-block</code> to button.</td>
-                    </tr>
-                    <tr>
-                        <td>Grouped buttons</td>
-                        <td>Buttons can be grouped side by side, such as for toggle buttons.</td>
-                        <td>Surround the grouped buttons with a <code>div</code> with the class <code>btn-group</code>.</td>
-                    </tr>
-                    <tr>
-                        <td>Change sizing</td>
-                        <td>Buttons can be sized to improve visibility for call to actions or to save space in designs such as a toggle.</td>
-                        <td>Apply the following classes to the button:
-                            <ul>
-                                <li>Large: <code>btn-lg</code></li>
-                                <li>Small: <code>btn-sm</code></li>
-                                <li>Extra small: <code>btn-xs</code></li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Call a javascript function</td>
-                        <td>Call a javascript function to complete the action.</td>
-                        <td>((Would we give options? Leave javascript in its own separate guide?))</td>
-                    </tr>
-                </tbody>
-              </table>
-        </section>
-        <section>
+			<div class="row">
+				<div class="col-md-9 col-xs-12 mrgn-tp-md pull-right">
+					<div id="demo" class="pattern-demo pattern-demo-component">
+						<div id="primary-demo" class="component-demo hidden">
+							<div id="base-primary-layout" class="layout-demo">
+								<iframe title="Primary button with active and disabled states layout example"
+									class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/base-primary.html"
+									frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
+							</div>
+							<div id="block-primary-layout" class="layout-demo">
+								<iframe title="Full width primary button layout example"
+									class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/block-primary.html"
+									frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
+							</div>
+							<div id="group-primary-layout" class="layout-demo hidden">
+								<iframe title="Grouped primary buttons layout example"
+									class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/group-primary.html"
+									frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
+							</div>
+							<div id="sizing-primary-layout" class="layout-demo hidden">
+								<iframe title="Primary button layout example" class="example-frame example-frame-resizable example-frame-m"
+									src="./demos/buttons/wet4/sizing-primary.html" frameborder="0" loading="lazy"
+									onload="resizeIframe(this);"></iframe>
+							</div>
+						</div>
+						<div id="secondary-demo" class="component-demo">
+							<div id="base-secondary-layout" class="layout-demo example-frame-bkg">
+								<iframe title="Secondary button with active and disabled states layout example"
+									class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/base-secondary.html"
+									frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
+							</div>
+							<div id="block-secondary-layout" class="layout-demo example-frame-bkg">
+								<iframe title="Full width secondary button layout example"
+									class="example-frame example-frame-resizable example-frame-m"
+									src="./demos/buttons/wet4/block-secondary.html" frameborder="0" loading="lazy"
+									onload="resizeIframe(this);"></iframe>
+							</div>
+							<div id="group-secondary-layout" class="layout-demo hidden">
+								<iframe title="Grouped secondary buttons layout example"
+									class="example-frame example-frame-resizable example-frame-m"
+									src="./demos/buttons/wet4/group-secondary.html" frameborder="0" loading="lazy"
+									onload="resizeIframe(this);"></iframe>
+							</div>
+							<div id="sizing-secondary-layout" class="layout-demo hidden">
+								<iframe title="Secondary button layout example" class="example-frame example-frame-resizable example-frame-m"
+									src="./demos/buttons/wet4/sizing-secondary.html" frameborder="0" loading="lazy"
+									onload="resizeIframe(this);"></iframe>
+							</div>
+						</div>
+						<div id="link-demo" class="component-demo hidden">
+							<div id="base-link-layout" class="layout-demo">
+								<iframe title="Link button with active and disabled states layout example"
+									class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/base-link.html"
+									frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
+							</div>
+							<div id="block-link-layout" class="layout-demo">
+								<iframe title="Full width link button layout example"
+									class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/block-link.html"
+									frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
+							</div>
+							<div id="sizing-link-layout" class="layout-demo hidden">
+								<iframe title="Text button in disabled state layout example"
+									class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/sizing-link.html"
+									frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
+							</div>
+						</div>
+						<div id="call-to-action-demo" class="component-demo hidden">
+							<div id="base-call-to-action-layout" class="layout-demo">
+								<iframe title="Call to action button with active and disabled states layout example"
+									class="example-frame example-frame-resizable example-frame-m"
+									src="./demos/buttons/wet4/base-call-to-action.html" frameborder="0" loading="lazy"
+									onload="resizeIframe(this);"></iframe>
+							</div>
+							<div id="block-call-to-action-layout" class="layout-demo">
+								<iframe title="Full width call to action button layout example"
+									class="example-frame example-frame-resizable example-frame-m"
+									src="./demos/buttons/wet4/block-call-to-action.html" frameborder="0" loading="lazy"
+									onload="resizeIframe(this);"></iframe>
+							</div>
+							<div id="sizing-call-to-action-layout" class="layout-demo hidden">
+								<iframe title="Call to action button in disabled state layout example"
+									class="example-frame example-frame-resizable example-frame-m"
+									src="./demos/buttons/wet4/sizing-call-to-action.html" frameborder="0" loading="lazy"
+									onload="resizeIframe(this);"></iframe>
+							</div>
+						</div>
+						<div id="danger-demo" class="component-demo hidden">
+							<div id="base-danger-layout" class="layout-demo">
+								<iframe title="Danger button with active and disabled states layout example"
+									class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/base-danger.html"
+									frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
+							</div>
+							<div id="block-danger-layout" class="layout-demo">
+								<iframe title="Full width danger button layout example"
+									class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/block-danger.html"
+									frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
+							</div>
+							<div id="sizing-danger-layout" class="layout-demo hidden">
+								<iframe title="Danger button in disabled state layout example"
+									class="example-frame example-frame-resizable example-frame-m" src="./demos/buttons/wet4/sizing-danger.html"
+									frameborder="0" loading="lazy" onload="resizeIframe(this);"></iframe>
+							</div>
+						</div>
+						<div class="btn-group">
+							<button id="resize-iframe-mobile" class="btn btn-default"><span class="fas fa-mobile-alt"></span>
+								<strong>SM</strong></button>
+							<button id="resize-iframe-tablet" class="btn btn-default"><span class="fas fa-tablet-alt"></span>
+								<strong>MD</strong></button>
+							<button id="resize-iframe-desktop" class="btn btn-default"><span class="fas fa-desktop"></span>
+								<strong>LG</strong></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 pull-left">
+					<div class="mrgn-bttm-sm">
+						<fieldset>
+							<label for="design-variant-menu" class="h5">Type</label>
+							<select id="design-variant-menu" class="form-control">
+								<option value="default">Default</option>
+								<option value="primary">Primary</option>
+								<option value="danger">Danger</option>
+								<option value="link">Link</option>
+								<option value="supertask">Supertask</option>
+							</select>
+						</fieldset>
+					</div>
+					<div id="primary-submenu" class="mrgn-bttm-sm doormat-options layout-submenu hidden">
+						<fieldset>
+							<label for="primary-layout-menu" class="h5">States</label>
+							<select id="primary-layout-menu" class="form-control layout-variant-menu">
+								<option value="base-primary">Default</option>
+								<option value="block-primary">Full width</option>
+								<option value="group-primary">Grouped</option>
+								<option value="sizing-primary">Alternate sizes</option>
+							</select>
+						</fieldset>
+					</div>
+					<div id="secondary-submenu" class="mrgn-bttm-sm doormat-options layout-submenu">
+						<fieldset>
+							<label for="secondary-layout-menu" class="h5">Configurations?</label>
+							<select id="secondary-layout-menu" class="form-control layout-variant-menu">
+								<option value="base-secondary">Default</option>
+								<option value="block-secondary">Full width</option>
+								<option value="group-secondary">Grouped</option>
+								<option value="sizing-secondary">Alternate sizes</option>
+							</select>
+						</fieldset>
+					</div>
+						<div id="tertiary-submenu" class="mrgn-bttm-sm doormat-options layout-submenu">
+							<fieldset>
+								<label for="secondary-layout-menu" class="h5">States</label>
+								<select id="secondary-layout-menu" class="form-control layout-variant-menu">
+									<option value="base-secondary">Default</option>
+									<option value="block-secondary">Active</option>
+									<option value="group-secondary">Disabled</option>
+								</select>
+							</fieldset>
+						</div>
+					<div id="link-submenu" class="mrgn-bttm-sm doormat-options layout-submenu hidden">
+						<fieldset>
+							<label for="link-layout-menu" class="h5">States</label>
+							<select id="link-layout-menu" class="form-control layout-variant-menu">
+								<option value="block-link">Basic</option>
+								<option value="block-link">Full width</option>
+								<option value="sizing-link">Alternate sizes</option>
+							</select>
+						</fieldset>
+					</div>
+					<div id="call-to-action-submenu" class="mrgn-bttm-sm doormat-options layout-submenu hidden">
+						<fieldset>
+							<label for="call-to-action-layout-menu" class="h5">States</label>
+							<select id="call-to-action-layout-menu" class="form-control layout-variant-menu">
+								<option value="base-call-to-action">Basic</option>
+								<option value="block-call-to-action">Full width</option>
+								<option value="sizing-call-to-action">Alternate sizes</option>
+							</select>
+						</fieldset>
+					</div>
+					<div id="danger-submenu" class="mrgn-bttm-sm doormat-options layout-submenu hidden">
+						<fieldset>
+							<label for="danger-layout-menu" class="h5">States</label>
+							<select id="danger-layout-menu" class="form-control layout-variant-menu">
+								<option value="base-danger">Basic</option>
+								<option value="block-danger">Full width</option>
+								<option value="sizing-danger">Alternate sizes</option>
+							</select>
+						</fieldset>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-9 col-xs-12 mrgn-tp-lg pull-right">
+					<div id="primary-code" class="component-code hidden">
+						<div id="default-primary-code" class="layout-code">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-primary"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-primary"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+						<div id="active-primary-code" class="layout-code hidden">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-primary active"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-primary active"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+						<div id="disabled-primary-code" class="layout-code hidden">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-primary disabled"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-primary disabled"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+					</div>
+					<div id="secondary-code" class="component-code">
+						<div id="base-secondary-code" class="layout-code">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-default"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-default"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+						<div id="block-secondary-code" class="layout-code hidden">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-default active"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-default active"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+						<div id="group-secondary-code" class="layout-code hidden">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-default disabled"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-default disabled"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+						<div id="sizing-secondary-code" class="layout-code hidden">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-default disabled"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-default disabled"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+					</div>
+					<div id="link-code" class="component-code hidden">
+						<div id="base-link-code" class="layout-code">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-link"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-link"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+						<div id="block-link-code" class="layout-code hidden">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-link active"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-link active"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+						<div id="group-link-code" class="layout-code hidden">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-link disabled"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-link disabled"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+						<div id="sizing-link-code" class="layout-code hidden">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-link disabled"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-link disabled"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+					</div>
+					<div id="call-to-action-code" class="component-code hidden">
+						<div id="base-call-to-action-code" class="layout-code">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-call-to-action"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-call-to-action"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+						<div id="block-call-to-action-code" class="layout-code hidden">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-call-to-action active"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-call-to-action active"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+						<div id="group-call-to-action-code" class="layout-code hidden">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-call-to-action disabled"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-call-to-action disabled"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+						<div id="sizing-call-to-action-code" class="layout-code hidden">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-call-to-action disabled"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-call-to-action disabled"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+					</div>
+					<div id="danger-code" class="component-code hidden">
+						<div id="default-danger-code" class="layout-code">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-danger"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-danger"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+						<div id="active-danger-code" class="layout-code hidden">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-danger active"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-danger active"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+						<div id="disabled-danger-code" class="layout-code hidden">
+							<div class="code-variant wet4-variant">
+								<pre><code>&lt;button class="btn btn-danger disabled"&gt;Action&lt;/button&gt;</code></pre>
+								<pre><code>&lt;a class="btn btn-danger disabled"&gt;Action&lt;/a&gt;</code></pre>
+							</div>
+							<div class="code-variant react-variant hidden">
+								<h3>ReactJS</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+							<div class="code-variant angular-variant hidden">
+								<h3>Angular</h3>
+								<p>Doesn't exist yet. Want to contribute?</p>
+								<p><a href="https://canada-ca.github.io/design-system-systeme-conception/backlog/contribution-process.html"
+										class="btn btn-default">Contribute to the design system</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 pull-left">
+					<div class="mrgn-bttm-sm">
+						<fieldset>
+							<label for="code-variant-menu" class="h5">Code variant</label>
+							<select id="code-variant-menu" class="form-control">
+								<option value="wet4">WET 4</option>
+								<option value="react">ReactJS</option>
+								<option value="angular">Angular</option>
+							</select>
+						</fieldset>
+					</div>
+				</div>
+			</div>
+			<section>
+				<h2 id="how">Customisation</h2>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Option</th>
+							<th>Description</th>
+							<th>How to use</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Full width</td>
+							<td>Make a button occupy the full width of its column.</td>
+							<td>Add the class <code>btn-block</code> to button.</td>
+						</tr>
+						<tr>
+							<td>Grouped buttons</td>
+							<td>Buttons can be grouped side by side, such as for toggle buttons.</td>
+							<td>Surround the grouped buttons with a <code>div</code> with the class <code>btn-group</code>.</td>
+						</tr>
+						<tr>
+							<td>Change sizing</td>
+							<td>Buttons can be sized to improve visibility for call to actions or to save space in designs such as a toggle.
+							</td>
+							<td>Apply the following classes to the button:
+								<ul>
+									<li>Large: <code>btn-lg</code></li>
+									<li>Small: <code>btn-sm</code></li>
+									<li>Extra small: <code>btn-xs</code></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td>Call a javascript function</td>
+							<td>Call a javascript function to complete the action.</td>
+							<td>((Would we give options? Leave javascript in its own separate guide?))</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<section>
 					
 			<div class="col-md-12">
 				<h2>How to implement</h2>
