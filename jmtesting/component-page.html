@@ -111,8 +111,8 @@
 			<div class="col-xs-6 col-sm-3">
 				<div class="radioselected">
 					<div class="wb-fieldflow"
-						data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#btn1", "class": "btn-default btn-success btn-primary btn-info btn-warning btn-danger btn-link btn-call-to-action"} ]}'>
-						<p><span class="h4">Type</span></p>
+						data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#btn1", "class": "btn-default btn-success btn-primary btn-info btn-warning btn-danger btn-link btn-call-to-action"} ], "gcChckbxrdio":true }'>
+						<p><span class="h4">Task</span></p>
 						<ul>
 							<li
 								data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-default", "live": true}, {"action": "toggle", "toggle": ".cl-default", "live": true}]'>
@@ -125,10 +125,7 @@
 								Danger</li>
 							<li
 								data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-link", "live": true}, {"action": "toggle", "toggle": "#link, .cl-link", "live": true}]'>
-								Link</li>
-							<li
-								data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-call-to-action", "live": true}, {"action": "toggle", "toggle": ".cl-call, #supertask", "live": true}]'>
-								Supertask</li>
+								Skip-to</li>
 						</ul>
 					</div>
 				</div>
@@ -137,21 +134,18 @@
 			<div class="col-xs-6 col-sm-3">
 				<div class="radioselected">
 					<div class="wb-fieldflow"
-						data-wb-fieldflow='{"renderas":"checkbox", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#btn1", "class": "btn-sm btn-xs btn-lg"} ]}'>
-						<p><span class="h4">Configurations? placeholder</span></p>
+						data-wb-fieldflow='{"renderas":"checkbox", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#btn1", "class": "btn-sm btn-xs btn-lg"} ], "gcChckbxrdio":true }'>
+						<p><span class="h4">Variant</span></p>
 						<ul>
 							<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "", "live": true}]'>Default
 							</li>
 
 							<li
 								data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-lg", "live": true}, {"action": "toggle", "toggle": ".cl-lg", "live": true}]'>
-								borderless?</mark></li>
+								Outline</mark></li>
 							<li
 								data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-sm", "live": true}, {"action": "toggle", "toggle": ".cl-sm", "live": true}]'>
-								Drop shadow?</li>
-							<li
-								data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "btn-xs", "live": true}, {"action": "toggle", "toggle": "#extrasmall, .cl-xs", "live": true}]'>
-								full-width?</li>
+								Text only</li>
 						</ul>
 					</div>
 				</div>
@@ -159,10 +153,14 @@
 			<div class="col-xs-6 col-sm-3">
 				<div class="radioselected">
 					<div class="wb-fieldflow"
-						data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#btn1", "class": "active disabled"} ]}'>
+						data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#btn1", "class": "active disabled"} ], "gcChckbxrdio":true}'>
 						<p><span class="h4">State</span></p>
 						<ul>
 							<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "", "live": true}]'>Default
+							</li>
+							<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "", "live": true}]'>Hover
+							</li>
+							<li data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "", "live": true}]'>Focus
 							</li>
 							<li
 								data-wb-fieldflow='[{"action": "addClass", "source": "#btn1", "class": "active", "live": true}, {"action": "toggle", "toggle": ".cl-active", "live": true}]'>
