@@ -3,7 +3,6 @@ html {
 }
 
 .gc-button {
-  border: none;
   border-radius: 1.3rem;
   color: white;
   font-family: Lato, sans-serif;
@@ -17,7 +16,7 @@ html {
 }
 
 .gc-button.secondary {
-  background-color: #C4C3C5;
+  background-color: grey;
 }
 
 .gc-button.danger {
@@ -31,71 +30,4 @@ html {
   overflow: hidden;
   position: absolute;
   width: 1px;
-}
-
-.gc-button.primary:hover,
-.gc-button.primary.hover {
-  background-color: #4F6592;
-}
-
-.gc-button.secondary:hover,
-.gc-button.secondary.hover {
-  background-color: #838695;
-}
-
-.gc-button.danger:hover,
-.gc-button.danger.hover {
-  background-color: #5E1D1D;
-}
-
-.gc-button.primary:focus,
-.gc-button.primary.focus,
-.gc-button.secondary:focus,
-.gc-button.secondary.focus,
-.gc-button.danger:focus,
-.gc-button.danger.focus,
-.gc-button.skip-to:focus,
-.gc-button.skip-to.focus {
-  background-color: #303FC3;
-}
-
-.gc-button.skip-to:focus,
-.gc-button.skip-to.focus,
-.gc-button.skip-to:disabled,
-.gc-button.skip-to.disabled {
-  clip: rect(auto, auto, auto, auto);
-  height: auto;
-  margin: inherit;
-  overflow: inherit;
-  position: static;
-  width: auto;
-}
-
-.gc-button.primary:active,
-.gc-button.primary.active {
-  background-color: #0A0E14;
-}
-
-.gc-button.secondary:active,
-.gc-button.secondary.active {
-  background-color: #C4C3C5;
-}
-
-.gc-button.danger:active,
-.gc-button.danger.active {
-  background-color: #0A0E14;
-}
-
-.gc-button.primary:disabled,
-.gc-button.primary.disabled,
-.gc-button.secondary:disabled,
-.gc-button.secondary.disabled,
-.gc-button.danger:disabled,
-.gc-button.danger.disabled,
-.gc-button.skip-to:disabled,
-.gc-button.skip-to.disabled {
-  background-color: #EDEDED;
-  border: 1px solid #BFBFBF;
-  color: #6B6B6B;
-  cursor: not-allowed;
 }
