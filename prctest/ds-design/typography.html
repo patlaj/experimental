@@ -48,7 +48,10 @@
 </head>
 
 <body vocab="https://schema.org/" typeof="WebPage">
-    <div id="def-top">
+    <div class="container-fluid well">
+        <div class="container"><strong>Design system header</strong></div>
+    </div>
+    <div id="def-tops">
         <!-- Write closure fall-back static file -->
         <!-- top-en.html -->
     </div>
@@ -72,16 +75,53 @@
     </script>
     <main property="mainContentOfPage" typeof="WebPageElement" class="container">
         <h1 property="name" id="wb-cont">Typography</h1>
+        <div class="row">
+            <div class="col-md-8">
+
+                <div class="well">
+                    <p>Typography is the presentation of text. It includes fonts, sizing, and spacing as
+                        applied to
+                        the style,
+                        arrangement, and appearance of letters, numbers, and symbols.</p>
+                </div>
+
+                <p>On this page:</p>
+
+                <ul>
+                    <li><a href="#a-1">How topography works</a>
+
+                        <ul>
+                            <li><a href="#a-2">Fonts for desktop and tablet</a></li>
+                            <li><a href="#a-3">Fonts for smaller devices</a></li>
+
+                            <li><a href="#a-4">Line length</a></li>
+
+                            <li><a href="#a-5">Link appearance</a></li>
+
+                            <li><a href="#a-6">HTML tags and style considerations</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#a-7">The code: Design tokens</a></li>
+                    <li><a href="#a-9">Accessibility requirements</a></li>
+                    <li><a href="#a-8">Related components</a></li>
+
+
+                </ul>
 
 
 
-        <p>Typography is the presentation of text. It includes fonts, sizing, and spacing as applied to the style,
-            arrangement, and appearance of letters, numbers, and symbols.Typography is the presentation of text. It
-            includes fonts, sizing, and spacing as applied to the style, arrangement, and appearance of letters,
-            numbers, and symbols.</p>
-        <p>The default fonts and styled size settings make Canada.ca pages consistent and easily readable across
-            devices. Users can adjust these defaults to suit their reading needs.</p>
-        <h2>Fonts for desktop and tablet</h2>
+                <h2 id="a-1">How topography works</h2>
+
+
+                <p>The default fonts and styled size settings make Canada.ca pages consistent and
+                    easily
+                    readable across
+                    devices. Visitors can adjust these defaults to suit their reading needs.</p>
+            </div>
+        </div>
+        </div>
+        <h3 id="a-2">Fonts for desktop and tablet</h3>
 
         <div class="panel panel-default">
             <table class="table table-striped">
@@ -188,7 +228,7 @@
 
 
 
-        <h2>Fonts for smaller devices</h2>
+        <h3 id="a-3">Fonts for smaller devices</h3>
         <div class="panel panel-default">
             <table class="table table-striped">
                 <caption class="wb-inv">Caption text</caption>
@@ -290,9 +330,71 @@
 
 
         </div>
+        <div class="row">
+            <div class="col-md-8">
+                <h3 id="a-4">Line length</h3>
+                <p>Constrain text line length to 65 characters. This ensures that no lines extend beyond a comfortable
+                    reading
+                    length.</p>
+                <p>Page layouts may be wider than 65 characters. The line length restriction applies only to characters
+                    in
+                    a line
+                    of text.</p>
+                <h3 id="a-5">Link appearance</h3>
+                Links in the content area are underlined. The exceptions are:
+                <uL>
+                    <li>links in the banner and footer</li>
+                </ul>
+                <p>For full details, refer to: Links</p>
+                <h3 id="a-5">HTML tags and style considerations</h3>
+                <ul>
+                    <li><strong>Italics</strong>: italics is only used for special cases</li>
+                    <li><strong>Strikethrough</strong>: Strikethrough</li>
+                </ul>
+
+                <h2 id="a-7">The code: Design tokens</h2>
+                <p>Design tokens are used to manage and render typography. They are open source and managed at Github.
+                </p>
+
+                <h2 id="a-9">Accessibility requirements</h2>
+
+                <p>Typography considerations:</p>
+                <ul>
+                    <li>Open source</li>
+                    <li>Noto Sans supports more than 800 languages, including indigenous languages</li>
+                    <li>Passes the test to distinguish between “I”,”l”, and ”1”.</li>
+
+                </ul>
+
+                <h3 id="a-10">W3C recomendations</h3>
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#visual-presentation">1.4.12 Text Spacing [AA]</a></li>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#resize-text">1.4.4 Resize text [AA]</a></li>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#contrast-enhanced">1.4.6 Contrast (Enhanced) [AAA]</a>
+                        <ul>
+                            <li>Minimum for AA is 3:1 contrast</li>
+                            <li>AAA is enhanced contrast 7:1 except heading which can be 4.5:1</li>
+                        </ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#visual-presentation">1.4.8 Presentation [AAA]</a></li>
+                    </li>
+                </ul>
 
 
 
+
+
+                <h2 id="a-8">Related components</h2>
+                <p><a href="#">Headings</a>, <a href="#">body text</a>, <a href="#">paragraphs</a>, <a
+                        href="#">lists</a>, <a href="#">buttons</a>, <a href="#">links</a>, <a href="#">tables (headings
+                        and captions)</a></p>
+
+
+
+
+
+
+            </div>
+        </div>
 
 
 
@@ -310,9 +412,13 @@
             });
         </script>
     </main>
-    <div id="def-footer">
+    <div id="def-footers">
         <!-- Write closure fall-back static file -->
         <!-- footer-en.html -->
+
+        <div class="container-fluid well">
+            <div class="container"><strong>Design system footer</strong></div>
+        </div>
     </div>
     <!-- Write closure template -->
     <script>
