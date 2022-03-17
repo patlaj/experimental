@@ -1,0 +1,33 @@
+html {
+  font-size: 125%;
+}
+
+.gc-button {
+  border-radius: 1.3rem;
+  color: white;
+  font-family: Lato, sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  padding: 0.65rem 1.3rem;
+}
+
+.gc-button.primary {
+  background-color: #26374A;
+}
+
+.gc-button.secondary {
+  background-color: grey;
+}
+
+.gc-button.danger {
+  background-color: #BC3331;
+}
+
+.gc-button.skip-to {
+  clip: rect(1px,1px,1px,1px);
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
