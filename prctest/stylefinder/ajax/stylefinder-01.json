@@ -49,7 +49,59 @@
       "NAME": "Margin bottom - extra large",
       "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/proximity-en.html#basic\">Margin proximity</a>",
       "CATEGORY": "Structure and placement"
+    },{
+      "CSSSTYLE": "mrgn-lft-0",
+      "NAME": "Margin left - none",
+      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/proximity-en.html#basic\">Margin proximity</a>",
+      "CATEGORY": "Structure and placement"
+    },{
+      "CSSSTYLE": "mrgn-lft-sm",
+      "NAME": "Margin left - small",
+      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/proximity-en.html#basic\">Margin proximity</a>",
+      "CATEGORY": "Structure and placement"
+    },{
+      "CSSSTYLE": "mrgn-lft-md",
+      "NAME": "Margin left - medium",
+      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/proximity-en.html#basic\">Margin proximity</a>",
+      "CATEGORY": "Structure and placement"
+    },{
+      "CSSSTYLE": "mrgn-lft-lg",
+      "NAME": "Margin left - large",
+      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/proximity-en.html#basic\">Margin proximity</a>",
+      "CATEGORY": "Structure and placement"
+    },{
+      "CSSSTYLE": "mrgn-lft-xl",
+      "NAME": "Margin lft - extra large",
+      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/proximity-en.html#basic\">Margin proximity</a>",
+      "CATEGORY": "Structure and placement"
+    },{
+      "CSSSTYLE": "mrgn-rght-0",
+      "NAME": "Margin right - none",
+      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/proximity-en.html#basic\">Margin proximity</a>",
+      "CATEGORY": "Structure and placement"
+    },{
+      "CSSSTYLE": "mrgn-rght-sm",
+      "NAME": "Margin right - small",
+      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/proximity-en.html#basic\">Margin proximity</a>",
+      "CATEGORY": "Structure and placement"
+    },{
+      "CSSSTYLE": "mrgn-rght-md",
+      "NAME": "Margin right - medium",
+      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/proximity-en.html#basic\">Margin proximity</a>",
+      "CATEGORY": "Structure and placement"
+    },{
+      "CSSSTYLE": "mrgn-rght-lg",
+      "NAME": "Margin right - large",
+      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/proximity-en.html#basic\">Margin proximity</a>",
+      "CATEGORY": "Structure and placement"
+    },{
+      "CSSSTYLE": "mrgn-rght-xl",
+      "NAME": "Margin right - extra large",
+      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/proximity-en.html#basic\">Margin proximity</a>",
+      "CATEGORY": "Structure and placement"
     }
+
+
 
 
   ]
