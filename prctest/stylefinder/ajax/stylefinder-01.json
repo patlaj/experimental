@@ -1,9 +1,7 @@
 {
-  "data": [
-    [
-      "Tiger Nixon",
-      "System Architect",
-      "Edinburgh"
-    ]
-  ]
+  "data": [{
+    "CSSSTYLE": "<a href=\"http://news.gc.ca/web/index-en.do\">Biomass Program Continues to Support Transition to Renewable Energy in Manitoba</a>",
+    "CATEGORY": "The governments of Canada and Manitoba are supporting a greener, more sustainable economy through the $1 million Biomass Energy Support Program, Federal Agriculture Minister Lawrence MacAulay and Manitoba Agriculture Minister Ralph Eichler announced today.",
+    "INFOMATION": "2016-07-30"
+  }]
 }
