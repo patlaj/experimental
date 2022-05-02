@@ -4,10 +4,10 @@
     "NAME": "Margin top none", 
 	"LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/proximity-en.html#basic\">Margin proximity</a>", 
     "CATEGORY": "Structure and placement"
-  }]
+  }
 ,
 
-  "data": [{
+  {
     "CSSSTYLE": "mrgn-tp-sm",
 	 "NAME": "Margin top small", 
 	"LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/proximity-en.html#basic\">Margin proximity</a>", 
