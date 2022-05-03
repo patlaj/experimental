@@ -122,7 +122,7 @@
     },{
       "CSSSTYLE": "alert alert-success",
       "NAME": "Alert - success",
-      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/alerts-en.html#basic\"><span class=\"fa-solid fa-circle-info mrgn-rght-sm\"></span> Alerts</a>",
+      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/alerts-en.html#basic\"><span class=\"fas fa-info-circle mrgn-rght-sm\"></span> Alerts</a>",
       "CATEGORY": "Callouts",
 	  "GROUP": "Alerts"
     },{
