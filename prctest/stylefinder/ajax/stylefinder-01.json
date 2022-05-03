@@ -122,31 +122,31 @@
     },{
       "CSSSTYLE": "alert alert-success",
       "NAME": "Alert - success",
-      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/design/alerts-en.html#basic\">Alerts</a>",
+      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/alerts-en.html#basic\">Alerts</a>",
       "CATEGORY": "Callouts",
 	  "GROUP": "Alerts"
     },{
       "CSSSTYLE": "alert alert-info",
       "NAME": "Alert - info",
-      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/design/alerts-en.html#basic\">Alerts</a>",
+      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/alerts-en.html#basic\">Alerts</a>",
       "CATEGORY": "Callouts",
 	  "GROUP": "Alerts"
     },{
       "CSSSTYLE": "alert alert-warning",
       "NAME": "Alert - warning",
-      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/design/alerts-en.html#basic\">Alerts</a>",
+      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/alerts-en.html#basic\">Alerts</a>",
       "CATEGORY": "Callouts",
 	  "GROUP": "Alerts"
     },{
       "CSSSTYLE": "alert alert-danger",
       "NAME": "Alert - danger",
-      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/design/alerts-en.html#basic\">Alerts</a>",
+      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/alerts-en.html#basic\">Alerts</a>",
       "CATEGORY": "Callouts",
 	  "GROUP": "Alerts"
     },{
       "CSSSTYLE": "alert-link",
       "NAME": "Alert link",
-      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/design/alerts-en.html#links\">Alerts</a>",
+      "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/alerts-en.html#links\">Alerts</a>",
       "CATEGORY": "Callouts",
 	  "GROUP": "Alerts"
     }
