@@ -148,9 +148,8 @@
       "NAME": "Alert link",
       "LINK": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/alerts-en.html#links\">Alerts</a>",
       "CATEGORY": "Callouts",
-	  "GROUP": "Alerts"
+	  "GROUP": "<form class=\"wb-tables-filter\" data-bind-to=\"cssstylefinder\"><button class=\"btn btn-link\" data-column=\"4\" value=\"alert\">Alerts</button></form>"
     }
-
 
 
 
