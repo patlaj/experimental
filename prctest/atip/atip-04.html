@@ -6,7 +6,7 @@
 <head>
 <meta charset="utf-8">
 <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-<title>ATIP request service</title>
+<title>Request information about the government</title>
 <meta content="width=device-width,initial-scale=1" name="viewport">
 <!-- Meta data -->
 <meta name="description" content="Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities">
@@ -53,14 +53,19 @@
 			var defTop = document.getElementById("def-top");
 			defTop.outerHTML = wet.builder.appTop({
 				"cdnEnv": "esdcprod",
-				"appName": [{"text": "Access to Information and Personal Information request service ", "href": "#"}],
+				"appName": [{"text": "Access to Information and Personal Information request service ", "href": "atip-03.html"}],
 				"signIn": false,
+				"breadcrumbs": [{
+        "title": "ATIP request service",
+		"acronym": "Access to Information and Personal Information",			
+        "href": "atip-03.html"
+    }],
 				"lngLinks": [{"lang": "fr",	"href": "#",	"text": "Français"}]
 			});
 
 		</script>
 <main property="mainContentOfPage" typeof="WebPageElement" class="container">
-  <h1 property="name" id="wb-cont">ATIP request service</h1>
+  <h1 property="name" id="wb-cont"><i class="fas fa-university mrgn-rght-sm"></i> Request information about the government</h1>
   <!-- <p>You must be one of the following to get general or personal information from the governement of Canada:</p>
   <ul>
     <li>Canadian citizen</li>
@@ -73,14 +78,66 @@
     <li><strong>Validate an email address</strong> as a Guest</li>
     <li><strong>Register</strong> to sign in (helpful if you make if you make a lot of requests)</li>
   </ul>-->
-	<p>I want to:</p>
-  <div class="row mrgn-tp-lg">
-    <div class="col-md-6"><a href="atip-04.html" class="btn btn-primary full-width"><i class="fas fa-university fa-lg mrgn-rght-sm"></i> Request information about the government</a>
-      </div>
-    <div class="col-md-6"><a href="atip-05.html" class="btn btn-primary full-width"><i class="fas fa-portrait fa-lg mrgn-rght-sm"></i> Request information about a person</a>
-    </div>
-  </div>
-  <div id="def-preFooter"> 
+	
+          <p>You can request <strong>general records</strong> about the operations of government institutions under the <em>Access to 
+            Information Act</em>.</p>
+          <p>Examples include records with information about:</p>
+          <ul>
+            <li>Government spending</li>
+            <li>Programs</li>
+            <li>Policies</li>
+            <li>Government activities</li>
+          </ul>
+          <p><strong>Submission time</strong>: 5 mins</p>
+          <p><strong>Fee</strong>: $5:00 (VISA, MasterCard or American Express are accepted. Payments cannot be made through debit or prepaid credit cards)</p>
+        
+	
+	<div class="row mrgn-tp-lg">	
+		<div class="col-md-6">
+			
+			
+			<div class="panel panel-default">
+  <div class="panel-body">
+   
+			
+		<h2 class="h3 mrgn-tp-md"><i class="fas fa-search-plus mrgn-rght-sm"></i> Research</h2>
+	
+	<ul><li>Find out if the information you are looking for is already available</li>
+<li>Find the institution where you will make your request</li> 
+</ul>
+	
+	
+			</div>
+	
+        <footer class="panel-footer">
+          <div class="row">
+            <div class="col-md-12"><a href="#" class="btn btn-primary full-width"><i class="fas fa-search-plus fa-lg mrgn-rght-sm"></i> Research my request</a></div>
+          </div>
+        </footer> 
+</div>
+		</div><div class="col-md-6">
+					
+		<h2 class="h3 mrgn-tp-md">I know the institution I want</h2>
+	
+	<ul><li>If you already know the institution you are looking for</li>
+ 
+</ul>
+	
+	
+	
+	
+	
+	
+	
+	
+        <footer class="panel-footer">
+          <div class="row">
+            <div class="col-md-12"><a href="#" class="btn btn-primary full-width"><i class="fas fa-university fa-lg mrgn-rght-sm"></i> Select an institution</a></div>
+          </div>
+        </footer>
+		</div></div>
+
+	<div id="def-preFooter"> 
     
     <!-- Write closure fall-back static file --> 
     
