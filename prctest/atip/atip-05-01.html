@@ -6,7 +6,7 @@
 <head>
 <meta charset="utf-8">
 <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-<title>Request information about the government</title>
+<title>Request information about a person</title>
 <meta content="width=device-width,initial-scale=1" name="viewport">
 <!-- Meta data -->
 <meta name="description" content="Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities">
@@ -41,7 +41,6 @@
 			}));
 
 		</script>
-<link href="css/atip.css" rel="stylesheet" />
 </head>
 <body vocab="https://schema.org/" typeof="WebPage">
 <div id="def-top"> 
@@ -54,87 +53,77 @@
 			var defTop = document.getElementById("def-top");
 			defTop.outerHTML = wet.builder.appTop({
 				"cdnEnv": "esdcprod",
-				"appName": [{"text": "Access to Information and Personal Information request service ", "href": "atip-03.html"}],
-				"signIn": false,
-				"breadcrumbs": [{
+				"appName": [{"text": "Access to Information and Personal Information request service ", "href": "#"}],
+				"signIn": false,"breadcrumbs": [{
         "title": "ATIP request service",
 		"acronym": "Access to Information and Personal Information",			
-        "href": "atip-03.html"
+        "href": "atip-03-01.html"
     }],
 				"lngLinks": [{"lang": "fr",	"href": "#",	"text": "Français"}]
 			});
 
 		</script>
 <main property="mainContentOfPage" typeof="WebPageElement" class="container">
-  <h1 property="name" id="wb-cont"><i class="fas fa-university mrgn-rght-sm"></i> Request information about the government</h1>
-  <!-- <p>You must be one of the following to get general or personal information from the governement of Canada:</p>
-  <ul>
-    <li>Canadian citizen</li>
-    <li>permanent resident of Canada</li>
-    <li>individual currently in Canada</li>
-    <li>corporation currently in Canada</li>
-  </ul>
-  <p>You will be asked for <strong>contact information</strong> when you make a request.  You can do this in the following ways:</p>
-  <ul>
-    <li><strong>Validate an email address</strong> as a Guest</li>
-    <li><strong>Register</strong> to sign in (helpful if you make if you make a lot of requests)</li>
-  </ul>-->
-  
-  <p>You can request <strong>general records</strong> about the operations of government institutions under the <em>Access to 
-    Information Act</em>.</p>
-  <p>Examples include records with information about:</p>
-  <ul>
-    <li>government spending</li>
-    <li>programs</li>
-    <li>policies</li>
-    <li>government activities</li>
-  </ul>
-  <p><strong>Submission time</strong>: 5 mins</p>
-  <p><strong>Fee</strong>: $5:00 (VISA, MasterCard or American Express are accepted. Payments cannot be made through debit or prepaid credit cards)</p>
-  <div class="row mrgn-tp-lg wb-eqht">
-    <div class="col-md-6">
-      <div class="panel panel-default eqht-trgt">
-        <div class="panel-body eqht-trgt">
-          <h2 class="h3 mrgn-tp-md"><i class="fas fa-search-plus mrgn-rght-sm"></i> Research - we'll help you get started</h2>
-          <ul>
-            <li>Find out if the information you are looking for is already available</li>
-            <li>Find the institution where you will make your request</li>
-          </ul>
-        </div>
-        <footer class="panel-footer">
-          <div class="row">
-            <div class="col-md-12"><a href="#" class="btn btn-primary full-width"><i class="fas fa-search-plus fa-lg mrgn-rght-sm"></i> Research my request</a></div>
-          </div>
-        </footer>
-      </div>
-    </div>
-    <div class="col-md-6">
+<h1 property="name" id="wb-cont">Request information about a person</h1>
+<div class="row mrgn-tp-lg ">
+<div class="col-md-8 mrgn-bttm-lg">
+  <div class="wb-frmvld">
+    <form action="#" method="get" id="validation-example">
       <div class="panel panel-default">
         <div class="panel-body eqht-trgt">
-          <h2 class="h3 mrgn-tp-md">I know the institution I want</h2>
-          <ul>
-            <li>If you already know the institution you are looking for begin your request by selecting an institution</li>
-          </ul>
+          <h2 class="h3d mrgn-tp-md">Personal information request</h2>
+          <div class="col-md-12">
+            <fieldset class="chkbxrdio-grp">
+              <legend class="required"><span class="field-name">I want information about</span> <strong class="required">(required)</strong></legend>
+              <div class="radio">
+                <label for="status1">
+                  <input type="radio" name="status" value="1" id="status1" data-rule-required="true" />
+                  <strong>Me</strong><br>
+                  I am the the person making the request</label>
+              </div>
+              <div class="radio">
+                <label for="status2">
+                  <input type="radio" name="status" value="2" id="status2" />
+                  <strong>A person who is alive</strong><br>
+                  I have their consent<br>
+                  I will be asked for proof of consent</label>
+              </div>
+              <div class="radio">
+                <label for="status3">
+                  <input type="radio" name="status" value="3" id="status3" />
+                  <strong>A person who has been deceased for less than 20 years</strong><br>
+                  I am the executor of their estate<br>
+                  I will be asked for proof of executorship</label>
+              </div>
+              <div class="radio">
+                <label for="status4">
+                  <input type="radio" name="status" value="4" id="status4" />
+                  <strong>A person who has been deceased for 20 years or more</strong><br>
+                  I will be asked for proof of death</label>
+              </div>
+            </fieldset>
+          </div>
         </div>
         <footer class="panel-footer">
           <div class="row">
-            <div class="col-md-12"><a href="#" class="btn btn-primary full-width"><i class="fas fa-university fa-lg mrgn-rght-sm"></i> Select an institution</a></div>
+            <div class="col-md-12"><a href="#" class="btn btn-primary full-width">Start request</a></div>
           </div>
         </footer>
       </div>
-    </div>
+    </form>
   </div>
-  <div id="def-preFooter"> 
-    
-    <!-- Write closure fall-back static file --> 
-    
-    <!-- preFooter-en.html --> 
-    
-  </div>
+</div>
+<div id="def-preFooter"> 
   
-  <!-- Write closure template --> 
+  <!-- Write closure fall-back static file --> 
   
-  <script>
+  <!-- preFooter-en.html --> 
+  
+</div>
+
+<!-- Write closure template --> 
+
+<script>
 
 				var defPreFooter = document.getElementById("def-preFooter");
                     defPreFooter.outerHTML = wet.builder.preFooter({
@@ -145,7 +134,7 @@
 						
 				});
 
-			</script> 
+			</script>
 </main>
 <div id="def-footer"> 
   
