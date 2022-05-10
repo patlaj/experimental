@@ -6,7 +6,7 @@
 <head>
 <meta charset="utf-8">
 <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-<title>Request information about the government</title>
+<title>Request information about a person</title>
 <meta content="width=device-width,initial-scale=1" name="viewport">
 <!-- Meta data -->
 <meta name="description" content="Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities">
@@ -41,7 +41,6 @@
 			}));
 
 		</script>
-<link href="css/atip.css" rel="stylesheet" />
 </head>
 <body vocab="https://schema.org/" typeof="WebPage">
 <div id="def-top"> 
@@ -54,9 +53,8 @@
 			var defTop = document.getElementById("def-top");
 			defTop.outerHTML = wet.builder.appTop({
 				"cdnEnv": "esdcprod",
-				"appName": [{"text": "Access to Information and Personal Information request service ", "href": "atip-03.html"}],
-				"signIn": false,
-				"breadcrumbs": [{
+				"appName": [{"text": "Access to Information and Personal Information request service ", "href": "#"}],
+				"signIn": false,"breadcrumbs": [{
         "title": "ATIP request service",
 		"acronym": "Access to Information and Personal Information",			
         "href": "atip-03-01.html"
@@ -66,51 +64,52 @@
 
 		</script>
 <main property="mainContentOfPage" typeof="WebPageElement" class="container">
-  <h1 property="name" id="wb-cont">Request information about the government</h1>
-  <div class="row mrgn-tp-lg wb-eqht">
-    <div class="col-md-6">
-      <div class="panel panel-default eqht-trgt">
-        <div class="panel-body eqht-trgt">
-          <h2 class="h3 mrgn-tp-md">Research - we'll help you get started</h2>
-          <ul>
-            <li>Find out if the information you are looking for is already available</li>
-            <li>Find the institution where you will make your request</li>
-          </ul>
-        </div>
-        <footer class="panel-footer">
-          <div class="row">
-            <div class="col-md-12"><a href="atip-06-01.html" class="btn btn-primary full-width"><i class="fas fa-search-plus fa-lg mrgn-rght-sm"></i> Research my request</a></div>
-          </div>
-        </footer>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="panel panel-default">
-        <div class="panel-body eqht-trgt">
-          <h2 class="h3 mrgn-tp-md">I know the institution I want</h2>
-          <ul>
-            <li>If you already know the institution you are looking for begin your request by selecting an institution</li>
-          </ul>
-        </div>
-        <footer class="panel-footer">
-          <div class="row">
-            <div class="col-md-12"><a href="#" class="btn btn-primary full-width">Select an institution</a></div>
-          </div>
-        </footer>
-      </div>
-    </div>
-  </div>
-  <div id="def-preFooter"> 
-    
-    <!-- Write closure fall-back static file --> 
-    
-    <!-- preFooter-en.html --> 
-    
-  </div>
+<h1 property="name" id="wb-cont">Request information about a person</h1>
+	
+	<nav class="provisional gc-subway">
+	<h1 id="gc-document-nav">[Service name]</h1>
+	<ul>
+		<li>
+			<a href="#" class="active" aria-current="page">[Page 1]</a>
+		</li>
+		<li>
+			<a href="#" class="hidden-xs hidden-sm">[Page 2]</a>
+			<a href="#gc-document-nav" class="visible-xs visible-sm">[Page 2]</a>
+		</li>
+		<li>
+			<a href="#" class="hidden-xs hidden-sm">[Page 3]</a>
+			<a href="#gc-document-nav" class="visible-xs visible-sm">[Page 3]</a>
+		</li>
+		<li>
+			<a href="#" class="hidden-xs hidden-sm">[Page 4]</a>
+			<a href="#gc-document-nav" class="visible-xs visible-sm">[Page 4]</a>
+		</li>
+		<li>
+			<a href="#" class="hidden-xs hidden-sm">[Page 5]</a>
+			<a href="#gc-document-nav" class="visible-xs visible-sm">[Page 5]</a>
+		</li>
+		<li>
+			<a href="#" class="hidden-xs hidden-sm">[Page 6]</a>
+			<a href="#gc-document-nav" class="visible-xs visible-sm">[Page 6]</a>
+		</li>
+	</ul>
+</nav>
+	
+	
+	
+	
+	
+<div id="def-preFooter"> 
   
-  <!-- Write closure template --> 
+  <!-- Write closure fall-back static file --> 
   
-  <script>
+  <!-- preFooter-en.html --> 
+  
+</div>
+
+<!-- Write closure template --> 
+
+<script>
 
 				var defPreFooter = document.getElementById("def-preFooter");
                     defPreFooter.outerHTML = wet.builder.preFooter({
@@ -121,7 +120,7 @@
 						
 				});
 
-			</script> 
+			</script>
 </main>
 <div id="def-footer"> 
   
