@@ -5,6 +5,12 @@
       "INSTITUTION": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/proximity-en.html#basic\">Margin proximity</a>",
       "YEAR": "Structure and placement",
 	  "RN": "Margins"
+    },{
+      "ATIP": "<div class=\"panel panel-default\"><div class=\"panel-body\"><div class=\"row mrgn-bttm-md\"><div class=\"col-md-12\"><strong>Number</strong></div><div class=\"col-md-12\">A-2019-00020</div></div><div class=\"row mrgn-bttm-md\"><div class=\"col-md-12\"><strong>Description</strong></div><div class=\"col-md-12\">A list of all the charges and convictions for money laundering under section 462.31 of the Criminal Code carried out by the Public Prosecution Service of Canada, between fiscal years 2012-2013 and 2016-2017. Include the region of the conviction/charge, the name(s) of the accused, the internal case number, the lead prosecutor(s), the charge and outcome dates, and the outcome of each conviction or charge.</div></div><div class=\"row mrgn-bttm-md\"><div class=\"col-md-12\"><strong>Institution</strong></div><div class=\"col-md-12\">Public Prosecution Service of Canada</div></div><div class=\"row mrgn-bttm-md\"><div class=\"col-md-12\"><strong>Disposition</strong></div><div class=\"col-md-12\">Disclosed in part</div></div><div class=\"row mrgn-bttm-md\"><div class=\"col-md-12\"><strong>Date</strong></div><div class=\"col-md-12\">October 2019</div></div></div><footer class=\"panel-footer\"><div class=\"row\"><div class=\"col-md-12\"><a href=\"#\" class=\"btn btn-primary full-width\">Request a copy of A-2019-00020</a></div></div></footer></div>",
+      "DISPOSITION": "Margin top - none",
+      "INSTITUTION": "<a href=\"https:\/\/wet-boew.github.io\/wet-boew-styleguide\/design\/proximity-en.html#basic\">Margin proximity</a>",
+      "YEAR": "Structure and placement",
+	  "RN": "Margins"
     }
 
 
