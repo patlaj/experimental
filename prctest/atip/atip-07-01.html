@@ -84,9 +84,60 @@
   <h1 property="name" id="wb-cont" class="provisional gc-thickline">Step 2 - Check availabiity</h1>
   <div class="panel panel-default">
     <div class="panel-body">
-      <div class="mrgn-bttm-lg"> </div>
+      <div class="mrgn-bttm-lg">
+        <ul class="list-unstyled">
+          <li>
+            <details open="open">
+              <summary>Tag filter</summary>
+              <form class="wb-tables-filter" data-bind-to="atip-02">
+                <ul class="colcount-sm-4">
+                  <li>
+                    <button class="btn btn-link" data-column="4" value="alert">Alerts</button>
+                  </li>
+                </ul>
+              </form>
+            </details>
+          </li>
+        </ul>
+      </div>
     </div>
+    <div class="mrgn-tp-md">
+      <table class="wb-tables table small" id="atip-02" aria-live="polite" data-wb-tables='{
+            "bDeferRender": true,
+            "ajaxSource": "ajax/atip-01.json",
+            "order": [0, "asc"],
+             "columns": [
+                { "data": "ATIP", "className": "" },
+				{ "data": "DSPOSITION", "visible": false, "className": "" },
+				{ "data": "INSTITUTION", "visible": false, "className": "" },
+				{ "data": "YEAR", "visible": false, "className": "" },																{ "data": "RN", "visible": false, "className": "" }							
+			]}'>
+        <thead>
+          <tr>
+            <th class="col-md-12"></th>
+          </tr>
+        </thead>
+    
+		  
+      </table>
+    </div>
+    <form class="wb-tables-filter" data-bind-to="cssstylefinder">
+      <p>
+        <button class="btn btn-link" id="dt_type" name="dt_type" data-column="4" value="alert">go 1</button>
+      </p>
+      <p>
+        <button class="btn btn-link" data-column="4" value="alert">Alerts</button>
+      </p>
+    </form>
   </div>
+	
+	
+	
+	
+	
+	
+	
+	
   <div id="def-preFooter"> 
     
     <!-- Write closure fall-back static file --> 
