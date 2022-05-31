@@ -6,7 +6,7 @@
 <head>
 <meta charset="utf-8">
 <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-<title>Request information about a person</title>
+<title>ATIP Mockups</title>
 <meta content="width=device-width,initial-scale=1" name="viewport">
 <!-- Meta data -->
 <meta name="description" content="Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities">
@@ -29,6 +29,7 @@
 
 <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/soyutils.js"></script> 
 <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/wet-en.js"></script>
+	<script src="js/subway.js"></script> 
 <noscript>
 <!-- Write closure fall-back static file --> 
 <!-- refTop.html -->
@@ -41,6 +42,10 @@
 			}));
 
 		</script>
+	
+<link rel="stylesheet" href="css/atip-01.css" />	
+	
+	
 </head>
 <body vocab="https://schema.org/" typeof="WebPage">
 <div id="def-top"> 
@@ -54,90 +59,31 @@
 			defTop.outerHTML = wet.builder.appTop({
 				"cdnEnv": "esdcprod",
 				"appName": [{"text": "Access to Information and Personal Information request service ", "href": "#"}],
-				"signIn": false,"breadcrumbs": [{
-        "title": "ATIP request service",
-		"acronym": "Access to Information and Personal Information",			
-        "href": "atip-03-01.html"
-    },{
-        "title": "Request information about the government",	
-        "href": "atip-04-01.html"
-    }
-											   
-											   
-											   
-											   
-											   
-											   ],
+				"signIn": false,
 				"lngLinks": [{"lang": "fr",	"href": "#",	"text": "Français"}]
 			});
 
 		</script>
 <main property="mainContentOfPage" typeof="WebPageElement" class="container">
-  <nav class="provisional gc-subway">
-    <h1 id="gc-document-nav">Request information about the government</h1>
-    <ul>
-      <li> <a href="atip-06-01.html" class="hidden-xs hidden-sm" aria-current="page">Step 1 - Search</a> <a href="#gc-document-nav" class="visible-xs visible-sm">Step 2 - Check availabity</a> </li>
-      <li> <a href="atip-07-01.html" class="active">Step 2 - Check availabiity</a> </li>
-      <li> <a href="#" class="hidden-xs hidden-sm">Step 3 - Select institution</a> <a href="#gc-document-nav" class="visible-xs visible-sm">Step 3 - Select institution</a> </li>
-    </ul>
-  </nav>
-  <h1 property="name" id="wb-cont" class="provisional gc-thickline">Step 2 - Check availabiity</h1>
-  <div class="panel panel-default">
-    <div class="panel-body">
-      <div class="mrgn-bttm-lg">
-        <ul class="list-unstyled">
-          <li>
-            <details open="open">
-              <summary>Tag filter</summary>
-              <form class="wb-tables-filter" data-bind-to="atip-02">
-                <ul class="colcount-sm-4">
-                  <li>
-                    <button class="btn btn-link" data-column="4" value="alert">Alerts</button>
-                  </li>
-                </ul>
-              </form>
-            </details>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="mrgn-tp-md">
-      <table class="wb-tables table table-striped small" id="atip-02" aria-live="polite" data-wb-tables='{
-            "bDeferRender": true,
-            "ajaxSource": "ajax/atip-01.json",
-            "order": [0, "asc"],
-             "columns": [
-                { "data": "ATIP", "className": "" },
-				{ "data": "DISPOSITION", "visible": false, "className": "" },
-				{ "data": "INSTITUTION", "visible": false, "className": "" },
-				{ "data": "YEAR", "visible": false, "className": "" },																{ "data": "RN", "visible": false, "className": "" }							
-			]}'>
-        <thead>
-          <tr>
-            <th class="col-md-12">Results</th>
-          </tr>
-        </thead>
-    
-		  
-      </table>
-    </div>
-    <form class="wb-tables-filter" data-bind-to="cssstylefinder">
-      <p>
-        <button class="btn btn-link" id="dt_type" name="dt_type" data-column="4" value="alert">go 1</button>
-      </p>
-      <p>
-        <button class="btn btn-link" data-column="4" value="alert">Alerts</button>
-      </p>
-    </form>
-  </div>
-	
-	
-	
-	
-	
-	
-	
-	
+  <h1 property="name" id="wb-cont">ATIP Mockups</h1>
+  <p>The information request flow transitions people from Canada.ca to the Access to Information and Personal Information request service “application”.</p>
+  <h2 class="h3">Interaction design challenges</h2>
+  <ol>
+    <li>People can register and sign in <strong>or</strong> use a valid email to make a request.</li>
+    <li>There are 2 kinds of information requests: government and personal information.</li>
+  </ol>
+  <h2 class="h3">Make a request flow</h2>
+  <ol>
+    <li><a href="atip-02.html">Make an ATIP Request</a> (Canada.ca)
+      <ol start="2">
+        <li><a href="atip-01.html">Privacy notice</a> (Application)
+          <ol start="3">
+            <li><a href="atip-03.html">ATIP request service</a> (Application landing page)</li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
   <div id="def-preFooter"> 
     
     <!-- Write closure fall-back static file --> 
@@ -155,7 +101,7 @@
 					"cdnEnv": "esdcprod",
 						"showShare": false,
 						"showFeedback": false,
-					"dateModified": "2022-05-03",
+					"dateModified": "2022-05-05",
 						
 				});
 

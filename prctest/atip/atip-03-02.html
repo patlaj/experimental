@@ -6,7 +6,7 @@
 <head>
 <meta charset="utf-8">
 <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-<title>Request information about a person</title>
+<title>ATIP request service</title>
 <meta content="width=device-width,initial-scale=1" name="viewport">
 <!-- Meta data -->
 <meta name="description" content="Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities">
@@ -54,90 +54,66 @@
 			defTop.outerHTML = wet.builder.appTop({
 				"cdnEnv": "esdcprod",
 				"appName": [{"text": "Access to Information and Personal Information request service ", "href": "#"}],
-				"signIn": false,"breadcrumbs": [{
-        "title": "ATIP request service",
-		"acronym": "Access to Information and Personal Information",			
-        "href": "atip-03-01.html"
-    },{
-        "title": "Request information about the government",	
-        "href": "atip-04-01.html"
-    }
-											   
-											   
-											   
-											   
-											   
-											   ],
+				"signIn": false,
 				"lngLinks": [{"lang": "fr",	"href": "#",	"text": "Français"}]
 			});
 
 		</script>
 <main property="mainContentOfPage" typeof="WebPageElement" class="container">
-  <nav class="provisional gc-subway">
-    <h1 id="gc-document-nav">Request information about the government</h1>
-    <ul>
-      <li> <a href="atip-06-01.html" class="hidden-xs hidden-sm" aria-current="page">Step 1 - Search</a> <a href="#gc-document-nav" class="visible-xs visible-sm">Step 2 - Check availabity</a> </li>
-      <li> <a href="atip-07-01.html" class="active">Step 2 - Check availabiity</a> </li>
-      <li> <a href="#" class="hidden-xs hidden-sm">Step 3 - Select institution</a> <a href="#gc-document-nav" class="visible-xs visible-sm">Step 3 - Select institution</a> </li>
-    </ul>
-  </nav>
-  <h1 property="name" id="wb-cont" class="provisional gc-thickline">Step 2 - Check availabiity</h1>
-  <div class="panel panel-default">
-    <div class="panel-body">
-      <div class="mrgn-bttm-lg">
-        <ul class="list-unstyled">
-          <li>
-            <details open="open">
-              <summary>Tag filter</summary>
-              <form class="wb-tables-filter" data-bind-to="atip-02">
-                <ul class="colcount-sm-4">
-                  <li>
-                    <button class="btn btn-link" data-column="4" value="alert">Alerts</button>
-                  </li>
-                </ul>
-              </form>
-            </details>
-          </li>
-        </ul>
+  <h1 property="name" id="wb-cont">ATIP request service</h1>
+  <div class="row">
+    <div class="col-md-10">
+      <p>You can <strong>request information about the government</strong> or <strong>information about a person</strong> with the Access to Information and Privacy Request Service.</p>
+      <p>Your request will be sent to the institution you select.  Institutions are required to respond to requests within 30 days by providing records or explaining why more time is needed.  An institution’s access to information and privacy officer will contact you directly if your request is incomplete or requires clarification.</p>
+    </div>
+  </div>
+  <div class="row mrgn-tp-lg">
+    <div class="col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-body eqht-trgt">
+          <h2 class="h3s mrgn-tp-md">Request information about the government</h2>
+          <p>You can request <strong>general records</strong> about the operations of government institutions under the <em>Access to 
+            Information Act</em>.</p>
+          <p>Examples include records with information about:</p>
+          <ul>
+            <li>government spending</li>
+            <li>programs</li>
+            <li>policies</li>
+            <li>government activities</li>
+          </ul>
+          <p><strong>Submission time</strong>: 5 mins</p>
+          <p><strong>Fee</strong>: $5:00 (VISA, MasterCard or American Express are accepted. Payments cannot be made through debit or prepaid credit cards)</p>
+        </div>
+        <footer class="panel-footer">
+          <div class="row">
+            <div class="col-md-12"><a href="atip-04-01.html" class="btn btn-primary full-width">Request information about the government</a> </div>
+          </div>
+        </footer>
       </div>
     </div>
-    <div class="mrgn-tp-md">
-      <table class="wb-tables table table-striped small" id="atip-02" aria-live="polite" data-wb-tables='{
-            "bDeferRender": true,
-            "ajaxSource": "ajax/atip-01.json",
-            "order": [0, "asc"],
-             "columns": [
-                { "data": "ATIP", "className": "" },
-				{ "data": "DISPOSITION", "visible": false, "className": "" },
-				{ "data": "INSTITUTION", "visible": false, "className": "" },
-				{ "data": "YEAR", "visible": false, "className": "" },																{ "data": "RN", "visible": false, "className": "" }							
-			]}'>
-        <thead>
-          <tr>
-            <th class="col-md-12">Results</th>
-          </tr>
-        </thead>
-    
-		  
-      </table>
+    <div class="col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-body eqht-trgt">
+          <h2 class="mrgn-tp-md">Request information about a person</h2>
+          <p>You can request personal information about individuals held by government institutions for the purpose of administering programs and services under the <em>Privacy Act</em>.</p>
+          <p>Examples include records that have:</p>
+          <ul>
+            <li>your personal information</li>
+            <li>information about an individual (consent required)</li>
+            <li>information on behalf of a deceased individual</li>
+            <li>historical information about an individual (such as war records)</li>
+          </ul>
+          <p><strong>Submission time</strong>: 5 mins</p>
+          <p><strong>Fee</strong>: None</p>
+        </div>
+        <footer class="panel-footer">
+          <div class="row">
+            <div class="col-md-12"><a href="atip-05-01.html" class="btn btn-primary full-width">Request information about a person</a> </div>
+          </div>
+        </footer>
+      </div>
     </div>
-    <form class="wb-tables-filter" data-bind-to="cssstylefinder">
-      <p>
-        <button class="btn btn-link" id="dt_type" name="dt_type" data-column="4" value="alert">go 1</button>
-      </p>
-      <p>
-        <button class="btn btn-link" data-column="4" value="alert">Alerts</button>
-      </p>
-    </form>
   </div>
-	
-	
-	
-	
-	
-	
-	
-	
   <div id="def-preFooter"> 
     
     <!-- Write closure fall-back static file --> 
