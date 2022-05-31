@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+#simple .wb-eqht section {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #simple .wb-eqht section {
+    width: 49%;
+  }
+}
+@media (min-width: 1200px) {
+  #simple .wb-eqht section {
+    width: 33%;
+  }
+}
+.provisional.btn-login {
+	background-color: #26374a;
+	border: 1px solid #26374a;
+	border-radius: 0;
+	color: #fff;
+	font-weight: 600;
+	font-size: 17px;
+	margin-top: 0px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.provisional.btn-login:hover {
+	background-color: #444;
+	border-color: #444;
+}
+
+@media screen and (min-width:479px) {
+   .provisional.btn-login {
+      margin-right: 15px;
+   }
+}
