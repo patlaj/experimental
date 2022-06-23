@@ -75,7 +75,7 @@
 <main property="mainContentOfPage" typeof="WebPageElement" class="container">
 <h1 property="name" id="wb-cont" dir="ltr">Site header - Canada.ca design pattern</h1>
 <p class="gc-byline"><strong>From <a href="https://www.canada.ca/en/treasury-board-secretariat.html">Treasury Board of Canada Secretariat</a></strong></p>
-<div>
+
 <div class="row">
   <div class="col-md-9">
     <p><span class="label label-danger">Mandatory</span></p>
@@ -99,30 +99,28 @@
       <li><strong>Campaigns</strong>: Landing pages for external marketing or advertising campaigns. The flexibility in layout allows institutions to match elements of their external campaign with the landing page.</li>
       <li><strong>Web application</strong>: Government of Canada Web applications that require authentication.</li>
     </ul>
-    <ul class="list-unstyled">
-      <li>
-        <details open="open">
-          <summary>Tag filter</summary>
-          <form class="wb-tables-filter" data-bind-to="mandatory-01">
-            <ul class="colcount-sm-4">
-              <li>
-                <button class="btn btn-link" data-column="1" value="1">Standard</button>
-              </li>
-            </ul>
-          </form>
-        </details>
-      </li>
-    </ul>
+   
+	  
   </div>
 </div>
-<div class="panel panel-default mrgn-tp-md">
+<div class="panel panel-default mrgn-tp-md">  <div class="mrgn-tp-md">  <ul class="list-inline list-unstyled">
+           <li><strong>Page type:</strong></li>   <li> <form class="wb-tables-filter" data-bind-to="mandatory-01">
+                <button class="btn btn-default" data-column="1" name="standard" value="1">Standard</button></form>
+              </li><li> <form class="wb-tables-filter" data-bind-to="mandatory-01">
+                <button class="btn btn-default" data-column="1" name="transactional" value="2">Transactional</button></form>
+              </li><li> <form class="wb-tables-filter" data-bind-to="mandatory-01">
+                <button class="btn btn-default" data-column="1" name="campaigns" value="3">Campaigns</button></form>
+              </li><li> <form class="wb-tables-filter" data-bind-to="mandatory-01">
+                <button class="btn btn-default" data-column="1" name="application" value="4">Web Application</button></form>
+              </li>
+	</ul></div>
   <div class="mrgn-tp-md">
     <table class="wb-tables table table-striped small" id="mandatory-01" aria-live="polite" data-wb-tables='{
             "bDeferRender": true,
-            "order": [0, "asc"],
+            "order": [[1, "asc"],[0, "asc"]],
              "columns": [
-                { "data": "CSSSTYLE", "className": "bg-success" },
-				{ "data": "TYPESORT", "className": "" },
+                { "data": "CSSSTYLE", "className": "" },
+				{ "data": "TYPESORT", "visible": false, "className": "" },
 				{ "data": "NAME", "className": "" },
 				{ "data": "LINK", "className": "" }
               ]}'>
@@ -138,43 +136,43 @@
         <td>Government of Canada signature</td>
         <td>1</td>
         <td>Standard web page</td>
-        <td>Mandatory</td>
+           <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
       </tr>
       <tr>
         <td>Link to Canada.ca home</td>
         <td>1</td>
         <td>Standard web page</td>
-        <td>Mandatory</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
       </tr>
       <tr>
         <td>Language toggle</td>
         <td>1</td>
         <td>Standard web page</td>
-        <td>Mandatory</td>
+         <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
       </tr>
       <tr>
         <td>Site search box</td>
         <td>1</td>
         <td>Standard web page</td>
-        <td>Mandatory</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
       </tr>
       <tr>
         <td>Key line</td>
         <td>1</td>
         <td>Standard web page</td>
-        <td>Mandatory</td>
+       <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
       </tr>
       <tr>
         <td>Theme and topic menu</td>
         <td>1</td>
         <td>Standard web page</td>
-        <td>Mandatory</td>
+       <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
       </tr>
       <tr>
         <td>Breadcrumb trail</td>
         <td>1</td>
         <td>Standard web page</td>
-        <td>Mandatory</td>
+         <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
       </tr>
       <tr>
         <td>Sign in button</td>
@@ -186,73 +184,173 @@
         <td>Background colour (white)</td>
         <td>1</td>
         <td>Standard web page</td>
-        <td>Mandatory</td>
+         <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
       </tr>
       <tr>
         <td>Government of Canada signature</td>
         <td>2</td>
-        <td>Standard web page</td>
+        <td>Transactional</td>
         <td>Mandatory</td>
       </tr>
       <tr>
         <td>Link to Canada.ca home</td>
         <td>2</td>
-        <td>Standard web page</td>
+        <td>Transactional</td>
         <td>Mandatory</td>
       </tr>
       <tr>
         <td>Language toggle</td>
         <td>2</td>
-        <td>Standard web page</td>
+        <td>Transactional</td>
         <td>Mandatory</td>
       </tr>
       <tr>
         <td>Site search box</td>
         <td>2</td>
-        <td>Standard web page</td>
+        <td>Transactional</td>
         <td>Mandatory</td>
       </tr>
       <tr>
         <td>Key line</td>
         <td>2</td>
-        <td>Standard web page</td>
+        <td>Transactional</td>
         <td>Mandatory</td>
       </tr>
       <tr>
         <td>Theme and topic menu</td>
         <td>2</td>
-        <td>Standard web page</td>
+        <td>Transactional</td>
         <td>Mandatory</td>
       </tr>
       <tr>
         <td>Breadcrumb trail</td>
         <td>2</td>
-        <td>Standard web page</td>
+        <td>Transactional</td>
         <td>Mandatory</td>
       </tr>
       <tr>
         <td>Sign in button</td>
         <td>2</td>
-        <td>Standard web page</td>
+        <td>Transactional</td>
         <td>Optional</td>
       </tr>
       <tr>
         <td>Background colour (white)</td>
         <td>2</td>
-        <td>Standard web page</td>
+        <td>Transactional</td>
+        <td>Mandatory</td>
+      </tr> <tr>
+        <td>Government of Canada signature</td>
+        <td>3</td>
+        <td>Campaigns</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>Link to Canada.ca home</td>
+          <td>3</td>
+        <td>Campaigns</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>Language toggle</td>
+         <td>3</td>
+        <td>Campaigns</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>Site search box</td>
+         <td>3</td>
+        <td>Campaigns</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>Key line</td>
+        <td>3</td>
+        <td>Campaigns</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>Theme and topic menu</td>
+         <td>3</td>
+        <td>Campaigns</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>Breadcrumb trail</td>
+         <td>3</td>
+        <td>Campaigns</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>Sign in button</td>
+        <td>3</td>
+        <td>Campaigns</td>
+        <td>Optional</td>
+      </tr>
+      <tr>
+        <td>Background colour (white)</td>
+        <td>3</td>
+        <td>Campaigns</td>
+        <td>Mandatory</td>
+      </tr><tr>
+        <td>Government of Canada signature</td>
+        <td>4</td>
+        <td>Web application</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>Link to Canada.ca home</td>
+          <td>4</td>
+        <td>Web application</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>Language toggle</td>
+         <td>4</td>
+        <td>Web application</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>Site search box</td>
+       <td>4</td>
+        <td>Web application</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>Key line</td>
+       <td>4</td>
+        <td>Web application</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>Theme and topic menu</td>
+       <td>4</td>
+        <td>Web application</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>Breadcrumb trail</td>
+        <td>4</td>
+        <td>Web application</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>Sign in button</td>
+        <td>4</td>
+        <td>Web application</td>
+        <td>Optional</td>
+      </tr>
+      <tr>
+        <td>Background colour (white)</td>
+        <td>4</td>
+        <td>Web application</td>
         <td>Mandatory</td>
       </tr>
     </table>
   </div>
 </div>
-<form class="wb-tables-filter" data-bind-to="cssstylefinder">
-  <p>
-    <button class="btn btn-link" id="dt_type" name="dt_type" data-column="4" value="alert">go 1</button>
-  </p>
-  <p>
-    <button class="btn btn-link" data-column="4" value="alert">Alerts</button>
-  </p>
-</form>
+
+	
 <div id="def-preFooter"> 
   <!-- Write closure fall-back static file --> 
   <!-- preFooter-en.html --> 
