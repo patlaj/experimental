@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en" dir="ltr">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+<title>Site header - Canada.ca design pattern</title>
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<!-- Meta data -->
+<meta name="description" content="Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities">
+<!-- Meta data--> 
+<!-- Load closure template scripts --> 
+<!--
+			Note: a relative path is being used in this sample. In order to incorporate the script tags in your code, use the following absolute path (depending on the choice of domain). 
+			This path can be used for the following three file names: soyutils.js, wet-en.js, and wet-fr.js.
+
+			canada.ca: https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_44/cdts/compiled/[file name]
+			ssl-templates.services.gc.ca: https://ssl-templates.services.gc.ca/app/cls/WET/gcweb/v4_0_44/cdts/compiled/[file name]
+			templates.service.gc.ca: https://templates.service.gc.ca/app/cls/WET/gcweb/v4_0_44/cdts/compiled/[file name]
+
+			To point to the run version:
+
+			canada.ca: https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/[file name]
+			ssl-templates.services.gc.ca: https://ssl-templates.services.gc.ca/rn/cls/WET/gcweb/cdts/compiled/[file name]
+			templates.service.gc.ca: https://templates.service.gc.ca/rn/cls/WET/gcweb/cdts/compiled/[file name]
+		--> 
+
+<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/soyutils.js"></script> 
+<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/wet-en.js"></script>
+<noscript>
+<!-- Write closure fall-back static file --> 
+<!-- refTop.html -->
+</noscript>
+<!-- Write closure template --> 
+<script>
+			document.write(wet.builder.refTop({
+				"cdnEnv": "esdcprod"
+			}));
+		</script>
+<link rel="stylesheet" href="css/signin-01.css" />
+
+    <style>
+      /* move to a style sheet later */
+    .pattern-demo {
+            padding: 19px;
+            border: 1px solid #e3e3e3;
+            box-shadow: 0px 0px 10px #ddd;
+        }
+    .brdr {
+            border: 1px #ddd solid !important;
+         }
+    </style>
+
+</head>
+<body vocab="https://schema.org/" typeof="WebPage">
+<div id="def-top"> 
+  <!-- Write closure fall-back static file --> 
+  <!-- top-en.html --> 
+  
+</div>
+<!-- Write closure template --> 
+<script>
+			var defTop = document.getElementById("def-top");
+			defTop.outerHTML = wet.builder.top({
+				"cdnEnv": "esdcprod",
+				"lngLinks": [{
+					"lang": "fr",
+					"href": "basic-settings-fr.html",
+					"text": "Français"
+				}],
+				"breadcrumbs": [{
+        "title": "Canada.ca",
+        "href": "https://www.canada.ca/en/index.html"
+    },{
+        "title": "About Canada.ca",
+        "href": "https://www.canada.ca/en/government/about.html"
+    },{
+        "title": "Canada.ca design system",
+        "href": "https://www.canada.ca/en/government/about/design-system.html"
+    },{
+        "title": "Template and pattern library for Canada.ca",
+        "href": "https://www.canada.ca/en/government/about/design-system/pattern-library.html"
+    }]
+			});
+		</script>
+
+
+<main property="mainContentOfPage" typeof="WebPageElement" class="container">
+  <h1 property="name" id="wb-cont" dir="ltr">Site header - Canada.ca design pattern</h1>
+  <p class="gc-byline"><strong>From <a href="https://www.canada.ca/en/treasury-board-secretariat.html">Treasury Board of Canada Secretariat</a></strong></p>
+  <div class="row">
+    <div class="col-md-9">
+      <p><span class="label label-danger">Mandatory</span></p>
+        <div class="pattern-demo">
+          <figure class="mrgn-bttm-lg">
+            <figcaption><b>Global header – large screen</b></figcaption>
+            <img src="https://design.canada.ca/images/header-en.png" class="img-responsive brdr"
+              alt="Diagram of global header for large screens. Text version below:">
+            <details>
+              <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+              <p>The global header has the Government of Canada signature in the top left. Under the signature is the theme and
+                topic menu, and under the menu is the breadcrumb trail. The language toggle link is at the rop right. Under the
+                language toggle is the site search box. </p>
+            </details>
+          </figure>
+        </div>
+        <div class="pattern-demo">
+          <figure class="mrgn-bttm-lg">
+            <figcaption><b>Global header – small screen</b></figcaption>
+            <img src="https://design.canada.ca/images/header_small_en.png" class="img-responsive brdr"
+              alt="Diagram of global header for small screens. Text version below:">
+            <details>
+              <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+              <p>The global header has the Government of Canada signature in the top left. The language toggle link is at the
+                rop right. Under the signature and the language toggle is the site search box. Under the search box is the theme
+                and topic menu. Under the theme and topic menu is the breadcrumb trail.</p>
+            </details>
+          </figure>
+        </div>
+      <p>The global header is at the top of each Government of Canada web page.  The header consists of the following elements: </p>
+      <ul>
+        <li>Background colour (white)</li>
+        <li>Government of Canada signature</li>
+        <li>Link to canada.ca landing page from Government of Canada signature</li>
+        <li>Language toggle</li>
+        <li>Site search box</li>
+        <li>Sign in button</li>
+        <li>Theme and topic menu</li>
+        <li>Key line</li>
+        <li>Breadcrumb trail</li>
+      </ul>
+      <h2>How to implement</h2>
+      <p>Elements can be configured for the type of asset you’re creating.</p>
+      <ul>
+        <li><strong>Standard web page</strong>: Pages where people can navigate away without losing data, trigger errors or terminate their session.</li>
+        <li><strong>Transactional page</strong>:  Pages with an interaction task where people might lose data, trigger errors, or terminate their session if they navigate away from the page.</li>
+        <li><strong>Campaigns</strong>: Landing pages for external marketing or advertising campaigns. The flexibility in layout allows institutions to match elements of their external campaign with the landing page.</li>
+        <li><strong>Web application</strong>: Government of Canada Web applications that require authentication.</li>
+      </ul>
+    </div>
+  </div>
+  <h2>Mandatory elements</h2>
+  <div class="panel panel-default mrgn-tp-md">
+    <div class="mrgn-tp-md">
+      <ul class="list-inline list-unstyled">
+        <li><strong>Page type:</strong></li>
+        <li>
+          <form class="wb-tables-filter" data-bind-to="mandatory-01">
+            <button class="btn btn-default" data-column="1" name="standard" value="1">Standard</button>
+          </form>
+        </li>
+        <li>
+          <form class="wb-tables-filter" data-bind-to="mandatory-01">
+            <button class="btn btn-default" data-column="1" name="transactional" value="2">Transactional</button>
+          </form>
+        </li>
+        <li>
+          <form class="wb-tables-filter" data-bind-to="mandatory-01">
+            <button class="btn btn-default" data-column="1" name="campaigns" value="3">Campaigns</button>
+          </form>
+        </li>
+        <li>
+          <form class="wb-tables-filter" data-bind-to="mandatory-01">
+            <button class="btn btn-default" data-column="1" name="application" value="4">Web Application</button>
+          </form>
+        </li>
+      </ul>
+    </div>
+    <div class="mrgn-tp-md">
+      <table class="wb-tables table table-striped small" id="mandatory-01" aria-live="polite" data-wb-tables='{
+            "bDeferRender": true,
+			"oSearch": {"sSearch": "Standard"},																						"info": false,
+			"bLenghtChange": false,
+			"paging": false,																						
+            "order": [[1, "asc"],[0, "asc"]],
+             "columns": [
+                { "data": "CSSSTYLE", "className": "" },
+				{ "data": "TYPESORT", "visible": false, "className": "" },
+				{ "data": "NAME", "className": "" },
+				{ "data": "LINK", "className": "" }
+              ]}'>
+        <thead>
+          <tr>
+            <th class="col-md-4">Element</th>
+            <th>sort</th>
+            <th class="col-md-3">Page type</th>
+            <th class="col-md-2">Mandatory</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>Government of Canada signature</td>
+          <td>1</td>
+          <td>Standard web page</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Link to Canada.ca home</td>
+          <td>1</td>
+          <td>Standard web page</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Language toggle</td>
+          <td>1</td>
+          <td>Standard web page</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Site search box</td>
+          <td>1</td>
+          <td>Standard web page</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Key line</td>
+          <td>1</td>
+          <td>Standard web page</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Theme and topic menu</td>
+          <td>1</td>
+          <td>Standard web page</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Breadcrumb trail</td>
+          <td>1</td>
+          <td>Standard web page</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Sign in button</td>
+          <td>1</td>
+          <td>Standard web page</td>
+          <td>Optional</td>
+        </tr>
+        <tr>
+          <td>Background colour (white)</td>
+          <td>1</td>
+          <td>Standard web page</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Government of Canada signature</td>
+          <td>2</td>
+          <td>Transactional</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Link to Canada.ca home</td>
+          <td>2</td>
+          <td>Transactional</td>
+          <td>Not reccomended</td>
+        </tr>
+        <tr>
+          <td>Language toggle</td>
+          <td>2</td>
+          <td>Transactional</td>
+          <td>Not recommended</td>
+        </tr>
+        <tr>
+          <td>Site search box</td>
+          <td>2</td>
+          <td>Transactional</td>
+          <td>Not recommended</td>
+        </tr>
+        <tr>
+          <td>Key line</td>
+          <td>2</td>
+          <td>Transactional</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Theme and topic menu</td>
+          <td>2</td>
+          <td>Transactional</td>
+          <td>Not recommended</td>
+        </tr>
+        <tr>
+          <td>Breadcrumb trail</td>
+          <td>2</td>
+          <td>Transactional</td>
+          <td>Optional</td>
+        </tr>
+        <tr>
+          <td>Sign in button</td>
+          <td>2</td>
+          <td>Transactional</td>
+          <td>Optional</td>
+        </tr>
+        <tr>
+          <td>Background colour (white)</td>
+          <td>2</td>
+          <td>Transactional</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Government of Canada signature</td>
+          <td>3</td>
+          <td>Campaigns</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Link to Canada.ca home</td>
+          <td>3</td>
+          <td>Campaigns</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Language toggle</td>
+          <td>3</td>
+          <td>Campaigns</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Site search box</td>
+          <td>3</td>
+          <td>Campaigns</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Key line</td>
+          <td>3</td>
+          <td>Campaigns</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Theme and topic menu</td>
+          <td>3</td>
+          <td>Campaigns</td>
+          <td>Optional</td>
+        </tr>
+        <tr>
+          <td>Breadcrumb trail</td>
+          <td>3</td>
+          <td>Campaigns</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Sign in button</td>
+          <td>3</td>
+          <td>Campaigns</td>
+          <td>Optional</td>
+        </tr>
+        <tr>
+          <td>Background colour (white)</td>
+          <td>3</td>
+          <td>Campaigns</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Government of Canada signature</td>
+          <td>4</td>
+          <td>Web application</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Link to Canada.ca home</td>
+          <td>4</td>
+          <td>Web application</td>
+          <td>Not recommended</td>
+        </tr>
+        <tr>
+          <td>Language toggle</td>
+          <td>4</td>
+          <td>Web application</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Site search box</td>
+          <td>4</td>
+          <td>Web application</td>
+          <td>Not recommended</td>
+        </tr>
+        <tr>
+          <td>Key line</td>
+          <td>4</td>
+          <td>Web application</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Theme and topic menu</td>
+          <td>4</td>
+          <td>Web application</td>
+          <td>Not recommended</td>
+        </tr>
+        <tr>
+          <td>Breadcrumb trail</td>
+          <td>4</td>
+          <td>Web application</td>
+          <td>Optional</td>
+        </tr>
+        <tr>
+          <td>Sign in / sign out button</td>
+          <td>4</td>
+          <td>Web application</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+        <tr>
+          <td>Background colour (white)</td>
+          <td>4</td>
+          <td>Web application</td>
+          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-9">
+      <h2>Implementation resources</h2>
+      <ul>
+        <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">Centrally Deployed Templates Solution (CDTS)</a>
+          <ul>
+            <li><a href="https://cdts.service.canada.ca/app/cls/WET/gcweb/v4_0_45/cdts/samples/">CDTS Samples</a> - provides links to sample pages that demonstrate how to implement various CDTS features</li>
+          </ul>
+        </li>
+        <li>Web Experience Toolkit</li>
+        <li>Drupal WxT</li>
+        <li>AEM/Managed Web Service</li>
+      </ul>
+      <h2>Government of Canada signature</h2>
+
+      <div class="pattern-demo">
+        <figure class="mrgn-bttm-lg">
+          <figcaption class="wb-inv"><b>Signature</b></figcaption>
+          <img src="images/header-03.png" class="img-responsive"
+            alt="">
+          <details>
+            <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+            <p></p>
+          </details>
+        </figure>
+      </div>
+      <p>The Government of Canada signature as specified in Federal Identity Program (FIP) policy instruments is prominently featured in the global header on all public-facing websites.</p>
+      <ul>
+        <li>The Government of Canada signature appears in the upper-left corner of the page</li>
+        <li>The image is presented as an image file and must be formatted according to Federal Identity Program design specifications</li>
+        <li>The image is provided as a Scalable Vector Graphics (SVG) file, configured to scale automatically according to screen size</li>
+        <li>The image is hyperlinked to the Canada.ca home page in the appropriate official language</li>
+      </ul>
+      <h2>Background colour (white)</h2>
+      <p>The background colour for the header is white.</p>
+      <h2>Link to canada.ca landing page</h2>
+      <p>The Government of Canada signature image links back to the Canada.ca landing page.</p>
+      <h2>Language toggle</h2>
+      <div class="pattern-demo">
+        <figure class="mrgn-bttm-lg">
+          <figcaption class="wb-inv"><b>Language toggle</b></figcaption>
+          <img src="images/header-04.png" class="img-responsive" alt="">
+          <details>
+            <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+            <p></p>
+          </details>
+        </figure>
+      </div>
+
+      <p>All public-facing Government of Canada content is available in both official languages, at a minimum. A language toggle link in the global site header gives people access to the corresponding page in the other official language.</p>
+      <ul>
+        <li>The language toggle link consists of only one element—a simple text link indicating either “English” or “Français”</li>
+        <li>The link is always presented in the top right corner of the global header area, regardless of the screen size</li>
+      </ul>
+      <h3>Language toggle on legacy applications</h3>
+      <p>New web applications and pages with transactional interactions must allow users to toggle between official languages from any page without losing input data.  Legacy assets that do not have this functionality should be updated to include the language toggle on every page.  Legacy assets that are being replaced or are currently being updated can omit the language toggle in cases where its use would cause input data to be lost.</p>
+      <h2>Site search box</h2>
+            <div class="pattern-demo">
+              <figure class="mrgn-bttm-lg">
+                <figcaption class="wb-inv"><b>Site search box</b></figcaption>
+                <img src="images/header-05.png" class="img-responsive" alt="">
+                <details>
+                  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+                  <p></p>
+                </details>
+              </figure>
+            </div>
+
+      <p>The ability to search all Government of Canada content is supported by a simple search field, which is provided in the global header used across the site.</p>
+      <ul>
+        <li>Basic search consists of 2 elements: a keyword text input field and a search button to initiate the query</li>
+        <li>On large screens, basic search is positioned on the right-hand side of the global header area, below the language toggle link</li>
+        <li>On smaller screens basic search is positioned underneath the Government of Canada signature</li>
+        <li>Basic search is configured to scale automatically according to screen size to allow for responsive design</li>
+        <li>The basic search function allows for the use of boolean operators in the text field to submit more refined or specific queries to the search engine.</li>
+      </ul>
+      <h2>Sign in button</h2>
+          <div class="pattern-demo">
+            <figure class="mrgn-bttm-lg">
+              <figcaption class="wb-inv"><b>Sign in button</b></figcaption>
+              <img src="images/header-06.png" class="img-responsive" alt="">
+              <details>
+                <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+                <p></p>
+              </details>
+            </figure>
+          </div>
+      <p>The persistent contextual sign-in button can be used on pages where signing in to an account is an important task. Use the label "Sign in".</p>
+      <ul>
+        <li>Is sign in the only possible label for the button? (i.e. could it say sign in to a CRA account?)</li>
+        <li>When used in conjunction with the super task button needs to be added</li>
+      </ul>
+      <h2>Theme and topic menu</h2>
+          <div class="pattern-demo">
+            <figure class="mrgn-bttm-lg">
+              <figcaption><b>Large screen theme and topic with flyout open - large version</b></figcaption>
+              <img src="images/header-07.png" class="img-responsive" alt="">
+            </figure>
+          </div>
+
+          <div class="pattern-demo">
+            <figure class="mrgn-bttm-lg">
+              <figcaption><b>Small screen version of the theme and topic menu</b></figcaption>
+              <img src="images/header-08.png" class="img-responsive" alt="">
+            </figure>
+          </div>
+
+          <div class="pattern-demo">
+            <figure class="mrgn-bttm-lg">
+              <figcaption><b>Small screen version of the theme and topic menu with theme submenu opened</b></figcaption>
+              <img src="images/header-09.png" class="img-responsive" alt="">
+            </figure>
+          </div>
+
+        <div class="pattern-demo">
+          <figure class="mrgn-bttm-lg">
+            <figcaption><b>Small screen version of the theme and topic menu with most requested submenu opened</b></figcaption>
+            <img src="images/header-10.png" class="img-responsive" alt="">
+          </figure>
+        </div>
+
+      <p>The top tasks from all Government of Canada websites are organized into topics and then grouped into the 15 main themes of Canada.ca, represented in the theme and topic menu.</p>
+      <p>The theme and topic menu must always adhere to the themes and topics for Canada.ca. The labels in this menu should correspond with the <a href="https://www.canada.ca/en/government/about/design-system/topic-tree-content-types.html#tree">Topic tree for Canada.ca</a>.</p>
+      <p>The global header and footer cannot be altered and must remain consistent, wherever they are used.</p>
+      <h3>On large screens</h3>
+      <ul>
+        <li>Hovering or clicking on the menu button triggers the menu (the menu button is labeled “MENU” with a downwards caret and is located near the upper left of the site, below the Government of Canada signature)</li>
+        <li> Once opened, the menu reveals a list of the 15 main Canada.ca themes, arranged in the following order:
+          <ul>
+            <li>Jobs and the workplace</li>
+            <li>Immigration and citizenship</li>
+            <li>Travel and tourism</li>
+            <li>Business and industry</li>
+            <li>Benefits</li>
+            <li>Health</li>
+            <li>Taxes</li>
+            <li>Environment and natural resources</li>
+            <li>National security and defence</li>
+            <li>Culture, history and sport</li>
+            <li>Policing, justice and emergencies</li>
+            <li>Transport and infrastructure</li>
+            <li>Canada and the world</li>
+            <li>Money and finances</li>
+            <li>Science and innovation</li>
+          </ul>
+        </li>
+        <li>Hovering or clicking on one of the 15 themes reveals a flyout containing the following:
+          <ul>
+            <li>the first item in this flyout is always a link to the landing page for the theme itself, followed by a list of topic links and then a list of most requested links</li>
+            <li>topics listed are the first-level topics within that theme, as per the Canada.ca topic tree</li>
+            <li>most requested links are based on the highest demand items for that theme. Most requested design pattern</li>
+            <li>topics and most requested links appearing on theme pages must match the order in which they appear in the menu</li>
+            <li>no additional links or text may be added to the submenus</li>
+            <li>the last item in this submenu is always a link to more information, leading to the landing page for the theme itself</li>
+          </ul>
+        </li>
+      </ul>
+      <h3>On smaller screens</h3>
+      <ul>
+        <li>Tapping on the menu button triggers the menu (the menu is labeled "MENU" with a downwards caret, and is located in the upper left of the site, below the Government of Canada signature and site search box)</li>
+        <li>Once opened, the menu reveals a list of the 15 main Canada.ca themes, arranged in the same order as on large screens</li>
+        <li>Tapping on one of the 15 themes reveals the top topics for that theme, followed by a submenu containing the most requested links
+          <ul>
+            <li>Tapping triggers the most requested submenu</li>
+            <li>All items in these submenus must correspond to what appears on large screens</li>
+          </ul>
+        </li>
+        <li>The menu may be dismissed with a close button (labeled “Close” with a large “X” beside it) placed in the upper-right corner of the menu panel</li>
+      </ul>
+      <h2>Key line</h2>
+      <div class="pattern-demo">
+        <figure class="mrgn-bttm-lg">
+          <figcaption class="wb-inv"><b>Key line</b></figcaption>
+          <img src="images/header-11.png" class="img-responsive" alt="">
+        </figure>
+      </div>
+      <p>The key line is a design feature. It is the blue line that separates the top of the header with the Government of Canada signature, search box, and language toggle from the menu and sign in button areas.</p>
+      <h2>Breadcrumb trail</h2>
+      <div class="pattern-demo">
+        <figure class="mrgn-bttm-lg">
+          <figcaption class="wb-inv"><b>Breadcrumb</b></figcaption>
+          <img src="images/header-12.png" class="img-responsive" alt="">
+        </figure>
+      </div>
+      <p>A horizontal series of links known as a “breadcrumb trail” gives people a sense of where they are in relation to the site structure.</p>
+      <p>The links represent the location of the current page as it stands in relation to the site’s user navigation model.  The links <strong>do not</strong> reflect the path the visitor took to arrive at their current location.</p>
+      <ul>
+        <li>The first item is always “Canada.ca”, which always links to the Canada.ca home page in the current language</li>
+        <li>The current page is never displayed at the end of the breadcrumb trail</li>
+        <li>Use a greater-than sign (&#8250;) to separate levels</li>
+        <li>Longer page titles are to be shortened where possible to reduce the space required to display the trail</li>
+      </ul>
+      <p>Each page or section name on the Canada.ca site should be associated with a shortened version of the name, for the purposes of breadcrumb and other navigation systems.</p>
+      <p>For example, when on the “Planning a business” page in the Business and industry theme, the breadcrumb trail will be:</p>
+      <p>Canada.ca   &#8250;   Business   &#8250;   Starting a business</p>
+      <h3>Example breadcrumb trail links</h3>
+      <p>The breadcrumb trail always begins with "Canada.ca". Proper usage for different locations on Canada.ca is as follows:</p>
+      <h4>Theme pages</h4>
+      <p>Canada.ca</p>
+      <h4>First-level topic pages</h4>
+      <p>Canada.ca   &#8250;   [Parent theme]</p>
+      <h4>Mid-level topic pages</h4>
+      <p>Canada.ca    &#8250;   [Parent theme]    &#8250;  [Parent topic]</p>
+      <h4>Institutional profile pages</h4>
+      <p>Canada.ca</p>
+      <h4>Organizational profile pages</h4>
+      <p>Canada.ca</p>
+      <h4>Partnering and collaborative arrangement profile pages</h4>
+      <p>Canada.ca</p>
+      <h4>Services</h4>
+      <p>Canada.ca    &#8250;   [Parent theme]    &#8250;   [Parent topic]</p>
+      <h4>Search engine results pages</h4>
+      <p>Canada.ca    &#8250;   Search</p>
+    </div>
+  </div>
+  <div id="def-preFooter"> 
+    <!-- Write closure fall-back static file --> 
+    <!-- preFooter-en.html --> 
+  </div>
+  <!-- Write closure template --> 
+  <script>
+				var defPreFooter = document.getElementById("def-preFooter");
+				defPreFooter.outerHTML = wet.builder.preFooter({
+					"cdnEnv": "esdcprod",
+					"dateModified": "2022-06-23"
+				});
+			</script> 
+</main>
+<div id="def-footer"> 
+  <!-- Write closure fall-back static file --> 
+  <!-- footer-en.html --> 
+</div>
+<!-- Write closure template --> 
+<script>
+			var defFooter = document.getElementById("def-footer");
+			defFooter.outerHTML = wet.builder.footer({
+				"cdnEnv": "esdcprod"
+			});
+		</script> 
+<!-- Write closure template --> 
+<script>
+			document.write(wet.builder.refFooter({
+				"cdnEnv": "esdcprod"
+			}));
+		</script>
+</body>
+</html>
