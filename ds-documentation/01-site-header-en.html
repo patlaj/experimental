@@ -99,7 +99,7 @@
     <div class="col-md-9">
       <p><span class="label label-danger">Mandatory</span></p>
       <p>The global header is at the top of each web page from the Government of Canada. Having the same global header on all pages strengthens the Canada.ca brand and promotes trust. It also provides a unified experience on the Government of Canada web presence and allows navigation across the broad range of services and information offered.</p>
-      <div class="pattern-demo">
+      <div class="pattern-demo mrgn-tp-lg">
         <figure class="mrgn-bttm-lg">
           <figcaption><b>Global header – large screen</b></figcaption>
           <img src="./images/header-en.png" class="img-responsive brdr"
@@ -112,7 +112,7 @@
           </details>
         </figure>
       </div>
-      <div class="pattern-demo">
+      <div class="pattern-demo mrgn-tp-lg">
         <figure class="mrgn-bttm-lg">
           <figcaption><b>Global header – small screen</b></figcaption>
           <img src="./images/header_small_en.png" class="img-responsive brdr"
@@ -129,7 +129,6 @@
       <ul>
         <li><a href="#a1">When to use</a></li>
         <li><a href="#a2">How to implement</a></li>
-        <li><a href="#a5">Mandatory elements</a></li>
         <li><a href="#a3">Implementation resources</a></li>
         <li><a href="#a4">Latest changes</a></li>
       </ul>
@@ -155,43 +154,39 @@
       </ul>
     </div>
   </div>
-  <h2 id="a5">Mandatory elements</h2>
+  <h3>Global header requirements</h3>
+  <div class="mrgn-tp-md">
+    <ul class="list-inline list-unstyled">
+      <li>
+        <form class="wb-tables-filter" data-bind-to="mandatory-01">
+          <button class="btn btn-default" data-column="1" name="standard" value="1">Standard web page</button>
+        </form>
+      </li>
+      <li>
+        <form class="wb-tables-filter" data-bind-to="mandatory-01">
+          <button class="btn btn-default" data-column="1" name="transactional" value="2">Transactional web page</button>
+        </form>
+      </li>
+      <li>
+        <form class="wb-tables-filter" data-bind-to="mandatory-01">
+          <button class="btn btn-default" data-column="1" name="campaigns" value="3">Campaign web page</button>
+        </form>
+      </li>
+    </ul>
+  </div>
   <div class="panel panel-default mrgn-tp-md">
-    <div class="mrgn-tp-md">
-      <ul class="list-inline list-unstyled">
-        <li><strong>Page type:</strong></li>
-        <li>
-          <form class="wb-tables-filter" data-bind-to="mandatory-01">
-            <button class="btn btn-default" data-column="1" name="standard" value="1">Standard</button>
-          </form>
-        </li>
-        <li>
-          <form class="wb-tables-filter" data-bind-to="mandatory-01">
-            <button class="btn btn-default" data-column="1" name="transactional" value="2">Transactional</button>
-          </form>
-        </li>
-        <li>
-          <form class="wb-tables-filter" data-bind-to="mandatory-01">
-            <button class="btn btn-default" data-column="1" name="campaigns" value="3">Campaigns</button>
-          </form>
-        </li>
-        <li>
-          <form class="wb-tables-filter" data-bind-to="mandatory-01">
-            <button class="btn btn-default" data-column="1" name="application" value="4">Web Application</button>
-          </form>
-        </li>
-      </ul>
-    </div>
-    <div class="mrgn-tp-md">
-      <table class="wb-tables table table-striped small" id="mandatory-01" aria-live="polite" data-wb-tables='{
+    <table class="wb-tables table table-striped table-condensed" id="mandatory-01" aria-live="polite" data-wb-tables='{
             "bDeferRender": true,
 			"info": false,
+			"bSort": false,	
+			"oSearch": {"sSearch": "Standard"},
 			"bLenghtChange": false,
+			"dom": "lrtip",
 			"paging": false,																						
-            "order": [[1, "asc"],[0, "asc"]],
+            "order": [0, "asc"],
 			"aoColumnDefs": [
-        { "bSortable": false, "aTargets": [ 0, 1, 2, 3 ] },
-        { "bSearchablez": false, "aTargets": [ 0, 1, 2, 3 ] }
+        { "bSortable": false, "aTargets": [ 2,3] },
+        { "bSearchablez": false, "aTargets": [ 0 ] }
     ],
 		
              "columns": [
@@ -200,232 +195,234 @@
 				{ "data": "NAME", "className": "" },
 				{ "data": "LINK", "className": "" }
               ]}'>
-        <thead>
-          <tr>
-            <th class="col-md-4">Element</th>
-            <th>sort</th>
-            <th class="col-md-3">Page type</th>
-            <th class="col-md-2">Mandatory</th>
-          </tr>
-        </thead>
+      <caption class="wb-inv">
+      Global header requirements
+      </caption>
+      <thead>
         <tr>
-          <td>Government of Canada signature</td>
-          <td>1</td>
-          <td>Standard web page</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+          <th class="col-md-4">Element</th>
+          <th>sort</th>
+          <th class="col-md-3">Page type</th>
+          <th class="col-md-2">Mandatory</th>
         </tr>
-        <tr>
-          <td>Link to Canada.ca home</td>
-          <td>1</td>
-          <td>Standard web page</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Language toggle</td>
-          <td>1</td>
-          <td>Standard web page</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Site search box</td>
-          <td>1</td>
-          <td>Standard web page</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Key line</td>
-          <td>1</td>
-          <td>Standard web page</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Theme and topic menu</td>
-          <td>1</td>
-          <td>Standard web page</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Breadcrumb trail</td>
-          <td>1</td>
-          <td>Standard web page</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td><a href="https://design.canada.ca/common-design-patterns/sign-in.html">Sign in button</a></td>
-          <td>1</td>
-          <td>Standard web page</td>
-          <td>Optional</td>
-        </tr>
-        <tr>
-          <td>Background colour (white)</td>
-          <td>1</td>
-          <td>Standard web page</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Government of Canada signature</td>
-          <td>2</td>
-          <td>Transactional</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Link to Canada.ca home</td>
-          <td>2</td>
-          <td>Transactional</td>
-          <td>Not reccomended</td>
-        </tr>
-        <tr>
-          <td>Language toggle</td>
-          <td>2</td>
-          <td>Transactional</td>
-          <td>Not recommended</td>
-        </tr>
-        <tr>
-          <td>Site search box</td>
-          <td>2</td>
-          <td>Transactional</td>
-          <td>Not recommended</td>
-        </tr>
-        <tr>
-          <td>Key line</td>
-          <td>2</td>
-          <td>Transactional</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Theme and topic menu</td>
-          <td>2</td>
-          <td>Transactional</td>
-          <td>Not recommended</td>
-        </tr>
-        <tr>
-          <td>Breadcrumb trail</td>
-          <td>2</td>
-          <td>Transactional</td>
-          <td>Optional</td>
-        </tr>
-        <tr>
-          <td>Sign in button</td>
-          <td>2</td>
-          <td>Transactional</td>
-          <td>Optional</td>
-        </tr>
-        <tr>
-          <td>Background colour (white)</td>
-          <td>2</td>
-          <td>Transactional</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Government of Canada signature</td>
-          <td>3</td>
-          <td>Campaigns</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Link to Canada.ca home</td>
-          <td>3</td>
-          <td>Campaigns</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Language toggle</td>
-          <td>3</td>
-          <td>Campaigns</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Site search box</td>
-          <td>3</td>
-          <td>Campaigns</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Key line</td>
-          <td>3</td>
-          <td>Campaigns</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Theme and topic menu</td>
-          <td>3</td>
-          <td>Campaigns</td>
-          <td>Optional</td>
-        </tr>
-        <tr>
-          <td>Breadcrumb trail</td>
-          <td>3</td>
-          <td>Campaigns</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Sign in button</td>
-          <td>3</td>
-          <td>Campaigns</td>
-          <td>Optional</td>
-        </tr>
-        <tr>
-          <td>Background colour (white)</td>
-          <td>3</td>
-          <td>Campaigns</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Government of Canada signature</td>
-          <td>4</td>
-          <td>Web application</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Link to Canada.ca home</td>
-          <td>4</td>
-          <td>Web application</td>
-          <td>Not recommended</td>
-        </tr>
-        <tr>
-          <td>Language toggle</td>
-          <td>4</td>
-          <td>Web application</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Site search box</td>
-          <td>4</td>
-          <td>Web application</td>
-          <td>Not recommended</td>
-        </tr>
-        <tr>
-          <td>Key line</td>
-          <td>4</td>
-          <td>Web application</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Theme and topic menu</td>
-          <td>4</td>
-          <td>Web application</td>
-          <td>Not recommended</td>
-        </tr>
-        <tr>
-          <td>Breadcrumb trail</td>
-          <td>4</td>
-          <td>Web application</td>
-          <td>Optional</td>
-        </tr>
-        <tr>
-          <td>Sign in / sign out button</td>
-          <td>4</td>
-          <td>Web application</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-        <tr>
-          <td>Background colour (white)</td>
-          <td>4</td>
-          <td>Web application</td>
-          <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
-        </tr>
-      </table>
-    </div>
+      </thead>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/signature.html">Government of Canada signature</a></td>
+        <td>1</td>
+        <td>Standard web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td>Link to Canada.ca home</td>
+        <td>1</td>
+        <td>Standard web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle</a></td>
+        <td>1</td>
+        <td>Standard web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box</a></td>
+        <td>1</td>
+        <td>Standard web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td>Key line</td>
+        <td>1</td>
+        <td>Standard web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu</a></td>
+        <td>1</td>
+        <td>Standard web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail</a></td>
+        <td>1</td>
+        <td>Standard web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/sign-in.html">Sign in button</a></td>
+        <td>1</td>
+        <td>Standard web page</td>
+        <td>Optional</td>
+      </tr>
+      <tr>
+        <td>Background colour (white)</td>
+        <td>1</td>
+        <td>Standard web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/signature.html">Government of Canada signature</a></td>
+        <td>2</td>
+        <td>Transactional web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td>Link to Canada.ca home</td>
+        <td>2</td>
+        <td>Transactional web page</td>
+        <td>Not reccomended</td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle</a></td>
+        <td>2</td>
+        <td>Transactional web page</td>
+        <td>Not recommended</td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box</a></td>
+        <td>2</td>
+        <td>Transactional web page</td>
+        <td>Not recommended</td>
+      </tr>
+      <tr>
+        <td>Key line</td>
+        <td>2</td>
+        <td>Transactional web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu</a></td>
+        <td>2</td>
+        <td>Transactional web page</td>
+        <td>Not recommended</td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail</a></td>
+        <td>2</td>
+        <td>Transactional web page</td>
+        <td>Optional</td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/sign-in.html">Sign in button</a></td>
+        <td>2</td>
+        <td>Transactional web page</td>
+        <td>Optional</td>
+      </tr>
+      <tr>
+        <td>Background colour (white)</td>
+        <td>2</td>
+        <td>Transactional web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/signature.html">Government of Canada signature</a></td>
+        <td>3</td>
+        <td>Campaign web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td>Link to Canada.ca home</td>
+        <td>3</td>
+        <td>Campaign web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle</a></td>
+        <td>3</td>
+        <td>Campaign web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box</a></td>
+        <td>3</td>
+        <td>Campaign web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td>Key line</td>
+        <td>3</td>
+        <td>Campaign web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu</a></td>
+        <td>3</td>
+        <td>Campaign web page</td>
+        <td>Optional</td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail</a></td>
+        <td>3</td>
+        <td>Campaign web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/sign-in.html">Sign in button</a></td>
+        <td>3</td>
+        <td>Campaign web page</td>
+        <td>Optional</td>
+      </tr>
+      <tr>
+        <td>Background colour (white)</td>
+        <td>3</td>
+        <td>Campaign web page</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://design.canada.ca/common-design-patterns/signature.html">Government of Canada signature</a></td>
+        <td>4</td>
+        <td>Web application</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td>Link to Canada.ca home</td>
+        <td>4</td>
+        <td>Web application</td>
+        <td>Not recommended</td>
+      </tr>
+      <tr>
+        <td>Language toggle</td>
+        <td>4</td>
+        <td>Web application</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td>Site search box</td>
+        <td>4</td>
+        <td>Web application</td>
+        <td>Not recommended</td>
+      </tr>
+      <tr>
+        <td>Key line</td>
+        <td>4</td>
+        <td>Web application</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td>Theme and topic menu</td>
+        <td>4</td>
+        <td>Web application</td>
+        <td>Not recommended</td>
+      </tr>
+      <tr>
+        <td>Breadcrumb trail</td>
+        <td>4</td>
+        <td>Web application</td>
+        <td>Optional</td>
+      </tr>
+      <tr>
+        <td>Sign in / sign out button</td>
+        <td>4</td>
+        <td>Web application</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+      <tr>
+        <td>Background colour (white)</td>
+        <td>4</td>
+        <td>Web application</td>
+        <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Yes</span></td>
+      </tr>
+    </table>
   </div>
   <div class="row">
     <div class="col-md-9">
