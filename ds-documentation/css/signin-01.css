@@ -17,26 +17,41 @@
   }
 }
 .provisional.btn-login {
-	background-color: #26374a;
-	border: 1px solid #26374a;
-	border-radius: 0;
-	color: #fff;
-	font-weight: 600;
-	font-size: 17px;
-	margin-top: 0px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	padding-left: 16px;
-	padding-right: 16px;
+  background-color: #26374a;
+  border: 1px solid #26374a;
+  border-radius: 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
-
 .provisional.btn-login:hover {
-	background-color: #444;
-	border-color: #444;
+  background-color: #444;
+  border-color: #444;
 }
-
 @media screen and (min-width:479px) {
-   .provisional.btn-login {
-      margin-right: 15px;
-   }
+  .provisional.btn-login {
+    margin-right: 15px;
+  }
+}
+h1 span.stacked {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: -9999px;
+}
+h1 span.stacked span:nth-child(1), h1 span.stacked span:nth-child(2) {
+  margin-left: 9999px;
+}
+h1 span.stacked span:nth-child(2) {
+  font-size: 0.8em;
+  color: #666;
+  font-weight: 500;
+  margin-bottom: 0.175em;
+}
+h1 span.stacked span:nth-child(1) {
+  margin-top: -1.1em;
 }
