@@ -274,6 +274,48 @@
                      <div class="col-md-12">
                        <h3 class="h4">2. Feedback tool for non-AEM pages</h3>
                        <p>Use this feedback tool code for any page that is not hosted on the Adobe Managed Web Service.</p>
+                       
+                       <details>
+ <summary>Instructions</summary>
+                       <ol>
+                      <li>Insert this HTML code where the  “Did you find what you were looking for?” and “Share this page” are located.</br>
+
+Update the values of the hidden input  fields with the information specific to your implementation.  </br></br>
+
+<strong><span class="bg-warning">Important!</strong></span> The Institution, Theme, Section, and language values should be the SAME in English and French. </br> </br>
+
+Page title and page URL should be based on the language of the page.</br></br>
+
+
+These hidden fields are for:</li>
+<ul>
+  <li>Institution (your department acronym) - required (use the same value for EN and FR pages)</li>
+<li>Theme - required (use the same value for EN and FR pages)</li>
+<li>Section (a section of your website) - required but can be left blank (use the same value for EN and FR pages)</li>
+<li>Page title - required</li>
+<li>Submission page (URL) - required</li>
+<li>Page language (Use EN or FR) - required</li>
+</ul>
+
+</li>
+
+<li>Add the Javascript just above the closing /body tag</li>
+
+
+<li>When someone submits a comment, they will see a checkmark icon and a thank you message.  If you do not see a checkmark, you may need to include a reference to the Font Awesome icon catalog in your page header.</br></br>
+
+  <pre class="prettyprint"><code>
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://use.fontawesome.com/releases/v5.8.1/css/all.css&quot; integrity=&quot;sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf&quot; crossorigin=&quot;anonymous&quot; /&gt;&lt;/li&gt;
+ </code></pre>
+
+<li><strong>For machine learning pilots only:</strong> Tell the DTO the URLS that the feedback tool has been added to in order for feedback to populate the Airtable view.</li>
+
+
+
+<li><strong>For all pilots:</strong> Tell the DTO if you are adding a new section or theme, so we can add these filters into the Feedback Viewer.</li>
+
+</ol>
+</details>
                        <details>
  <summary>Code</summary>
  <pre class="prettyprint"><code>
