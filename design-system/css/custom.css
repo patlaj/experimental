@@ -15,6 +15,9 @@ main {
   line-height: 1.35em !important;
 }
 
+.cnt-wdth-lmtd blockquote {
+	max-width: 65ch
+}
 
 /* fixes these times of tables from the title truncating */
 @media only screen and (min-width: 768px) {
