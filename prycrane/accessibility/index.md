@@ -1,5 +1,4 @@
-
-<h1>Accessibility mockups</h1>
+# Accessibility mockups
 
 <ul>
   <li>test</li>
