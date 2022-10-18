@@ -4,7 +4,6 @@ css:
 - dto-btn.css
 lang: en
 title: Accessibility mockups
-description: testqq
 ---
 
 <h1>Accessibility mockups</h1>
