@@ -2,6 +2,7 @@
 css:
 - stacted-h1.css
 - dto-btn.css
+- layout: without-h1
 lang: en
 title: Accessibility mockups
 ---
