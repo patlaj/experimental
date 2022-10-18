@@ -3,7 +3,7 @@ css:
 - stacted-h1.css
 - dto-btn.css
 lang: en
-title: Accessibility mockups
+title: Template pattern design
 ---
 
 <h1>Accessibility mockups</h1>
