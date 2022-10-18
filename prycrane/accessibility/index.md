@@ -1,8 +1,7 @@
 ---
 css:
-- stacted-h1.css
-- dto-btn.css
-- layout: without-h1
+- [stacted-h1.css](https://design.canada.ca/css/split-h1.css)
+- [dto-btn.css](https://design.canada.ca/css/custom.css)
 lang: en
 title: Accessibility mockups
 ---
