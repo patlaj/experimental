@@ -64,8 +64,9 @@ dateModified: 2022-10-19
              <p class="mrgn-tp-lg">The global header has the Government of Canada signature in the top left. The language toggle link is at the rop right. Under the signature and the language toggle is the site search box. Under the search box is the theme and topic menu. Under the theme and topic menu is the breadcrumb trail.</p>
         </details>
     </figure>
-</div><div class="clearfix"></div>
-    <h2 id="How to implement">[H2] How to implement</h2>
+</div>
+
+<h2 id="How_to_implement">[H2] How to implement</h2>
     <h3>[h3] Implementation resources</h3>
     <ul class="mrgn-tp-lg">
         <li>Links to any WET/GCweb, Drupal WxT, CDTS, AEM, etc. resources that exist</li>
@@ -80,7 +81,7 @@ dateModified: 2022-10-19
             </ul></li>
     </ul>
     
-    <h3>[h3] Codee</h3>
+    <h3>[h3] Code</h3>
     <h2 id="Research and rationale">[H2] Research and rationale</h2>
     <h2 id="Latest changes">[H2] Latest changes</h2>
     <dl class="dl-horizontal mrgn-tp-lg">
