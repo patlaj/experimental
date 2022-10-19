@@ -32,3 +32,33 @@ dateModified: 2022-10-19
     </details>
   </figure>
 </div>
+
+<h2>[h2] On this page</h2>
+<ul>
+    <li><a href="#When to use">When to use</a></li>
+    <li><a href="#What to avoid">What to avoid</a></li>
+    <li><a href="#Content and design">Content and design</a></li>
+    <li><a href="#How to implement">How to implement</a></li>
+    <li><a href="#Research and rationale">Research and rationale</a></li>
+    <li><a href="#Latest changes">Latest changes</a></li>
+    <li><a href="#Discussion">Discussion</a></li>
+</ul>
+
+<h2 id="When to use">When to use</h2>
+<h2 id="What to avoid">What to avoid</h2>
+<h2 id="Content and design">Content and design</h2>
+<h2 id="How to implement">How to implement</h2>
+<h2 id="Research and rationale">Research and rationale</h2>
+<h2 id="Latest changes">Latest changes</h2>
+<h2 id="Discussion">Discussion</h2>
+
+
+
+
+
+
+
+
+
+
+
