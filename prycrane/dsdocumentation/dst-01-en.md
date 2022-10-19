@@ -79,7 +79,7 @@ dateModified: 2022-10-19
                 <li><a href="https://cdts.service.canada.ca/app/cls/WET/gcweb/v4_0_45/cdts/samples/">CDTS Samples - provides links to sample pages that demonstrate how to implement various CDTS features</a></li>
             </ul></li>
     </ul>
-
+    
     <h3>[h3] Code</h3>
     <h2 id="Research and rationale">[H2] Research and rationale</h2>
     <h2 id="Latest changes">[H2] Latest changes</h2>
