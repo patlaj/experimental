@@ -55,6 +55,17 @@ dateModified: 2022-10-19
 <h3>[h3] Code</h3>
 <h2 id="Research and rationale">Research and rationale</h2>
 <h2 id="Latest changes">Latest changes</h2>
+<dl class="dl-horizontal">
+    <dt>
+        <time datetime="YYYY-MM-DD" class="link-muted">YYYY-MM-DD</time>
+    </dt>
+    <dd>Description ...</dd>
+    <dt>
+        <time datetime="YYYY-MM-DD" class="link-muted">YYYY-MM-DD</time>
+    </dt>
+    <dd>Description ...</dd>
+</dl>
+
 <h2 id="Discussion">Discussion</h2>
 
 
