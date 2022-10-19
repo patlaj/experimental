@@ -50,7 +50,7 @@ dateModified: 2022-10-19
         <img src="../dsdocumentation/images/sign-in-desktop-en.jpg" class="img-responsive" alt="Diagram of global header for large screens. Text version below:" />
         <details>
             <summary class="wb-toggle" data-toggle='{"print":"on"}'>Text version</summary>
-            <p>
+            <p class="mrgn-tp-lg">
                 The global header has the Government of Canada signature in the top left. Under the signature is the theme and topic menu, and under the menu is the breadcrumb trail. The language toggle link is at the rop right. Under the
                 language toggle is the site search box.
             </p>
@@ -64,7 +64,7 @@ dateModified: 2022-10-19
         <img src="../dsdocumentation/images/sign-in-mobile-en.jpg" class="img-responsive" alt="Diagram of global header for small screens. Text version below:" />
         <details>
             <summary class="wb-toggle" data-toggle='{"print":"on"}'>Text version</summary>
-            <p>
+             <p class="mrgn-tp-lg">
                 The global header has the Government of Canada signature in the top left. The language toggle link is at the rop right. Under the signature and the language toggle is the site search box. Under the search box is the theme
                 and topic menu. Under the theme and topic menu is the breadcrumb trail.
             </p>
