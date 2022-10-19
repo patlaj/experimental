@@ -9,6 +9,7 @@ breadcrumbs:
 lang: en
 title: Pattern name
 description: Mockup of pattern template design 
+share: true
 dateModified: 2022-10-19
 ---
 
