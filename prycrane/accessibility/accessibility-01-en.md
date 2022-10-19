@@ -50,28 +50,7 @@ dateModified: 2022-10-19
           <h3><a href="#">[Topic hyperlink text]</a></h3>
           <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to.</p>
         </div>
-        <div class="col-lg-4 col-md-6">
-          <h3><a href="#">[Topic hyperlink text]</a></h3>
-          <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to.</p>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <h3><a href="#">[Topic hyperlink text]</a></h3>
-          <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to.</p>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <h3><a href="#">[Topic hyperlink text]</a></h3>
-          <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to.</p>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <h3><a href="#">[Topic hyperlink text]</a></h3>
-          <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to.</p>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <h3><a href="#">[Topic hyperlink text]</a></h3>
-          <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it
-          links to.</p>
-        </div>
-      </div>
+       </div>
     </section>
   </div>
 </div>
@@ -80,20 +59,7 @@ dateModified: 2022-10-19
 <div class="provisional gc-prtts mrgn-tp-md">
   <div class="container">
     <div class="row">
-	  <section class="provisional single-feature col-md-8 mrgn-bttm-md mrgn-tp-lg">
-		<h2 class="wb-inv">Feature</h2>
-        <a href="#">
-          <figure class="row">
-            <figcaption class="pull-right col-md-6 col-xs-12">[Feature hyperlink text]</figcaption>
-            <div class="pull-left col-md-6 col-xs-12">
-              <img src="./images/feature-img-360x203.jpg" alt="" class="img-responsive thumbnail mrgn-bttm-sm">
-            </div>
-            <div class="pull-right col-md-6 col-xs-12">
-              <p>Brief description of the feature being promoted.</p>
-            </div>
-          </figure>
-        </a>
-      </section>
+
 
       <!-- remove this section if not including social media information -->
       <section class="col-md-4 mrgn-bttm-sm">
@@ -111,21 +77,3 @@ dateModified: 2022-10-19
   </div>
 </div>
 
-<!-- optional section: Contributors-->
-<div class="container">
-  <div class="row">
-    <h2 class="wb-inv">Contributors</h2>
-    <div class="row">
-      <section class="col-md-12">
-        <div class="col-md-1">
-          <h3 class="provisional from">From:</h3>
-        </div>
-        <div class="provisional contributors col-md-11">
-          <ul>
-            <li><a href="">[Department or agency]</a></li>
-          </ul>
-        </div>
-      </section>
-    </div>
-  </div>
-</div>
