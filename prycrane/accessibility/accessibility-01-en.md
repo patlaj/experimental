@@ -7,6 +7,7 @@ breadcrumbs:
 - title: [Institution name]
   link: #
 lang: en
+share: True
 title: Accessibility
 description: Landing page for accessibility information and feedback. 
 dateModified: 2022-10-19
