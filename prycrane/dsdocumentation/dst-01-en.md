@@ -71,7 +71,7 @@ dateModified: 2022-10-19
 <ul class="mrgn-tp-lg">
   <li><a href="#">Discuss the pattern in github issues</a></li>
   <li><a href="#">Join the conversation on Slack</a></li>
-  <li><a href="#">Send an email to the Digital Transformation Office</a></li>
+  <li><a href="#">Send an email to the Digital Transformation Office</a> <span class="far fa-envelope"></span></li>
 </ul>
 
 
