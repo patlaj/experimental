@@ -14,6 +14,6 @@ dateModified: 2022-10-19
 
  <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility mockups</span>: <span>Canada.ca design system</span></span></h1>
 <ul>
-  <li><a href="accessibility-01-en.html">Accessibilty landing page</a?</li>
+  <li><a href="accessibility-01-en.html">Accessibilty landing page</a></li>
 
 </ul>  
