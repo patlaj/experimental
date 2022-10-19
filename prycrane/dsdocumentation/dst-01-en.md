@@ -44,17 +44,17 @@ dateModified: 2022-10-19
     <li><a href="#Discussion">Discussion</a></li>
 </ul>
 
-<h2 id="When to use">When to use</h2>
-<h2 id="What to avoid">What to avoid</h2>
-<h2 id="Content and design">Content and design</h2>
+<h2 id="When to use">[H2] When to use</h2>
+<h2 id="What to avoid">[H2] What to avoid</h2>
+<h2 id="Content and design">[H2] Content and design</h2>
 <h3>[h3] Content specifications</h3>
 <h3>[h3] Design specifications</h3>
 <h3>[h3] Visual examples</h3>
-<h2 id="How to implement">How to implement</h2>
+<h2 id="How to implement">[H2] How to implement</h2>
 <h3>[h3] Implementation resources</h3>
 <h3>[h3] Code</h3>
-<h2 id="Research and rationale">Research and rationale</h2>
-<h2 id="Latest changes">Latest changes</h2>
+<h2 id="Research and rationale">[H2] Research and rationale</h2>
+<h2 id="Latest changes">[H2] Latest changes</h2>
 <dl class="dl-horizontal">
     <dt>
         <time datetime="YYYY-MM-DD" class="link-muted">YYYY-MM-DD</time>
@@ -66,7 +66,7 @@ dateModified: 2022-10-19
     <dd>Description ...</dd>
 </dl>
 
-<h2 id="Discussion">Discussion</h2>
+<h2 id="Discussion">[H2] Discussion</h2>
 
 
 
