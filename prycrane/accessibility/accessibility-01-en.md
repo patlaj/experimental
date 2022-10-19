@@ -21,11 +21,6 @@ dateModified: 2022-10-19
         <h1 property="name" id="wb-cont">Accessibility</h1>
         <p class="pagetag">Find our accessibility statements and plans.  Provide accessibility feedback.</p>
       </div>
-
-      <!-- remove this div if you do not want an image -->
-      <div class="col-md-6 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">
-        <img alt="#" src="./images/theme-topic-img-825x200.jpg" />
-      </div> <!-- end of the image div -->
     </div>
   </div>
 </div>
