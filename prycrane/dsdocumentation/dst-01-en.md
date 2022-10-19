@@ -21,9 +21,10 @@ dateModified: 2022-10-19
   <li>Mandatory label appears only on mandatory pages.</li>
   <li>Optional (Include the label when it’s an optional element on a mandatory pattern, like contextual footer)</li>
 </ul>
+-->
 <p><strong>Type</strong>: Template
 <p>[Pattern description] -  a brief description/definition of the pattern that helps users quickly understand what the component or pattern is.</p>
--->
+
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm">
         <img src="../dsdocumentation/images/sign-in-desktop-en.jpg" class="img-responsive" alt="">
