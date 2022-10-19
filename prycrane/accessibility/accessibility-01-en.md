@@ -5,9 +5,6 @@ css:
 layout: without-h1
 lang: en
 title: Accessibility
-breadcrumbs:
-- title: Accessibility
-  link: https://prycrane.github.io/experimental/prycrane/accessibility/
 description: Landing page for accessibility information and feedback. 
 dateModified: 2022-10-19
 ---
@@ -31,7 +28,7 @@ dateModified: 2022-10-19
 </div>
 
 <!-- remove 'mrgn-tp-0' class if you are not using an image -->
-<section class="provisional most-requested-bullets well well-sm brdr-0 mrgn-tp-0" >
+<!-- <section class="provisional most-requested-bullets well well-sm brdr-0 mrgn-tp-0" >
   <div class="container">
     <div class="row">
       <div class="pddng-r-0 col-md-2">
@@ -51,7 +48,7 @@ dateModified: 2022-10-19
       </div>
     </div>
   </div>
-</section>
+</section>-->
 <div class="container">
   <div class="row">
 
