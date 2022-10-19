@@ -25,7 +25,7 @@ dateModified: 2022-10-19
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-lg">
     <figcaption><strong>Plain image of [pattern name]</strong></figcaption>
-    <img src="../images/sign-in-desktop-en.jpg" class="img-responsive" alt="Plain image of [pattern name]. Text version below:">
+    <img src="../dsdocumentation/images/sign-in-desktop-en.jpg" class="img-responsive" alt="Plain image of [pattern name]. Text version below:">
     <details>
       <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
       <p>Text version of image description</p>
