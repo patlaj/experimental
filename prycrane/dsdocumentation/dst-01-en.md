@@ -16,4 +16,4 @@ dateModified: 2022-10-19
 
  <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>[H1] Pattern name</span>: <span>Canada.ca design system</span></span></h1>
 <p class="small">last updated: YYYY-MM-DD</p>  
-<p><span class="label label-danger">>Mandatory on standard pages</span></p>
+<p><span class="label label-danger">Mandatory on standard pages</span></p>
