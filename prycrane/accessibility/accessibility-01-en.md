@@ -3,6 +3,9 @@ css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
 layout: without-h1
+breadcrumbs:
+- title: [Institution name]
+  link: #
 lang: en
 title: Accessibility
 description: Landing page for accessibility information and feedback. 
