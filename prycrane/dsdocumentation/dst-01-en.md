@@ -70,7 +70,7 @@ dateModified: 2022-10-19
             </p>
         </details>
     </figure>
-
+</div>
     <h2 id="How to implement">[H2] How to implement</h2>
     <h3>[h3] Implementation resources</h3>
     <ul>
