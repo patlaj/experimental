@@ -21,6 +21,7 @@ dateModified: 2022-10-19
   <li>Mandatory label appears only on mandatory pages.</li>
   <li>Optional (Include the label when it’s an optional element on a mandatory pattern, like contextual footer)</li>
 </ul>
+<p><strong>Type</strong>: Template
 <p>[Pattern description] -  a brief description/definition of the pattern that helps users quickly understand what the component or pattern is.</p>
 -->
 <div class="pattern-demo mrgn-tp-lg">
@@ -69,12 +70,4 @@ dateModified: 2022-10-19
   <li><a href="#">Join the conversation on Slack</a></li>
   <li><a href="#">Send an email to the Digital Transformation Office</a> <span class="far fa-envelope"></span></li>
 </ul>
-
-
-
-
-
-
-
-
 
