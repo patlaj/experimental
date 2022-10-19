@@ -7,7 +7,7 @@ lang: en
 title: Accessibility
 breadcrumbs:
 - title: Accessibility landing page
-  link: absolute link
+  link: https://prycrane.github.io/experimental/prycrane/accessibility/
 description: Landing page for accessibility information and feedback. 
 dateModified: 2022-10-19
 ---
