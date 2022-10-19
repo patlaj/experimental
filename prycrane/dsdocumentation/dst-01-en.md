@@ -67,7 +67,7 @@ dateModified: 2022-10-19
 </div>
 
 <h2 id="How_to_implement">[H2] How to implement</h2>
-    <h3>[h3] Implementation resources</h3>
+<h3>[h3] Implementation resources</h3>
     <ul class="mrgn-tp-lg">
         <li>Links to any WET/GCweb, Drupal WxT, CDTS, AEM, etc. resources that exist</li>
         <li>Link to the part of such documentation that relates specifically to the pattern if possible</li>
@@ -94,7 +94,7 @@ dateModified: 2022-10-19
         </dt>
         <dd>Description ...</dd>
     </dl>
-
+    
     <h2 id="Discussion">[H2] Discussion</h2>
 
     <ul class="mrgn-tp-lg">
