@@ -58,7 +58,7 @@ dateModified: 2022-10-19
     </figure>
 </div>
 
-<div class="pattern-demo">
+<div class="pattern-demo mrgn-tp-lg">
     <figure class="mrgn-bttm-lg">
         <figcaption><b>Global header – small screen</b></figcaption>
         <img src="../dsdocumentation/images/sign-in-mobile-en.jpg" class="img-responsive" alt="Diagram of global header for small screens. Text version below:" />
