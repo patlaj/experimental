@@ -23,8 +23,8 @@ dateModified: 2022-10-19
 <p>[Pattern description] -  a brief description/definition of the pattern that helps users quickly understand what the component or pattern is.</p>
 -->
 <div class="pattern-demo mrgn-tp-lg">
-  <figure class="mrgn-bttm-lg">
-    <figcaption><strong>Plain image of [pattern name]</strong></figcaption>
+  <figure class="mrgn-bttm-sm">
+    <figcaption><strong>[Pattern name]</strong></figcaption>
     <img src="../dsdocumentation/images/sign-in-desktop-en.jpg" class="img-responsive" alt="Plain image of [pattern name]. Text version below:">
     <details>
       <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
