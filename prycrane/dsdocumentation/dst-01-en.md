@@ -27,7 +27,7 @@ dateModified: 2022-10-19
 </div>
 
 <h2>[h2] On this page</h2>
-<ul>
+<ul class="mrgn-tp-lg">
     <li><a href="#When to use">When to use</a></li>
     <li><a href="#What to avoid">What to avoid</a></li>
     <li><a href="#Content and design">Content and design</a></li>
@@ -67,7 +67,7 @@ dateModified: 2022-10-19
 </div>
     <h2 id="How to implement">[H2] How to implement</h2>
     <h3>[h3] Implementation resources</h3>
-    <ul>
+    <ul class="mrgn-tp-lg">
         <li>Links to any WET/GCweb, Drupal WxT, CDTS, AEM, etc. resources that exist</li>
         <li>Link to the part of such documentation that relates specifically to the pattern if possible</li>
         <li><a href="https://wet-boew.github.io/GCWeb/docs/implementing-en.html">GCweb (WET) theme: Variables, parameters and working examples</a></li>
@@ -101,5 +101,3 @@ dateModified: 2022-10-19
         <li><a href="#">Join the conversation on Slack</a></li>
         <li><a href="#">Send an email to the Digital Transformation Office</a> <span class="far fa-envelope"></span></li>
     </ul>
-</div>
-
