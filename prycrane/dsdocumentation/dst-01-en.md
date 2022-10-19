@@ -43,6 +43,19 @@ dateModified: 2022-10-19
 <h3>[h3] Visual examples</h3>
 <h2 id="How to implement">[H2] How to implement</h2>
 <h3>[h3] Implementation resources</h3>
+<ul>
+    <li>Links to any WET/GCweb, Drupal WxT, CDTS, AEM, etc. resources that exist</li>
+    <li>Link to the part of such documentation that relates specifically to the pattern if possible</li>
+    <li><a href="https://wet-boew.github.io/GCWeb/docs/implementing-en.html">GCweb (WET) theme: Variables, parameters and working examples</a></li>
+    <li><a href="https://drupalwxt.github.io/en/docs/environment/">Drupal WxT</a></li>
+    <li><a href="https://www.gcpedia.gc.ca/wiki/AEM_GC-specific_Documentation_6.5">AEM/Managed Web Service (accessible only on the Government of Canada network)</a></li>
+    <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/internet-en.html">Centrally deployed templates solution</a>
+        <ul>
+            <li><a href="https://cdts.service.canada.ca/app/cls/WET/gcweb/v4_0_45/cdts/samples/">CDTS Samples - provides links to sample pages that demonstrate how to implement various CDTS features</a></li>
+        </ul>
+    </li>
+</ul>
+
 <h3>[h3] Code</h3>
 <h2 id="Research and rationale">[H2] Research and rationale</h2>
 <h2 id="Latest changes">[H2] Latest changes</h2>
