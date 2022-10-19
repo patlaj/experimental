@@ -12,15 +12,13 @@ description: Landing page for accessibility information and feedback.
 dateModified: 2022-10-19
 ---
 
- <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility</span>: <span>Canada.ca design system</span></span></h1>
-
 <div class="provisional profile">
   <div class="container">
     <div class="row">
 
       <!-- change col-md-6 to col-md-12 if not using an image -->
       <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
-        <h1 property="name" id="wb-cont">[Theme - Topic title]</h1>
+        <h1 property="name" id="wb-cont">Accessibility</h1>
         <p class="pagetag">1-2 sentences that describe the topics and top tasks that can be accessed on this page.</p>
       </div>
 
