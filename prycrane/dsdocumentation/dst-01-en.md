@@ -2,7 +2,7 @@
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
-- netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css
+- https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css
 layout: without-h1
 breadcrumbs:
 - title: Canada.ca design system
