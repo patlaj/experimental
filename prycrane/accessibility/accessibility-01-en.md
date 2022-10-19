@@ -51,24 +51,7 @@ dateModified: 2022-10-19
   </div>
 </div>
 
-<!-- optional section: One feature and social media - design is flexible -->
-<div class="provisional gc-prtts mrgn-tp-md">
-  <div class="container">
-    <div class="row">
 
-
-      <!-- remove this section if not including social media information -->
-      <section class="col-md-4 mrgn-bttm-sm">
-        <div class="provisional followus followus-vertical">
-          <h2>On social media</h2>
-          <ul>
-            <li class="facebook"><a href="#" rel="external" class="social-lnk"><b>FacebookPageName</b></a></li>
-            <li class="twitter"><a href="#" rel="external" class="social-lnk"><b>@TwitterAccount</b></a></li>
-            <li class="youtube"><a href="#" rel="external" class="social-lnk"><b>YouTubeName</b></a></li>
-            <li class="instagram"><a href="#" rel="external" class="social-lnk"><b>InstagramName</b></a></li>
-          </ul>
-        </div>
-      </section> <!-- end of social media div -->
     </div>
   </div>
 </div>
