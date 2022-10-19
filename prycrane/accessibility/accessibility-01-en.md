@@ -16,7 +16,7 @@ dateModified: 2022-10-19
       <!-- change col-md-6 to col-md-12 if not using an image -->
       <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
         <h1 property="name" id="wb-cont">Accessibility</h1>
-        <p class="pagetag">1-2 sentences that describe the topics and top tasks that can be accessed on this page.</p>
+        <p class="pagetag">Find our accessibility statements and plans.  Provide accessibility feedback.</p>
       </div>
 
       <!-- remove this div if you do not want an image -->
