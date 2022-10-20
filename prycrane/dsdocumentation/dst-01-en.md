@@ -4,6 +4,7 @@ css:
 - https://design.canada.ca/css/custom.css
 layout: without-h1
 altLangPage: /dst-01-fr.html
+pageclass: cnt-wdth-lmtd
 breadcrumbs:
 - title: Canada.ca design system
   link: https://www.canada.ca/en/government/about/design-system.html
