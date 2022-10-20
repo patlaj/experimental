@@ -42,7 +42,7 @@ dateModified: 2022-10-19
         </div> <!-- end of the image div -->
     </div>
   </div>
-				
+		</div>		
 
 <!-- remove 'mrgn-tp-0' class if you are not using an image -->
 <section class="provisional most-requested-bullets well well-sm brdr-0 mrgn-tp-0" >
@@ -168,7 +168,7 @@ dateModified: 2022-10-19
     </div>
   </div>
 </div>
-		</div>	</div>
+			</div>
 		</section>
   
   </div>
