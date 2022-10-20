@@ -23,7 +23,7 @@ dateModified: 2022-10-19
 </div></a>
 		<section id="inline_content" class="mfp-hide modal-content overlay-def">
 			<header class="modal-header">
-				<h2 class="modal-title">Title</h2>
+				<h2 class="modal-title">Theme and topic page</h2>
 			</header>
 			<div class="modal-body">
 				<div class="provisional profile">
