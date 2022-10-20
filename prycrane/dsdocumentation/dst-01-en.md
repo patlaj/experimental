@@ -21,17 +21,17 @@ dateModified: 2022-10-19
 </div>
 <h2>(H2) On this page</h2>
 <ul class="mrgn-tp-lg">
-  <li><a href="#When to use">When to use</a></li>
-  <li><a href="#What to avoid">What to avoid</a></li>
-  <li><a href="#Content and design">Content and design</a></li>
-  <li><a href="#How to implement">How to implement</a></li>
-  <li><a href="#Research and rationale">Research and rationale</a></li>
-  <li><a href="#Latest changes">Latest changes</a></li>
+  <li><a href="#When_to_use">When to use</a></li>
+  <li><a href="#What_to_avoid">What to avoid</a></li>
+  <li><a href="#Content_and_design">Content and design</a></li>
+  <li><a href="#How_to_implement">How to implement</a></li>
+  <li><a href="#Research_and_rationale">Research and rationale</a></li>
+  <li><a href="#Latest_changes">Latest changes</a></li>
   <li><a href="#Discussion">Discussion</a></li>
 </ul>
-<h2 id="When to use">(H2) When to use</h2>
-<h2 id="What to avoid">(H2) What to avoid</h2>
-<h2 id="Content and design">(H2) Content and design</h2>
+<h2 id="When_to_use">(H2) When to use</h2>
+<h2 id="What_to_avoid">(H2) What to avoid</h2>
+<h2 id="Content_and_design">(H2) Content and design</h2>
 <h3>(H3) Content specifications</h3>
 <h3>(H3) Design specifications</h3>
 <h3>(H3) Visual examples</h3>
@@ -70,8 +70,8 @@ dateModified: 2022-10-19
   </li>
 </ul>
 <h3>(H3) Code</h3>
-<h2 id="Research and rationale">(H2) Research and rationale</h2>
-<h2 id="Latest changes">(H2) Latest changes</h2>
+<h2 id="Research_and_rationale">(H2) Research and rationale</h2>
+<h2 id="Latest_changes">(H2) Latest changes</h2>
 <dl class="dl-horizontal mrgn-tp-lg">
   <dt>
     <time datetime="YYYY-MM-DD" class="link-muted">YYYY-MM-DD</time>
