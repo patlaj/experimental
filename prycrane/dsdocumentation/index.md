@@ -3,6 +3,7 @@ css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
 layout: without-h1
+altLangPage: /fr.html
 lang: en
 title: Mockups for Canada.ca design system pattern templates
 description: Index of mockups for Canada.ca design system templates
