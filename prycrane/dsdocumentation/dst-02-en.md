@@ -19,7 +19,7 @@ dateModified: 2022-10-19
 <p>(Pattern description) - a brief description/definition of the pattern that helps users quickly understand what the component or pattern is.</p>  
   
 
-<div class="col-md-2">
+<div class="col-md-2 pull-right">
     	<a class="wb-lbx" title="Theme and topic page" href="#inline_content"><div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm"><img src="../dsdocumentation/images/theme-topic-img-cropped.jpg" class="img-responsive" alt="Theme and topic page" /></figure>
 </div></a>
