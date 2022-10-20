@@ -2,9 +2,8 @@
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
-layout: 
-- without-h1
-- cnt-wdth-lmtd
+layout: - without-h1
+pageclass: - cnt-wdth-lmtd
 breadcrumbs:
 - title: Canada.ca design system
   link: https://www.canada.ca/en/government/about/design-system.html
