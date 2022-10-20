@@ -20,7 +20,7 @@ dateModified: 2022-10-19
 <div class="col-md-2 pull-right">
     	<a class="wb-lbx" title="Theme and topic page" href="#inline_content"><div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm"><img src="../dsdocumentation/images/theme-topic-img-cropped.jpg" class="img-responsive" alt="Theme and topic page" /></figure>
-</div></a>
+</a></div>
 		<section id="inline_content" class="mfp-hide modal-content overlay-def">
 			<header class="modal-header">
 				<h2 class="modal-title">Theme and topic page</h2>
