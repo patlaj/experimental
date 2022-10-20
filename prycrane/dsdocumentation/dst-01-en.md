@@ -68,7 +68,8 @@ dateModified: 2022-10-19
 
 <h2 id="How_to_implement">[H2] How to implement</h2>
 <h3>[h3] Implementation resources</h3>
-    <ul class="mrgn-tp-lg">
+
+<ul class="mrgn-tp-lg">
         <li>Links to any WET/GCweb, Drupal WxT, CDTS, AEM, etc. resources that exist</li>
         <li>Link to the part of such documentation that relates specifically to the pattern if possible</li>
         <li><a href="https://wet-boew.github.io/GCWeb/docs/implementing-en.html">GCweb (WET) theme: Variables, parameters and working examples</a></li>
@@ -80,7 +81,6 @@ dateModified: 2022-10-19
                 <li><a href="https://cdts.service.canada.ca/app/cls/WET/gcweb/v4_0_45/cdts/samples/">CDTS Samples - provides links to sample pages that demonstrate how to implement various CDTS features</a></li>
             </ul></li>
     </ul>
-    
     <h3>[h3] Code</h3>
     <h2 id="Research and rationale">[H2] Research and rationale</h2>
     <h2 id="Latest changes">[H2] Latest changes</h2>
@@ -96,7 +96,7 @@ dateModified: 2022-10-19
     </dl>
     
     <h2 id="Discussion">[H2] Discussion</h2>
-
+    
     <ul class="mrgn-tp-lg">
         <li><a href="#">Discuss the pattern in github issues</a></li>
         <li><a href="#">Join the conversation on Slack</a></li>
