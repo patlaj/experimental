@@ -124,7 +124,7 @@ dateModified: 2022-10-19
           <figure class="row">
             <figcaption class="pull-right col-md-6 col-xs-12">[Feature hyperlink text]</figcaption>
             <div class="pull-left col-md-6 col-xs-12">
-              <img src="./images/feature-img-360x203.jpg" alt="" class="img-responsive thumbnail mrgn-bttm-sm">
+              <img src="../dsdocumentation/images/feature-img-360x203.jpg" alt="" class="img-responsive thumbnail mrgn-bttm-sm">
             </div>
             <div class="pull-right col-md-6 col-xs-12">
               <p>Brief description of the feature being promoted.</p>
