@@ -30,19 +30,19 @@ dateModified: 2022-10-19
   <div class="container">
     <div class="row">
 
-      <!-- change col-md-6 to col-md-12 if not using an image -->
-      <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
-        <h2 property="name" id="wb-cont">[Theme - Topic title]</h2>
+        <!-- change col-md-6 to col-md-12 if not using an image -->
+        <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
+         <h2 property="name" id="wb-cont">[Theme - Topic title]</h2>
         <p class="pagetag">1-2 sentences that describe the topics and top tasks that can be accessed on this page.</p>
-      </div>
+        </div>
 
-      <!-- remove this div if you do not want an image -->
-      <div class="col-md-6 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">
+        <!-- remove this div if you do not want an image -->
+        <div class="col-md-6 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">
         <img alt="#" src="../dsdocumentation/images/theme-topic-img-825x200.jpg" />
-      </div> <!-- end of the image div -->
+        </div> <!-- end of the image div -->
     </div>
   </div>
-				</div><div class="clearfix"></div>
+				
 
 <!-- remove 'mrgn-tp-0' class if you are not using an image -->
 <section class="provisional most-requested-bullets well well-sm brdr-0 mrgn-tp-0" >
@@ -168,7 +168,7 @@ dateModified: 2022-10-19
     </div>
   </div>
 </div>
-			</div>
+		</div>	</div>
 		</section>
   
   </div>
