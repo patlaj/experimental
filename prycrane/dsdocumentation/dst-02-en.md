@@ -28,7 +28,9 @@ dateModified: 2022-10-19
 				<h2 class="modal-title">Theme and topic page</h2>
 			</header>
 			<div class="modal-body">
-				<div class="provisional profile">
+				
+				
+<div class="provisional profile">
   <div class="container">
     <div class="row">
 
@@ -41,10 +43,10 @@ dateModified: 2022-10-19
         <!-- remove this div if you do not want an image -->
         <div class="col-md-6 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">
         <img alt="#" src="../dsdocumentation/images/theme-topic-img-825x200.jpg" />
-        </div> <!-- end of the image div -->
+    </div> <!-- end of the image div -->
     </div>
   </div>
-		</div>		
+</div>	
 
 <!-- remove 'mrgn-tp-0' class if you are not using an image -->
 <section class="provisional most-requested-bullets well well-sm brdr-0 mrgn-tp-0" >
@@ -166,14 +168,20 @@ dateModified: 2022-10-19
             <li><a href="">[Department or agency]</a></li>
           </ul>
         </div>
-      </section>
+     </section>
     </div>
   </div>
-</div>
-			</div>
+</div>	
+	
+	
+	
+	
+	
+	
+	</div>
 		</section>
   
-  </div>
+
 <p class="small">last updated: YYYY-MM-DD</p>  
 <p><strong>Type</strong>: Template <span class="label label-danger">Mandatory on standard pages</span></p>
 <p>(Pattern description) - a brief description/definition of the pattern that helps users quickly understand what the component or pattern is.</p>  
