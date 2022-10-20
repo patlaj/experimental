@@ -175,7 +175,7 @@ dateModified: 2022-10-19
 <p><strong>Type</strong>: Template <span class="label label-danger">Mandatory on standard pages</span></p>
 <p>(Pattern description) - a brief description/definition of the pattern that helps users quickly understand what the component or pattern is.</p>  
   
-<div class="clearfix"></div>
+<!--<div class="clearfix"></div>-->
 <h2>(H2) On this page</h2>
 <ul class="mrgn-tp-lg">
   <li><a href="#When_to_use">When to use</a></li>
