@@ -18,7 +18,7 @@ dateModified: 2022-10-19
 <p>[Pattern description] - a brief description/definition of the pattern that helps users quickly understand what the component or pattern is.</p>
 <div>
     	<a class="wb-lbx" title="Example of inline content" href="#inline_content">Inline content</a>
-		<section id="inline_content" class="mfp-hide modal-dialog modal-content overlay-def">
+		<section id="inline_content" class="mfp-hide modal-content overlay-def">
 			<header class="modal-header">
 				<h2 class="modal-title">Title</h2>
 			</header>
