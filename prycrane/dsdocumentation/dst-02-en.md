@@ -173,9 +173,6 @@ dateModified: 2022-10-19
   
   </div>
 
-<div class="pattern-demo mrgn-tp-lg">
-  <figure class="mrgn-bttm-sm"> <img src="../dsdocumentation/images/sign-in-desktop-en.jpg" class="img-responsive" alt="" /> </figure>
-</div>
 <h2>(H2) On this page</h2>
 <ul class="mrgn-tp-lg">
   <li><a href="#When_to_use">When to use</a></li>
