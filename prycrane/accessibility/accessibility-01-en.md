@@ -3,7 +3,7 @@ css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
 layout: without-h1
-altLangPage: /accessibility-01-fr.html
+altLangPage: /experimental/prycrane/accessibility/accessibilite-01-fr.html
 breadcrumbs:
 - title: [Institution name]
   link: #
