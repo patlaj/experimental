@@ -3,6 +3,7 @@ css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
 layout: without-h1
+altLangPage: /dst-01-fr.html
 breadcrumbs:
 - title: Canada.ca design system
   link: https://www.canada.ca/en/government/about/design-system.html
