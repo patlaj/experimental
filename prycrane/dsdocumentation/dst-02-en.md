@@ -37,7 +37,7 @@ dateModified: 2022-10-19
 
       <!-- remove this div if you do not want an image -->
       <div class="col-md-6 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">
-        <img alt="#" src="../dsdocumentation/images/sign-in-desktop-en.jpg" />
+        <img alt="#" src="../dsdocumentation/images/theme-topic-img-825x200.jpg" />
       </div> <!-- end of the image div -->
     </div>
   </div>
