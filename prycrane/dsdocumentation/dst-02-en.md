@@ -17,7 +17,7 @@ dateModified: 2022-10-19
 <p class="small">last updated: YYYY-MM-DD</p>
 <p><strong>Type</strong>: Template <span class="label label-danger">Mandatory on standard pages</span></p>
 <p>(Pattern description) - a brief description/definition of the pattern that helps users quickly understand what the component or pattern is.</p>
-<div class="col-md-3">
+<div class="col-md-3 pull-right">
     	<a class="wb-lbx" title="Example of inline content" href="#inline_content"><div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm"><img src="../dsdocumentation/images/theme-topic-img-cropped.jpg" class="img-responsive" alt="" /></figure>
 </div></a>
@@ -172,7 +172,7 @@ dateModified: 2022-10-19
 		</section>
   
   </div>
-
+<div class="clearfix"></div>
 <h2>(H2) On this page</h2>
 <ul class="mrgn-tp-lg">
   <li><a href="#When_to_use">When to use</a></li>
