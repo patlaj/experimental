@@ -16,7 +16,7 @@ dateModified: 2022-10-19
 <h1 property="name" id="wb-cont" dir="ltr"> <span class="stacked"><span>[H1] Pattern name</span>: <span>Canada.ca design system</span></span> </h1>
 <p class="small">last updated: YYYY-MM-DD</p>
 <p><strong>Type</strong>: Template <span class="label label-danger">Mandatory on standard pages</span></p>
-<p>[Pattern description] - a brief description/definition of the pattern that helps users quickly understand what the component or pattern is.</p>
+<p>(Pattern description) - a brief description/definition of the pattern that helps users quickly understand what the component or pattern is.</p>
 <div class="col-md-3">
     	<a class="wb-lbx" title="Example of inline content" href="#inline_content"><div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm"><img src="../dsdocumentation/images/theme-topic-img-cropped.jpg" class="img-responsive" alt="" /></figure>
@@ -32,7 +32,7 @@ dateModified: 2022-10-19
 
       <!-- change col-md-6 to col-md-12 if not using an image -->
       <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
-        <h1 property="name" id="wb-cont">[Theme - Topic title]</h1>
+        <h2 property="name" id="wb-cont">[Theme - Topic title]</h2>
         <p class="pagetag">1-2 sentences that describe the topics and top tasks that can be accessed on this page.</p>
       </div>
 
