@@ -37,7 +37,7 @@ dateModified: 2022-10-19
 <h3>(H3) Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm">
-    <figcaption><strong>Global header – large screen</strong></figcaption>
+    <figcaption><strong>Pattern name – large screen</strong></figcaption>
     <img src="../dsdocumentation/images/sign-in-desktop-en.jpg" class="img-responsive" alt="Diagram of global header for large screens. Text version below." />
     <details>
       <summary class="wb-toggle" data-toggle='{"print":"on"}'>Text version</summary>
@@ -47,7 +47,7 @@ dateModified: 2022-10-19
 </div>
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-lg">
-    <figcaption><strong>Global header – small screen</strong></figcaption>
+    <figcaption><strong>Pattern name – small screen</strong></figcaption>
     <img src="../dsdocumentation/images/sign-in-mobile-en.jpg" class="img-responsive" alt="Diagram of global header for small screens. Text version below." />
     <details>
       <summary class="wb-toggle" data-toggle='{"print":"on"}'>Text version</summary>
