@@ -31,4 +31,4 @@ dateModified: 2022-10-19
       </ul>
   <li><a href="https://laws.justice.gc.ca/eng/acts/A-0.6/page-2.html#docCont">Accessibility Act</a></li>
   <li><a href="https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/accessibility-plans/section1.html">Introduction to Accessibility plans</a></li>
-</ul>  
+</ul>
