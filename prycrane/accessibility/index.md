@@ -35,7 +35,7 @@ dateModified: 2022-10-22
     <ul>
     <li><a href="https://design.canada.ca/mandatory-templates/theme-topic.html">Theme and topic page</a></li>
     <li><a href="https://design.canada.ca/coded-layout/theme_topic_guidance.html">Beta theme and topic page</a></li>
-      </ul>
+    </ul></li>
   <li><a href="https://laws.justice.gc.ca/eng/acts/A-0.6/page-2.html#docCont">Accessibility Act</a></li>
   <li><a href="https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/accessibility-plans/section1.html">Introduction to Accessibility plans</a><li>
   </ul>
