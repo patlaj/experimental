@@ -10,9 +10,9 @@ breadcrumbs:
 - title: Layout sandbox
   link: /experimental/prycrane/templates/index.html
 lang: en
-title: Layout: core
+title: Layout - core
 description:
-  en: Example of Layout: core  
+  en: Example of Layout - core  
 share: true
 dateModified: 2022-10-22
 ---
