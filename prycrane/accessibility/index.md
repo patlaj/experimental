@@ -24,6 +24,8 @@ dateModified: 2022-10-19
 <ul>
   <li><a href="https://docs.google.com/presentation/d/1A9s7r4TpSSOg0Ik65l2nf6RQeTO-6A75aLoK6llINRY/edit#slide=id.g168222990b5_0_0">Accessibility requirements for Canada.ca: proposed patterns and considerations</a><br>(Working deck)</li>
   <li><a href="https://docs.google.com/document/d/1ezTHWBwvIxQY9qtvSrfjw0FiPXWLJNA0IkQJuTO9M5I/edit#heading=h.oos2vfohf0tr">Accessibility landing page mockup</a><br>(Working doc)</li>
+  <li><a href="https://design.canada.ca/mandatory-templates/theme-topic.html">Theme and topic page</a><br>Canada.ca design system</li>
+  <ul><li><a href="https://design.canada.ca/coded-layout/theme_topic_guidance.html">https://design.canada.ca/coded-layout/theme_topic_guidance.html</a></li></ul>
   <li><a href="https://laws.justice.gc.ca/eng/acts/A-0.6/page-2.html#docCont">Accessibility Act</a></li>
   <li><a href="https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/accessibility-plans/section1.html">Introduction to Accessibility plans</a></li>
 </ul>  
