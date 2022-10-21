@@ -31,7 +31,7 @@ dateModified: 2022-10-21
       </div>
       <!-- remove this div if you do not want an image -->
       <div class="col-md-6 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">
-        <img src="/prycrane/accessibility/images/OIP.jpg" alt="" />
+        <img src="/experimental/prycrane/accessibility/images/OIP.jpg" alt="" />
       </div> <!-- end of the image div -->
       
     </div>
