@@ -13,6 +13,7 @@ title: Index of API Front Matter examples
 description:
   en: Index of API Front Matter examples 
 share: true
+css: https://use.fontawesome.com/releases/v5.15.4/css/all.css
 dateModified: 2022-10-22
 ---
 
