@@ -5,6 +5,7 @@ css:
 layout: without-h1
 lang: en
 title: Accessibility mockups
+share: True
 breadcrumbs:
 - title: Accessibility
   link: https://prycrane.github.io/experimental/prycrane/accessibility/
