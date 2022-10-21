@@ -8,7 +8,7 @@ altLangPage: /fr.html
 pageclass: cnt-wdth-lmtd
 breadcrumbs:
 - title: Layout sandbox
-  link: /experimental/prycrane/templates/index.html
+  link: /prycrane/templates/index.html
 lang: en
 title: Index of API Front Matter examples
 description:
