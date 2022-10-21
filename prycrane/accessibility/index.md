@@ -12,7 +12,7 @@ description: Index of mockups for accessibility requirements
 dateModified: 2022-10-19
 ---
 
- <div class="col-md-3 pull-rght hidden-sm hidden-xs"><!--<div class="col-md-3 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">-->
+ <div class="col-md-3 pull-right hidden-sm hidden-xs"><!--<div class="col-md-3 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">-->
         <img src="/experimental/prycrane/accessibility/images/OIP-small.jpg" class="img-responsive" alt="" />
       </div>
 
