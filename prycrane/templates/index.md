@@ -10,10 +10,14 @@ breadcrumbs:
   link: /index.html
 lang: en
 title: Layout sandbox
-description: Index of layout patters 
+description:
+  en: Index of layout patterns 
 share: true
 dateModified: 2022-10-22
 ---
-<ul>
+
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>(H1) Layout sandbox</span>: <span>Layout sandbox</span></span></h1>
+
+<ul class="mrgn-tp-lg">
   <li>test</li>
 </ul>
