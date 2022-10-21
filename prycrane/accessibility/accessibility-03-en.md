@@ -30,7 +30,7 @@ dateModified: 2022-10-21
         </ul>
       </div>
       <!-- remove this div if you do not want an image -->
-      <div class="col-md-6 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">
+      <div class="col-md-4 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">
         <img src="/experimental/prycrane/accessibility/images/OIP.jpg" class="img-responsive" alt="" />
       </div> <!-- end of the image div -->
       
