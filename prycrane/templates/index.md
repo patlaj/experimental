@@ -16,7 +16,7 @@ share: true
 dateModified: 2022-10-22
 ---
 
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>(H1) Layout sandbox</span>: <span>Index of API: Front Matter examples</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Layout sandbox</span>: <span>Index of API: Front Matter examples</span></span></h1>
 
 <ul class="mrgn-tp-lg">
   <li>test</li>
