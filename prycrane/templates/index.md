@@ -17,8 +17,8 @@ css: https://use.fontawesome.com/releases/v5.15.4/css/all.css
 dateModified: 2022-10-22
 ---
 
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Index of API: Front Matter examples</span>: <span></span>Layout sandbox</span></h1>
 
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Index of API: Front Matter examples</span>: <span>Layout sandbox</span></span></h1>
 <ul class="mrgn-tp-lg">
   <li>test</li>
 </ul>
