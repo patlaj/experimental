@@ -13,15 +13,11 @@ description: Index of mockups for accessibility requirements
 dateModified: 2022-10-22
 ---
 
-
-
  <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility mockups</span>: <span>Canada.ca design system</span></span></h1>
-
  
   <div class="col-md-3 pull-right hidden-sm hidden-xs"><!--<div class="col-md-3 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">-->
         <img src="/experimental/prycrane/accessibility/images/OIP-small.jpg" class="img-responsive" alt="" />
       </div>
- 
  
   <p>We are creating an Accessibilty langing page</p> 
 <h2>Mockups</h2> 
