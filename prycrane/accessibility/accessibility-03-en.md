@@ -31,7 +31,7 @@ dateModified: 2022-10-21
         </ul>
       </div>
       <!-- remove this div if you do not want an image -->
-      <div class="col-md-3 col-md-offset-1 hidden-sm hidden-xs"><!--<div class="col-md-3 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">-->
+      <div class="col-md-3 col-md-offset-2 pstn-bttm-md hidden-sm hidden-xs"><!--<div class="col-md-3 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">-->
         <img src="/experimental/prycrane/accessibility/images/OIP-small.jpg" class="img-responsive" alt="" />
       </div> <!-- end of the image div -->
       
