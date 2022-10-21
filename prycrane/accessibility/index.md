@@ -19,7 +19,7 @@ dateModified: 2022-10-22
         <img src="/experimental/prycrane/accessibility/images/OIP-small.jpg" class="img-responsive" alt="" />
       </div>
  
-  <p>We are creating an Accessibilty langing page</p> 
+  <p>We are creating an Accessibilty langing page.</p> 
 <h2>Mockups</h2> 
 <ul>
   <li><a href="accessibility-01-en.html">Accessibilty landing page</a></li>
