@@ -48,10 +48,10 @@ dateModified: 2022-10-21
           <h3><a href="#">Accessibility feedback</a></h3>
           <p>Provide feedback about any accessibility issue</p>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <!--<div class="col-lg-4 col-md-6">
           <h3><a href="#">Accessibility statements</a></h3>
           <p>Statement on the current accessibility status of our environment, operations, programs and products</p>
-        </div>
+        </div>-->
       </div>
     </section>
   </div>
