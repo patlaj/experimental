@@ -2,6 +2,7 @@
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
+- https://use.fontawesome.com/releases/v5.15.4/css/all.css
 layout: without-h1
 altLangPage: /fr.html
 pageclass: cnt-wdth-lmtd
@@ -13,7 +14,6 @@ title: Index of API Front Matter examples
 description:
   en: Index of API Front Matter examples 
 share: true
-css: https://use.fontawesome.com/releases/v5.15.4/css/all.css
 dateModified: 2022-10-22
 ---
 
