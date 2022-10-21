@@ -7,7 +7,7 @@ altLangPage: /fr.html
 pageclass: cnt-wdth-lmtd
 breadcrumbs:
 - title: Layout sandbox
-  link: https://www.canada.ca/en/government/about/design-system.html
+  link: /index.html
 lang: en
 title: Layout sandbox
 description: Index of layout patters 
