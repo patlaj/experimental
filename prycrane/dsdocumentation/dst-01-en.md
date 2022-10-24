@@ -80,7 +80,7 @@ dateModified: 2022-10-24
 <h3>(H3) Code</h3>
 <p>[Code]</p>
 <h2 id="Research_and_rationale">(H2) Research and rationale</h2>
-<p>[Research and rationale].</p>
+<p>[Research and rationale]</p>
 <h2 id="Latest_changes">(H2) Latest changes</h2>
 <dl class="dl-horizontal mrgn-tp-lg">
   <dt>
