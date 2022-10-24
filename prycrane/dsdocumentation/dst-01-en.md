@@ -95,6 +95,6 @@ dateModified: 2022-10-19
 <h2 id="Discussion">(H2) Discussion</h2>
 <ul class="mrgn-tp-lg">
   <li><a href="#">Discuss the pattern in github issues</a></li>
-  <li><a href="#">Join the conversation on Slack</a></li>
+  <li><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">Join the conversation on Slack</a></li>
   <li><a href="#">Send an email to the Digital Transformation Office</a> <span class="far fa-envelope"></span></li>
 </ul>
