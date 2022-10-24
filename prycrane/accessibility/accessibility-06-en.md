@@ -1,6 +1,6 @@
 ---
 css:
-
+- https://design.canada.ca/css/custom.css
 - /experimental/prycrane/accessibility/css/themeandtopic.css
 layout: without-h1
 altLangPage: /experimental/prycrane/accessibility/accessibilite-01-fr.html
@@ -27,7 +27,7 @@ dateModified: 2022-10-21
 
       <!-- remove this div if you do not want an image -->
       <div class="col-md-6 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">
-        <img alt=" " src="/experimental/prycrane/accessibility/images/univ-access-02.png" />
+        <img alt=" " src="/experimental/prycrane/accessibility/images/univ-access-03.png" />
       </div> <!-- end of the image div -->
     </div>
   </div>
