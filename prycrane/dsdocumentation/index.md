@@ -16,7 +16,7 @@ dateModified: 2022-10-24
 <h2>Mockups</h2> 
 <ul class="mrgn-tp-lg">
   <li><a href="dst-01-en.html">Working design for pattern template (cosmetic image inline)</a></li>
-  <li><a href="dst-02-en.html">Working design for pattern template (cosmetic image pop-up)</a> - decided not to use.</li>
+ 
 </ul>  
 
 <h2>Resources</h2>
