@@ -94,7 +94,7 @@ dateModified: 2022-10-19
 </dl>
 <h2 id="Discussion">(H2) Discussion</h2>
 <ul class="mrgn-tp-lg">
-  <li>Discuss the pattern in github issues: <a href="https://github.com/canada-ca/design-system/issues">https://github.com/canada-ca/design-system/issues</a></li>
-  <li>Join the conversation on Slack: <a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">http://design-GC-conception.slack.com</a></li>
-  <li>Email the Digital Transformation Office: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></li>
+  <li>Discuss the pattern in github issues:<br><a href="https://github.com/canada-ca/design-system/issues">https://github.com/canada-ca/design-system/issues</a></li>
+  <li>Join the conversation on Slack:<br><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">http://design-GC-conception.slack.com</a></li>
+  <li>Email the Digital Transformation Office:<br><a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></li>
 </ul>
