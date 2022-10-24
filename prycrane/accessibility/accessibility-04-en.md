@@ -22,14 +22,14 @@ dateModified: 2022-10-21
 
       <!-- change col-md-6 to col-md-12 if not using an image -->
       <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
-        <h1 property="name" id="wb-cont">Accessibility</h1>
+        <h1 property="name" id="wb-cont">[Theme - Topic title]</h1>
         <p class="pagetag">Find our accessibility plan and provide feedback.  This is part of an ongoing effort to get input from persons with disabilities, reflect on our organization’s accessibility strategy and be accountable for our current and future actions.</p>
       </div>
+
       <!-- remove this div if you do not want an image -->
-      <div class="col-md-6 pstn-bttm-md pstn-tp-sm hidden-sm hidden-xs">
-        <img src="/experimental/prycrane/accessibility/images/univ-access.png" class="img-responsive" alt="" />
+      <div class="col-md-6 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">
+        <img alt=" " src="/experimental/prycrane/accessibility/images/univ-access.png" />
       </div> <!-- end of the image div -->
-      
     </div>
   </div>
 </div>
