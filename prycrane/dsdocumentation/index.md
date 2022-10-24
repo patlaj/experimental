@@ -12,7 +12,7 @@ dateModified: 2022-10-24
 ---
 
  <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Canada.ca design system content model</span>: <span>Canada.ca design system</span></span></h1>
- 
+ <p>Working toward a conten model.</p>
 <h2>Mockups</h2> 
 <ul class="mrgn-tp-lg">
   <li><a href="dst-01-en.html">Working design for pattern template (cosmetic image inline)</a></li>
