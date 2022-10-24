@@ -28,7 +28,7 @@ dateModified: 2022-10-21
       </div>
       <!-- remove this div if you do not want an image -->
       <div class="col-md-6 pstn-bttm-md pstn-tp-sm hidden-sm hidden-xs">
-        <img src="/experimental/prycrane/accessibility/images/univ-access.png" class="img-responsive" alt="" /></div>
+        <img src="/experimental/prycrane/accessibility/images/univ-access.png" class="img-responsive" alt="" />
       </div> <!-- end of the image div -->
       
     </div>
