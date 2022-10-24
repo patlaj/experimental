@@ -5,13 +5,13 @@ css:
 layout: without-h1
 altLangPage: /fr.html
 lang: en
-title: Canada.ca design system content model
+title: Content model design
 description: 
- en: Canada.ca design system content model
+ en: Content model design for the Canada.ca design system.
 dateModified: 2022-10-24
 ---
 
- <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Canada.ca design system content model</span>: <span>Canada.ca design system</span></span></h1>
+ <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Content model design</span>: <span>Canada.ca design system</span></span></h1>
  <p>Working toward a content model.</p>
 <h2>Mockups</h2> 
 <ul class="mrgn-tp-lg">
