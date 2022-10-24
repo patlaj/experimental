@@ -25,7 +25,8 @@ dateModified: 2022-10-24
   <li><a href="accessibility-01-en.html">Accessibilty landing page (list style)</a></li>
   <li><a href="accessibility-05-en.html">Accessibilty landing page (paragraph style)</a></li>
   <li><a href="accessibility-02-en.html">Accessibilty landing page (without statements doormat)</a></li>
-  <li><a href="accessibility-04-en.html">Accessibilty landing page (with an image)</a></li>  
+  <li><a href="accessibility-04-en.html">Accessibilty landing page (with an image - white background)</a></li>  
+  <li><a href="accessibility-06-en.html">Accessibilty landing page (with an image - black background)</a></li> 
   <li><a href="accessibility-03-en.html">Accessibilty landing page (with an image, slightly modified template)</a></li>  
 </ul>  
 
