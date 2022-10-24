@@ -24,7 +24,8 @@ dateModified: 2022-10-22
 <ul>
   <li><a href="accessibility-01-en.html">Accessibilty landing page</a></li>
   <li><a href="accessibility-02-en.html">Accessibilty landing page (without statements doormat)</a></li>
-  <li><a href="accessibility-03-en.html">Accessibilty landing page (with an image)</a></li>  
+  <li><a href="accessibility-04-en.html">Accessibilty landing page (with an image)</a></li>  
+  <li><a href="accessibility-03-en.html">Accessibilty landing page (with an image, slightly modified template)</a></li>  
 </ul>  
 
 <h2>Reference</h2>
