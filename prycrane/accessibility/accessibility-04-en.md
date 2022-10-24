@@ -21,7 +21,7 @@ dateModified: 2022-10-21
     <div class="row">
 
       <!-- change col-md-6 to col-md-12 if not using an image -->
-      <div class="intro col-md-7 col-sm-12 mrgn-bttm-md">
+      <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
         <h1 property="name" id="wb-cont">Accessibility</h1>
         <p class="pagetag">Find our accessibility plan and provide feedback.  This is part of an ongoing effort to:</p>
         <ul>
@@ -31,8 +31,8 @@ dateModified: 2022-10-21
         </ul>
       </div>
       <!-- remove this div if you do not want an image -->
-      <div class="col-md-3 col-md-offset-2 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs"><!--<div class="col-md-3 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">-->
-        <img src="/experimental/prycrane/accessibility/images/OIP-small.jpg" class="img-responsive" alt="" />
+      <div class="col-md-6 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs"><!--<div class="col-md-3 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">-->
+        <img src="/experimental/prycrane/accessibility/images/univ-access.png" class="img-responsive" alt="" />
       </div> <!-- end of the image div -->
       
     </div>
