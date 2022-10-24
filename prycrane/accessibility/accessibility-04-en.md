@@ -31,8 +31,8 @@ dateModified: 2022-10-21
         </ul>
       </div>
       <!-- remove this div if you do not want an image -->
-      <div class="col-md-6 pstn-rght-md pstn-tp-sm hidden-sm hidden-xs"><!--<div class="col-md-3 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">-->
-        <img src="/experimental/prycrane/accessibility/images/univ-access.png" class="img-responsive" alt="" />
+      <div class="col-md-6 hidden-sm hidden-xs"><!--<div class="col-md-3 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">-->
+        <div class="pstn-rght-md pstn-tp-sm"><img src="/experimental/prycrane/accessibility/images/univ-access.png" class="img-responsive" alt="" /></div>
       </div> <!-- end of the image div -->
       
     </div>
