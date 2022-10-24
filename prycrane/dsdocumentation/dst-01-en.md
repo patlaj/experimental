@@ -32,10 +32,15 @@ dateModified: 2022-10-19
   <li><a href="#Discussion">Discussion</a></li>
 </ul>
 <h2 id="When_to_use">(H2) When to use</h2>
+<p>[When to use].</p>
 <h2 id="What_to_avoid">(H2) What to avoid</h2>
+<p>[What to avoid].</p>
 <h2 id="Content_and_design">(H2) Content and design</h2>
+<p>[Content and design].</p>
 <h3>(H3) Content specifications</h3>
+<p>[Content specifications].</p>
 <h3>(H3) Design specifications</h3>
+<p>[Design specifications].</p>
 <h3>(H3) Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm">
@@ -58,6 +63,7 @@ dateModified: 2022-10-19
   </figure>
 </div>
 <h2 id="How_to_implement">(H2) How to implement</h2>
+<p>[How to implement].</p>
 <h3>(H3) Implementation resources</h3>
 <ul class="mrgn-tp-lg">
   <li>Links to any WET/GCweb, Drupal WxT, CDTS, AEM, etc. resources that exist</li>
@@ -72,7 +78,9 @@ dateModified: 2022-10-19
   </li>
 </ul>
 <h3>(H3) Code</h3>
+<p>[Code].</p>
 <h2 id="Research_and_rationale">(H2) Research and rationale</h2>
+<p>[Research and rationale].</p>
 <h2 id="Latest_changes">(H2) Latest changes</h2>
 <dl class="dl-horizontal mrgn-tp-lg">
   <dt>
