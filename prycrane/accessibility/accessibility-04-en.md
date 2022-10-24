@@ -23,11 +23,7 @@ dateModified: 2022-10-21
       <!-- change col-md-6 to col-md-12 if not using an image -->
       <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
         <h1 property="name" id="wb-cont">Accessibility</h1>
-        <p class="pagetag">Find our accessibility plan and provide feedback.  This is part of an ongoing effort to:</p>
-        <ul>
-           <li>get input from persons with disabilities</li>
-           <li>reflect on our organization’s accessibility strategy</li>  
-           <li>be accountable for our current and future actions</li>
+        <p class="pagetag">Find our accessibility plan and provide feedback.  This is part of an ongoing effort to get input from persons with disabilities, reflect on our organization’s accessibility strategy and be accountable for our current and future actions.</li>
         </ul>
       </div>
       <!-- remove this div if you do not want an image -->
