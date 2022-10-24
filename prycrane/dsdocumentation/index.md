@@ -5,13 +5,22 @@ css:
 layout: without-h1
 altLangPage: /fr.html
 lang: en
-title: Mockups for Canada.ca design system pattern templates
-description: Index of mockups for Canada.ca design system templates
-dateModified: 2022-10-19
+title: Canada.ca design system content model
+description: 
+ en: Canada.ca design system content model
+dateModified: 2022-10-24
 ---
 
- <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Mockups for Canada.ca design system pattern templates</span>: <span>Canada.ca design system</span></span></h1>
+ <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Canada.ca design system content model</span>: <span>Canada.ca design system</span></span></h1>
+ 
+<h2>Mockups</h2> 
 <ul class="mrgn-tp-lg">
   <li><a href="dst-01-en.html">Working design for pattern template (cosmetic image inline)</a></li>
   <li><a href="dst-02-en.html">Working design for pattern template (cosmetic image pop-up)</a> - decided not to use.</li>
+</ul>  
+
+<h2>Resources</h2>
+<ul class="mrgn-tp-lg">
+  <li><a href="https://docs.google.com/document/d/1nXJg5pz7azoiaRogE5lyxWtffOFn2DXtkQVaWWRqzHQ/edit#heading=h.v8x3phahx3p4">Thinking about the design system</a><br>Approach to standardizing the content model</li>
+  <li><a href="https://docs.google.com/document/d/1L1TgppZW6Nl5vR8mGZYGuD2MiBUomzvW4qMBaMnYIBk/edit#">Pattern template design</a><br>Design of content pattern template</li>
 </ul>  
