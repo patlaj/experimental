@@ -22,14 +22,16 @@ dateModified: 2022-10-24
   <p>We are creating an Accessibilty langing page.</p> 
 <h2>Mockups</h2> 
 <ul>
-  <li><a href="accessibility-01-en.html">Accessibilty landing page (list style)</a></li>
-  <li><a href="accessibility-05-en.html">Accessibilty landing page (paragraph style)</a></li>
-  <li><a href="accessibility-02-en.html">Accessibilty landing page (without statements doormat)</a></li>
-  <li><a href="accessibility-04-en.html">Accessibilty landing page (with an image - white background)</a></li>  
-  <li><a href="accessibility-06-en.html">Accessibilty landing page (with an image - black background)</a></li> 
-  <li><a href="accessibility-03-en.html">Accessibilty landing page (with an image, slightly modified template)</a></li>  
+  <li>Accessibilty landing page
+<ul>
+  <li><a href="accessibility-01-en.html">List style</a></li>
+  <li><a href="accessibility-05-en.html">Paragraph style</a></li>
+  <li><a href="accessibility-02-en.html">Without statements doormat</a></li>
+  <li><a href="accessibility-04-en.html">With an image - white background</a></li>  
+  <li><a href="accessibility-06-en.html">With an image - black background</a></li> 
 </ul>  
-
+</li>
+</ul>
 <h2>Reference</h2>
 <ul>
   <li><a href="https://docs.google.com/presentation/d/1A9s7r4TpSSOg0Ik65l2nf6RQeTO-6A75aLoK6llINRY/edit#slide=id.g168222990b5_0_0">Accessibility requirements for Canada.ca: proposed patterns and considerations</a><br>(Working deck)</li>
