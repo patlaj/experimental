@@ -13,13 +13,24 @@ description: Index of mockups for accessibility requirements
 dateModified: 2022-10-24
 ---
 
- <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility mockups</span>: <span>Canada.ca design system</span></span></h1>
- 
-  <div class="col-md-3 pull-right hidden-sm hidden-xs"><!--<div class="col-md-3 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">-->
-        <img src="/experimental/prycrane/accessibility/images/OIP-small.jpg" class="img-responsive" alt="" />
+<div class="provisional profile">
+  <div class="container">
+    <div class="row">
+      <!-- change col-md-6 to col-md-12 if not using an image -->
+      <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
+       <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility mockups</span>: <span>Canada.ca design system</span></span></h1>
+        <p class="pagetag">We are creating for accessibility requirements.</p>
       </div>
- 
-  <p>We are creating an Accessibilty langing page.</p> 
+
+      <!-- remove this div if you do not want an image -->
+      <div class="col-md-6 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">
+        <img alt=" " src="/experimental/prycrane/accessibility/images/univ-access-07.png" />
+      </div> <!-- end of the image div -->
+    </div>
+  </div>
+</div>
+
+
 <h2>Mockups</h2> 
 <ul>
   <li><strong>Accessibilty landing page</strong>
