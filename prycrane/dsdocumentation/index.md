@@ -15,8 +15,8 @@ dateModified: 2022-10-24
  <p>Working toward a content model.</p>
 <h2>Mockups</h2> 
 <ul class="mrgn-tp-lg">
-  <li><a href="dst-01-en.html">Working design for pattern template (cosmetic image inline)</a>  - Needs to be reviewed</li>
- 
+  <li><a href="dst-01-en.html">Working design for pattern template</a>  - In progress, needs to be reviewed</li>
+  <li><a href="dst-03-en.html">Working design for pattern template with explanations</a>  - In progress, needs to be reviewed</li> 
 </ul>  
 
 <h2>Resources</h2>
