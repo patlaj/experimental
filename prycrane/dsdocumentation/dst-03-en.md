@@ -71,7 +71,7 @@ dateModified: 2022-10-24
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm"> <img src="../dsdocumentation/images/sign-in-desktop-en.jpg" class="img-responsive" alt="" /> </figure>
 </div>
-<div class="panel panel-default">
+<div class="panel panel-default mrgn-tp-lg">
   <header class="panel-heading">
     <h2 class="panel-title">Cosmetic generic image</h2>
   </header>
