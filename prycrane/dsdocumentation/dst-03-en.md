@@ -14,6 +14,14 @@ description: Mockup of pattern template design
 share: true
 dateModified: 2022-10-24
 ---
+<div class="panel panel-default">
+  <div class="panel-body">
+    <p><strong>Metadata (required)</strong></p> 
+    <p class="code">&lt;title&gt;Content model design - Canada.ca&lt;/title&gt;
+&lt;meta name=&quot;description&quot; content=&quot;Content model design for the Canada.ca design system.&quot; /&gt;</p>
+
+  </div>
+</div>
 <h1 property="name" id="wb-cont" dir="ltr"> <span class="stacked"><span>[H1] Pattern name</span>: <span>Canada.ca design system</span></span> </h1>
 <p class="small">last updated: YYYY-MM-DD</p>
 <p><strong>Type</strong>: Template <span class="label label-danger">Mandatory on standard pages</span></p>
