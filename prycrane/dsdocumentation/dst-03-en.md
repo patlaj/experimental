@@ -14,7 +14,9 @@ description: Mockup of pattern template design
 share: true
 dateModified: 2022-10-24
 ---
-<div class="panel panel-default">   <h2 class="panel-title">Metadata</h2>
+<div class="panel panel-default">
+   <header class="panel-heading">
+  <h2 class="panel-title">Metadata</h2>
   </header>
   <div class="panel-body small">
         <p><strong>Required</strong></p> 
@@ -49,7 +51,9 @@ dateModified: 2022-10-24
 <p><strong>Type</strong>: Template <span class="label label-danger">Mandatory on standard pages</span></p>
 
 <div class="panel panel-default">
+   <header class="panel-heading">
   <h2 class="panel-title">Mandatory label</h2>
+     </header>
   <div class="panel-body small">
    
 <ul>
@@ -64,7 +68,9 @@ dateModified: 2022-10-24
 
 <p>[Pattern description]</p>
 <div class="panel panel-default">
+   <header class="panel-heading">
   <h2 class="panel-title">Pattern description</h2>
+  </header>
   <div class="panel-body small">
    
 <ul>
@@ -87,7 +93,8 @@ dateModified: 2022-10-24
 </div>
 
 <div class="panel panel-default">
-  <h2 class="panel-title">Cosmetic generic image</h2>
+   <header class="panel-heading">
+     <h2 class="panel-title">Cosmetic generic image</h2></header>
   <div class="panel-body small">
    
 <ul>
