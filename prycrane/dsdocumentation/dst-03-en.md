@@ -22,7 +22,7 @@ dateModified: 2022-10-24
     &lt;title&gt;Page title (same as H1)&lt;/title&gt;
     &lt;meta name=&quot;description&quot; content=&quot;Clear task-specific description of page content&quot; /&gt;
     &lt;meta name=&quot;date&quot; content=&quot;YYYY-MM-DD&quot; /&gt;
-    &lt;meta name=&quot;dateModified&quot; content=&quot;YYYY-MM-DD&quot; /&gt;
+    &lt;meta name=&quot;dateModified&quot; content=&quot;YYYY-MM-DD&quot; /&gt; // when the page content has been updated
   </code>
 </pre>
     
