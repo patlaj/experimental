@@ -20,7 +20,7 @@ dateModified: 2022-10-24
     <pre>
   <code>
     &lt;title&gt;Page title&lt;/title&gt;  // same as H1
-    &lt;meta name=&quot;description&quot; content=&quot; &quot; /&gt; // clear unique and task-specific description of page content
+    &lt;meta name=&quot;description&quot; content=&quot; &quot; /&gt; // unique and task-specific description of page content
     &lt;meta name=&quot;date&quot; content=&quot;YYYY-MM-DD&quot; /&gt;  // date of publication
     &lt;meta name=&quot;dateModified&quot; content=&quot;YYYY-MM-DD&quot; /&gt; // when the page content has been updated
   </code>
@@ -41,15 +41,25 @@ dateModified: 2022-10-24
   <li>Types?</li>
   <li>Mandatory?</li>
     </ul>
-
-
-    
-    
   </div>
 </div>
 <h1 property="name" id="wb-cont" dir="ltr"> <span class="stacked"><span>[H1] Pattern name</span>: <span>Canada.ca design system</span></span> </h1>
 <p class="small">last updated: YYYY-MM-DD</p>
 <p><strong>Type</strong>: Template <span class="label label-danger">Mandatory on standard pages</span></p>
+
+<div class="panel panel-default">
+  <div class="panel-body small">
+        <p><strong>Mandatory label</strong></p> 
+<ul>
+  <li>Mandatory label appears only on mandatory pages.</li>
+ <li>Optional (Include the label when it’s an optional element on a mandatory pattern, like contextual footer)</li>
+
+    </ul>
+
+  </div>
+</div>
+
+
 <p>[Pattern description] - a brief description/definition of the pattern that helps users quickly understand what the component or pattern is.</p>
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm"> <img src="../dsdocumentation/images/sign-in-desktop-en.jpg" class="img-responsive" alt="" /> </figure>
