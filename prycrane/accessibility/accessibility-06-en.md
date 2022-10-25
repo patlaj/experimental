@@ -1,5 +1,7 @@
 ---
 css:
+- https://design.canada.ca/css/split-h1.css
+- https://design.canada.ca/css/custom.css
 - /experimental/prycrane/accessibility/css/themeandtopic.css
 layout: without-h1
 altLangPage: /experimental/prycrane/accessibility/accessibilite-01-fr.html
