@@ -240,8 +240,50 @@ dateModified: 2022-10-24
 
 <h3>(H3) Code</h3>
 <p>[Code]</p>
+
+
+<div class="panel panel-danger mrgn-tp-lg">
+  <header class="panel-heading">
+    <h2 class="panel-title">Code</h2>
+  </header>
+  <div class="panel-body small">
+    <p>This section is for future development.</p>
+    <ul>
+  <li>Include a code snippet, don’t copy and paste  code</li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
 <h2 id="Research_and_rationale">(H2) Research and rationale</h2>
 <p>[Research and rationale]</p>
+
+<div class="panel panel-danger mrgn-tp-lg">
+  <header class="panel-heading">
+    <h2 class="panel-title">Code</h2>
+  </header>
+  <div class="panel-body small">
+    <p>This section is still being refined.</p>
+    <ul>
+  <li>Summarize the research that supports this component or pattern, and how it was tested
+  <li>Include known issues and gaps
+  <li>Related blog post(s) behind a component or pattern to help build trust - include the description used in DTO newsletter with each blog post link
+<ul><li>Example: Using task success to improve user experience: Evidence from the GC Task Success Survey can help support positive cultural change within your organization.</li></ul>
+</li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+
+
 <h2 id="Latest_changes">(H2) Latest changes</h2>
 <dl class="dl-horizontal mrgn-tp-lg">
   <dt>
