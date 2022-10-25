@@ -20,11 +20,30 @@ dateModified: 2022-10-24
     <pre>
   <code>
     &lt;title&gt;Page title&lt;/title&gt;  // same as H1
-    &lt;meta name=&quot;description&quot; content=&quot; &quot; /&gt; // clear task-specific description of page content
-    &lt;meta name=&quot;date&quot; content=&quot;YYYY-MM-DD&quot; /&gt;
+    &lt;meta name=&quot;description&quot; content=&quot; &quot; /&gt; // clear unique and task-specific description of page content
+    &lt;meta name=&quot;date&quot; content=&quot;YYYY-MM-DD&quot; /&gt;  // date of publication
     &lt;meta name=&quot;dateModified&quot; content=&quot;YYYY-MM-DD&quot; /&gt; // when the page content has been updated
   </code>
 </pre>
+    
+     <p><strong>Metadata condiderations</strong></p>    
+<ul>
+  <li>Author</li>
+  <li>og:image</li> 
+  <li>Layout (line length, font size + other CSS)</li>
+    </ul>
+    
+    <p><strong>Possible new Metadata types</strong></p>      
+    
+<ul>
+  <li>Related</li>
+  <li>Pattern?</li>
+  <li>Types?</li>
+  <li>Mandatory?</li>
+    </ul>
+
+
+    
     
   </div>
 </div>
