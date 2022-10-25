@@ -147,6 +147,23 @@ dateModified: 2022-10-24
 
 <h3>(H3) Design specifications</h3>
 <p>[Design specifications]</p>
+
+<div class="panel panel-default mrgn-tp-lg">
+  <header class="panel-heading">
+    <h2 class="panel-title">Design specifications</h2>
+  </header>
+  <div class="panel-body small">
+    <ul>
+      <li>Technical specifications - mostly CSS</li>
+      <li>This is for non-dev designers to be able to recreate in their asset libraries (This may include design tokens if we move forward with that idea)</li>
+      <li>Describe correct layout</li>
+    </ul>
+  </div>
+</div>
+
+
+
+
 <h3>(H3) Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm">
@@ -168,6 +185,25 @@ dateModified: 2022-10-24
     </details>
   </figure>
 </div>
+
+<div class="panel panel-default mrgn-tp-lg">
+  <header class="panel-heading">
+    <h2 class="panel-title">Visual examples</h2>
+  </header>
+  <div class="panel-body small">
+    <ul>
+      <li>Working coded examples if possible</li>
+      <li>Flat images if necessary</li>
+      <li>Include mobile view</li>
+      <li>Include variants</li>
+      <li>Include clear titles for each visual examples, long descriptions, alt text, and captions if necessary</li>
+    </ul>
+  </div>
+</div>
+
+
+
+
 <h2 id="How_to_implement">(H2) How to implement</h2>
 <p>[How to implement]</p>
 <h3>(H3) Implementation resources</h3>
