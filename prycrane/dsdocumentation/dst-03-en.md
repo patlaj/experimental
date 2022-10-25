@@ -295,6 +295,21 @@ dateModified: 2022-10-24
   </dt>
   <dd>Description ...</dd>
 </dl>
+
+
+<div class="panel panel-default">
+  <header class="panel-heading">
+    <h2 class="panel-title">Latest changes</h2>
+  </header>
+  <div class="panel-body small">
+    <ul>
+      <li>Include enough detail to be useful in understanding the changes that were made…don’t simply say, “Expanded guidance”</li>
+      <li>Reverse chronological order</li>
+      <li>3 most recent visible</li>
+      <li>Additional changes within an expand/collapse labeled “Previous changes” (tentative idea)</li>
+    </ul>
+  </div>
+</div>
 <h2 id="Discussion">(H2) Discussion</h2>
 <ul class="mrgn-tp-lg">
   <li><a href="https://github.com/canada-ca/design-system/issues">Discuss the pattern in github issues</a></li>
