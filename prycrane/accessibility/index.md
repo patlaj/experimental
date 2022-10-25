@@ -22,7 +22,7 @@ dateModified: 2022-10-24
   <p>We are creating an Accessibilty langing page.</p> 
 <h2>Mockups</h2> 
 <ul>
-  <li>Accessibilty landing page
+  <li><strong>Accessibilty landing page</strong>
 <ul>
   <li><a href="accessibility-01-en.html">List style</a></li>
   <li><a href="accessibility-05-en.html">Paragraph style</a></li>
