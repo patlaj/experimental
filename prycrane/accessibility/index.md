@@ -10,7 +10,8 @@ share: True
 breadcrumbs:
 - title: Accessibility
   link: https://prycrane.github.io/experimental/prycrane/accessibility/
-description: Index of mockups for accessibility requirements 
+description: 
+en: Index of mockups for accessibility requirements. 
 dateModified: 2022-10-24
 ---
 
