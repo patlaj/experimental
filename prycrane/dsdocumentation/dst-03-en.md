@@ -15,11 +15,11 @@ share: true
 dateModified: 2022-10-24
 ---
 <div class="panel panel-default">
-   <header class="panel-heading">
-  <h2 class="panel-title">Metadata</h2>
+  <header class="panel-heading">
+    <h2 class="panel-title">Metadata</h2>
   </header>
   <div class="panel-body small">
-        <p><strong>Required</strong></p> 
+    <p><strong>Required</strong></p>
     <pre>
   <code>
     &lt;title&gt;Page title&lt;/title&gt;  // same as H1
@@ -28,87 +28,61 @@ dateModified: 2022-10-24
     &lt;meta name=&quot;dateModified&quot; content=&quot;YYYY-MM-DD&quot; /&gt; // when the page content has been updated
   </code>
 </pre>
-    
-     <p><strong>Condiderations</strong></p>    
-<ul>
-  <li>Author</li>
-  <li>og:image</li> 
-  <li>Layout (line length, font size + other CSS)</li>
+    <p><strong>Condiderations</strong></p>
+    <ul>
+      <li>Author</li>
+      <li>og:image</li>
+      <li>Layout (line length, font size + other CSS)</li>
     </ul>
-    
-    <p><strong>Possible new Metadata types</strong></p>      
-    
-<ul>
-  <li>Related</li>
-  <li>Pattern?</li>
-  <li>Types?</li>
-  <li>Mandatory?</li>
+    <p><strong>Possible new Metadata types</strong></p>
+    <ul>
+      <li>Related</li>
+      <li>Pattern?</li>
+      <li>Types?</li>
+      <li>Mandatory?</li>
     </ul>
   </div>
 </div>
 <h1 property="name" id="wb-cont" dir="ltr"> <span class="stacked"><span>[H1] Pattern name</span>: <span>Canada.ca design system</span></span> </h1>
 <p class="small">last updated: YYYY-MM-DD</p>
 <p><strong>Type</strong>: Template <span class="label label-danger">Mandatory on standard pages</span></p>
-
 <div class="panel panel-default">
-   <header class="panel-heading">
-  <h2 class="panel-title">Mandatory label</h2>
-     </header>
-  <div class="panel-body small">
-   
-<ul>
-  <li>Mandatory label appears only on mandatory pages.</li>
- <li>Optional (Include the label when it’s an optional element on a mandatory pattern, like contextual footer)</li>
-
-    </ul>
-
-  </div>
-</div>
-
-
-<p>[Pattern description]</p>
-<div class="panel panel-default">
-   <header class="panel-heading">
-  <h2 class="panel-title">Pattern description</h2>
+  <header class="panel-heading">
+    <h2 class="panel-title">Mandatory label</h2>
   </header>
   <div class="panel-body small">
-   
-<ul>
-  <li>a brief description/definition of the pattern that helps users quickly understand what the component or pattern is.</li>
-
+    <ul>
+      <li>Mandatory label appears only on mandatory pages.</li>
+      <li>Optional (Include the label when it’s an optional element on a mandatory pattern, like contextual footer)</li>
     </ul>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
+<p>[Pattern description]</p>
+<div class="panel panel-default">
+  <header class="panel-heading">
+    <h2 class="panel-title">Pattern description</h2>
+  </header>
+  <div class="panel-body small">
+    <ul>
+      <li>a brief description/definition of the pattern that helps users quickly understand what the component or pattern is.</li>
+    </ul>
+  </div>
+</div>
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm"> <img src="../dsdocumentation/images/sign-in-desktop-en.jpg" class="img-responsive" alt="" /> </figure>
 </div>
-
 <div class="panel panel-default">
-   <header class="panel-heading">
-     <h2 class="panel-title">Cosmetic generic image</h2></header>
+  <header class="panel-heading">
+    <h2 class="panel-title">Cosmetic generic image</h2>
+  </header>
   <div class="panel-body small">
-   
-<ul>
-
-<li>Plain, simple, generic version of image for most patterns</li>
-<li>Thumbnail for templates or large size patterns</li>
-<li>This is a decorative image that doesn’t require alt text or long description as it’s repeated below in the visual examples</li>
-
+    <ul>
+      <li>Plain, simple, generic version of image for most patterns</li>
+      <li>Thumbnail for templates or large size patterns</li>
+      <li>This is a decorative image that doesn’t require alt text or long description as it’s repeated below in the visual examples</li>
     </ul>
   </div>
 </div>
-
-
-
 <h2>(H2) On this page</h2>
 <ul class="mrgn-tp-lg">
   <li><a href="#When_to_use">When to use</a></li>
@@ -184,5 +158,6 @@ dateModified: 2022-10-24
 <ul class="mrgn-tp-lg">
   <li><a href="https://github.com/canada-ca/design-system/issues">Discuss the pattern in github issues</a></li>
   <li><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">Join the conversation on Slack</a></li>
-  <li>Email the Digital Transformation Office<br><a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></li>
+  <li>Email the Digital Transformation Office<br>
+    <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></li>
 </ul>
