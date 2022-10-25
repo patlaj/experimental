@@ -95,8 +95,36 @@ dateModified: 2022-10-24
 </ul>
 <h2 id="When_to_use">(H2) When to use</h2>
 <p>[When to use]</p>
+
+<div class="panel panel-default mrgn-tp-lg">
+  <header class="panel-heading">
+    <h2 class="panel-title">When to use</h2>
+  </header>
+  <div class="panel-body small">
+    <ul>
+      <li>What problem does this solve?</li>
+      <li>The situations in which a component or pattern should be implemented</li>
+    </ul>
+  </div>
+</div>
+
+
+
 <h2 id="What_to_avoid">(H2) What to avoid</h2>
 <p>[What to avoid]</p>
+
+<div class="panel panel-default mrgn-tp-lg">
+  <header class="panel-heading">
+    <h2 class="panel-title">What to avoid</h2>
+  </header>
+  <div class="panel-body small">
+    <ul>
+      <li>Describe any exceptions or situations where we know something will not work</li> 
+      <li>If known, include what to use instead (workarounds and solutions) - logic has to be clear</li>
+    </ul>
+  </div>
+</div>
+
 <h2 id="Content_and_design">(H2) Content and design</h2>
 <p>[Content and design]</p>
 <h3>(H3) Content specifications</h3>
