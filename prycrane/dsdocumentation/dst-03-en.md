@@ -208,8 +208,6 @@ dateModified: 2022-10-24
 <p>[How to implement]</p>
 <h3>(H3) Implementation resources</h3>
 <ul class="mrgn-tp-lg">
-  <li>Links to any WET/GCweb, Drupal WxT, CDTS, AEM, etc. resources that exist</li>
-  <li>Link to the part of such documentation that relates specifically to the pattern if possible</li>
   <li><a href="https://wet-boew.github.io/GCWeb/docs/implementing-en.html">GCweb (WET) theme: Variables, parameters and working examples</a></li>
   <li><a href="https://drupalwxt.github.io/en/docs/environment/">Drupal WxT</a></li>
   <li><a href="https://www.gcpedia.gc.ca/wiki/AEM_GC-specific_Documentation_6.5">AEM/Managed Web Service (accessible only on the Government of Canada network)</a></li>
@@ -219,6 +217,27 @@ dateModified: 2022-10-24
     </ul>
   </li>
 </ul>
+
+<div class="panel panel-default mrgn-tp-lg">
+  <header class="panel-heading">
+    <h2 class="panel-title">Implementation resources</h2>
+  </header>
+  <div class="panel-body small">
+    <ul>
+  <li>Links to any WET/GCweb, Drupal WxT, CDTS, AEM, etc. resources that exist</li>
+  <li>Link to the part of such documentation that relates specifically to the pattern if possible</li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
 <h3>(H3) Code</h3>
 <p>[Code]</p>
 <h2 id="Research_and_rationale">(H2) Research and rationale</h2>
