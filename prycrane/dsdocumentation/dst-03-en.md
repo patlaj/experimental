@@ -14,7 +14,7 @@ description: Mockup of pattern template design
 share: true
 dateModified: 2022-10-24
 ---
-<div class="panel panel-default">
+<div class="panel panel-default col-md-7">
   <header class="panel-heading">
     <h2 class="panel-title">Metadata</h2>
   </header>
@@ -46,7 +46,7 @@ dateModified: 2022-10-24
 <h1 property="name" id="wb-cont" dir="ltr"> <span class="stacked"><span>[H1] Pattern name</span>: <span>Canada.ca design system</span></span> </h1>
 <p class="small">last updated: YYYY-MM-DD</p>
 <p><strong>Type</strong>: Template <span class="label label-danger">Mandatory on standard pages</span></p>
-<div class="panel panel-default">
+<div class="panel panel-default col-md-7">
   <header class="panel-heading">
     <h2 class="panel-title">Mandatory label</h2>
   </header>
@@ -58,7 +58,7 @@ dateModified: 2022-10-24
   </div>
 </div>
 <p>[Pattern description]</p>
-<div class="panel panel-default">
+<div class="panel panel-default col-md-7">
   <header class="panel-heading">
     <h2 class="panel-title">Pattern description</h2>
   </header>
@@ -71,7 +71,7 @@ dateModified: 2022-10-24
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm"> <img src="../dsdocumentation/images/sign-in-desktop-en.jpg" class="img-responsive" alt="" /> </figure>
 </div>
-<div class="panel panel-default mrgn-tp-lg">
+<div class="panel panel-default mrgn-tp-lg col-md-7">
   <header class="panel-heading">
     <h2 class="panel-title">Cosmetic generic image</h2>
   </header>
@@ -96,7 +96,7 @@ dateModified: 2022-10-24
 <h2 id="When_to_use">(H2) When to use</h2>
 <p>[When to use]</p>
 
-<div class="panel panel-default mrgn-tp-lg">
+<div class="panel panel-default mrgn-tp-lg col-md-7">
   <header class="panel-heading">
     <h2 class="panel-title">When to use</h2>
   </header>
@@ -113,7 +113,7 @@ dateModified: 2022-10-24
 <h2 id="What_to_avoid">(H2) What to avoid</h2>
 <p>[What to avoid]</p>
 
-<div class="panel panel-default mrgn-tp-lg">
+<div class="panel panel-default mrgn-tp-lg col-md-7">
   <header class="panel-heading">
     <h2 class="panel-title">What to avoid</h2>
   </header>
