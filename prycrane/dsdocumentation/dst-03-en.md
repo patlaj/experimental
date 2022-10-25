@@ -14,9 +14,10 @@ description: Mockup of pattern template design
 share: true
 dateModified: 2022-10-24
 ---
-<div class="panel panel-default">
+<div class="panel panel-default">   <h2 class="panel-title">Metadata</h2>
+  </header>
   <div class="panel-body small">
-        <p><strong>Metadata (required)</strong></p> 
+        <p><strong>Required</strong></p> 
     <pre>
   <code>
     &lt;title&gt;Page title&lt;/title&gt;  // same as H1
@@ -26,7 +27,7 @@ dateModified: 2022-10-24
   </code>
 </pre>
     
-     <p><strong>Metadata condiderations</strong></p>    
+     <p><strong>Condiderations</strong></p>    
 <ul>
   <li>Author</li>
   <li>og:image</li> 
