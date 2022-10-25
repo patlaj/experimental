@@ -16,11 +16,16 @@ dateModified: 2022-10-24
 ---
 <div class="panel panel-default">
   <div class="panel-body small">
-    <p><strong>Metadata (required)</strong></p> 
-    <p class="code">&lt;title&gt;Page title (same as H1)&lt;/title&gt;</p>
-    <p class="code">&lt;meta name=&quot;description&quot; content=&quot;Description&quot; /&gt;</p>
-      <p class="code">&lt;meta name=&quot;date&quot; content=&quot;YYYY-MM-DD&quot; /&gt;</p>
-    <p class="code">&lt;meta name=&quot;dateModified&quot; content=&quot;YYYY-MM-DD&quot; /&gt;</p>
+        <p><strong>Metadata (required)</strong></p> 
+    <pre>
+  <code>
+    &lt;title&gt;Page title (same as H1)&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;Description&quot; /&gt;
+    &lt;meta name=&quot;date&quot; content=&quot;YYYY-MM-DD&quot; /&gt;
+    &lt;meta name=&quot;dateModified&quot; content=&quot;YYYY-MM-DD&quot; /&gt;
+  </code>
+</pre>
+    
   </div>
 </div>
 <h1 property="name" id="wb-cont" dir="ltr"> <span class="stacked"><span>[H1] Pattern name</span>: <span>Canada.ca design system</span></span> </h1>
