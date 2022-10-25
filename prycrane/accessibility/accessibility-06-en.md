@@ -26,7 +26,7 @@ dateModified: 2022-10-21
 
       <!-- remove this div if you do not want an image -->
       <div class="col-md-6 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">
-        <img alt=" " src="/experimental/prycrane/accessibility/images/univ-access-03.png" />
+        <img alt=" " src="/experimental/prycrane/accessibility/images/univ-access-07.png" />
       </div> <!-- end of the image div -->
     </div>
   </div>
