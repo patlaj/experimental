@@ -95,7 +95,6 @@ dateModified: 2022-10-24
 </ul>
 <h2 id="When_to_use">(H2) When to use</h2>
 <p>[When to use]</p>
-
 <div class="panel panel-default mrgn-tp-lg">
   <header class="panel-heading">
     <h2 class="panel-title">When to use</h2>
@@ -107,27 +106,21 @@ dateModified: 2022-10-24
     </ul>
   </div>
 </div>
-
-
-
 <h2 id="What_to_avoid">(H2) What to avoid</h2>
 <p>[What to avoid]</p>
-
 <div class="panel panel-default mrgn-tp-lg">
   <header class="panel-heading">
     <h2 class="panel-title">What to avoid</h2>
   </header>
   <div class="panel-body small">
     <ul>
-      <li>Describe any exceptions or situations where we know something will not work</li> 
+      <li>Describe any exceptions or situations where we know something will not work</li>
       <li>If known, include what to use instead (workarounds and solutions) - logic has to be clear</li>
     </ul>
   </div>
 </div>
-
 <h2 id="Content_and_design">(H2) Content and design</h2>
 <p>[Content and design]</p>
-
 <h3>(H3) Content specifications</h3>
 <p>[Content specifications]</p>
 <div class="panel panel-default mrgn-tp-lg">
@@ -142,12 +135,8 @@ dateModified: 2022-10-24
     </ul>
   </div>
 </div>
-
-
-
 <h3>(H3) Design specifications</h3>
 <p>[Design specifications]</p>
-
 <div class="panel panel-default mrgn-tp-lg">
   <header class="panel-heading">
     <h2 class="panel-title">Design specifications</h2>
@@ -160,10 +149,6 @@ dateModified: 2022-10-24
     </ul>
   </div>
 </div>
-
-
-
-
 <h3>(H3) Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm">
@@ -185,7 +170,6 @@ dateModified: 2022-10-24
     </details>
   </figure>
 </div>
-
 <div class="panel panel-default mrgn-tp-lg">
   <header class="panel-heading">
     <h2 class="panel-title">Visual examples</h2>
@@ -200,10 +184,6 @@ dateModified: 2022-10-24
     </ul>
   </div>
 </div>
-
-
-
-
 <h2 id="How_to_implement">(H2) How to implement</h2>
 <p>[How to implement]</p>
 <h3>(H3) Implementation resources</h3>
@@ -217,31 +197,19 @@ dateModified: 2022-10-24
     </ul>
   </li>
 </ul>
-
 <div class="panel panel-default mrgn-tp-lg">
   <header class="panel-heading">
     <h2 class="panel-title">Implementation resources</h2>
   </header>
   <div class="panel-body small">
     <ul>
-  <li>Links to any WET/GCweb, Drupal WxT, CDTS, AEM, etc. resources that exist</li>
-  <li>Link to the part of such documentation that relates specifically to the pattern if possible</li>
+      <li>Links to any WET/GCweb, Drupal WxT, CDTS, AEM, etc. resources that exist</li>
+      <li>Link to the part of such documentation that relates specifically to the pattern if possible</li>
     </ul>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
 <h3>(H3) Code</h3>
 <p>[Code]</p>
-
-
 <div class="panel panel-danger mrgn-tp-lg">
   <header class="panel-heading">
     <h2 class="panel-title">Code</h2>
@@ -249,18 +217,12 @@ dateModified: 2022-10-24
   <div class="panel-body small">
     <p>This section is for future development.</p>
     <ul>
-  <li>Include a code snippet, don’t copy and paste  code</li>
+      <li>Include a code snippet, don’t copy and paste  code</li>
     </ul>
   </div>
 </div>
-
-
-
-
-
 <h2 id="Research_and_rationale">(H2) Research and rationale</h2>
 <p>[Research and rationale]</p>
-
 <div class="panel panel-danger mrgn-tp-lg">
   <header class="panel-heading">
     <h2 class="panel-title">Code</h2>
@@ -268,22 +230,16 @@ dateModified: 2022-10-24
   <div class="panel-body small">
     <p>This section is still being refined.</p>
     <ul>
-  <li>Summarize the research that supports this component or pattern, and how it was tested
-  <li>Include known issues and gaps
-  <li>Related blog post(s) behind a component or pattern to help build trust - include the description used in DTO newsletter with each blog post link
-<ul><li>Example: Using task success to improve user experience: Evidence from the GC Task Success Survey can help support positive cultural change within your organization.</li></ul>
-</li>
+      <li>Summarize the research that supports this component or pattern, and how it was tested</li>
+      <li>Include known issues and gaps</li>
+      <li>Related blog post(s) behind a component or pattern to help build trust - include the description used in DTO newsletter with each blog post link
+        <ul>
+          <li>Example: Using task success to improve user experience: Evidence from the GC Task Success Survey can help support positive cultural change within your organization.</li>
+        </ul>
+      </li>
     </ul>
   </div>
 </div>
-
-
-
-
-
-
-
-
 <h2 id="Latest_changes">(H2) Latest changes</h2>
 <dl class="dl-horizontal mrgn-tp-lg">
   <dt>
@@ -295,8 +251,6 @@ dateModified: 2022-10-24
   </dt>
   <dd>Description ...</dd>
 </dl>
-
-
 <div class="panel panel-default">
   <header class="panel-heading">
     <h2 class="panel-title">Latest changes</h2>
