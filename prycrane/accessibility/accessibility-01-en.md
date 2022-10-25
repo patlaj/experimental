@@ -21,7 +21,7 @@ dateModified: 2022-10-21
     <div class="row">
 
       <!-- change col-md-12 to col-md-12 if not using an image -->
-      <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
+      <div class="intro col-md-12 col-sm-12 mrgn-bttm-md">
         <h1 property="name" id="wb-cont">Accessibility</h1>
         <p class="pagetag">Find our accessibility plan and provide feedback.  This is part of an ongoing effort to:</p>
         <ul>
