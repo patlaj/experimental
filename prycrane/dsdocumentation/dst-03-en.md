@@ -14,7 +14,7 @@ description: Mockup of pattern template design
 share: true
 dateModified: 2022-10-24
 ---
-<div class="panel panel-default col-md-7">
+<div class="panel panel-default">
   <header class="panel-heading">
     <h2 class="panel-title">Metadata</h2>
   </header>
@@ -58,7 +58,7 @@ dateModified: 2022-10-24
   </div>
 </div>
 <p>[Pattern description]</p>
-<div class="panel panel-default col-md-7">
+<div class="panel panel-default">
   <header class="panel-heading">
     <h2 class="panel-title">Pattern description</h2>
   </header>
@@ -96,7 +96,7 @@ dateModified: 2022-10-24
 <h2 id="When_to_use">(H2) When to use</h2>
 <p>[When to use]</p>
 
-<div class="panel panel-default mrgn-tp-lg col-md-7">
+<div class="panel panel-default mrgn-tp-lg">
   <header class="panel-heading">
     <h2 class="panel-title">When to use</h2>
   </header>
@@ -113,7 +113,7 @@ dateModified: 2022-10-24
 <h2 id="What_to_avoid">(H2) What to avoid</h2>
 <p>[What to avoid]</p>
 
-<div class="panel panel-default mrgn-tp-lg col-md-7">
+<div class="panel panel-default mrgn-tp-lg">
   <header class="panel-heading">
     <h2 class="panel-title">What to avoid</h2>
   </header>
@@ -127,8 +127,24 @@ dateModified: 2022-10-24
 
 <h2 id="Content_and_design">(H2) Content and design</h2>
 <p>[Content and design]</p>
+
 <h3>(H3) Content specifications</h3>
 <p>[Content specifications]</p>
+<div class="panel panel-default mrgn-tp-lg">
+  <header class="panel-heading">
+    <h2 class="panel-title">Content specifications</h2>
+  </header>
+  <div class="panel-body small">
+    <ul>
+      <li>Include any labeling or content considerations or requirements</li>
+      <li>This is so content designers know what the guardrails are</li>
+      <li>Describe correct layout</li>
+    </ul>
+  </div>
+</div>
+
+
+
 <h3>(H3) Design specifications</h3>
 <p>[Design specifications]</p>
 <h3>(H3) Visual examples</h3>
