@@ -49,8 +49,9 @@ dateModified: 2022-10-24
 <p><strong>Type</strong>: Template <span class="label label-danger">Mandatory on standard pages</span></p>
 
 <div class="panel panel-default">
+  <h2 class="panel-title">Mandatory label</h2>
   <div class="panel-body small">
-        <p><strong>Mandatory label</strong></p> 
+   
 <ul>
   <li>Mandatory label appears only on mandatory pages.</li>
  <li>Optional (Include the label when it’s an optional element on a mandatory pattern, like contextual footer)</li>
@@ -61,10 +62,46 @@ dateModified: 2022-10-24
 </div>
 
 
-<p>[Pattern description] - a brief description/definition of the pattern that helps users quickly understand what the component or pattern is.</p>
+<p>[Pattern description]</p>
+<div class="panel panel-default">
+  <h2 class="panel-title">Pattern description</h2>
+  <div class="panel-body small">
+   
+<ul>
+  <li>a brief description/definition of the pattern that helps users quickly understand what the component or pattern is.</li>
+
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm"> <img src="../dsdocumentation/images/sign-in-desktop-en.jpg" class="img-responsive" alt="" /> </figure>
 </div>
+
+<div class="panel panel-default">
+  <h2 class="panel-title">Cosmetic generic image</h2>
+  <div class="panel-body small">
+   
+<ul>
+
+<li>Plain, simple, generic version of image for most patterns</li>
+<li>Thumbnail for templates or large size patterns</li>
+<li>This is a decorative image that doesn’t require alt text or long description as it’s repeated below in the visual examples</li>
+
+    </ul>
+  </div>
+</div>
+
+
+
 <h2>(H2) On this page</h2>
 <ul class="mrgn-tp-lg">
   <li><a href="#When_to_use">When to use</a></li>
