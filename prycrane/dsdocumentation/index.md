@@ -6,9 +6,11 @@ layout: without-h1
 altLangPage: /fr.html
 lang: en
 title: Content model design
+share: True
+pageclass: cnt-wdth-lmtd
 description: 
  en: Content model design for the Canada.ca design system.
-dateModified: 2022-10-24
+dateModified: 2022-10-25
 ---
 
  <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Content model design</span>: <span>Canada.ca design system</span></span></h1>
