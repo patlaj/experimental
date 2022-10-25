@@ -225,7 +225,7 @@ dateModified: 2022-10-24
 <p>[Research and rationale]</p>
 <div class="panel panel-danger mrgn-tp-lg">
   <header class="panel-heading">
-    <h2 class="panel-title">Code</h2>
+    <h2 class="panel-title">Research and rationale</h2>
   </header>
   <div class="panel-body small">
     <p>This section is still being refined.</p>
