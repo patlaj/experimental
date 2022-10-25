@@ -4,17 +4,15 @@ css:
 - https://design.canada.ca/css/custom.css
 - /experimental/prycrane/accessibility/css/themeandtopic.css
 layout: without-h1
-pageclass: cnt-wdth-lmtd
-altLangPage: /experimental/prycrane/accessibility/accessibilite-01-fr.html
-breadcrumbs:
-- title: [Institution name]
-  link: #
 lang: en
+title: Accessibility mockups
 share: True
-title: Accessibility
+breadcrumbs:
+- title: Accessibility
+  link: https://prycrane.github.io/experimental/prycrane/accessibility/
 description: 
-  en: Find our accessibility plan and provide feedback. 
-dateModified: 2022-10-21
+en: Index of mockups for accessibility requirements. 
+dateModified: 2022-10-24
 ---
 
 <div class="provisional profile">
@@ -22,9 +20,8 @@ dateModified: 2022-10-21
     <div class="row">
       <!-- change col-md-6 to col-md-12 if not using an image -->
       <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
-        <!--<h1 property="name" id="wb-cont" dir="ltr">Accessibility</h1>-->
-         <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility</span>: <span>[Institution name]</span></span></h1>
-        <p class="pagetag">Find our accessibility plan and provide feedback.</p>  <p class="pagetag">This is part of an ongoing effort to get input from persons with disabilities, reflect on our organization’s accessibility strategy and be accountable for our current and future actions.</p>
+       <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility mockups</span>: <span>Canada.ca design system</span></span></h1>
+        <p class="pagetag">We are creating for accessibility requirements.</p>
       </div>
 
       <!-- remove this div if you do not want an image -->
@@ -34,6 +31,8 @@ dateModified: 2022-10-21
     </div>
   </div>
 </div>
+
+
 
 <div class="container">
   <div class="row mrgn-tp-lg">
