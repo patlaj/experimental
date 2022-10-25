@@ -46,7 +46,7 @@ dateModified: 2022-10-24
 <h1 property="name" id="wb-cont" dir="ltr"> <span class="stacked"><span>[H1] Pattern name</span>: <span>Canada.ca design system</span></span> </h1>
 <p class="small">last updated: YYYY-MM-DD</p>
 <p><strong>Type</strong>: Template <span class="label label-danger">Mandatory on standard pages</span></p>
-<div class="panel panel-default col-md-7">
+<div class="panel panel-default">
   <header class="panel-heading">
     <h2 class="panel-title">Mandatory label</h2>
   </header>
@@ -71,7 +71,7 @@ dateModified: 2022-10-24
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm"> <img src="../dsdocumentation/images/sign-in-desktop-en.jpg" class="img-responsive" alt="" /> </figure>
 </div>
-<div class="panel panel-default mrgn-tp-lg col-md-7">
+<div class="panel panel-default mrgn-tp-lg">
   <header class="panel-heading">
     <h2 class="panel-title">Cosmetic generic image</h2>
   </header>
