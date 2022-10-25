@@ -17,7 +17,6 @@ dateModified: 2022-10-21
 <div class="provisional profile">
   <div class="container">
     <div class="row">
-
       <!-- change col-md-6 to col-md-12 if not using an image -->
       <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
         <h1 property="name" id="wb-cont">Accessibility</h1>
