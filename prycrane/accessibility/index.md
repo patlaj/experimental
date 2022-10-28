@@ -49,6 +49,7 @@ dateModified: 2022-10-24
 <ul>
   <li><a href="https://docs.google.com/presentation/d/1A9s7r4TpSSOg0Ik65l2nf6RQeTO-6A75aLoK6llINRY/edit#slide=id.g168222990b5_0_0">Accessibility requirements for Canada.ca: proposed patterns and considerations</a><br>(Working deck)</li>
   <li><a href="https://docs.google.com/document/d/1ezTHWBwvIxQY9qtvSrfjw0FiPXWLJNA0IkQJuTO9M5I/edit#heading=h.oos2vfohf0tr">Accessibility landing page mockup</a><br>(Working doc)</li>
+  <li><a href="https://wet-boew.github.io/GCWeb/templates/theme-topic/theme-topic-en.html">wet-boew - Theme - Topic title</a></li>
   <li>Canada.ca design system
     <ul>
     <li><a href="https://design.canada.ca/mandatory-templates/theme-topic.html">Theme and topic page</a></li>
