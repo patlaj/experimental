@@ -230,7 +230,7 @@ dateModified: 2022-10-24
   <div class="panel-body small">
     <ul>
       <li>These sections are used only when needed.</li>
-            <li>Blog posts go in the section they realte to.</li>
+            <li>Blog posts go in the section they relate to.</li>
     </ul>
    </div>
 </div>
