@@ -45,8 +45,8 @@ dateModified: 2022-10-24
   <li><a href="https://wet-boew.github.io/GCWeb/templates/theme-topic/theme-topic-en.html">wet-boew - Theme - Topic title</a></li>
   <li>Canada.ca design system
     <ul>
-    <li><a href="https://design.canada.ca/mandatory-templates/theme-topic.html">Theme and topic page</a></li>
-    <li><a href="https://design.canada.ca/coded-layout/theme_topic_guidance.html">Beta theme and topic page</a></li>
+    <li><a href="https://design.canada.ca/mandatory-templates/theme-topic.html">Theme and topic page</a> (code needs to be updated)</li>
+    <li><a href="https://design.canada.ca/coded-layout/theme_topic_guidance.html">Beta theme and topic page</a> (code needs to be updated)</li>
     </ul></li>
   <li><a href="https://laws.justice.gc.ca/eng/acts/A-0.6/page-2.html#docCont">Accessibility Act</a></li>
   <li><a href="https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/accessibility-plans/section1.html">Introduction to Accessibility plans</a></li>
