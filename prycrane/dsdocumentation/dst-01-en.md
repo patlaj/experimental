@@ -84,11 +84,11 @@ Find research findings and policy.
 <h3>[h3] Research findings</h3>
 <ul>
   <li>[link to reserach findings]</li>
-  </ul>
+</ul>
 <h3>[h3] Policy</h3>
 <ul>
   <li>[link to policy]</li>
-  </ul>
+</ul>
 <h2 id="Latest_changes">[h2] Latest changes</h2>
 <dl class="dl-horizontal mrgn-tp-lg">
   <dt>
@@ -104,5 +104,6 @@ Find research findings and policy.
 <ul class="mrgn-tp-lg">
   <li><a href="https://github.com/canada-ca/design-system/issues">Discuss the pattern in github issues</a></li>
   <li><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">Join the conversation on Slack</a></li>
-  <li>Email the Digital Transformation Office<br><a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></li>
+  <li>Email the Digital Transformation Office<br>
+    <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></li>
 </ul>
