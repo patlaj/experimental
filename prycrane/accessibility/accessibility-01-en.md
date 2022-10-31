@@ -17,23 +17,20 @@ description:
 dateModified: 2022-10-21
 ---
 
-<div class="provisional profile">
-  <div class="container">
-    <div class="row">
-
-      <!-- change col-md-12 to col-md-12 if not using an image -->
-      <div class="intro col-md-12 col-sm-12 mrgn-bttm-md">
-        <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility</span>: <span>[Institution name]</span></span></h1>
-        <p class="pagetag">Find our accessibility plan and provide feedback.  This is part of an ongoing effort to:</p>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility mockups</span>: <span>[Institution name]</span></span></h1>
+ <p>Find our accessibility plan and provide feedback.  This is part of an ongoing effort to:</p>
         <ul>
            <li>get input from persons with disabilities</li>
            <li>reflect on our organization’s accessibility strategy</li>  
            <li>be accountable for our current and future actions</li>
         </ul>
-      </div>
-    </div>
-  </div>
+		</div>
+	</div>
 </div>
+
 
 <div class="container">
   <div class="row">
