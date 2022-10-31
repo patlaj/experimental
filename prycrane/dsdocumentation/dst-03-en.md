@@ -222,7 +222,7 @@ dateModified: 2022-10-24
   </div>
 </div>
 <h2 id="Research_and_rationale">[h2] Research and rationale</h2>
-<p>[Research and rationale]</p>
+<p>Find research findings and policy.</p>
   <div class="panel panel-default mrgn-tp-lg">
   <header class="panel-heading">
     <h2 class="panel-title">Research and rationale</h2>
@@ -235,13 +235,14 @@ dateModified: 2022-10-24
       <li>Related blog post(s) behind a component or pattern to help build trust - include the description used in DTO newsletter with each blog post link
         <ul>
           <li>Example: Using task success to improve user experience: Evidence from the GC Task Success Survey can help support positive cultural change within your organization.</li>
-          <li>Blog posts go in the section they realte to</li>
+
         </ul>
       </li>
+                <li>Blog posts go in the section they realte to</li>
     </ul>
   </div>
 </div>
-<p>Find research findings and policy.</p>
+
 <h3>[h3] Research findings</h3>
 <ul>
   <li>[link to reserach findings]</li>
