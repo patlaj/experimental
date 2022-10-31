@@ -14,24 +14,17 @@ description:
 en: Index of mockups for accessibility requirements. 
 dateModified: 2022-10-24
 ---
-
-<div class="provisional profile">
-  <div class="container">
-    <div class="row">
-      <!-- change col-md-6 to col-md-12 if not using an image -->
-      <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
-       <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility mockups</span>: <span>Canada.ca design system</span></span></h1>
-        <p class="pagetag">We are creating for accessibility requirements.</p>
-      </div>
-
-      <!-- remove this div if you do not want an image -->
-      <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg">
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility mockups</span>: <span>Canada.ca design system</span></span></h1>
+			<p>We are creating for accessibility requirements.</p>
+		</div>
+		<div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg">
 			<div data-bgimg="/experimental/prycrane/accessibility/images/univ-access-02.png"></div>
-		</div><!-- end of the image div -->
-    </div>
-  </div>
+		</div>
+	</div>
 </div>
-
 
 <h2>Mockups</h2> 
 <ul>
