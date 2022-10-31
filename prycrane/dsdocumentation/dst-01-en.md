@@ -21,7 +21,7 @@ dateModified: 2022-10-24
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm"> <img src="../dsdocumentation/images/sign-in-desktop-en.jpg" class="img-responsive" alt="" /> </figure>
 </div>
-<h2>(H2) On this page</h2>
+<h2>[h2] On this page</h2>
 <ul class="mrgn-tp-lg">
   <li><a href="#When_to_use">When to use</a></li>
   <li><a href="#What_to_avoid">What to avoid</a></li>
@@ -31,17 +31,17 @@ dateModified: 2022-10-24
   <li><a href="#Latest_changes">Latest changes</a></li>
   <li><a href="#Discussion">Discussion</a></li>
 </ul>
-<h2 id="When_to_use">(H2) When to use</h2>
+<h2 id="When_to_use">[h2]  When to use</h2>
 <p>[When to use]</p>
-<h2 id="What_to_avoid">(H2) What to avoid</h2>
+<h2 id="What_to_avoid">[h2] What to avoid</h2>
 <p>[What to avoid]</p>
-<h2 id="Content_and_design">(H2) Content and design</h2>
+<h2 id="Content_and_design">[h2] Content and design</h2>
 <p>Find content and design specifications and visual examples.</p>
-<h3>(H3) Content specifications</h3>
+<h3>[h3] Content specifications</h3>
 <p>[Content specifications]</p>
-<h3>(H3) Design specifications</h3>
+<h3>[h3] Design specifications</h3>
 <p>[Design specifications]</p>
-<h3>(H3) Visual examples</h3>
+<h3>[h3] Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm">
     <figcaption><strong>Pattern name – large screen</strong></figcaption>
@@ -62,9 +62,9 @@ dateModified: 2022-10-24
     </details>
   </figure>
 </div>
-<h2 id="How_to_implement">(H2) How to implement</h2>
+<h2 id="How_to_implement">[h2] How to implement</h2>
 <p>[How to implement]</p>
-<h3>(H3) Implementation resources</h3>
+<h3>[h3] Implementation resources</h3>
 <ul class="mrgn-tp-lg">
   <li>Links to any WET/GCweb, Drupal WxT, CDTS, AEM, etc. resources that exist</li>
   <li>Link to the part of such documentation that relates specifically to the pattern if possible</li>
@@ -77,11 +77,11 @@ dateModified: 2022-10-24
     </ul>
   </li>
 </ul>
-<h3>(H3) Code</h3>
+<h3>[h3] Code</h3>
 <p>[Code]</p>
-<h2 id="Research_and_rationale">(H2) Research and rationale</h2>
+<h2 id="Research_and_rationale">[h2] Research and rationale</h2>
 <p>[Research and rationale]</p>
-<h2 id="Latest_changes">(H2) Latest changes</h2>
+<h2 id="Latest_changes">[h2] Latest changes</h2>
 <dl class="dl-horizontal mrgn-tp-lg">
   <dt>
     <time datetime="YYYY-MM-DD" class="link-muted">YYYY-MM-DD</time>
@@ -92,7 +92,7 @@ dateModified: 2022-10-24
   </dt>
   <dd>Description ...</dd>
 </dl>
-<h2 id="Discussion">(H2) Discussion</h2>
+<h2 id="Discussion">[h2] Discussion</h2>
 <ul class="mrgn-tp-lg">
   <li><a href="https://github.com/canada-ca/design-system/issues">Discuss the pattern in github issues</a></li>
   <li><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">Join the conversation on Slack</a></li>
