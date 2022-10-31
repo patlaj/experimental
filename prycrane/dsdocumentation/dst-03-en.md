@@ -228,8 +228,24 @@ dateModified: 2022-10-24
     <h2 class="panel-title">Research and rationale</h2>
   </header>
   <div class="panel-body small">
-    <p>These sections are used only when needed.</p>
     <ul>
+      <li>These sections are used only when needed.</li>
+            <li>Blog posts go in the section they realte to.</li>
+    </ul>
+   </div>
+</div>
+
+<h3>[h3] Research findings</h3>
+<ul>
+  <li>[link to reseach findings]</li>
+  </ul>
+
+ <div class="panel panel-default mrgn-tp-lg">
+  <header class="panel-heading">
+    <h2 class="panel-title">Research findings</h2>
+  </header>
+  <div class="panel-body small">
+      <ul>
       <li>Summarize the research that supports this component or pattern, and how it was tested</li>
       <li>Include known issues and gaps</li>
       <li>Related blog post(s) behind a component or pattern to help build trust - include the description used in DTO newsletter with each blog post link
@@ -238,23 +254,29 @@ dateModified: 2022-10-24
 
         </ul>
       </li>
-                <li>Blog posts go in the section they realte to</li>
     </ul>
   </div>
-</div>
-
-<h3>[h3] Research findings</h3>
-<ul>
-  <li>[link to reserach findings]</li>
-  </ul>
-
-  
+</div>  
   
 <h3>[h3] Policy</h3>
+
+
+
 <ul>
   <li>[link to policy]</li>
   </ul>
-
+ <div class="panel panel-default mrgn-tp-lg">
+  <header class="panel-heading">
+    <h2 class="panel-title">Policy</h2>
+  </header>
+  <div class="panel-body small">
+    <ul>
+      <li>Policy links</li>
+      <li>Policy-related blogs</li>
+      
+    </ul>
+  </div>
+</div>  
 <h2 id="Latest_changes">[h2] Latest changes</h2>
 <dl class="dl-horizontal mrgn-tp-lg">
   <dt>
