@@ -120,6 +120,7 @@ dateModified: 2022-10-24
   </div>
 </div>
 <h2 id="Content_and_design">[h2] Content and design</h2>
+<p>Find content and design specifications and visual examples.</p>
 <div class="panel panel-default mrgn-tp-lg">
   <header class="panel-heading">
     <h2 class="panel-title">Content and design</h2>
@@ -130,7 +131,7 @@ dateModified: 2022-10-24
     </ul>
    </div>
 </div>
-<p>Find content and design specifications and visual examples.</p>
+
 <h3>[h3] Content specifications</h3>
 <p>[Content specifications]</p>
 <div class="panel panel-default mrgn-tp-lg">
