@@ -20,7 +20,7 @@ dateModified: 2022-10-21
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility mockups</span>: <span>[Institution name]</span></span></h1>
+			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility</span>: <span>[Institution name]</span></span></h1>
  <p>Find our accessibility plan and provide feedback.  This is part of an ongoing effort to:</p>
         <ul>
            <li>get input from persons with disabilities</li>
