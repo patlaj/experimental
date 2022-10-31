@@ -16,23 +16,17 @@ description:
   en: Find our accessibility plan and provide feedback. 
 dateModified: 2022-10-21
 ---
-
-<div class="provisional profile">
-  <div class="container">
-    <div class="row">
-
-      <!-- change col-md-6 to col-md-12 if not using an image -->
-      <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
-          <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility</span>: <span>[Institution name]</span></span></h1>
-        <p class="pagetag">Find our accessibility plan and provide feedback.</p> <p class="pagetag">This is part of an ongoing effort to get input from persons with disabilities, reflect on our organization’s accessibility strategy and be accountable for our current and future actions.</p>
-      </div>
-
-      <!-- remove this div if you do not want an image -->
-      <div class="col-md-6 pstn-rght-md pstn-tp-lg hidden-sm hidden-xs">
-        <img alt=" " src="/experimental/prycrane/accessibility/images/univ-access-04.png" />
-      </div> <!-- end of the image div -->
-    </div>
-  </div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility mockups</span>: <span>Canada.ca design system</span></span></h1>
+			<p>Find our accessibility plan and provide feedback.</p>
+      <p>This is part of an ongoing effort to get input from persons with disabilities, reflect on our organization’s accessibility strategy and be accountable for our current and future actions.</p>
+		</div>
+		<div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg">
+			<div data-bgimg="/experimental/prycrane/accessibility/images/univ-access.png"></div>
+		</div>
+	</div>
 </div>
 
 <div class="container">
