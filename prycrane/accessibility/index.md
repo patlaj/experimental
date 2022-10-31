@@ -25,9 +25,9 @@ dateModified: 2022-10-24
       </div>
 
       <!-- remove this div if you do not want an image -->
-      <div class="col-md-6 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs">
-        <img alt=" " src="/experimental/prycrane/accessibility/images/univ-access-07.png" />
-      </div> <!-- end of the image div -->
+      <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg">
+			<div data-bgimg="/experimental/prycrane/accessibility/images/univ-access-02.png"></div>
+		</div><!-- end of the image div -->
     </div>
   </div>
 </div>
