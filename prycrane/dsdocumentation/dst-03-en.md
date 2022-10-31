@@ -120,6 +120,16 @@ dateModified: 2022-10-24
   </div>
 </div>
 <h2 id="Content_and_design">[h2] Content and design</h2>
+<div class="panel panel-default mrgn-tp-lg">
+  <header class="panel-heading">
+    <h2 class="panel-title">Content and design</h2>
+  </header>
+  <div class="panel-body small">
+    <ul>
+      <li>Sections are used only when needed.</li>
+    </ul>
+   </div>
+</div>
 <p>Find content and design specifications and visual examples.</p>
 <h3>[h3] Content specifications</h3>
 <p>[Content specifications]</p>
@@ -229,7 +239,7 @@ dateModified: 2022-10-24
   </header>
   <div class="panel-body small">
     <ul>
-      <li>These sections are used only when needed.</li>
+      <li>Sections are used only when needed.</li>
             <li>Blog posts go in the section they relate to.</li>
     </ul>
    </div>
