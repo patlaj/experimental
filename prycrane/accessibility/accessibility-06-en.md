@@ -27,29 +27,6 @@ dateModified: 2022-10-24
 	</div>
 </div>
 
-
-
-
-
-<div class="provisional profile">
-  <div class="container">
-    <div class="row">
-      <!-- change col-md-6 to col-md-12 if not using an image -->
-      <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
-       <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility</span>: <span>[Institution name]</span></span></h1>
-       <p class="pagetag">Find our accessibility plan and provide feedback.</p>  <p class="pagetag">This is part of an ongoing effort to get input from persons with disabilities, reflect on our organization’s accessibility strategy and be accountable for our current and future actions.</p>
-      </div>
-
-      <!-- remove this div if you do not want an image -->
-      <div class="col-md-6 pstn-rght-md pstn-tp-lg hidden-sm hidden-xs">
-        <img alt=" " src="/experimental/prycrane/accessibility/images/univ-access-07.png" />
-      </div> <!-- end of the image div -->
-    </div>
-  </div>
-</div>
-
-
-
 <div class="container">
   <div class="row mrgn-tp-lg">
 
