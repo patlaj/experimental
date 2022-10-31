@@ -14,6 +14,22 @@ description:
 en: Index of mockups for accessibility requirements. 
 dateModified: 2022-10-24
 ---
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility mockups</span>: <span>Canada.ca design system</span></span></h1>
+	    <p>Find our accessibility plan and provide feedback.</p>  
+      <p>This is part of an ongoing effort to get input from persons with disabilities, reflect on our organization’s accessibility strategy and be accountable for our current and future actions.</p>
+		</div>
+		<div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg">
+			<div data-bgimg="/experimental/prycrane/accessibility/images/univ-access-02.png"></div>
+		</div>
+	</div>
+</div>
+
+
+
+
 
 <div class="provisional profile">
   <div class="container">
