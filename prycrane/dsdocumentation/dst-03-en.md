@@ -129,9 +129,8 @@ dateModified: 2022-10-24
     <ul>
       <li>Sections are used only when needed.</li>
     </ul>
-   </div>
+  </div>
 </div>
-
 <h3>[h3] Content specifications</h3>
 <p>[Content specifications]</p>
 <div class="panel panel-default mrgn-tp-lg">
@@ -234,49 +233,42 @@ dateModified: 2022-10-24
 </div>
 <h2 id="Research_and_rationale">[h2] Research and rationale</h2>
 <p>Find research findings and policy.</p>
-  <div class="panel panel-default mrgn-tp-lg">
+<div class="panel panel-default mrgn-tp-lg">
   <header class="panel-heading">
     <h2 class="panel-title">Research and rationale</h2>
   </header>
   <div class="panel-body small">
     <ul>
       <li>Sections are used only when needed.</li>
-            <li>Blog posts go in the section they relate to.</li>
+      <li>Blog posts go in the section they relate to.</li>
     </ul>
-   </div>
+  </div>
 </div>
-
 <h3>[h3] Research findings</h3>
 <ul>
   <li>[link to reseach findings]</li>
-  </ul>
-
- <div class="panel panel-default mrgn-tp-lg">
+</ul>
+<div class="panel panel-default mrgn-tp-lg">
   <header class="panel-heading">
     <h2 class="panel-title">Research findings</h2>
   </header>
   <div class="panel-body small">
-      <ul>
+    <ul>
       <li>Summarize the research that supports this component or pattern, and how it was tested</li>
       <li>Include known issues and gaps</li>
       <li>Related blog post(s) behind a component or pattern to help build trust - include the description used in DTO newsletter with each blog post link
         <ul>
           <li>Example: Using task success to improve user experience: Evidence from the GC Task Success Survey can help support positive cultural change within your organization.</li>
-
         </ul>
       </li>
     </ul>
   </div>
-</div>  
-  
+</div>
 <h3>[h3] Policy</h3>
-
-
-
 <ul>
   <li>[link to policy]</li>
-  </ul>
- <div class="panel panel-default mrgn-tp-lg">
+</ul>
+<div class="panel panel-default mrgn-tp-lg">
   <header class="panel-heading">
     <h2 class="panel-title">Policy</h2>
   </header>
@@ -284,10 +276,9 @@ dateModified: 2022-10-24
     <ul>
       <li>Policy links</li>
       <li>Policy-related blogs</li>
-      
     </ul>
   </div>
-</div>  
+</div>
 <h2 id="Latest_changes">[h2] Latest changes</h2>
 <dl class="dl-horizontal mrgn-tp-lg">
   <dt>
