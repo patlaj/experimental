@@ -80,7 +80,15 @@ dateModified: 2022-10-24
 <h3>[h3] Code</h3>
 <p>[Code]</p>
 <h2 id="Research_and_rationale">[h2] Research and rationale</h2>
-<p>[Research and rationale]</p>
+Find research findings and policy.
+<h3>[h3] Research findings</h3>
+<ul>
+  <li>[link to reserach findings]</li>
+  </ul>
+<h3>[h3] Policy</h3>
+<ul>
+  <li>[link to policy]</li>
+  </ul>
 <h2 id="Latest_changes">[h2] Latest changes</h2>
 <dl class="dl-horizontal mrgn-tp-lg">
   <dt>
