@@ -7,7 +7,7 @@ pageclass: cnt-wdth-lmtd
 altLangPage: /experimental/prycrane/blogs/wayfinding/wayfinding-xx-fr.html
 pageclass: cnt-wdth-lmtd
 breadcrumbs:
-- title: Wayfinding project stuff
+- title: Wayfinding project blog
   link: /experimental/prycrane/blogs/wayfinding/
 lang: en
 share: True
@@ -35,7 +35,7 @@ dateModified: 2022-11-01
 	
 	<h2>Mockups</h2>  
         <ul>
-           <li>link</li>
+		<li><a href="wayfindingblog-01.html">First draft</a></li>
         </ul>
 	
 	<blockquote class="small">
