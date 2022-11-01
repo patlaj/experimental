@@ -4,7 +4,7 @@ css:
 - https://design.canada.ca/css/custom.css
 layout: without-h1
 pageclass: cnt-wdth-lmtd
-altLangPage: /experimental/prycrane/blogs/wayfinding/wayfinding-xx-fr.html
+altLangPage: /experimental/prycrane/blogs/wayfinding/wayfindingblog-fr-01.html
 pageclass: cnt-wdth-lmtd
 breadcrumbs:
 - title: Wayfinding project blog
@@ -13,7 +13,7 @@ lang: en
 share: True
 title: Wayfinding project blog
 description: 
-  en: Index of Wayfinding blog mockups, prototypes, and resources 
+  en: The wayfinding study investigated issues with Canada.ca navigation and informed changes to improve navigation and simplify the adoption of the Canada.ca design for departments and agencies.  The main improvements include the introduction of a new sign in button, removing the menu button, a contextual footer band, a main footer band with themes, and a layered design for the theme page. 
 dateModified: 2022-11-01
 ---
 
