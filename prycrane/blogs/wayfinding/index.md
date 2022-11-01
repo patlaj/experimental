@@ -33,24 +33,16 @@ dateModified: 2022-11-01
 <div class="container">
 	
 	
-	<blockquote>
-  <p>Navigation is about wayfinding, you can't treat it as separate because many other things run parallel with it. If you look at studies in wayfinding, everything from exhibit design to building the cathedrals, it's about creating a complete system. It's about looking at the whole.</p>
-
-  <p>– Clement Mok</p>
-</blockquote>
-	
-	
-	
-	
-	
-	
-	
-	
-
 	<h2>Mockups</h2>  
         <ul>
            <li>link</li>
         </ul>
+	
+	<blockquote class="small">
+  <p>Navigation is about wayfinding, you can't treat it as separate because many other things run parallel with it. If you look at studies in wayfinding, everything from exhibit design to building the cathedrals, it's about creating a complete system. It's about looking at the whole.</p>
+
+  <p>– Clement Mok</p>
+</blockquote>	
 	
 	<h2>Resources</h2> 
         <ul>
