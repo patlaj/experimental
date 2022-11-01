@@ -21,7 +21,13 @@ dateModified: 2022-11-01
   
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>The Wayfinding Project: a strategy to improve Canada.ca navigation</span>: <span>Canada.ca blog</span></span></h1>
   
-  
+  <section class="small mrgn-tp-lg">
+	<blockquote class="mrgn-tp-lg">
+  <p>Navigation is about wayfinding, you can't treat it as separate because many other things run parallel with it. If you look at studies in wayfinding, everything from exhibit design to building the cathedrals, it's about creating a complete system. It's about looking at the whole.</p>
+
+  <p>– Clement Mok</p>
+</blockquote>	
+	</section>
   
   
   
