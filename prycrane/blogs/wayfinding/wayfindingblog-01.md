@@ -11,7 +11,9 @@ breadcrumbs:
   link: /experimental/prycrane/blogs/wayfinding/
 lang: en
 share: True
-title: Wayfinding project: testing and implementing a new approach to Canada.ca navigation
+title: Wayfinding project blog
+description: 
+  en: Index of Wayfinding blog mockups, prototypes, and resources 
 dateModified: 2022-11-01
 ---
 
