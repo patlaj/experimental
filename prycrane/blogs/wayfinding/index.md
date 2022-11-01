@@ -48,7 +48,7 @@ dateModified: 2022-11-01
 </blockquote>	
 	</section>
 	
-	<section>
+<section>
 	<h2>Resources</h2> 
         <ul>
 		<li><a href="https://blog.canada.ca/">Canada.ca blog</a></li>
