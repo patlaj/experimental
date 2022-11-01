@@ -30,7 +30,13 @@ dateModified: 2022-11-01
 	</div>
 </div>
 
+<section>	
+	<h2>Mockups</h2>  
+        <ul>
+		<li><a href="wayfindingblog-01.html">First draft</a></li>
+        </ul>
 
+	</section>
 	
 <section>
 	<h2>Resources</h2> 
