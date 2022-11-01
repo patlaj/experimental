@@ -52,7 +52,7 @@ dateModified: 2022-11-01
            <li>link</li>
         </ul>
 	
-	<h2>Resources</h2>  Canada.ca blog
+	<h2>Resources</h2> 
         <ul>
 		<li><a href="https://blog.canada.ca/">Canada.ca blog</a></li>
 		<li><a href="https://docs.google.com/document/d/1PEMSBjgw3GSbDDqqNTq6Lgjp0lmHvvDDCJzN6jXp8jo">Wayfinding blog drafts</a></li>
