@@ -22,7 +22,7 @@ dateModified: 2022-10-21
 		<div class="col-md-12">
 			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Wayfinding project mockups</span>: <span>Canada.ca blog</span></span></h1>
       <p>As a user of the Canada.ca design system, I want to understand (including the long-term strategy) the Wayfinding Project, so that 
-         I can understand the research and decisions that will impact the global header and footer.</p>
+         I can understand and the research and decisions that will impact the global header and footer.</p>
       <h2>Mockups</h2>  
       
       
