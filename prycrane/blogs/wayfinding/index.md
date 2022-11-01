@@ -37,10 +37,13 @@ dateModified: 2022-11-01
            <li>link</li>
         </ul>
 	
-	<h2>Resources</h2>  
+	<h2>Resources</h2>  Canada.ca blog
         <ul>
-           <li>link</li>
-           
+		<li><a href="https://blog.canada.ca/">Canada.ca blog</a></li>
+		<li><a href="https://docs.google.com/document/d/1PEMSBjgw3GSbDDqqNTq6Lgjp0lmHvvDDCJzN6jXp8jo">Wayfinding blog drafts</a></li>
+ 		<li><a href="https://docs.google.com/document/d/11B3OCaxy-RPAFUTXqZryer6JBDiiDEbW9NGheWukTQU">Wayfinding blog brainstorm</a></li>    
+		<li><a href="https://docs.google.com/document/d/1Sb8QLpJQqP3QvzLD8V9ZFTic4jI0nMhPAijPOGc982o">Wayfinding research summary</a></li>
+		<li><a href="https://github.com/prycrane/experimental/tree/master/prycrane/blogs/wayfinding">GitHub repository</a></li>
         </ul>
 
 
