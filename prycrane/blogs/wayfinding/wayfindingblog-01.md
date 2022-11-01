@@ -17,7 +17,7 @@ description:
 dateModified: 2022-11-01
 ---
 
-<div class="container">
+
   
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Wayfinding project: testing and implementing a new approach to Canada.ca navigation</span>: <span>Canada.ca blog</span></span></h1>
   
@@ -30,5 +30,4 @@ dateModified: 2022-11-01
   
   
   
-  
-  </div>
+
