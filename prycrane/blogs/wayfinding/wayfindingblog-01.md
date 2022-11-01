@@ -8,7 +8,7 @@ altLangPage: /experimental/prycrane/blogs/wayfinding/wayfindingblog-fr-01.html
 pageclass: cnt-wdth-lmtd
 breadcrumbs:
 - title: Wayfinding project blog
-  link: /experimental/prycrane/blogs/wayfinding/
+  link: /prycrane/blogs/wayfinding/
 lang: en
 share: True
 title: "The Wayfinding Project: a strategy to improve Canada.ca navigation"
