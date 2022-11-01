@@ -32,22 +32,6 @@ dateModified: 2022-11-01
 
 
 	
-<section>	
-	<h2>Mockups</h2>  
-        <ul>
-		<li><a href="wayfindingblog-01.html">First draft</a></li>
-        </ul>
-	
-	</section>
-	
-<section class="small mrgn-tp-lg">
-	<blockquote class="mrgn-tp-lg">
-  <p>Navigation is about wayfinding, you can't treat it as separate because many other things run parallel with it. If you look at studies in wayfinding, everything from exhibit design to building the cathedrals, it's about creating a complete system. It's about looking at the whole.</p>
-
-  <p>– Clement Mok</p>
-</blockquote>	
-	</section>
-	
 <section>
 	<h2>Resources</h2> 
         <ul>
