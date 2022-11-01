@@ -13,7 +13,7 @@ lang: en
 share: True
 title: Wayfinding project blog
 description: 
-  en: Indexof Wayfinding blog mockups, prototypes, and resources 
+  en: Index of Wayfinding blog mockups, prototypes, and resources 
 dateModified: 2022-11-01
 ---
 
