@@ -38,7 +38,9 @@ dateModified: 2022-11-01
 <li><strong>Updates to the layered theme page</strong>: the theme page template will be updated to help guide people to specific themes by providing straightforward access to top tasks.</li>
   </ul>
 <p>This seems like it’s going to take a significant effort to make these changes.  Not to worry.  We are taking a transitional approach.   We’ll take small steps to cover a large distance over time, but first let’s have a look at the research that has guided our design decisions.</p>
-  
+
+
+<h2>The Wayfinding research project</h2>
   
   
   
