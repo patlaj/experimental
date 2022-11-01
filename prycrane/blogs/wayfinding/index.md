@@ -7,30 +7,43 @@ pageclass: cnt-wdth-lmtd
 altLangPage: /experimental/prycrane/blogs/wayfinding/wayfinding-xx-fr.html
 pageclass: cnt-wdth-lmtd
 breadcrumbs:
-- title: [Institution name]
-  link: #
+- title: Wayfinding project stuff
+  link: /experimental/prycrane/blogs/wayfinding/
 lang: en
 share: True
-title: Accessibility
+title: Wayfinding blog stuff
 description: 
-  en: Find our accessibility plan and provide feedback. 
-dateModified: 2022-10-21
+  en: Indexof Wayfinding blog mockups, prototypes, and resources 
+dateModified: 2022-11-01
 ---
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-12">
-			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Wayfinding project mockups</span>: <span>Canada.ca blog</span></span></h1>
-      <p>As a user of the Canada.ca design system, I want to understand (including the long-term strategy) the Wayfinding Project, so that 
-         I can understand and the research and decisions that will impact the global header and footer.</p>
-      <h2>Mockups</h2>  
-      
-      
-      
-      <ul>
-           <li>link</li>
-           
-        </ul>
+		<div class="col-md-6">
+			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Wayfinding project stuff</span>: <span>Canada.ca blog</span></span></h1>
+	 <p>As a user of the Canada.ca design system, I want to understand (including the long-term strategy) the Wayfinding Project, so that 
+         I can understand the research and decisions that will impact the global header and footer.</p>
+		</div>
+		<div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg">
+			<div data-bgimg="/experimental/prycrane/blogs/wayfindin/images/star-03.png"></div>
 		</div>
 	</div>
 </div>
+
+<div class="container">
+
+	<h2>Mockups</h2>  
+        <ul>
+           <li>link</li>
+        </ul>
+	
+	<h2>Resources</h2>  
+        <ul>
+           <li>link</li>
+           
+        </ul>
+
+
+
+</div>
+
