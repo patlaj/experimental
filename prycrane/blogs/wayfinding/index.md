@@ -30,7 +30,7 @@ dateModified: 2022-11-01
 	</div>
 </div>
 
-<div class="container">
+
 	
 <section>	
 	<h2>Mockups</h2>  
@@ -60,5 +60,5 @@ dateModified: 2022-11-01
 
 	</section>
 
-</div>
+
 
