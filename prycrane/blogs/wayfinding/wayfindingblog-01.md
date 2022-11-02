@@ -46,7 +46,7 @@ dateModified: 2022-11-02
 <div class="panel panel-info col-md-7 mrgn-tp-lg">
   <div class="panel-body">
    <p class="mrgn-tp-md">Canada.ca Wayfinding Research Summary (Coming soon)</p>
-	  <p>Find more details about our research.<p>
+	  <p>Find more details about our research.</p>
   </div>
 </div>
 <div class="clearfix"></div>
