@@ -2,6 +2,7 @@
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
+- https://use.fontawesome.com/releases/v5.15.4/css/all.css
 layout: without-h1
 pageclass: cnt-wdth-lmtd
 altLangPage: /experimental/prycrane/blogs/wayfinding/wayfindingblog-fr-01.html
@@ -70,7 +71,18 @@ dateModified: 2022-11-02
 </div>
 <div class="clearfix"></div>
 
+ <h2>Applied research: a transitional approach to change</h2>
+<p>We are taking a transitional approach to making these design changes.  Some of the work has already been done so you can start making changes.  Other facets are still on the Canada.ca design horizon, but they are in tight focus.  This is our roll-out plan.</p>
+
+<h3>1. Updates to our Canada.ca homepage</h3>
+<p><span class="fa-solid fa-check mrgn-rght-md text-success"></span> Done</p>
+
+<p>Heavily used links in the global footer have been moved to the content section of the Canada.ca homepage.</p>
   
-  
-  
+ <div class="panel panel-info col-md-7 mrgn-tp-lg">
+  <div class="panel-body">
+	  <p class="mrgn-tp-md"><a href="https://www.canada.ca/en.html">Canada.ca homepage</a></p>
+  </div>
+</div>
+<div class="clearfix"></div> 
 
