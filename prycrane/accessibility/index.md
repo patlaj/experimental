@@ -30,6 +30,7 @@ dateModified: 2022-10-24
 <ul>
   <li><strong>Accessibilty landing page</strong>
 <ul>
+  <li><a href="accessibility-09-en.html">List style (with accessibility process doormat)</a></li>	
   <li><a href="accessibility-01-en.html">List style</a></li>
   <li><a href="accessibility-05-en.html">Paragraph style</a></li>
   <li><a href="accessibility-02-en.html">Without statements doormat</a></li>
