@@ -45,7 +45,7 @@ dateModified: 2022-11-02
  <p>The goals of the Wayfinding Project are to increase the adoption of the Canada.ca design, make sign-in interactions more obvious, and improve theme navigation.  Our approach was to explore the performance of different designs and then follow that up with an assessment of the global navigation on a single-site design.</p>
 <div class="panel panel-default col-md-6">
   <div class="panel-body">
-   <p><p>Canada.ca wayfinding research summary (link/coming soon)</p>
+   <p>Canada.ca wayfinding research summary (Coming soon)</p>
   </div>
 </div>
 <div class="clearfix"></div>
