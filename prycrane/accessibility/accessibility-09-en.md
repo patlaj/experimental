@@ -47,8 +47,8 @@ dateModified: 2022-10-21
           <p>Provide feedback about any accessibility issue</p>
         </div>
         <div class="col-lg-4 col-md-6">
-          <h3><a href="#">Accessibility process</a></h3>
-          <p>Find a description of our accessibility process</p>
+          <h3><a href="#">Accessibility feedback process</a></h3>
+          <p>Description of how we receive and respond to your feedback on accessibility issues</p>
         </div>
       </div>
     </section>
