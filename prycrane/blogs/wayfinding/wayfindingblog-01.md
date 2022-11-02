@@ -17,9 +17,6 @@ description:
   en: The wayfinding study investigated issues with Canada.ca navigation and informed changes to improve navigation and simplify the adoption of the Canada.ca design for departments and agencies.  The main improvements include the introduction of a new sign in button, removing the menu button, a contextual footer band, a main footer band with themes, and a layered design for the theme page. 
 dateModified: 2022-11-02
 ---
-
-
-  
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>The Wayfinding Project: a strategy to improve Canada.ca navigation</span>: <span>Canada.ca blog</span></span></h1>
  <p>The Digital Transformation Office recently carried out a wayfinding project to investigate shortcomings people found with the global menu.  On the one hand, the global menu cannot manage more complex navigation needs that some institutions require.  On the other, some institutions find that the global menu’s elaborate navigation structure gets in the way of adopting the Canada.ca design.   These limitations are frustrating because web analytics show that visitors to Canada.ca hardly ever use the menu.</p>  
   <section class="small mrgn-tp-lg">
@@ -75,7 +72,7 @@ dateModified: 2022-11-02
 <p>We are taking a transitional approach to making these design changes.  Some of the work has already been done so you can start making changes.  Other facets are still on the Canada.ca design horizon, but they are in tight focus.  This is our roll-out plan.</p>
 
 <h3>1. Updates to our Canada.ca homepage</h3>
-<p><span class="fas fa-check mrgn-rght-md text-success aria-hidden="true""></span> Done</p>
+<p><span class="fas fa-check mrgn-rght-md text-success" aria-hidden="true"></span> Done</p>
 
 <p>Heavily used links in the global footer have been moved to the content section of the Canada.ca homepage.</p>
   
@@ -88,7 +85,7 @@ dateModified: 2022-11-02
 
 
 <h3>2. Contextual Sign in button</h3>
-<p><span class="fas fa-check mrgn-rght-md text-success aria-hidden="true""></span> Available to use</p>
+<p><span class="fas fa-check mrgn-rght-md text-success" aria-hidden="true"></span> Available to use</p>
 
 <p>The global header now includes the contextual Sign in button.  It is an optional element to be used on a page or pages where people are likely looking to sign in to an account.  It is important to consult your analytics to confirm that signing in is a main task.  Use the Sign in button in combination with the menu button at first.  It may seem a bit redundant, but this is part of the transition to retire it.</p>
 
@@ -107,7 +104,7 @@ dateModified: 2022-11-02
 
 
 <h3>3. Update your footer</h3>
-<p><span class="far fa-circle mrgn-rght-md text-warning aria-hidden="true""></span> Available very shortly</p>
+<p><span class="far fa-circle mrgn-rght-md text-warning" aria-hidden="true"></span> Available very shortly</p>
 
 <p>The new global footer is made up of three parts.</p>
 <h4>Contextual-footer band</h4>
