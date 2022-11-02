@@ -42,7 +42,31 @@ dateModified: 2022-11-01
 
 <h2>The Wayfinding Project</h2>
   
-  
+ <p>The goals of the Wayfinding Project are to increase the adoption of the Canada.ca design, make sign-in interactions more obvious, and improve theme navigation.  Our approach was to explore the performance of different designs and then follow that up with an assessment of the global navigation on a single-site design.</p>
+<div class="panel panel-default col-md-6">
+  <div class="panel-body">
+   <p><p>Canada.ca wayfinding research summary (link/coming soon)</p>
+  </div>
+</div>
+<div class="clearfix"></div>
+
+<h3>2019 Baseline study</h3>
+<p>The 2019 Baseline study examined the performance of the Canada.ca design with sites with different designs from four institutions.   This was a moderated, task-based study with 20 participants.   It laid the groundwork for developing a prototype for the comparison study.</p>
+<h3>2021 Comparison study</h3>
+<p>The 2021 comparison study of canada.ca’s global navigation focussed on how users navigate between different top-level pages when using the same site to complete a task.  This was a moderated, task-based study with 18 participants.   Research and prototyping explored options to remove the menu while maintaining or even improving the efficacy of global navigation.  We also wanted to preserve the confidence and trust we’ve established with the Canada.ca site brand.</p>
+
+<p>Our prototype design included:</p>
+<ul>
+	<li>a global header without a menu</li>
+<li>theme links from the menu were placed in the footer</li>
+<li>a sign in button was placed in the global header</li>
+<li>a layered theme template was created</li>
+</ul>	
+<h3>Research discoveries</h3>
+<p>One of our main discoveries was that task success was not decreased when the menu button was removed.   Task success for internal institution pages remained consistent with the performance of pages with a menu and there was even an improvement for finding top tasks on Canada.ca.  The reason task success remained constant is that breadcrumbs are used more than the menu for navigation.</p>
+
+<p>When the Sign in button was placed at the expected top-right of the global header it was used with a high degree of success.   In fact, when the menu button is used in our current design on sites that require authentication, people are using it to search for a way to sign in.  Exposing the Sign in button completely deflated the use of the menu.  This observation confirmed that the beloved menu button can be retired.</p>
+
   
   
   
