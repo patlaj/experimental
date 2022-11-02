@@ -137,7 +137,6 @@ dateModified: 2022-11-02
 
 <p>The Layered theme page template will replace the theme template.   It is being developed and tested to help people move through different themes by providing easy access to top tasks.  It will include a widget to help people navigate across themes and provide Alert capabilities.  Also, the features section and social media links will be removed because analytics show that they are rarely used.</p>
 
-
 <h2>Final thoughts</h2>
 <p>Stay tuned.  This is a transitional process that will take some time to make all the changes.</p>
 <p>We’ll also be conducting further analysis to improve navigation and brand trust.   As a transition, with new patterns, there are areas that will be open to improvement. Let us know.</p>
@@ -150,14 +149,3 @@ dateModified: 2022-11-02
 		</ul>
 		
 <h2>Sign up to the Digital Transformation Office mailing list</h2>
-
-
-
-
-
-
-
-
-
-
-
