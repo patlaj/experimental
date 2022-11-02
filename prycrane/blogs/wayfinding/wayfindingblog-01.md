@@ -75,7 +75,7 @@ dateModified: 2022-11-02
 <p>We are taking a transitional approach to making these design changes.  Some of the work has already been done so you can start making changes.  Other facets are still on the Canada.ca design horizon, but they are in tight focus.  This is our roll-out plan.</p>
 
 <h3>1. Updates to our Canada.ca homepage</h3>
-<p><span class="fa-solid fa-check mrgn-rght-md text-success"></span> Done</p>
+<p><span class="fas fa-check mrgn-rght-md text-success"></span> Done</p>
 
 <p>Heavily used links in the global footer have been moved to the content section of the Canada.ca homepage.</p>
   
