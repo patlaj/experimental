@@ -139,17 +139,17 @@ dateModified: 2022-11-02
 
 
 <h2>Final thoughts</h2>
-	<p>Stay tuned.  This is a transitional process that will take some time to make all the changes.</p>
-
+<p>Stay tuned.  This is a transitional process that will take some time to make all the changes.</p>
 <p>We’ll also be conducting further analysis to improve navigation and brand trust.   As a transition, with new patterns, there are areas that will be open to improvement. Let us know.</p>
-
 <h2>Connect with the Digital Transformation Office at Treasury Board Secretariat</h2>
+
 <ul>
-	<li>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></li>
-<li>Twitter: #CanadaDotCa (English) / #CanadaPointCa (French)</li>
+    <li>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></li>
+	<li>Twitter: #CanadaDotCa (English) / #CanadaPointCa (French)</li>
 	<li>Slack: <a href="http://design-GC-conception.slack.com">http://design-GC-conception.slack.com</a></li>
-<ul>
-	<h2>Sign up to the Digital Transformation Office mailing list</h2>
+		</ul>
+		
+<h2>Sign up to the Digital Transformation Office mailing list</h2>
 
 
 
