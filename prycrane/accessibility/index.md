@@ -18,7 +18,7 @@ dateModified: 2022-10-24
 	<div class="row">
 		<div class="col-md-6">
 			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility mockups</span>: <span>Canada.ca design system</span></span></h1>
-			<p>We are creating for accessibility requirements.</p>
+			<p>As a user of the Canada.ca, I want access to an institution’s accessibility information and way(s) have a way to provide feedback, so that I can understand an institution’s accessibility plan and be able to submit feedback.</p>
 		</div>
 		<div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg">
 			<div data-bgimg="/experimental/prycrane/accessibility/images/univ-access-02.png"></div>
