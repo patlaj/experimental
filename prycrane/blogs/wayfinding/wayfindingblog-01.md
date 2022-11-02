@@ -75,7 +75,7 @@ dateModified: 2022-11-02
 <p>We are taking a transitional approach to making these design changes.  Some of the work has already been done so you can start making changes.  Other facets are still on the Canada.ca design horizon, but they are in tight focus.  This is our roll-out plan.</p>
 
 <h3>1. Updates to our Canada.ca homepage</h3>
-<p><span class="fas fa-check mrgn-rght-md text-success"></span> Done</p>
+<p><span class="fas fa-check mrgn-rght-md text-success aria-hidden="true""></span> Done</p>
 
 <p>Heavily used links in the global footer have been moved to the content section of the Canada.ca homepage.</p>
   
@@ -88,7 +88,7 @@ dateModified: 2022-11-02
 
 
 <h3>2. Contextual Sign in button</h3>
-<p><span class="fas fa-check mrgn-rght-md text-success"></span> Available to use</p>
+<p><span class="fas fa-check mrgn-rght-md text-success aria-hidden="true""></span> Available to use</p>
 
 <p>The global header now includes the contextual Sign in button.  It is an optional element to be used on a page or pages where people are likely looking to sign in to an account.  It is important to consult your analytics to confirm that signing in is a main task.  Use the Sign in button in combination with the menu button at first.  It may seem a bit redundant, but this is part of the transition to retire it.</p>
 
@@ -106,7 +106,30 @@ dateModified: 2022-11-02
 <div class="clearfix"></div> 
 
 
+<h3>3. Update your footer</h3>
+<p><span class="far fa-circle mrgn-rght-md text-warning aria-hidden="true""></span> Available very shortly</p>
 
+<p>The new global footer is made up of three parts.</p>
+<h4>Contextual-footer band</h4>
+<p>The contextual band is optional and configurable.  This is your institution’s band.  You can provide up to three contextual support links that are relevant to a page or groups of pages’ content.  If you already have a contextualized contact link on your site, you will need to configure your contextual band.</p> 
+
+
+<p>Use at your discretion, but bear in mind that these links are mostly used as rescue links, a last resort for frustrated searchers.  Don’t make the contextual band part of your navigation strategy!</p> 
+<h4>Main-footer band</h4>
+<p>The main band is mandatory on standard pages and optional on Transactional and Campaign pages.  It’s not configurable.  The menu {themes and topics}links will be moved here.  This change will happen “automatically” for people using the Adobe Experience Manager.   Other implementations will have to be updated accordingly.</p>
+<h4>Sub-footer band</h4>
+<p>The Sub footer band is mandatory on all pages and it’s not configurable.  It contains the Canada wordmark and corporate links to “Social media,” “Mobile applications,” “About Canada.ca,” “Terms and conditions,” and “Privacy”. (support links + wordmark)</p>
+ <div class="panel panel-info col-md-7 mrgn-tp-lg">
+  <div class="panel-body">
+	<ul class="mrgn-tp-md">
+		<li>Blog: An introduction to the Global site footer (Coming soon)</li>
+		<li>Design system: <a href="#">Global site footer</a></li>	
+		
+		
+	  </ul>
+  </div>
+</div>
+<div class="clearfix"></div> 
 
 
 
