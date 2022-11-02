@@ -43,13 +43,7 @@ dateModified: 2022-11-02
 <h2>The Wayfinding Project</h2>
   
  <p>The goals of the Wayfinding Project are to increase the adoption of the Canada.ca design, make sign-in interactions more obvious, and improve theme navigation.  Our approach was to explore the performance of different designs and then follow that up with an assessment of the global navigation on a single-site design.</p>
-<div class="panel panel-info col-md-7 mrgn-tp-lg">
-  <div class="panel-body">
-   <p class="mrgn-tp-md">Canada.ca Wayfinding Research Summary (Coming soon)</p>
-	  <p>Find more details about our research.</p>
-  </div>
-</div>
-<div class="clearfix"></div>
+
 
 <h3>2019 Baseline study</h3>
 <p>The 2019 Baseline study examined the performance of the Canada.ca design with sites with different designs from four institutions.   This was a moderated, task-based study with 20 participants.   It laid the groundwork for developing a prototype for the comparison study.</p>
@@ -67,6 +61,14 @@ dateModified: 2022-11-02
 <p>One of our main discoveries was that task success was not decreased when the menu button was removed.   Task success for internal institution pages remained consistent with the performance of pages with a menu and there was even an improvement for finding top tasks on Canada.ca.  The reason task success remained constant is that breadcrumbs are used more than the menu for navigation.</p>
 
 <p>When the Sign in button was placed at the expected top-right of the global header it was used with a high degree of success.   In fact, when the menu button is used in our current design on sites that require authentication, people use it to search for a way to sign in.  Exposing the Sign in button completely deflated the use of the menu.  This observation confirmed that the beloved menu button can be retired.</p>
+
+<div class="panel panel-info col-md-7 mrgn-tp-lg">
+  <div class="panel-body">
+   <p class="mrgn-tp-md">Canada.ca Wayfinding Research Summary (Coming soon)</p>
+	  <p>Find more details about our research.</p>
+  </div>
+</div>
+<div class="clearfix"></div>
 
   
   
