@@ -30,13 +30,13 @@ dateModified: 2022-11-02
 	</section>
   <p>Wayfinding research included a task-based baseline study to examine the problems and comparison study to come up with some solutions.   Our findings have directed changes to the Canada.ca ca design.</p> 
   
-  <ul>
-<li><strong>Contextual Sign in button</strong>: the global header will have an option for an exposed sign in button that can be placed on a relevant page or pages.</li>
-<li><strong>Canada.ca homepage update</strong>: the content section of the Canada.ca homepage will include heavily used footer links.  This will make it possible to remove the links from the global footer.</li>
-<li><strong>Menu button to be retired</strong>: the menu button can be removed when its use is reduced to less than 1%.</li>
+  <ol>
+	<li><strong>Canada.ca homepage update</strong>: the content section of the Canada.ca homepage will include heavily used footer links.  This will make it possible to remove the links from the global footer.</li>
+	<li><strong>Contextual Sign in button</strong>: the global header will have an option for an exposed sign in button that can be placed on a relevant page or pages.</li>
+	<li><strong>Menu button to be retired</strong>: the menu button can be removed when its use is reduced to less than 1%.</li>
 <li><strong>Contextual footer band</strong>: pages that already have a contextual contact us link will be able to include it and two other pertinent items in the new footer.</li>
-<li><strong>Updates to the layered theme page</strong>: the theme page template will be updated to help guide people to specific themes by providing straightforward access to top tasks.</li>
-  </ul>
+	<li><strong>Updates to the layered theme page</strong>: the theme page template will be updated to help guide people to specific themes by providing straightforward access to top tasks.</li>
+  </ol>
 <p>This may seem like it’s going to take a significant effort to make these changes.  Not to worry.  We are taking a transitional approach.   We’ll take small steps to cover a large distance over time, but first let’s have a look at the research that has informed our design decisions.</p>
 
 
