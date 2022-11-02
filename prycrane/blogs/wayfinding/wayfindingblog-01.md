@@ -131,6 +131,16 @@ dateModified: 2022-11-02
 <h3>4. Remove the menu button</h3>
 <p><span class="fas fa-circle mrgn-rght-md text-info" aria-hidden="true"></span> Available in the near future</p>
 <p>If you have updated your footer and home page, added sign in where required, and your analytics show that the menu button is used less than 1%, then you can retire the menu button.</p>
+<h3>5. Layered theme design</h3>
+<p><span class="fas fa-circle mrgn-rght-md" aria-hidden="true"></span> Still a ways off</p>
+
+
+<p>The Layered theme page template will replace the theme template.   It is being developed and tested to help people move through different themes by providing easy access to top tasks.  It will include a widget to help people navigate across themes and provide Alert capabilities.  Also, the features section and social media links will be removed because analytics show that they are rarely used.</p>
+
+
+
+
+
 
 
 
