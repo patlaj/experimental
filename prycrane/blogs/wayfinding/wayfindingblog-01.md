@@ -104,7 +104,7 @@ dateModified: 2022-11-02
 
 
 <h3>3. Update your footer</h3>
-<p><span class="far fa-circle mrgn-rght-md text-warning" aria-hidden="true"></span> Available very shortly</p>
+<p><span class="fas fa-circle mrgn-rght-md text-warning" aria-hidden="true"></span> Available very shortly</p>
 
 <p>The new global footer is made up of three parts.</p>
 <h4>Contextual-footer band</h4>
