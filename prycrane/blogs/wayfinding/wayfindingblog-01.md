@@ -62,8 +62,7 @@ dateModified: 2022-11-02
 
 <div class="panel panel-info col-md-7 mrgn-tp-lg">
   <div class="panel-body">
-   <p class="mrgn-tp-md">Canada.ca Wayfinding Research Summary (Coming soon)</p>
-	  <p>Find more details about our research.</p>
+   <ul class="mrgn-tp-md"><li>Canada.ca Wayfinding Research Summary (Coming soon)<br>Find more details about our research.</li></ul>
   </div>
 </div>
 <div class="clearfix"></div>
@@ -78,7 +77,7 @@ dateModified: 2022-11-02
   
  <div class="panel panel-info col-md-7 mrgn-tp-lg">
   <div class="panel-body">
-	  <p class="mrgn-tp-md"><a href="https://www.canada.ca/en.html">Canada.ca homepage</a></p>
+	    <ul class="mrgn-tp-md"><li><a href="https://www.canada.ca/en.html">Canada.ca homepage</a></li></ul>
   </div>
 </div>
 <div class="clearfix"></div> 
