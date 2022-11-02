@@ -86,3 +86,32 @@ dateModified: 2022-11-02
 </div>
 <div class="clearfix"></div> 
 
+
+<h3>2. Contextual Sign in button</h3>
+<p><span class="fas fa-check mrgn-rght-md text-success"></span> Available to use</p>
+
+<p>The global header now includes the contextual Sign in button.  It is an optional element to be used on a page or pages where people are likely looking to sign in to an account.  It is important to consult your analytics to confirm that signing in is a main task.  Use the Sign in button in combination with the menu button at first.  It may seem a bit redundant, but this is part of the transition to retire it.</p>
+
+ <div class="panel panel-info col-md-7 mrgn-tp-lg">
+  <div class="panel-body">
+	<ul>
+		<li>Blog: <a href="https://blog.canada.ca/2022/09/23/introducing-contextual-sign-in-button">Introducing the contextual Sign in button</a></li>
+		<li>Design system: <a href="https://design.canada.ca/common-design-patterns/contextual-signin.html">Contextual Sign in button</a></li>		
+		<li>Design system: <a href="https://design.canada.ca/common-design-patterns/global-header.html">Global header</a></li>		
+		
+		
+	  </ul>
+  </div>
+</div>
+<div class="clearfix"></div> 
+
+
+
+
+
+
+
+
+
+
+
