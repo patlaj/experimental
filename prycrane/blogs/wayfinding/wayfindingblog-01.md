@@ -128,6 +128,9 @@ dateModified: 2022-11-02
 </div>
 <div class="clearfix"></div> 
 
+<h3>4. Remove the menu button</h3>
+<p><span class="fas fa-circle mrgn-rght-md text-info" aria-hidden="true"></span> Available in the near future</p>
+<p>If you have updated your footer and home page, added sign in where required, and your analytics show that the menu button is used less than 1%, then you can retire the menu button.</p>
 
 
 
