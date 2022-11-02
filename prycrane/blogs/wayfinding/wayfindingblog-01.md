@@ -94,7 +94,7 @@ dateModified: 2022-11-02
 
  <div class="panel panel-info col-md-7 mrgn-tp-lg">
   <div class="panel-body">
-	<ul>
+	<ul class="mrgn-tp-md">
 		<li>Blog: <a href="https://blog.canada.ca/2022/09/23/introducing-contextual-sign-in-button">Introducing the contextual Sign in button</a></li>
 		<li>Design system: <a href="https://design.canada.ca/common-design-patterns/contextual-signin.html">Contextual Sign in button</a></li>		
 		<li>Design system: <a href="https://design.canada.ca/common-design-patterns/global-header.html">Global header</a></li>		
