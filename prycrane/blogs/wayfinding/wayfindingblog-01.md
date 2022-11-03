@@ -18,6 +18,21 @@ description:
 dateModified: 2022-11-02
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>The Wayfinding Project strives to improve Canada.ca navigation</span>: <span>Canada.ca blog</span></span></h1>
+
+<div class="col-md-4 pull-right">
+  
+  <div><img src="/experimental/prycrane/blogs/wayfinding/images/path-04.png" class="img-responsive"></div>
+  
+  <section class="small mrgn-tp-lg">
+  <blockquote class="mrgn-tp-lg">
+    <p>Navigation is about wayfinding, you can't treat it as separate because many other things run parallel with it. If you look at studies in wayfinding, everything from exhibit design to building the cathedrals, it's about creating a complete system. It's about looking at the whole.</p>
+    <p>– Clement Mok</p>
+  </blockquote>
+</section>
+</div>
+
+
+
 <p>The Digital Transformation Office recently carried out a wayfinding project to investigate shortcomings people found with the global menu.  On the one hand, the global menu cannot manage more complex navigation needs that some institutions require.  On the other, some institutions find that the global menu’s elaborate navigation structure gets in the way of adopting the Canada.ca design.  These limitations are frustrating because web analytics show that visitors to Canada.ca hardly ever use the menu.</p>
 <section class="small mrgn-tp-lg">
   <blockquote class="mrgn-tp-lg">
