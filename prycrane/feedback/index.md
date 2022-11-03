@@ -37,6 +37,7 @@ dateModified: 2022-11-01
 <section>
   <h2>Resources</h2>
   <ul>
+    <li>Contact us (prototype): <a href="https://design.alpha.canada.ca/en/contact/">Contact us</a></li>  	  
     <li>Canada.ca template: <a href="https://design.canada.ca/recommended-templates/contact-us-pages.html">Contact us pages</a></li>  
     <li>WET: <a href="https://wet-boew.github.io/wet-boew-styleguide/design/forms-en.html">Forms</a></li>
     <li>WET: <a href="https://wet-boew.github.io/v4.0-ci/demos/formvalid/formvalid-en.html">Form validation</a></li>
