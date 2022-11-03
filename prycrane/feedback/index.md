@@ -24,7 +24,7 @@ dateModified: 2022-11-01
 	 <p>As a user of the Canada.ca design system, I want to submit feedback to DTO, so my concern can be logged and addressed.</p>
 		</div>
 		<div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg">
-			<div data-bgimg="/experimental/prycrane/blogs/wayfinding/images/path-04.png"></div>
+			<div data-bgimg="/experimental/prycrane/blogs/feedback/images/feedback-02.png"></div>
 		</div>
 	</div>
 </div>
