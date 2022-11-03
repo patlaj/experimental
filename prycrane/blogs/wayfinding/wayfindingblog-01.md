@@ -21,7 +21,7 @@ dateModified: 2022-11-02
 
 <div class="col-md-4 pull-right">
   
-  <div><img src="/experimental/prycrane/blogs/wayfinding/images/path-06.png" class="img-responsive img-rounded"></div>
+  <div><img src="/experimental/prycrane/blogs/wayfinding/images/path-07.png" class="img-responsive img-rounded"></div>
   
   <section class="small mrgn-tp-lg">
   <blockquote class="mrgn-tp-lg">
