@@ -25,7 +25,7 @@ dateModified: 2022-11-01
          I can understand the research and decisions that will impact the global header and footer.</p>
 		</div>
 		<div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg">
-			<div data-bgimg="/experimental/prycrane/blogs/wayfinding/images/path-03.png"></div>
+			<div data-bgimg="/experimental/prycrane/blogs/wayfinding/images/path-04.png"></div>
 		</div>
 	</div>
 </div>
