@@ -17,7 +17,6 @@ description:
   en: Index of Wayfinding blog mockups, prototypes, and resources 
 dateModified: 2022-11-01
 ---
-
 <div class="container">
 	<div class="row">
 		<div class="col-md-6">
@@ -49,6 +48,3 @@ dateModified: 2022-11-01
 		<li><a href="https://github.com/prycrane/experimental/tree/master/prycrane/blogs/wayfinding">GitHub repository</a></li>
         </ul>
 </section>
-
-
-
