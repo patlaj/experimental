@@ -108,12 +108,12 @@ dateModified: 2022-11-02
 
 <p>The new Global footer is made up of three content bands.</p>
 <h4>Contextual-footer band</h4>
-<p>The contextual band is optional and configurable.  This is your institution’s band.  You can provide up to three contextual support links that are relevant to a page or groups of pages’ content.  If you already have a contextualized contact link on your site, you will need to configure your contextual band.</p> 
+<p>The contextual band is optional and configurable.  This is your band.  You can provide up to three contextual support links that are relevant to a page or groups of pages’ content.  If you already have a contextualized contact link on your site, you will need to configure your contextual band.</p> 
 
 
-<p>Use at your discretion, but bear in mind that these links are mostly used as rescue links, a last resort for frustrated searchers.  Don’t make the contextual band part of your navigation strategy!</p> 
+<p>Use at your discretion, but bear in mind that these links are mostly used as rescue links, often a last resort for frustrated searchers.  Don’t make the contextual band part of your navigation strategy!</p> 
 <h4>Main-footer band</h4>
-<p>The main band is mandatory on standard pages and optional on Transactional and Campaign pages.  It’s not configurable.  The menu {themes and topics}links will be moved here.  This change will happen “automatically” for people using the Adobe Experience Manager.   Other implementations will have to be updated accordingly.</p>
+<p>The main band is mandatory on standard pages and optional on Transactional and Campaign pages.  It’s not configurable.  The menu’s  themes and topics links will be moved here.  This change will happen “automatically” for people using the Adobe Experience Manager.   Other implementations will have to be updated accordingly.</p>
 <h4>Sub-footer band</h4>
 <p>The Sub footer band is mandatory on all pages and it’s not configurable.  It contains the Canada wordmark and corporate links to “Social media,” “Mobile applications,” “About Canada.ca,” “Terms and conditions,” and “Privacy”. (support links + wordmark)</p>
  <div class="panel panel-info col-md-7 mrgn-tp-lg">
@@ -135,7 +135,7 @@ dateModified: 2022-11-02
 <p><span class="fas fa-circle mrgn-rght-md" aria-hidden="true"></span> Still a ways off</p>
 
 
-<p>The Layered theme page template will replace the theme template.   It is being developed and tested to help people move through different themes by providing easy access to top tasks.  It will include a widget to help people navigate across themes and provide Alert capabilities.  Also, the features section and social media links will be removed because analytics show that they are rarely used.</p>
+<p>The Layered theme page template will replace the theme template.   It is currently being developed and tested to help people move through different themes by providing easy access to top tasks.  It will include a widget to help people navigate across themes and provide Alert capabilities.  Also, the features section and social media links will be removed because analytics show that they are rarely used.</p>
 
 <h2>Final thoughts</h2>
 <p>Stay tuned.  This is a transitional process that will take some time to complete.</p>
