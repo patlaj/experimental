@@ -25,7 +25,7 @@ dateModified: 2022-11-02
     <p>– Clement Mok</p>
   </blockquote>
 </section>
-<p>Our wayfinding project investigated the experience of how people found what they were looking for on Canada.ca by examining users engaged in tasks.  The research included a baseline study to discover and assess findability problems and comparison study to come up with solutions.   Our findings have directed changes to the Canada.ca ca design.</p>
+<p>Our wayfinding project investigated the experience of how people found what they were looking for on Canada.ca by examining users engaged in specific tasks.  The research included a baseline study to discover and assess findability problems and comparison study to come up with solutions.   Our findings have directed changes to the Canada.ca ca design.</p>
 <ol>
   <li><strong>Canada.ca homepage update</strong>: the content section of the Canada.ca homepage will include heavily used footer links.  This will make it possible to remove the links from the global footer.</li>
   <li><strong>Contextual Sign in button</strong>: the global header will have an option for an exposed sign in button that can be placed on a relevant page or pages.</li>
