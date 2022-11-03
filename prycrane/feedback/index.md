@@ -28,17 +28,15 @@ dateModified: 2022-11-01
 		</div>
 	</div>
 </div>
-
-<section>	
-	<h2>Mockups</h2>  
-
+<section>
+  <h2>Mockups</h2>
   <ul>
-    <li><a href="feedback-01-en.html">First draft</a></li>   
+    <li><a href="feedback-01.html">Feedback form</a></li>
   </ul>
-        </section>
-	<section>
-	<h2>Resources</h2> 
-        <ul>
-		<li></li>
-        </ul>
+</section>
+<section>
+  <h2>Resources</h2>
+  <ul>
+    <li><a href="https://blog.canada.ca/">Feedback form</a></li>
+  </ul>
 </section>
