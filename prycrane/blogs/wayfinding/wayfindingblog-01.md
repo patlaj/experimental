@@ -21,7 +21,7 @@ dateModified: 2022-11-02
 
 <div class="col-md-4 pull-right">
   
-  <div><img src="/experimental/prycrane/blogs/wayfinding/images/path-04.png" class="img-responsive"></div>
+  <div><img src="/experimental/prycrane/blogs/wayfinding/images/path-05.png" class="img-responsive"></div>
   
   <section class="small mrgn-tp-lg">
   <blockquote class="mrgn-tp-lg">
@@ -34,12 +34,12 @@ dateModified: 2022-11-02
 
 
 <p>The Digital Transformation Office recently carried out a wayfinding project to investigate shortcomings people found with the global menu.  On the one hand, the global menu cannot manage more complex navigation needs that some institutions require.  On the other, some institutions find that the global menu’s elaborate navigation structure gets in the way of adopting the Canada.ca design.  These limitations are frustrating because web analytics show that visitors to Canada.ca hardly ever use the menu.</p>
-<section class="small mrgn-tp-lg">
+<!--<section class="small mrgn-tp-lg">
   <blockquote class="mrgn-tp-lg">
     <p>Navigation is about wayfinding, you can't treat it as separate because many other things run parallel with it. If you look at studies in wayfinding, everything from exhibit design to building the cathedrals, it's about creating a complete system. It's about looking at the whole.</p>
     <p>– Clement Mok</p>
   </blockquote>
-</section>
+</section>-->
 <p>Our wayfinding project investigated the experience of how people found what they were looking for on Canada.ca by examining users engaged in specific tasks.  The research included a baseline study to discover and assess findability problems and comparison study to come up with solutions.   Our findings have directed changes to the Canada.ca ca design.</p>
 <ol>
   <li><strong>Canada.ca homepage update</strong>: the content section of the Canada.ca homepage will include heavily used footer links.  This will make it possible to remove the links from the global footer.</li>
