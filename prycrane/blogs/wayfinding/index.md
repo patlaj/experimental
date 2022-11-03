@@ -32,10 +32,11 @@ dateModified: 2022-11-01
 
 <section>	
 	<h2>Mockups</h2>  
-        <ul>
-		<li><a href="wayfindingblog-01.html">First draft</a></li>
-        </ul>
 
+  <ul class="fa-ul">
+    <li><span class="fa-li"><span class="fa-solid fa-hat-cowboy"></span></span><a href="wayfindingblog-01.html">First draft</a></li>
+   
+  </ul>
 	</section>
 	
 <section>
