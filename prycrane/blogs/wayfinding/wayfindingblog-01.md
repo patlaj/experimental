@@ -59,7 +59,7 @@ dateModified: 2022-11-02
 <h3>Research discoveries</h3>
 <p>One of our main discoveries was that task success was not decreased when the menu button was removed.   Task success for internal institution pages remained consistent with the performance of pages with a menu and there was even an improvement for finding top tasks on Canada.ca.  A significant reason that task success remained constant is that breadcrumbs are used more than the menu for navigation.</p>
 
-<p>When the Sign in button was placed at the conventional top-right of the global header it was used with a high degree of success.   In fact, when the menu button is used in our current design on sites that require authentication, people use it to search for a way to sign in.  Signing in is a top task on Canada.ca!  Exposing the Sign in button deflated the use of the menu.  This observation confirmed that the beloved menu button can be retired <span class="fa-regular fa-face-sad-tear mrgn-lft-md" aria-hidden="true"></span>.</p><i class="fa-regular fa-face-sad-tear"></i>
+<p>When the Sign in button was placed at the conventional top-right of the global header it was used with a high degree of success.   In fact, when the menu button is used in our current design on sites that require authentication, people use it to search for a way to sign in.  Signing in is a top task on Canada.ca!  Exposing the Sign in button deflated the use of the menu.  This observation confirmed that the beloved menu button can be retired <span class="far fa-sad-tear mrgn-lft-md" aria-hidden="true"></span>.</p>
 
 <div class="panel panel-info col-md-7 mrgn-tp-lg">
   <div class="panel-body">
@@ -106,7 +106,7 @@ dateModified: 2022-11-02
 <h3>3. Update your footer</h3>
 <p><span class="fas fa-circle mrgn-rght-md text-warning" aria-hidden="true"></span> Available very shortly</p>
 
-<p>The new global footer is made up of three parts.</p>
+<p>The new Global footer is made up of three content bands.</p>
 <h4>Contextual-footer band</h4>
 <p>The contextual band is optional and configurable.  This is your institution’s band.  You can provide up to three contextual support links that are relevant to a page or groups of pages’ content.  If you already have a contextualized contact link on your site, you will need to configure your contextual band.</p> 
 
