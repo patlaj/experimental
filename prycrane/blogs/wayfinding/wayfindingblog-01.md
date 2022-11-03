@@ -74,7 +74,7 @@ dateModified: 2022-11-02
 <h3>1. Updates to our Canada.ca homepage</h3>
 <p><span class="fas fa-check mrgn-rght-md text-success" aria-hidden="true"></span> Done</p>
 
-<p>Heavily used links in the global footer have been moved to the content section of the Canada.ca homepage.</p>
+<p>Heavily used links in the global footer have been moved to the content section of the Canada.ca homepage.  Check it out.</p>
   
  <div class="panel panel-info col-md-7 mrgn-tp-lg">
   <div class="panel-body">
