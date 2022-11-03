@@ -34,13 +34,12 @@ dateModified: 2022-11-01
 <section>	
 	<h2>Mockups</h2>  
 
-  <ul class="fa-ul">
-    <li><span class="fa-li"><span class="fas fa-hat-cowboy"></span></span><a href="wayfindingblog-01.html">First draft</a></li>
+  <ul>
+    <li><a href="wayfindingblog-01.html">First draft</a></li>
    
   </ul>
-	</section>
-	
-<section>
+        </section>
+	<section>
 	<h2>Resources</h2> 
         <ul>
 		<li><a href="https://blog.canada.ca/">Canada.ca blog</a></li>
@@ -49,8 +48,7 @@ dateModified: 2022-11-01
 		<li><a href="https://docs.google.com/document/d/1Sb8QLpJQqP3QvzLD8V9ZFTic4jI0nMhPAijPOGc982o">Wayfinding research summary</a></li>
 		<li><a href="https://github.com/prycrane/experimental/tree/master/prycrane/blogs/wayfinding">GitHub repository</a></li>
         </ul>
-
-	</section>
+</section>
 
 
 
