@@ -31,13 +31,13 @@ dateModified: 2022-11-01
 <section>
   <h2>Mockups</h2>
   <ul>
-    <li><a href="feedback-01.html">Feedback form</a></li>
+    <li><a href="feedback-01.html">Contact DTO form</a></li>
   </ul>
 </section>
 <section>
   <h2>Resources</h2>
   <ul>
-   <li>Blog: <a href="https://blog.canada.ca/2020/10/09/collect-feedback.html)">Collect feedback, find issues</a></li>  
+    <li>Blog (for ispiration): <a href="https://blog.canada.ca/2020/10/09/collect-feedback.html)">Collect feedback, find issues</a></li>  
     <li>WET: <a href="https://wet-boew.github.io/wet-boew-styleguide/design/forms-en.html">Forms</a></li>
     <li>WET: <a href="https://wet-boew.github.io/v4.0-ci/demos/formvalid/formvalid-en.html">Form validation</a></li>	  
   </ul>
