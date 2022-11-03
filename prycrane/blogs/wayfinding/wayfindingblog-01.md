@@ -59,7 +59,7 @@ dateModified: 2022-11-02
 <h3>Research discoveries</h3>
 <p>One of our main discoveries was that task success was not decreased when the menu button was removed.   Task success for internal institution pages remained consistent with the performance of pages with a menu and there was even an improvement for finding top tasks on Canada.ca.  A significant reason that task success remained constant is that breadcrumbs are used more than the menu for navigation.</p>
 
-<p>When the Sign in button was placed at the conventional top-right of the global header it was used with a high degree of success.   In fact, when the menu button is used in our current design on sites that require authentication, people use it to search for a way to sign in.  Signing in is a top task on Canada.ca!  Exposing the Sign in button deflated the use of the menu.  This observation confirmed that the beloved menu button can be retired <span class="fa-regular fa-face-sad-tear mrgn-lft-md" aria-hidden="true"></span>.</p>
+<p>When the Sign in button was placed at the conventional top-right of the global header it was used with a high degree of success.   In fact, when the menu button is used in our current design on sites that require authentication, people use it to search for a way to sign in.  Signing in is a top task on Canada.ca!  Exposing the Sign in button deflated the use of the menu.  This observation confirmed that the beloved menu button can be retired <span class="fa-regular fa-face-sad-tear mrgn-lft-md" aria-hidden="true"></span>.</p><i class="fa-regular fa-face-sad-tear"></i>
 
 <div class="panel panel-info col-md-7 mrgn-tp-lg">
   <div class="panel-body">
@@ -69,7 +69,7 @@ dateModified: 2022-11-02
 <div class="clearfix"></div>
 
  <h2>Applied research: a transitional approach to change</h2>
-<p>We are taking a transitional approach to making these design changes.  Some of the work has already been done so you can start making changes.  Other facets are still on the Canada.ca design horizon, but they are in tight focus.  This is our roll-out plan.</p>
+<p>We are using a transitional approach to make these design improvements to our navigation.  Some of the work has already been done so you can start making changes.  Other facets are still on the Canada.ca design horizon, but we are strategically focused on them.  This is our roll-out plan.</p>
 
 <h3>1. Updates to our Canada.ca homepage</h3>
 <p><span class="fas fa-check mrgn-rght-md text-success" aria-hidden="true"></span> Done</p>
