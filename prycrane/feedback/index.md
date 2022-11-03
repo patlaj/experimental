@@ -37,8 +37,9 @@ dateModified: 2022-11-01
 <section>
   <h2>Resources</h2>
   <ul>
-    <li>Blog (for ispiration): <a href="https://blog.canada.ca/2020/10/09/collect-feedback.html)">Collect feedback, find issues</a></li>  
+    <li>Canada.ca template: <a href="https://design.canada.ca/recommended-templates/contact-us-pages.html">Contact us pages</a></li>  
     <li>WET: <a href="https://wet-boew.github.io/wet-boew-styleguide/design/forms-en.html">Forms</a></li>
-    <li>WET: <a href="https://wet-boew.github.io/v4.0-ci/demos/formvalid/formvalid-en.html">Form validation</a></li>	  
+    <li>WET: <a href="https://wet-boew.github.io/v4.0-ci/demos/formvalid/formvalid-en.html">Form validation</a></li>
+    <li>Blog (for ispiration): <a href="https://blog.canada.ca/2020/10/09/collect-feedback.html">Collect feedback, find issues</a></li>  
   </ul>
 </section>
