@@ -38,6 +38,7 @@ dateModified: 2022-11-01
 <section>
   <h2>Resources</h2>
   <ul>
+    <li><a href="https://docs.google.com/spreadsheets/d/1Wk_XESWHdE44Vtu_j0XmzrAfBR8Jb1hsv01fD7AYZZw/edit#gid=0">List of Design system pages that need to be updated</a></li>
     <li><a href="https://blog.canada.ca/">Canada.ca blog</a></li>
     <li><a href="https://docs.google.com/document/d/1PEMSBjgw3GSbDDqqNTq6Lgjp0lmHvvDDCJzN6jXp8jo">Wayfinding blog drafts</a></li>
     <li><a href="https://docs.google.com/document/d/11B3OCaxy-RPAFUTXqZryer6JBDiiDEbW9NGheWukTQU">Wayfinding blog brainstorm</a></li>
