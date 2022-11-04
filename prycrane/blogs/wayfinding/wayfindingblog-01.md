@@ -40,7 +40,7 @@ dateModified: 2022-11-02
     <p>– Clement Mok</p>
   </blockquote>
 </section>-->
-<p>Our wayfinding project investigated the experience of how people found what they were looking for on Canada.ca by examining users engaged in specific tasks.  The research included a baseline study to discover and assess findability problems and comparison study to come up with solutions.   Our findings have directed changes to the Canada.ca ca design.</p>
+<p>Our wayfinding project investigated peoples’ experience of completing specific tasks on Canada.ca.  The research included a baseline study to discover and assess findability problems and comparison study to come up with solutions.   Our findings have directed changes to the Canada.ca ca design.</p>
 <ol>
   <li><strong>Canada.ca homepage update</strong>: the content section of the Canada.ca homepage will include heavily used footer links.  This will make it possible to remove the links from the global footer.</li>
   <li><strong>Contextual Sign in button</strong>: the global header will have an option for an exposed sign in button that can be placed on a relevant page or pages.</li>
@@ -64,7 +64,7 @@ dateModified: 2022-11-02
 </ul>
 <h3>Research discoveries</h3>
 <p>One of our main discoveries was that task success was not decreased when the menu button was removed.   Task success for internal institution pages remained consistent with the performance of pages with a menu and there was even an improvement for finding top tasks on Canada.ca.  A significant reason that task success remained constant is that breadcrumbs are used more than the menu for navigation.</p>
-<p>When the Sign in button was placed at the conventional top-right of the global header it was used with a high degree of success.   In fact, when the menu button is used in our current design on sites that require authentication, people use it to search for a way to sign in.  Signing in is a top task on Canada.ca!  Exposing the Sign in button deflated the use of the menu.  This observation confirmed that the beloved menu button can be retired.</p>
+<p>When the Sign in button was placed at the conventional top-right of the global header it was used with a high degree of success.   In fact, when the menu button is used in our current design on sites that require authentication, people use it to search for a way to sign in.  Signing in is a top task on Canada.ca!  Exposing the Sign in button deflated the use of the menu.  This observation confirmed that the menu button can be retired.</p>
 <div class="panel panel-info col-md-7 mrgn-tp-lg">
   <div class="panel-body">
     <ul class="mrgn-tp-md">
@@ -106,7 +106,7 @@ dateModified: 2022-11-02
 <h4>Contextual-footer band</h4>
 <p>The contextual band is optional and configurable.  This is your band.  You can provide up to three contextual support links that are relevant to a page or groups of pages’ content.  If you already have a contextualized contact link on your site, you will need to configure your contextual band.</p>
 <p>Use at your discretion, but bear in mind that these links are mostly used as rescue links, often a last resort for frustrated searchers.  Don’t make the contextual band part of your navigation strategy!</p>
-<h4>Main-footer band</h4>
+<h4>Main-footer band to include it.</h4>
 <p>The main band is mandatory on standard pages and optional on Transactional and Campaign pages.  It’s not configurable.  The menu’s  themes and topics links will be moved here.  This change will happen “automatically” for people using the Adobe Experience Manager.   Other implementations will have to be updated accordingly.</p>
 <h4>Sub-footer band</h4>
 <p>The Sub footer band is mandatory on all pages and it’s not configurable.  It contains the Canada wordmark and corporate links to “Social media,” “Mobile applications,” “About Canada.ca,” “Terms and conditions,” and “Privacy”. (support links + wordmark)</p>
