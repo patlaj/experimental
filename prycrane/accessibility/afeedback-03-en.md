@@ -39,13 +39,23 @@ dateModified: 2022-11-07
       <li><span class="fa-li"><span class="fas fa-phone"></span></span>phone at: 1 -866-811-0055</li>
       <li><span class="fa-li"><span class="fas fa-mailbox"></span></span>mail at: 15 Eddy Street, Gatineau, QC K1A 0M5</li>
 </ul>  
-<i class="fas fa-mailbox"></i>
+
   
   
 <p>If you require any additional tool to provide feedback, you can email <a href="mailto:accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a> or call us at 1 -866-811-0055.</p>
   
   <h2>Alternate formats of this feedback mechanism</h2>
-ASLversion of the accessibility feedback questionnaire.LSQ version of the accessibility feedback questionnaire.You can request the following versions of our feedback mechanism description or questionnaire:•print;•large print (larger and clearer font);•Braille (a system of raised dots that people who are blind or who have low vision can read with their fingers); or•audio (a recording of someone reading the text out loud).If you require any other format, contact us.
+<p>ASL version of the accessibility feedback questionnaire.</p>
+<p>LSQ version of the accessibility feedback questionnaire.</p>
+<p>You can request the following versions of our feedback mechanism description or questionnaire:</p>
+<ul>
+  <li>print</li>
+  <li>large print (larger and clearer font)</li>
+  <li>Braille (a system of raised dots that people who are blind or who have low vision can read with their fingers)</li>
+    <li>audio (a recording of someone reading the text out loud)</li>
+      </ul>
+      
+      <p>If you require any other format, contact us.</p>
   
   <h2>Providing your feedback anonymously</h2>
   You can provide feedback and remain fully anonymous if you use the online questionnaire, the phone or VRS. To ensure anonymity, do not state your name or provide any identifying information. 
