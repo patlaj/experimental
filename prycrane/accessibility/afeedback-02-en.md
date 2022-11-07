@@ -18,41 +18,23 @@ description:
   en: Description of how Employment and Social Development Canada receives and responds to your feedback on accessibility issues. 
 dateModified: 2022-11-07
 ---
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility feedback process</span>: <span>Employment and Social Development Canada (ESDC)</span></span></h1>
+<p>At Employment and Social Development Canada (ESDC), we commit to offeringyou accessible information and services.</p>			
+			
+<h2>Alternate formats</h2>
+	
+Large print, print, braille, MP3 (audio), e-text and DAISYformatsof this feedback process description are available on demand. You can orderonlineor call1 800 O-Canada (1-800-622-6232). If you use a teletypewriter (TTY), call 1-800-926-9105.
 
-<div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility feedback process</span>: <span>Employment and Social Development Canada (ESDC)</span></span></h1>
- <p>Find our accessibility plan and provide feedback.  This is part of an ongoing effort to:</p>
-        <ul>
-           <li>get input from persons with disabilities</li>
-           <li>reflect on our organization’s accessibility strategy</li>  
-           <li>be accountable for our current and future actions</li>
-        </ul>
-		</div>
-	</div>
-</div>
+<h2>What feedback can you submit?</h2>
+You can submit feedback on theESDC Accessibility Planor the barriers you experience when dealing with ESDC.The Accessible Canada Actdefines a barrier as:“...anything physical, architectural, technological or attitudinal, anything that is based on information or communications or anything that is the result of a policy or a practice—that hinders the full and equal participation in society of persons with an impairment, including a physical, mental, intellectual, cognitive, learning, communication or sensory impairment or a functional limitation.”Your experience matters! We recognize the value of including persons with disabilitiesin the improvementof our accessibility plan and services. By sharing your comments and suggestions, you can helpus better serve Canadians, especially Canadians with disabilities.We welcome yourfeedback on the accessibility of our:•services•offices•call centres•websites
 
-<div class="container">
-  <div class="row">
+<h2>How we will use your feedback</h2>
+We will use your feedback to advance our accessibility efforts. Some feedback may be addressed right away, and some may be addressed in the development of our future accessibility plans. The feedback we receive and how we take it into consideration will be includedin our progress reports, published in the years between accessibility plans.
 
-    <!-- showing the basic doormat pattern - refer to the Services and information documentation for options -->
-    <section class="gc-srvinfo col-md-12">
-      <h2 class="wb-inv">Services and information</h2>
-      <div class="wb-eqht row">
-        <div class="col-lg-4 col-md-6">
-          <h3><a href="#">Accessibility plan</a></h3>
-          <p>Policies, programs, practices, and services that help our organization contribute to the goal of an accessible and barrier-free Canada</p>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <h3><a href="#">Accessibility feedback</a></h3>
-          <p>Provide feedback about any accessibility issue</p>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <h3><a href="#">Accessibility feedback process</a></h3>
-          <p>Description of how we receive and respond to your feedback on accessibility issues</p>
-        </div>
-      </div>
-    </section>
-  </div>
-</div>
+<h2>Confidentiality<h2>
+Your feedback will not be associated with your name. Wewill share it only with those ESDCemployees directly involved in advancing our accessibility efforts.
+	
+<h2>Howto submit feedback</h2>
+There are various way you can submit your feedback. If you want to submit anonymous feedback, please use our online formand leave the email address field blank.With the exception of anonymous feedback, we will acknowledge the receipt of all accessibility feedback.Online•Submit your feedback using ouronline formEmail•EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.caTelephone•1-866-506-6806 (toll-freeand video relay service)•1 800-465-7735(toll-free teletypewriter)MailCentre of Expertise for Accessible Client ServiceFloor 3 Mail Drop 318140 Promenade du PortageGatineau QC K1A 0J9			
+			
+			
