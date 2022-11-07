@@ -23,17 +23,17 @@ dateModified: 2022-11-07
 			
 <h2>Alternate formats</h2>
 	
-<p>Large print, print, braille, MP3 (audio), e-text and DAISY formatsof this feedback process description are available on demand. You can <a href="https://www.canada.ca/en/employment-social-development/corporate/reports/order-publication.html">order online</a> or call1 800 O-Canada (1-800-622-6232). If you use a teletypewriter (TTY), call 1-800-926-9105.</p>
+<p>Large print, print, braille, MP3 (audio), e-text and DAISY formats of this feedback process description are available on demand. You can <a href="https://www.canada.ca/en/employment-social-development/corporate/reports/order-publication.html">order online</a> or call1 800 O-Canada (1-800-622-6232). If you use a teletypewriter (TTY), call 1-800-926-9105.</p>
 
 <h2>What feedback can you submit?</h2>
-<p>You can submit feedback on theESDC Accessibility Planor the barriers you experience when dealing with ESDC.</p>
+<p>You can submit feedback on the ESDC Accessibility Planor the barriers you experience when dealing with ESDC.</p>
 <p>The <a href="https://www.laws-lois.justice.gc.ca/eng/acts/A-0.6/">Accessible Canada Act</a> defines a barrier as:</p>
 
 <blockquote>
   <p>“...anything physical, architectural, technological or attitudinal, anything that is based on information or communications or anything that is the result of a policy or a practice—that hinders the full and equal participation in society of persons with an impairment, including a physical, mental, intellectual, cognitive, learning, communication or sensory impairment or a functional limitation.”</p>
 </blockquote>
 
-<p>Your experience matters! We recognize the value of including persons with disabilitiesin the improvementof our accessibility plan and services. By sharing your comments and suggestions, you can helpus better serve Canadians, especially Canadians with disabilities.</p>
+<p>Your experience matters! We recognize the value of including persons with disabilities in the improvementof our accessibility plan and services. By sharing your comments and suggestions, you can help us better serve Canadians, especially Canadians with disabilities.</p>
 
 <p>We welcome your feedback on the accessibility of our:</p>
 <ul>
@@ -44,7 +44,7 @@ dateModified: 2022-11-07
 	</ul>
 	
 <h2>How we will use your feedback</h2>
-We will use your feedback to advance our accessibility efforts. Some feedback may be addressed right away, and some may be addressed in the development of our future accessibility plans. The feedback we receive and how we take it into consideration will be includedin our progress reports, published in the years between accessibility plans.
+We will use your feedback to advance our accessibility efforts. Some feedback may be addressed right away, and some may be addressed in the development of our future accessibility plans. The feedback we receive and how we take it into consideration will be included in our progress reports, published in the years between accessibility plans.
 
 <h2>Confidentiality</h2>
 <p>Your feedback will not be associated with your name. We will share it only with those ESDC employees directly involved in advancing our accessibility efforts.</p>
@@ -54,9 +54,11 @@ We will use your feedback to advance our accessibility efforts. Some feedback ma
 	<p>With the exception of anonymous feedback, we will acknowledge the receipt of all accessibility feedback.</p>
 	
 	<h3>Online</h3>
-		<ul>
-			<li>Submit your feedback using our online form</li>
-		</ul>
+<p>Submit your feedback using our online form</p>
+<p><a href="afeedback-03-en.html" type="button" class="btn btn-primary">Accessibility feedback</a></p>
+
+
+
 	<h3>Email</h3>
 			<ul>
                     <li>EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.ca</li>
