@@ -36,17 +36,17 @@ dateModified: 2022-11-07
 <p>Your experience matters! We recognize the value of including persons with disabilitiesin the improvementof our accessibility plan and services. By sharing your comments and suggestions, you can helpus better serve Canadians, especially Canadians with disabilities.</p>
 
 <p>We welcome your feedback on the accessibility of our:</p>
-	<ul>
-	   <li>services</li>
-           <li>offices</li>
-           <li>call centres</li>
-           <li>websites</li>
+<ul>
+	<li>services</li>
+	<li>offices</li>
+	<li>call centres</li>
+	<li>websites</li>
 	</ul>
 	
 <h2>How we will use your feedback</h2>
 We will use your feedback to advance our accessibility efforts. Some feedback may be addressed right away, and some may be addressed in the development of our future accessibility plans. The feedback we receive and how we take it into consideration will be includedin our progress reports, published in the years between accessibility plans.
 
-<h2>Confidentiality<h2>
+<h2>Confidentiality</h2>
 <p>Your feedback will not be associated with your name. We will share it only with those ESDC employees directly involved in advancing our accessibility efforts.</p>
 	
 <h2>How to submit feedback</h2>
