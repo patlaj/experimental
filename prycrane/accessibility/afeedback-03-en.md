@@ -48,12 +48,15 @@ dateModified: 2022-11-07
 <p>ASL version of the accessibility feedback questionnaire.</p>
 <p>LSQ version of the accessibility feedback questionnaire.</p>
 <p>You can request the following versions of our feedback mechanism description or questionnaire:</p>
-<ul>
-  <li>print</li>
-  <li>large print (larger and clearer font)</li>
-  <li>Braille (a system of raised dots that people who are blind or who have low vision can read with their fingers)</li>
-    <li>audio (a recording of someone reading the text out loud)</li>
-      </ul>
+
+  <ul class="fa-ul">
+      <li><span class="fa-li"><span class="far fa-file-alt"></span></span>print</li>
+      <li><span class="fa-li"><span class="far fa-file-alt"></span></span>large print (larger and clearer font)</li>
+      <li><span class="fa-li"><span class="fas fa-braille"></span></span>Braille (a system of raised dots that people who are blind or who have low vision can read with their fingers)</li>
+    <li><span class="fa-li"><span class="fas fa-audio-description"></span></span>audio (a recording of someone reading the text out loud)</li>
+</ul>  
+
+
       
       <p>If you require any other format, contact us.</p>
   
