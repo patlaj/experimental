@@ -27,15 +27,22 @@ dateModified: 2022-11-07
 <p>To provide feedback on accessibility, you can:</p>
 <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-check-square"></span></span>fill the online questionnaire</li>
-      <li><span class="fa-li"><span class="fas fa-sign-language"></span></span>use VRS services (ASL or LSQ)</li>
+      <li><span class="fa-li"><span class="fas fa-sign-language"></span></span><a href="https://srvcanadavrs.ca/en/">use VRS services (ASL or LSQ)</a></li>
       <li><span class="fa-li"><span class="fas fas fa-tty"></i>"></span></span>use TTY at: 1-888-997-3123</li>
 </ul>  
  
   
   <p>You can also contact Canadian Heritage’s Accessibility Office’s Engagement Analyst by:</p>
   
+  <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-envelope-square"></span></span><a href="mailto:accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a></li>
+      <li><span class="fa-li"><span class="fas fa-phone"></span></span>phone at: 1 -866-811-0055</li>
+      <li><span class="fa-li"><span class="fas fa-mailbox"></i>"></span></span>mail at: 15 Eddy Street, Gatineau, QC K1A 0M5</li>
+</ul>  
+<i class="fas fa-mailbox"></i>
   
-  •email;•phone at: 1 -866-811-0055; or•mail at: 15 Eddy Street, Gatineau, QC K1A 0M5.If you require any additional tool to provide feedback, you can emailor call us at 1 -866-811-0055.
+  
+<p>If you require any additional tool to provide feedback, you can email <a href="mailto:accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a> or call us at 1 -866-811-0055.</p>
   
   <h2>Alternate formats of this feedback mechanism</h2>
 ASLversion of the accessibility feedback questionnaire.LSQ version of the accessibility feedback questionnaire.You can request the following versions of our feedback mechanism description or questionnaire:•print;•large print (larger and clearer font);•Braille (a system of raised dots that people who are blind or who have low vision can read with their fingers); or•audio (a recording of someone reading the text out loud).If you require any other format, contact us.
