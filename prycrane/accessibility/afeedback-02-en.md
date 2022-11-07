@@ -9,11 +9,13 @@ pageclass: cnt-wdth-lmtd
 breadcrumbs:
 - title: Employment and Social Development Canada
   link: https://www.canada.ca/en/employment-social-development.html
+- title: Accessibility
+  link: /prycrane/accessibility/afeedback-01-en.html  
 lang: en
 share: True
-title: Accessibility
+title: Accessibility feedback process
 description: 
-  en: Find Employment and Social Development Canada's accessibility plan and provide feedback. 
+  en: Description of how Employment and Social Development Canada receives and responds to your feedback on accessibility issues. 
 dateModified: 2022-11-07
 ---
 
