@@ -27,7 +27,7 @@ dateModified: 2022-11-07
 
 <h2>What feedback can you submit?</h2>
 <p>You can submit feedback on theESDC Accessibility Planor the barriers you experience when dealing with ESDC.</p>
-<p>The <a href="https://www.laws-lois.justice.gc.ca/eng/acts/A-0.6/">Accessible Canada Act</p> defines a barrier as:</p>
+<p>The <a href="https://www.laws-lois.justice.gc.ca/eng/acts/A-0.6/">Accessible Canada Act</a> defines a barrier as:</p>
 
 <blockquote>
   <p>“...anything physical, architectural, technological or attitudinal, anything that is based on information or communications or anything that is the result of a policy or a practice—that hinders the full and equal participation in society of persons with an impairment, including a physical, mental, intellectual, cognitive, learning, communication or sensory impairment or a functional limitation.”</p>
