@@ -19,7 +19,7 @@ description:
 dateModified: 2022-11-07
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility feedback process</span>: <span>Employment and Social Development Canada (ESDC)</span></span></h1>
-<p>At Employment and Social Development Canada (ESDC), we commit to offeringyou accessible information and services.</p>			
+<p>At Employment and Social Development Canada (ESDC), we commit to offering you accessible information and services.</p>			
 			
 <h2>Alternate formats</h2>
 	
@@ -47,9 +47,24 @@ dateModified: 2022-11-07
 We will use your feedback to advance our accessibility efforts. Some feedback may be addressed right away, and some may be addressed in the development of our future accessibility plans. The feedback we receive and how we take it into consideration will be includedin our progress reports, published in the years between accessibility plans.
 
 <h2>Confidentiality<h2>
-Your feedback will not be associated with your name. Wewill share it only with those ESDCemployees directly involved in advancing our accessibility efforts.
+<p>Your feedback will not be associated with your name. We will share it only with those ESDC employees directly involved in advancing our accessibility efforts.</p>
 	
-<h2>Howto submit feedback</h2>
-There are various way you can submit your feedback. If you want to submit anonymous feedback, please use our online formand leave the email address field blank.With the exception of anonymous feedback, we will acknowledge the receipt of all accessibility feedback.Online•Submit your feedback using ouronline formEmail•EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.caTelephone•1-866-506-6806 (toll-freeand video relay service)•1 800-465-7735(toll-free teletypewriter)MailCentre of Expertise for Accessible Client ServiceFloor 3 Mail Drop 318140 Promenade du PortageGatineau QC K1A 0J9			
+<h2>How to submit feedback</h2>
+<p>There are various way you can submit your feedback. If you want to submit anonymous feedback, please use our online formand leave the email address field blank.</p>
+	<p>With the exception of anonymous feedback, we will acknowledge the receipt of all accessibility feedback.</p>
+	
+	<h3>Online</h3>
+		
+		•Submit your feedback using ouronline form
+		
+	<h3>Email</h3>
+		•EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.ca
+		
+        <h3>Telephone</h3>
+		•1-866-506-6806 (toll-freeand video relay service)•1 800-465-7735(toll-free teletypewriter)
+	<h3>Mail</h3>
+		
+		
+		Centre of Expertise for Accessible Client ServiceFloor 3 Mail Drop 318140 Promenade du PortageGatineau QC K1A 0J9			
 			
 			
