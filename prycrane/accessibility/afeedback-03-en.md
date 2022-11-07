@@ -26,11 +26,11 @@ dateModified: 2022-11-07
   
 <p>To provide feedback on accessibility, you can:</p>
 <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fas fa-check-square"></span></span>fill the online questionnaire</li>
+      <li>fill the online questionnaire</li>
       <li><span class="fa-li"><span class="fas fa-sign-language"></span></span><a href="https://srvcanadavrs.ca/en/">use VRS services (ASL or LSQ)</a></li>
       <li><span class="fa-li"><span class="fas fas fa-tty"></i>"></span></span>use TTY at: 1-888-997-3123</li>
 </ul>  
- 
+
   
   <p>You can also contact Canadian Heritage’s Accessibility Office’s Engagement Analyst by:</p>
   
