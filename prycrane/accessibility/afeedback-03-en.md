@@ -37,7 +37,7 @@ dateModified: 2022-11-07
   <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-envelope-square"></span></span><a href="mailto:accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a></li>
       <li><span class="fa-li"><span class="fas fa-phone"></span></span>phone at: 1 -866-811-0055</li>
-      <li><span class="fa-li"><span class="fas fa-mailbox"></i>"></span></span>mail at: 15 Eddy Street, Gatineau, QC K1A 0M5</li>
+      <li><span class="fa-li"><span class="fas fa-mailbox"></span></span>mail at: 15 Eddy Street, Gatineau, QC K1A 0M5</li>
 </ul>  
 <i class="fas fa-mailbox"></i>
   
