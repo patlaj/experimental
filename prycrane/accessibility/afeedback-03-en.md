@@ -21,7 +21,7 @@ dateModified: 2022-11-07
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility feedback process</span>: <span>Employment and Social Development Canada (ESDC)</span></span></h1>
 <p>Description of how Employment and Social Development Canada receives and responds to your feedback on accessibility issues.</p>	
 
-<h2>Ways to provide feedback<h2>
+<h2>Ways to provide feedback</h2>
   
 To provide feedback on accessibility, you can:•fill the online questionnaire;•use VRS services (ASL or LSQ);or •use TTY at: 1-888-997-3123.You can also contact Canadian Heritage’s Accessibility Office’s Engagement Analyst by:•email;•phone at: 1 -866-811-0055; or•mail at: 15 Eddy Street, Gatineau, QC K1A 0M5.If you require any additional tool to provide feedback, you can emailor call us at 1 -866-811-0055.
   
