@@ -62,7 +62,7 @@ We will use your feedback to advance our accessibility efforts. Some feedback ma
 
 <h3>Telephone</h3>
 <ul>
-	<li>1-866-506-6806 (toll-freeand video relay service)</li>
+	<li>1-866-506-6806 (toll-free and video relay service)</li>
 	<li>1 800-465-7735(toll-free teletypewriter)</li>
 </ul>
 <h3>Mail</h3>
