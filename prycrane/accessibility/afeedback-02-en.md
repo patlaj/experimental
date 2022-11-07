@@ -4,7 +4,7 @@ css:
 - https://design.canada.ca/css/custom.css
 layout: without-h1
 pageclass: cnt-wdth-lmtd
-altLangPage: /experimental/prycrane/accessibility/accessibilite-01-fr.html
+altLangPage: /experimental/prycrane/accessibility/afeedback-02-fr.html
 pageclass: cnt-wdth-lmtd
 breadcrumbs:
 - title: Employment and Social Development Canada
