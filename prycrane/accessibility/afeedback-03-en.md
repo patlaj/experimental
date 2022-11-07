@@ -27,7 +27,7 @@ dateModified: 2022-11-07
 <p>To provide feedback on accessibility, you can:</p>
 <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-check-square"></span></span>fill the online questionnaire</li>
-      <li><span class="fa-li"><span class="fas fa-sign-language"></span>"></i></span>use VRS services (ASL or LSQ)</li>
+      <li><span class="fa-li"><span class="fas fa-sign-language"></span></span>use VRS services (ASL or LSQ)</li>
       <li><span class="fa-li"><span class="fas fas fa-tty"></i>"></span></span>use TTY at: 1-888-997-3123</li>
 </ul>  
  
