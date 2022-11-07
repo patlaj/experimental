@@ -7,13 +7,13 @@ pageclass: cnt-wdth-lmtd
 altLangPage: /experimental/prycrane/accessibility/afeedback-01-fr.html
 pageclass: cnt-wdth-lmtd
 breadcrumbs:
-- title: Accessibility
-  link: /experimental/prycrane/accessibility/afeedback-01-en.html
+- title: Employment and Social Development Canada
+  link: https://www.canada.ca/en/employment-social-development.html
 lang: en
 share: True
 title: Accessibility
 description: 
-  en: Find our accessibility plan and provide feedback. 
+  en: Find Employment and Social Development Canada's accessibility plan and provide feedback. 
 dateModified: 2022-11-07
 ---
 
@@ -21,7 +21,7 @@ dateModified: 2022-11-07
 	<div class="row">
 		<div class="col-md-12">
 			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility</span>: <span>Employment and Social Development Canada (ESDC)</span></span></h1>
- <p>Find our accessibility plan and provide feedback.  This is part of an ongoing effort to:</p>
+ <p>Find Employment and Social Development Canada's accessibility plan and provide feedback.  This is part of an ongoing effort to:</p>
         <ul>
            <li>get input from persons with disabilities</li>
            <li>reflect on our organization’s accessibility strategy</li>  
