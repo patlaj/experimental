@@ -19,6 +19,7 @@ dateModified: 2022-10-24
 		<div class="col-md-6">
 			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility mockups</span>: <span>Canada.ca design system</span></span></h1>
 			<p>As a user of the Canada.ca, I want access to an institution’s accessibility information and have a way to provide feedback, so that I can understand an institution’s accessibility plan and be able to submit feedback.</p>
+			
 		</div>
 		<div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg">
 			<div data-bgimg="/experimental/prycrane/accessibility/images/univ-access-02.png"></div>
@@ -28,7 +29,12 @@ dateModified: 2022-10-24
 
 <h2>Mockups</h2> 
 <ul>
-  <li><strong>Accessibilty landing page</strong>
+ <li><strong>Accessibilty Feedback form</strong> (Monday: <a href="https://scma-dto.monday.com/boards/2632043469/pulses/3478278191" class="">Accessibility feedback form mockup</a>)
+<ul>
+  <li><a href="afeedback-01-en.html">Start</a></li>	
+ </ul>  
+</li>	
+  <li><strong>Accessibilty landing page</strong> (Monday: <a href="https://scma-dto.monday.com/boards/2632043469/pulses/3416932460" class="">Accessibility landing page mockup</a>)
 <ul>
   <li><a href="accessibility-09-en.html">List style (with accessibility process doormat)</a></li>	
   <li><a href="accessibility-01-en.html">List style</a></li>
