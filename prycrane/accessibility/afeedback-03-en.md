@@ -81,7 +81,7 @@ dateModified: 2022-11-07
     <p>Your feedback is important. It will help us identify and break down accessibility barriers.</p>
     
     <div class="alert alert-warning">
-   <p>Please refrain from including any personal or sensitive information about yourself or others when submitting your feedback.</p>
+   <p><strong>Please refrain from including any personal or sensitive information about yourself or others when submitting your feedback.</strong></p>
 </div>
    
     
