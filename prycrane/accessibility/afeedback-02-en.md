@@ -57,7 +57,7 @@ We will use your feedback to advance our accessibility efforts. Some feedback ma
 <p><a href="afeedback-03-en.html" type="button" class="btn btn-primary">Accessibility feedback form</a></p>
 <h3>Email</h3>
 <ul>
-	<li>EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.ca</li>
+	<li><a href="mailto:EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.ca">EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.ca</a></li>
 </ul>
 
 <h3>Telephone</h3>
