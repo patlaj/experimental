@@ -55,7 +55,7 @@ We will use your feedback to advance our accessibility efforts. Some feedback ma
 	
 	<h3>Online</h3>
 		<ul>
-			<li>Submit your feedback using ouronline form</li>
+			<li>Submit your feedback using our online form</li>
 		</ul>
 	<h3>Email</h3>
 			<ul>
