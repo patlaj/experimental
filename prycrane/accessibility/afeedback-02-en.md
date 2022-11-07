@@ -54,17 +54,21 @@ We will use your feedback to advance our accessibility efforts. Some feedback ma
 	<p>With the exception of anonymous feedback, we will acknowledge the receipt of all accessibility feedback.</p>
 	
 	<h3>Online</h3>
-		
-		•Submit your feedback using ouronline form
-		
+		<ul>
+			<li>Submit your feedback using ouronline form</li>
+		</ul>
 	<h3>Email</h3>
-		•EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.ca
-		
+			<ul>
+                    <li>EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.ca</li>
+		</ul>
         <h3>Telephone</h3>
-		•1-866-506-6806 (toll-freeand video relay service)•1 800-465-7735(toll-free teletypewriter)
+				<ul>
+                    <li>1-866-506-6806 (toll-freeand video relay service)</li>
+                    <li>1 800-465-7735(toll-free teletypewriter)</li>
+					</ul>
 	<h3>Mail</h3>
 		
 		
-		Centre of Expertise for Accessible Client ServiceFloor 3 Mail Drop 318140 Promenade du PortageGatineau QC K1A 0J9			
+		<p>Centre of Expertise for Accessible Client Service<br>Floor 3 Mail Drop 318<br>140 Promenade du Portage<br>Gatineau QC K1A 0J9</p>			
 			
 			
