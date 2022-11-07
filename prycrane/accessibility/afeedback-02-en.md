@@ -51,15 +51,11 @@ We will use your feedback to advance our accessibility efforts. Some feedback ma
 	
 <h2>How to submit feedback</h2>
 <p>There are various way you can submit your feedback. If you want to submit anonymous feedback, please use our online formand leave the email address field blank.</p>
-	<p>With the exception of anonymous feedback, we will acknowledge the receipt of all accessibility feedback.</p>
-	
-	<h3>Online</h3>
+<p>With the exception of anonymous feedback, we will acknowledge the receipt of all accessibility feedback.</p>
+<h3>Online</h3>
 <p>Submit your feedback using our online form</p>
 <p><a href="afeedback-03-en.html" type="button" class="btn btn-primary">Accessibility feedback</a></p>
-
-
-
-	<h3>Email</h3>
+<h3>Email</h3>
 			<ul>
                     <li>EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.ca</li>
 		</ul>
