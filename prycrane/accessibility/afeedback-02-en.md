@@ -64,9 +64,10 @@ We will use your feedback to advance our accessibility efforts. Some feedback ma
                     <li>1-866-506-6806 (toll-freeand video relay service)</li>
                     <li>1 800-465-7735(toll-free teletypewriter)</li>
 					</ul>
-	<h3>Mail</h3>
-		
-		
-		<p>Centre of Expertise for Accessible Client Service<br>Floor 3 Mail Drop 318<br>140 Promenade du Portage<br>Gatineau QC K1A 0J9</p>			
+<h3>Mail</h3>
+<p>Centre of Expertise for Accessible Client Service<br>
+   Floor 3 Mail Drop 318<br>
+   140 Promenade du Portage<br>
+   Gatineau QC K1A 0J9</p>			
 			
 			
