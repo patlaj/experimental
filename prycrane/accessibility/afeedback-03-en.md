@@ -54,15 +54,15 @@ dateModified: 2022-11-07
       <li><span class="fa-li"><span class="far fa-file-alt fa-lg"></span></span>large print (larger and clearer font)</li>
       <li><span class="fa-li"><span class="fas fa-braille"></span></span>Braille (a system of raised dots that people who are blind or who have low vision can read with their fingers)</li>
     <li><span class="fa-li"><span class="fas fa-audio-description"></span></span>audio (a recording of someone reading the text out loud)</li>
-</ul>  
+</ul>
+<p>If you require any other format, contact us.</p>
+<h2>Providing your feedback anonymously</h2>
 
-
-      
-      <p>If you require any other format, contact us.</p>
+<p>You can provide feedback and remain fully anonymous if you use the online questionnaire, the phone or VRS. To ensure anonymity, do not state your name or provide any identifying information.</p>
+<p>If you are using an email address that includes your name and want to remain anonymous, <strong>state that you would like your feedback to remain anonymous</strong>. That way, we will not identify you with your feedback with anyone beyond PCH’s Accessibility Office.</p>
+<p>For physical mail, if you would like to remain fully anonymous, please <strong>do not include your return address</strong> on the envelope. If you would like to receive anacknowledgement with a response regarding your feedback, please let us know within your feedback that you would like to remain anonymous but receive a response back. We will not identify you with your feedback with anyone beyond the Accessibility Office.
   
-  <h2>Providing your feedback anonymously</h2>
-  You can provide feedback and remain fully anonymous if you use the online questionnaire, the phone or VRS. To ensure anonymity, do not state your name or provide any identifying information. 
-If you are using an email address that includes your name and want to remain anonymous, state that you would like your feedback to remain anonymous. That way, we will not identify you with your feedback with anyone beyond PCH’s Accessibility Office. For physical mail, if you would like to remain fully anonymous, please do not include your return addresson the envelope. If you would like to receive anacknowledgement with a response regarding your feedback, please let us know within your feedback that you would like to remain anonymous but receive a response back. We will not identify you with your feedback with anyone beyond the Accessibility Office.Please note that all feedback will be anonymized when we report publiclyon all feedback. 
+<p>Please note that all feedback will be anonymized when we report publiclyon all feedback.</p>
   
   <h2>What can you provide feedback on</h2>
   
