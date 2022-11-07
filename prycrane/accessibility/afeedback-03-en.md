@@ -66,13 +66,36 @@ dateModified: 2022-11-07
   
   <h2>What can you provide feedback on</h2>
   
-You can provide feedback on:•PCH’s Accessibility Plan 2023-2025•the accessibility of:oour programs,oour services,oour communications, oroor any other matter related to accessibility.Your feedback is important. It will help us identify and break down accessibility barriers.Please refrain from including any personal or sensitive information about yourself or others when submitting your feedback. You can read our accessibility plan or statement of commitmentto learn more about our on-going efforts to improve accessibility and foster disability inclusion.
+<p>You can provide feedback on:
+  <ul>
+    <li>PCH’s Accessibility Plan 2023-2025</li>
+    <li>the accessibility of:
+      <ul>
+    <li>our programs</li>
+    <li>our services</li>
+    <li>our communications</li> 
+    <li>any matter related to accessibility</li>
+      </ul></li>
+    </ul>
+    
+    <p>Your feedback is important. It will help us identify and break down accessibility barriers.</p>
+    
+    <div class="alert alert-warning">
+   <p>Please refrain from including any personal or sensitive information about yourself or others when submitting your feedback.</p>
+</div>
+   
+    
+    <p>You can read our accessibility plan or statement of commitmentto learn more about our on-going efforts to improve accessibility and foster disability inclusion.</p>
   
   <h2>What we will do with your feedback</h2>
-  We will acknowledge receipt by email to comments received through the online questionnaire or by email within 5 business days. 
-Acknowledging receipt for comments made by other means will take longer. We will reply to those with the means that were used to communicate with us.Note that finding answers or solutions to more complex issues might take more time. If that is the case for your comment(s), we will let you know within 5 business daysupon receiving your feedback.We will compile all comments and explainthe follow up actions we have taken in our annual progress reports on accessibility and accessibility plans.
+  <p>We will acknowledge receipt by email to comments received through the online questionnaire or by email within 5 business days.</p>
+  <p>Acknowledging receipt for comments made by other means will take longer. We will reply to those with the means that were used to communicate with us.</p>
+  <p>Note that finding answers or solutions to more complex issues might take more time. If that is the case for your comment(s), we will let you know within 5 business daysupon receiving your feedback.</p>
+  <p>We will compile all comments and explainthe follow up actions we have taken in our annual progress reports on accessibility and accessibility plans.</p>
   
   <h2>Acknowledgement</h2>
- If you make comments through the online questionnaire, you will receive an automatic confirmation that we received them.If you submit comments through other means, youwill receive an acknowledgement and response by the same means of communications used to communicate with us.Our acknowledgment message will confirm that we have received comments, include our service standard for replying to comments and explain that more complex issues will take more time to solve.
+ <p>If you make comments through the online questionnaire, you will receive an automatic confirmation that we received them.</p>
+ <p>If you submit comments through other means, you will receive an acknowledgement and response by the same means of communications used to communicate with us.</p>
+ <p>Our acknowledgment message will confirm that we have received comments, include our service standard for replying to comments and explain that more complex issues will take more time to solve.</p>
 
 
