@@ -1,3 +1,9 @@
+.form_show {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
 input[type="radio"]:checked ~ .form_show,
 input[type="checkbox"]:checked ~ .form_show {
   opacity: 1;
