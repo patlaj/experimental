@@ -68,6 +68,7 @@
 		
         <div class="wb-frmvld">
 	<form action="#" method="get" id="validation-example">
+		<div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true}'>
 		<fieldset class="chkbxrdio-grp">
 			<legend class="required"><span class="field-name">What do you want to provide feedback on?</span> <strong class="required">(required)</strong></legend>
 			<div class="radio">
@@ -76,13 +77,20 @@
 			<div class="radio">
 				<label for="feedback_type2"><input type="radio" name="feedback_type" value="feedback_type2" id="feedback_type2" /> Canadian Heritage Accessibility Plan 2023-2025</label>
 			</div>
-			<div class="radio">
+			<div class="radio" data-wb-fieldflow='{"action": "toggle", "toggle": "#feedback_type_other", "live": true}'>
 				<label for="feedback_type3"><input type="radio" name="feedback_type" value="feedback_type3" id="feedback_type3" /> Other</label>
 			</div>
 		</fieldset>
-        
+		</div>
 			
-			
+
+	<div id="feedback_type_other" class="well hidden">
+		<p>This is third <code>@id=toggle-third</code></p>
+	</div>
+
+	
+
+</form></div>		
 			
 			
 			
