@@ -36,6 +36,35 @@
 				"cdnEnv": "esdcprod"
 			}));
 		</script>
+		<script>
+			var FormStuff = {
+  
+  init: function() {
+    this.applyConditionalRequired();
+    this.bindUIActions();
+  },
+  
+  bindUIActions: function() {
+    $("input[type='radio'], input[type='checkbox']").on("change", this.applyConditionalRequired);
+  },
+  
+  applyConditionalRequired: function() {
+  	
+    $(".require-if-active").each(function() {
+      var el = $(this);
+      if ($(el.data("require-pair")).is(":checked")) {
+        el.prop("required", true);
+      } else {
+        el.prop("required", false);
+      }
+    });
+    
+  }
+  
+};
+
+FormStuff.init();
+			</script>
 		<link rel="stylesheet" href="https://design.canada.ca/css/split-h1.css" />
 		<link rel="stylesheet" href="https://design.canada.ca/css/custom.css" />
 		<link rel="stylesheet" href="/experimental/prycrane/accessibility/css/reveal.css" />
@@ -81,6 +110,14 @@
 			<div class="radio">
 				<label for="feedback_type3"><input type="radio" name="feedback_type" value="feedback_type3" id="feedback_type3" /> Other</label>
 			</div>
+			
+			
+		<div class="form_show">
+  Anything you want in here.
+</div>	
+			
+			
+			
 		</fieldset>
 	
 	
