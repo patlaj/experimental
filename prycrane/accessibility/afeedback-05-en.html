@@ -36,35 +36,40 @@
 				"cdnEnv": "esdcprod"
 			}));
 		</script>
-		<script>
-			var FormStuff = {
-  
-  init: function() {
-    this.applyConditionalRequired();
-    this.bindUIActions();
-  },
-  
-  bindUIActions: function() {
-    $("input[type='radio'], input[type='checkbox']").on("change", this.applyConditionalRequired);
-  },
-  
-  applyConditionalRequired: function() {
-  	
-    $(".require-if-active").each(function() {
-      var el = $(this);
-      if ($(el.data("require-pair")).is(":checked")) {
-        el.prop("required", true);
-      } else {
-        el.prop("required", false);
-      }
+		
+<style>
+.myDiv{
+	display:none;
+}  
+#showOne{
+	color:red;
+    border:1px solid red;
+    padding:10px;
+}
+#showTwo{
+	color:green;
+    border:1px solid green;
+    padding:10px;
+}
+#showThree{
+	color:blue;
+    border:1px solid blue;
+    padding:10px;
+}
+</style>
+<script>
+$(document).ready(function(){
+    $('input[type="radio"]').click(function(){
+    	var demovalue = $(this).val(); 
+        $("div.myDiv").hide();
+        $("#show"+demovalue).show();
     });
-    
-  }
-  
-};
-
-FormStuff.init();
-			</script>
+});
+</script>		
+		
+		
+		
+		
 		<link rel="stylesheet" href="https://design.canada.ca/css/split-h1.css" />
 		<link rel="stylesheet" href="https://design.canada.ca/css/custom.css" />
 		<link rel="stylesheet" href="/experimental/prycrane/accessibility/css/reveal.css" />
@@ -120,7 +125,39 @@ FormStuff.init();
 			
 		</fieldset>
 	
-	
+	<input type="radio" name="demo" value="One"/> Subscriber Login
+<input type="radio" name="demo" value="Two"/> Employee Login
+<input type="radio" name="demo" value="Three"/> Manager Login
+<div id="showOne" class="myDiv">
+	<strong>Subscriber Login Form</strong>
+	<form id="MyForm" action="" method="post">
+  		<label>Enter Name</label>
+		<input type="text" name="name" placeholder="Enter your name"/><br>
+  		<label>Enter Email</label>
+		<input type="email" name="email" placeholder="Enter your email"/><br>
+  		<input type="button" class="btn btn-default" name="submit" value="Submit"/>
+	</form>
+</div>
+<div id="showTwo" class="myDiv">
+  	<strong>Employee Login Form</strong>
+	<form id="MyForm" action="" method="post">
+  		<label>Enter Name</label>
+		<input type="text" name="name" placeholder="Enter your name"/><br>
+  		<label>Enter Email</label>
+		<input type="email" name="email" placeholder="Enter your email"/><br>
+  		<input type="button" class="btn btn-default" name="submit" value="Submit"/>
+	</form>
+</div>
+<div id="showThree" class="myDiv">
+  	<strong>Manager Login Form</strong>
+	<form id="MyForm" action="" method="post">
+  		<label>Enter Name</label>
+		<input type="text" name="name" placeholder="Enter your name"/><br>
+  		<label>Enter Email</label>
+		<input type="email" name="email" placeholder="Enter your email"/><br>
+  		<input type="button" class="btn btn-default" name="submit" value="Submit"/>
+	</form>
+</div>
 		
 		
 		
@@ -132,46 +169,8 @@ FormStuff.init();
 
 </form></div>		
 			
-<form method="post" action="#">
-  
-  <h4>Which do you like more?</h4>
-  <div>
-    <div>
-      <input type="radio" name="choice-animals" id="choice-animals-dogs" required>
-      <label for="choice-animals-dogs">I like dogs more</label>
-    
-      <div class="reveal-if-active">
-        <label for="which-dog">Good call. What's the name of your favorite dog?</label>
-        <input type="text" id="which-dog" name="which-dog" class="require-if-active" data-require-pair="#choice-animals-dogs">
-      </div>
-    </div>
-    
-    <div>
-      <input type="radio" name="choice-animals" id="choice-animals-cats">
-      <label for="choice-animals-cats">I like cats more</label>
-    
-      <div class="reveal-if-active">
-        <label for="which-cat">Why? Cats are weird. Respond.</label>
-        <input type="text" id="which-cat" name="which-cat" class="require-if-active" data-require-pair="#choice-animals-cats">
-      </div>
-    </div>
-  </div>
-  
-  <h4>Would you like a dollar?</h4>
-  <div>
-    <input type="checkbox" name="choice-dollar" id="choice-dollar">
-    <label for="choice-dollar">Sure.</label>
 
-    <div class="reveal-if-active">
-      Wouldn't we all.
-    </div>
-  </div>
-  
-  <div>
-    <input type="submit" value="Submit">
-  </div>
-      
-</form>			
+				
 			
 			
 		<ul class="list-inline mrgn-tp-lg">
