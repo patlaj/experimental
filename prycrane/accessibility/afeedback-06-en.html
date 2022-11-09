@@ -3,6 +3,7 @@ altLangPage: afeedback-04-form-fr.html
 auth: 
   - type: contextual
 breadcrumbs: false
+lang: en
 css:
   - ../../design-system/css/split-h1.css
   - ../../design-system/css/custom.css
@@ -106,3 +107,24 @@ title: Accessibility feedback form
     <input class="btn btn-primary btn-lg mrgn-bttm-md" type="submit" value="Submit feedback" />
  </form>
 </div>
+
+<hr>
+
+<div class="wb-frmvld"><form method="get">
+	<div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true, "renderas":"radio"}'>
+		<p>What do you want to provide feedback on?</p>
+		<ul>
+			<li>Accessibility barrier</li>
+			<li>Canadian Heritage Accessibility Plan 2023-2025</li>
+			<li data-wb-fieldflow='{"action": "toggle", "toggle": "#feedback_type_other", "live": true}'>Other</li>
+		</ul>
+	</div>
+
+	<div id="feedback_type_other" class="well hidden">
+		  <label for other>Please specify</label>
+        <textarea name="other"></textarea>
+	</div>
+
+    <input class="btn btn-default btn-lg mrgn-bttm-md" type="button" value="Cancel" />
+    <input class="btn btn-primary btn-lg mrgn-bttm-md" type="submit" value="Submit feedback" />
+</form></div>
