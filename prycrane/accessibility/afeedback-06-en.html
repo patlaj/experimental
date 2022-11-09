@@ -1,0 +1,31 @@
+---
+altLangPage: afeedback-04-form-fr.html
+breadcrumbs: false
+css:
+  - ../../design-system/css/split-h1.css
+  - ../../design-system/css/css/custom.css
+  - https://use.fontawesome.com/releases/v5.15.4/css/all.css
+layout: default
+title: Accessibility feedback form
+---
+<div class="wb-frmvld">
+  <form>
+    <div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true, "renderas":"checkbox", "gcChckbxrdio":true}'>
+    	<p>What do you want to provide feedback on? <strong class="required">(required)</strong></p>
+      <ul>
+        <li data-wb-fieldflow="ajax/ajax-1.html">Accessibility barrier</li>
+        <li data-wb-fieldflow="ajax/ajax-2.html">Canadian Heritage Accessibility Plan 2023-2025</li>
+        <li data-wb-fieldflow='[
+                               {"action": "toggle",
+                               "toggle": "#other"}
+                               ]'>Other</li>
+      </ul>
+      <div id-"other" class="hidden">
+        <label for other>Please specify</label>
+        <textarea name="other"></textarea>
+      </div>
+    </div>
+    <input class="btn btn-default btn-lg mrgn-bttm-md" type="button" value="Cancel" />
+    <input class="btn btn-primary btn-lg mrgn-bttm-md" type="submit" value="Submit feedback" />
+ </form>
+</div>
