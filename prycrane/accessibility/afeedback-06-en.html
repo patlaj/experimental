@@ -10,15 +10,16 @@ title: Accessibility feedback form
 ---
 <div class="wb-frmvld">
   <form>
-    <div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true, "renderas":"checkbox", "gcChckbxrdio":true}'>
+    <div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true, "renderas":"radio", "gcChckbxrdio":true}'>
     	<p>What do you want to provide feedback on? <strong class="required">(required)</strong></p>
       <ul>
-        <li data-wb-fieldflow="ajax/ajax-1.html">Accessibility barrier</li>
-        <li data-wb-fieldflow="ajax/ajax-2.html">Canadian Heritage Accessibility Plan 2023-2025</li>
-        <li data-wb-fieldflow='[
+        <li>Accessibility barrier</li>
+        <li>Canadian Heritage Accessibility Plan 2023-2025</li>
+        <li data-wb-fieldflow='
                                {"action": "toggle",
-                               "toggle": "#other"}
-                               ]'>Other</li>
+                               "toggle": "#other",
+                               "live":true}
+                               '>Other</li>
       </ul>
       <div id="other" class="hidden">
         <label for other>Please specify</label>
