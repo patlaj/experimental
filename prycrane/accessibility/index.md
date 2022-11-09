@@ -48,7 +48,7 @@ dateModified: 2022-10-24
 		
 		</li>	
 		
-		<ul>
+		</ul>
 	
 	
 	
