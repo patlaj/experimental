@@ -29,7 +29,31 @@ dateModified: 2022-10-24
 <ul>
  <li><strong>Accessibilty Feedback form</strong> (Monday: <a href="https://scma-dto.monday.com/boards/2632043469/pulses/3478278191" class="">Accessibility feedback form mockup</a>)
 <ul>
-  <li><a href="afeedback-01-en.html">Start</a></li>	
+  <li><a href="afeedback-01-en.html">Accessibilty landing page</a> (ESDC example)
+	
+	<ul>
+		<li><a href="afeedback-03-en.html">Accessibility feedback</a></li>
+  <li><a href="afeedback-02-en.html">Accessibility feedback process</a>
+		
+		<ul>
+			
+			<li><a href="afeedback-04-en.html">Accessibility feedback form privacy statement</a></li>
+			<li><a href="afeedback-05-en.html">Accessibility feedback form</a> (pop data)</li>
+			<li><a href="afeedback-07-en.html">Accessibility feedback form</a> (all exposed)</li>
+	  </ul>
+		
+		
+		
+		
+		
+		</li>	
+		
+		<ul>
+	
+	
+	
+	
+	</li>	
  </ul>  
 </li>	
   <li class="mrgn-tp-lg"><strong>Accessibilty landing page</strong> (Monday: <a href="https://scma-dto.monday.com/boards/2632043469/pulses/3416932460" class="">Accessibility landing page mockup</a>)
