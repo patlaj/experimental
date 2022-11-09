@@ -3,6 +3,7 @@ css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
 - /experimental/prycrane/accessibility/css/themeandtopic.css
+- https://use.fontawesome.com/releases/v5.15.4/css/all.css
 layout: without-h1
 lang: en
 title: Accessibility mockups
