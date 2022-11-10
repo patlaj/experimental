@@ -3,7 +3,9 @@ css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
-layout: default
+layout: 
+- default
+- without-h1
 nomenu: true
 nositesearch: true
 pageclass: cnt-wdth-lmtd
