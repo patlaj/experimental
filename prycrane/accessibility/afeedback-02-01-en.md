@@ -28,6 +28,15 @@ dateModified: 2022-11-07
            <li>reflect on our organization’s accessibility strategy</li>  
            <li>be accountable for our current and future actions</li>
         </ul>
+			
+		<p>Short description of the institution’s mandate.</p>
+							<a class="provisional btn btn-call-to-action" href="#">Super task button [optional]</a>		
+			
+			
+			
+			
+			
+			
 		</div>
 	</div>
 </div>
