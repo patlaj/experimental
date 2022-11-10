@@ -29,7 +29,7 @@ dateModified: 2022-11-07
            <li>be accountable for our current and future actions</li>
         </ul>
 
-	<div><a class="provisional btn btn-call-to-action" href="#">Accessibility feedback form</a></div>		
+	<div><a class="provisional btn btn-call-to-action" href="afeedback-02-02-en.html">Accessibility feedback form</a></div>		
 			
 			
 			
@@ -53,7 +53,7 @@ dateModified: 2022-11-07
         </div>
         <div class="col-lg-4 col-md-6">
           <h3><a href="afeedback-02-en.html">Ways to provide feedback</a></h3>
-          <p>Find the ways you can provide feedback about any accessibility issue</p>
+          <p>Find to provide feedback about any accessibility issue</p>
         </div>
         <div class="col-lg-4 col-md-6">
           <h3><a href="afeedback-03-en.html">Accessibility feedback process</a></h3>
