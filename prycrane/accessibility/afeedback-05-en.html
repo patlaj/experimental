@@ -67,7 +67,33 @@
       <div class="wb-frmvld">
         <form action="#" method="get" id="validation-example">
           <fieldset class="chkbxrdio-grp">
-            <legend class="required"><span class="field-name">1. What do you want to provide feedback on?</span> <strong class="required">(required)</strong></legend>
+	   <legend class="required"><span class="field-name">1. What do you want to provide feedback on?</span> <strong class="required">(required)</strong></legend>	  
+<div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true, "renderas":"radio"}'>
+		<p>What do you want to provide feedback on?</p>
+		<ul>
+			<li class="gcChckbxrdio"> <label for="feedback_type1">
+                <input type="radio" name="feedback_type" value="feedback_type1" id="feedback_type1" data-rule-required="true" />
+                Accessibility barrier</label>
+            </div></li>
+			<li class="gcChckbxrdio"> <label for="feedback_type2">
+                <input type="radio" name="feedback_type" value="feedback_type2" id="feedback_type2" />
+                Canadian Heritage Accessibility Plan 2023-2025</label>
+            </div></li>
+			<li data-wb-fieldflow='{"action": "toggle", "toggle": "#feedback_type_other", "live": true, "gcChckbxrdio":true}'>Other</li>
+		</ul>
+	</div>
+
+	<div id="feedback_type_other" class="well hidden">
+		  <label for other>Please specify</label>
+        <textarea name="other"></textarea>
+	</div>		  
+		  
+		  
+		  
+		  
+		  
+		  
+     <!--       <legend class="required"><span class="field-name">1. What do you want to provide feedback on?</span> <strong class="required">(required)</strong></legend>
             <div class="radio">
               <label for="feedback_type1">
                 <input type="radio" name="feedback_type" value="feedback_type1" id="feedback_type1" data-rule-required="true" />
@@ -89,7 +115,7 @@
               <label for="feedback_type3_desc"><span class="field-name">Describe "other" item you want to provide feedback on</span></label>
               <input class="form-control full-width" id="feedback_type3_desc" name="feedback_type3_desc" type="text" />
             </div>
-          </div>
+          </div>-->
           <fieldset class="chkbxrdio-grp">
             <legend class="required"><span class="field-name">2. Select all the areas that are relevant to your comments</span> <strong class="required">(required)</strong></legend>
             <ul class="form-group list-unstyled">
