@@ -125,19 +125,15 @@
 	    Your email address will not be shared.  Do you want to provide your email address?  Your email address will not be shared.</p>
 
       <ul>
-        <li data-wb-fieldflow='{"action": "query", "name": "feedback_type", "value": "feedback_type1"}'>Accessibility barrier</li>
-        <li data-wb-fieldflow='{"action": "query", "name": "feedback_type", "value": "feedback_type2"}' >Canadian Heritage Accessibility Plan 2023-2025</li>
+        <li data-wb-fieldflow='{"action": "query", "name": "feedback_type", "value": "feedback_type1"}'><strong>No</strong>, I Want to remain <strong>fully anonymous</strong></li>
         <li data-wb-fieldflow='[
-                                {"action": "toggle", "toggle": "#feedback_type_other", "live":true },
+                                {"action": "toggle", "toggle": "#email_request_other", "live":true },
                                 {"action": "query", "name": "feedback_type", "value": "feedback_type3" }
                                ]'>Other item</li>
       </ul>
  </div>
-    <div id="feedback_type_other" class="hidden">
-      <div class="form-group">
-        <label for="feedback_type3_desc"><span class="field-name">Describe "Other item" you want to provide feedback on</span></label>
-        <input class="form-control full-width" id="feedback_type3_desc" name="feedback_type3_desc" type="text" />
-      </div>
+    <div id="email_request_other" class="hidden">
+    <p>hi1</p>
     </div>		
 		
 	
@@ -153,7 +149,7 @@
                                ]'><strong>Yes</strong>, I’m comfortable providing my email.</li>
       </ul>
  </div>
-    <div id="email_request_other" class="hidden">
+    <div id="email_request_othera" class="hidden">
        <div class="form-group">
               <label for="email1"><span class="field-name">Email address</span> (yourname@domain.com)</label>
               <input class="form-control" id="email1" name="email1" type="email" autocomplete="email" />
