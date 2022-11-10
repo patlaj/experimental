@@ -119,7 +119,7 @@
           </div>
 <div class="alert alert-warning mrgn-tp-lg">
    <p>To receive a <strong>follow-up to your feedback</strong> or to <strong>subscribe to our newsletter</strong> that will give you access to future 
-      consultation plans we will need your <strong>email address</strong>.  Your email address will not be shared.1</p>
+      consultation plans we will need your <strong>email address</strong>.  Your email address will not be shared.2</p>
 </div>
 		
 	<div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true, "renderas":"radio", "gcChckbxrdio":true}'>
@@ -134,21 +134,34 @@
       </ul>
  </div>
     <div id="email_request_other" class="hidden">
-    <p>hi1</p>
+   <div class="form-group">
+              <label for="email1"><span class="field-name">Email address</span> (yourname@domain.com)</label>
+              <input class="form-control" id="email1" name="email1" type="email" autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <div class="checkbox checkbox-standalone">
+                <label for="followup">
+                  <input id="followup" name="followup" type="checkbox">
+                  <span class="field-name">I would like to be contacted for follow-up.</span></label>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="checkbox checkbox-standalone">
+                <label for="newsletter">
+                  <input id="newsletter" name="newsletter" type="checkbox">
+                  <span class="field-name">I would like to subscribe to your newsletter 
+                  and be consulted on Canadian Heritage accessibility plans, reports and other 
+	          initiatives related to accessibility and disability inclusion in the future.</span><strong class="required">(required)</strong></label>
+              </div>
+            </div>
     </div>		
 		
-		<!--<div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true, "renderas":"radio", "gcChckbxrdio":true}'>
-    	 <p>1. What do you want to provide feedback on?</p>
-
-      <ul>
-        <li data-wb-fieldflow='{"action": "query", "name": "feedback_type", "value": "feedback_type1"}'>Accessibility barrier</li>
-        <li data-wb-fieldflow='{"action": "query", "name": "feedback_type", "value": "feedback_type2"}' >Canadian Heritage Accessibility Plan 2023-2025</li>
-        <li data-wb-fieldflow='[
-                                {"action": "toggle", "toggle": "#feedback_type_other", "live":true },
-                                {"action": "query", "name": "feedback_type", "value": "feedback_type3" }
-                               ]'>Other item</li>
-      </ul>
- </div>	-->
+	
+		
+		
+		
+		
+		
 		
 		
 		
