@@ -66,8 +66,10 @@
     <div class="col-md-8">
       <div class="wb-frmvld">
         <form action="#" method="get" id="accessibility_feedback">
+		<fieldset class="chkbxrdio-grp">
          <div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true, "renderas":"radio", "gcChckbxrdio":true}'>
-    	<p>1.What do you want to provide feedback on?</p>
+    	 <legend class="required"><span class="field-name">1. What do you want to provide feedback on?</span></legend>
+            <div class="radio">
       <ul>
         <li data-wb-fieldflow='{"action": "query", "name": "feedback_type", "value": "feedback_type1"}'>Accessibility barrier</li>
         <li data-wb-fieldflow='{"action": "query", "name": "feedback_type", "value": "feedback_type2"}' >Canadian Heritage Accessibility Plan 2023-2025</li>
@@ -83,7 +85,7 @@
         <input class="form-control full-width" id="feedback_type3_desc" name="feedback_type3_desc" type="text" />
       </div>
     </div>
-	    
+		 </fieldset> 
 
           <fieldset class="chkbxrdio-grp">
             <legend class="required"><span class="field-name">2. Select all the areas that are relevant to your comments</span> <strong class="required">(required)</strong></legend>
