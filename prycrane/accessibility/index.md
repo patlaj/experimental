@@ -33,8 +33,8 @@ dateModified: 2022-10-24
     <li><a href="afeedback-02-01-en.html">Accessibilty landing page</a> (Second iteration)
         <ul>
           <li><a href="afeedback-02-02-en.html">Accessibilty feedback form</a> - alert before input</li>
-          <li><a href="afeedback-02-02b-en.html">Accessibilty feedback form</a> - alert after input</li>
-          <li><a href="afeedback-02-05-en.html">Accessibility feedback form acknowledgement</a></li>
+          <li><a href="afeedback-02-02b-en.html">Accessibilty feedback form</a> - alert after input
+          <ul><li><a href="afeedback-02-05-en.html">Accessibility feedback form acknowledgement</a></li></ul></li>
       </ul>
             </li>  
                 <li><a href="afeedback-02-03-en.html">Ways to provide feedback</a></li>
