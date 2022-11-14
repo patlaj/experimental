@@ -27,7 +27,8 @@ dateModified: 2022-11-14
 <p>With the exception of anonymous feedback using the online form, we will acknowledge the receipt of all accessibility feedback.</p>
 <h2>Alternate formats</h2>
 
-<p>Large print, print, braille, MP3 (audio), e-text and DAISY formats of this feedback process description are available on demand. You can <a href="https://www.canada.ca/en/employment-social-development/corporate/reports/order-publication.html">order online</a> or call1 800 O-Canada (1-800-622-6232). If you use a teletypewriter (TTY), call 1-800-926-9105.</p>
+<p>Large print, print, braille, MP3 (audio), e-text and DAISY formats of this feedback process description are available on demand.</p> 
+<p>You can <a href="https://www.canada.ca/en/employment-social-development/corporate/reports/order-publication.html">order online</a> or call1 800 O-Canada (1-800-622-6232). If you use a teletypewriter (TTY), call 1-800-926-9105.</p>
 
 
 
