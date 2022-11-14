@@ -16,21 +16,40 @@ lang: en
 share: True
 title: Accessibility feedback process
 description: 
-  en: Accessibility feedback process 
+  en: How you can provide feedback on accessibility issues, providing feedback anonymously and what [institution name] will do with your feedback. 
 dateModified: 2022-11-14
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility feedback process</span>: <span>Employment and Social Development Canada (ESDC)</span></span></h1>
-<p>Our accessibility feedback process, including anonymous feedback and what [institution name] will do with your feedback.
-</p>	
+<p>How you can provide feedback on accessibility issues, providing feedback anonymously and what [institution name] will do with your feedback.</p>	
 <h2>On this page</h2>
 <ul>
+	<li><a href="#ways">Ways to provide feedback</a></li>
+	<li><a href="#alternate">Alternate formats</a></li>
 	<li><a href="#anonymous">Anonymous feedback</a></li>
-	<li><a href="#submit">What feedback can you submit?</a></li>
+	<li><a href="#feedback">Provide feedback</a></li>	
 	<li><a href="#what">What we will do with your feedback</a></li>
 </ul>
+<h2 id="ways">Ways to provide feedback</h2>
+<p>To provide feedback on accessibility, you can use:</p>
+<ul>
+	<li>the <a href="afeedback-03-03-en.html">Accessibilty feedback form</a></p>
+	<li>Video Relay Services (American Sign Language or Langue des signes québécoise)<.li>
+	<li>TTY at: 1-888-997-3123</li>
+<ul>
+	<p>You can also contact Canadian Heritage’s Accessibility Office’s Engagement Analyst by:</p>
+<ul>
+	<li>Email: <a href="maito;accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a></li>
+	<li>Phone: <a href="tel:1-866-811-0055">1-866-811-0055</a></li>
+	<li>Mail: 15 Eddy Street, Gatineau, QC K1A 0M5</li>
+<ul>
+<p>If you require any additional tool to provide feedback, you can email <a href="maito;accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a> or call us at <a href="tel:1-866-811-0055">1-866-811-0055</a>.</p>
+
+<h2 id="alternate">Alternate formats</h2>
 
 
-<h2 id="anonymous">Anonymous feedback</h2>
+
+
+
 
 <p>You can provide feedback and remain fully anonymous if you use the online questionnaire, the phone or VRS. To ensure anonymity, do not state your name or provide any identifying information.</p>
 <p>If you are using an email address that includes your name and want to remain anonymous, <strong>state that you would like your feedback to remain anonymous</strong>. That way, we will not identify you with your feedback with anyone beyond PCH’s Accessibility Office.</p>
