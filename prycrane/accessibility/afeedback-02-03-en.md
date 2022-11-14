@@ -33,6 +33,7 @@ dateModified: 2022-11-14
 	<li>large print</li>	
 	<li>braille</li>
 	<li>MP3 (audio)</li>
+	<li>VRS services (ASL or LSQ)</li>
         <li>e-text</li>
 	<li>DAISY</li>
 </ul>		
