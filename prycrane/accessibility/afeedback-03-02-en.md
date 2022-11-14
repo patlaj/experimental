@@ -32,8 +32,8 @@ dateModified: 2022-11-14
 <h2 id="ways">Ways to provide feedback</h2>
 <p>To provide feedback on accessibility, you can use:</p>
 <ul>
-	<li>the <a href="afeedback-03-03-en.html">Accessibilty feedback form</a></p>
-	<li>Video Relay Services (American Sign Language or Langue des signes québécoise)<.li>
+	<li>the <a href="afeedback-03-03-en.html">Accessibilty feedback form</a></li>
+	<li>Video Relay Services (American Sign Language or Langue des signes québécoise)</li>
 	<li>TTY at: 1-888-997-3123</li>
 <ul>
 	<p>You can also contact Canadian Heritage’s Accessibility Office’s Engagement Analyst by:</p>
