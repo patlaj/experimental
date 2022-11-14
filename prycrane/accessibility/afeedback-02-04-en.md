@@ -20,8 +20,17 @@ description:
 dateModified: 2022-11-14
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility feedback process</span>: <span>Employment and Social Development Canada (ESDC)</span></span></h1>
-<p>At Employment and Social Development Canada (ESDC), we commit to offering you accessible information and services.</p>	
-<h2>Anonymous feedback</h2>
+<p>Our accessibility feedback process, including anonymous feedback and what [institution name] will do with your feedback.
+</p>	
+<h2>On this page</h2>
+<ul>
+	<li><a href="#anonymous">Anonymous feedback</a></li>
+	<li><a href="#submit">What feedback can you submit?</a></li>
+	<li><a href="#what">What we will do with your feedback</a></li>
+</ul>
+
+
+<h2 id="anonymous">Anonymous feedback</h2>
 
 <p>You can provide feedback and remain fully anonymous if you use the online questionnaire, the phone or VRS. To ensure anonymity, do not state your name or provide any identifying information.</p>
 <p>If you are using an email address that includes your name and want to remain anonymous, <strong>state that you would like your feedback to remain anonymous</strong>. That way, we will not identify you with your feedback with anyone beyond PCH’s Accessibility Office.</p>
@@ -29,7 +38,7 @@ dateModified: 2022-11-14
   
 <p>Please note that all feedback will be anonymized when we report publiclyon all feedback.</p>
 			
-<h2>What feedback can you submit?</h2>
+<h2 id="submit">What feedback can you submit?</h2>
 <p>You can submit feedback on the ESDC Accessibility Planor the barriers you experience when dealing with ESDC.</p>
 <p>The <a href="https://www.laws-lois.justice.gc.ca/eng/acts/A-0.6/">Accessible Canada Act</a> defines a barrier as:</p>
 
@@ -47,7 +56,7 @@ dateModified: 2022-11-14
 	<li>websites</li>
 	</ul>
 	
-<h2>What we will do with your feedback<h2>
+<h2 id="what">What we will do with your feedback<h2>
 <p>We will use your feedback to advance our accessibility efforts. Some feedback may be addressed right away, and some may be addressed in the development of our future accessibility plans. The feedback we receive and how we take it into consideration will be included in our progress reports, published in the years between accessibility plans.</p>
 <h3>Acknowledging your feedback</h3>
 <p>If you make comments through the online questionnaire, you will receive an automatic confirmation that we received them.
