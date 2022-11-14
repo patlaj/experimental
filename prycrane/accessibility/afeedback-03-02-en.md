@@ -44,7 +44,6 @@ dateModified: 2022-11-14
 	<li>Mail: 15 Eddy Street, Gatineau, QC K1A 0M5</li>
 </ul>
 <p>If you require any additional tool to provide feedback, you can email <a href="maito;accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a> or call us at <a href="tel:1-866-811-0055">1-866-811-0055</a>.</p>
-
 <h2 id="alternate">Alternate formats</h2>
 <p>You can request the following versions of this description of the feedback process:</p>
 <ul>
