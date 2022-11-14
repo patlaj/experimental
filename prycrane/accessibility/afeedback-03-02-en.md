@@ -46,7 +46,7 @@ dateModified: 2022-11-14
 <p>If you require any additional tool to provide feedback, you can email <a href="maito;accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a> or call us at <a href="tel:1-866-811-0055">1-866-811-0055</a>.</p>
 
 <h2 id="alternate">Alternate formats</h2>
-	<p>You can request the following versions of this description of the feedback process:</p>
+<p>You can request the following versions of this description of the feedback process:</p>
 <ul>
 	<li>Print</li>
 	<li>Large print (larger and clearer font)</li>
@@ -54,9 +54,7 @@ dateModified: 2022-11-14
 	<li>Audio (a recording of someone reading the text out loud)</li>
 <ul>
 <p>If you require any other format, you can email <a href="maito;accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a> or call us at <a href="tel:1-866-811-0055">1-866-811-0055</a>.</p>
-	<h2 id="anonymous">Anonymous feedback</h2>
-
-	
+<h2 id="anonymous">Anonymous feedback</h2>
 <p>You can provide feedback and remain fully anonymous if you use the online questionnaire, the phone or VRS. To ensure anonymity, do not state your name or provide any identifying information.</p>
 <p>If you are using an email address that includes your name and want to remain anonymous, <strong>state that you would like your feedback to remain anonymous</strong>. That way, we will not identify you with your feedback with anyone beyond PCH’s Accessibility Office</p>.
 <p>For physical mail, if you would like to remain fully anonymous, please <strong>do not include your return address</strong> on the envelope. If you would like to receive an acknowledgement with a response regarding your feedback, please let us know within your feedback that you would like to remain anonymous but receive a response back.  We will not identify you with your feedback for anyone beyond the Accessibility Office.</p>
