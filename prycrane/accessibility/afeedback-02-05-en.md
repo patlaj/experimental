@@ -26,7 +26,9 @@ dateModified: 2022-11-14
 <p>[email provided]</p>
 <p>Thank you for submitting accessibility feedback.  You can expect to receive feedback at your email address in 1 to 2 weeks.</p>   
 
-
+   <ul class="list-inline mrgn-tp-lg">
+        <li><a href="afeedback-02-01-en.html" type="button" class="btn btn-primary btn-lg">Return to accessibility</a></li>
+      </ul>
 
 
 
