@@ -21,17 +21,16 @@ dateModified: 2022-11-14
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Ways to provide feedback</span>: <span>Employment and Social Development Canada (ESDC)</span></span></h1>
 
-<p>There are various way you can submit your feedback. If you want to submit anonymous feedback, please use our <a href="afeedback-02-02-en.html">online form</a>.</p>
+<p>There are various way you can submit your feedback. Use our online form to submit anonymous feedback.</p>
+
+<div><a class="provisional btn btn-call-to-action" href="afeedback-02-02-en.html">Accessibility feedback form</a></div>	
 <p>With the exception of anonymous feedback using the online form, we will acknowledge the receipt of all accessibility feedback.</p>
 <h2>Alternate formats</h2>
 
 <p>Large print, print, braille, MP3 (audio), e-text and DAISY formats of this feedback process description are available on demand. You can <a href="https://www.canada.ca/en/employment-social-development/corporate/reports/order-publication.html">order online</a> or call1 800 O-Canada (1-800-622-6232). If you use a teletypewriter (TTY), call 1-800-926-9105.</p>
 
 
-<h2>Online</h2>
 
-<p>Submit your feedback using our online form</p>
-<div><a class="provisional btn btn-call-to-action" href="afeedback-02-02-en.html">Accessibility feedback form</a></div>		
 <h2>Email</h2>
 <ul>
 	<li><a href="mailto:EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.ca">EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.ca</a></li>
