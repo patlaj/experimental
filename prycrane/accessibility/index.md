@@ -32,14 +32,8 @@ dateModified: 2022-10-24
     <ul>
     <li><a href="afeedback-02-01-en.html">Accessibilty landing page</a> (ESDC example)
         <ul>
-          <li><a href="afeedback-03-en.html">Accessibility feedback</a></li>
-          <li><a href="afeedback-02-en.html">Accessibility feedback process</a>
-            <ul>
-              <li><a href="afeedback-04-en.html">Accessibility feedback form privacy statement</a></li>
-              <li><a href="afeedback-05-en.html">Accessibility feedback form</a> (pop data)</li>
-              <li><a href="afeedback-07-en.html">Accessibility feedback form</a> (all exposed) <span class="far fa-thumbs-down"></span> No good</li>
-            </ul>
-          </li>
+          <li><a href="afeedback-02-01-en.html">Accessibilty feedback form</a></li>
+          <li><a href="afeedback-02-03-en.html">Ways to provide feedback</a></li>
         </ul>
       </li>   
       <li class="mrgn-tp-lg"><a href="afeedback-01-en.html">Accessibilty landing page</a> (ESDC example)
