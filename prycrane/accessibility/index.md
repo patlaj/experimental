@@ -32,7 +32,7 @@ dateModified: 2022-10-24
     <ul>
     <li><a href="afeedback-02-01-en.html">Accessibilty landing page</a> (ESDC example)
         <ul>
-          <li><a href="afeedback-02-01-en.html">Accessibilty feedback form</a></li>
+          <li><a href="afeedback-02-02-en.html">Accessibilty feedback form</a></li>
           <li><a href="afeedback-02-03-en.html">Ways to provide feedback</a></li>
         </ul>
       </li>   
