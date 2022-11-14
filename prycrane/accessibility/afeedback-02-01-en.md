@@ -52,11 +52,11 @@ dateModified: 2022-11-07
           <p>Policies, programs, practices, and services that help our organization contribute to the goal of an accessible and barrier-free Canada</p>
         </div>
         <div class="col-lg-4 col-md-6">
-          <h3><a href="afeedback-02-en.html">Ways to provide feedback</a></h3>
+          <h3><a href="afeedback-02-03-en.html">Ways to provide feedback</a></h3>
           <p>Find to provide feedback about any accessibility issue</p>
         </div>
         <div class="col-lg-4 col-md-6">
-          <h3><a href="afeedback-03-en.html">Accessibility feedback process</a></h3>
+          <h3><a href="afeedback-02-04-en.html">Accessibility feedback process</a></h3>
           <p>Description of how we receive and respond to your feedback on accessibility issues</p>
         </div>
       </div>
