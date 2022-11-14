@@ -49,7 +49,7 @@ dateModified: 2022-11-14
 <h2>Telephone</h2>
 <ul>
 	<li>1-866-506-6806 (toll-free and video relay service)</li>
-	<li>1 800-465-7735(toll-free teletypewriter)</li>
+	<li>1 800-465-7735 (toll-free teletypewriter)</li>
 </ul>
 <h2>Mail</h2>
 <p>Centre of Expertise for Accessible Client Service<br />
