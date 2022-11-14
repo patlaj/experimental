@@ -31,7 +31,7 @@ dateModified: 2022-11-14
 <h2>Online</h2>
 
 <p>Submit your feedback using our online form</p>
-<p><a href="afeedback-04-en.html" type="button" class="btn btn-primary">Accessibility feedback form</a></p>
+<div><a class="provisional btn btn-call-to-action" href="afeedback-02-02-en.html">Accessibility feedback form</a></div>		
 <h2>Email</h2>
 <ul>
 	<li><a href="mailto:EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.ca">EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.ca</a></li>
