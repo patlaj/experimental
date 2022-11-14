@@ -23,11 +23,11 @@ dateModified: 2022-11-14
 
 <p>You can submit accesiblity feedback in the following ways.  We will acknowledge the receipt of accessibility feedback in all cases except when you choose to provide <strong>fully anonymous</strong> feedback using the online form.</p>
 <ul>
-	<li><a href="#online">Online form</a><li>
-	<li><a href="#alternate">Alternate formats</a><li>
-	<li><a href="#email">Email</a><li>
-	<li><a href="#telephone">Telephone</a><li>
-	<li><a href="#mail">Mail</a><li>
+	<li><a href="#online">Online form</a></li>
+	<li><a href="#alternate">Alternate formats</a></li>
+	<li><a href="#email">Email</a></li>
+	<li><a href="#telephone">Telephone</a></li>
+	<li><a href="#mail">Mail</a></li>
 </ul>
 
 <h2 id="online">Online form</h2>
