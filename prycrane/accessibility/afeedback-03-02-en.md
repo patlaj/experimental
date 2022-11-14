@@ -55,33 +55,27 @@ dateModified: 2022-11-14
 <p>If you require any other format, you can email <a href="maito;accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a> or call us at <a href="tel:1-866-811-0055">1-866-811-0055</a>.</p>
 	<h2 id="anonymous">Anonymous feedback</h2>
 
-
-
-<p>You can provide feedback and remain fully anonymous if you use the online questionnaire, the phone or VRS. To ensure anonymity, do not state your name or provide any identifying information.</p>
-<p>If you are using an email address that includes your name and want to remain anonymous, <strong>state that you would like your feedback to remain anonymous</strong>. That way, we will not identify you with your feedback with anyone beyond PCH’s Accessibility Office.</p>
-<p>For physical mail, if you would like to remain fully anonymous, please <strong>do not include your return address</strong> on the envelope. If you would like to receive anacknowledgement with a response regarding your feedback, please let us know within your feedback that you would like to remain anonymous but receive a response back. We will not identify you with your feedback with anyone beyond the Accessibility Office.
-  
-<p>Please note that all feedback will be anonymized when we report publiclyon all feedback.</p>
-			
-<h2 id="submit">What feedback can you submit?</h2>
-<p>You can submit feedback on the ESDC Accessibility Planor the barriers you experience when dealing with ESDC.</p>
-<p>The <a href="https://www.laws-lois.justice.gc.ca/eng/acts/A-0.6/">Accessible Canada Act</a> defines a barrier as:</p>
-
-<blockquote>
-  <p>“...anything physical, architectural, technological or attitudinal, anything that is based on information or communications or anything that is the result of a policy or a practice—that hinders the full and equal participation in society of persons with an impairment, including a physical, mental, intellectual, cognitive, learning, communication or sensory impairment or a functional limitation.”</p>
-</blockquote>
-
-<p>Your experience matters! We recognize the value of including persons with disabilities in the improvementof our accessibility plan and services. By sharing your comments and suggestions, you can help us better serve Canadians, especially Canadians with disabilities.</p>
-
-<p>We welcome your feedback on the accessibility of our:</p>
-<ul>
-	<li>services</li>
-	<li>offices</li>
-	<li>call centres</li>
-	<li>websites</li>
-	</ul>
 	
-<h2 id="what">What we will do with your feedback</h2>
+<p>You can provide feedback and remain fully anonymous if you use the online questionnaire, the phone or VRS. To ensure anonymity, do not state your name or provide any identifying information.</p>
+<p>If you are using an email address that includes your name and want to remain anonymous, <strong>state that you would like your feedback to remain anonymous</strong>. That way, we will not identify you with your feedback with anyone beyond PCH’s Accessibility Office</p>.
+<p>For physical mail, if you would like to remain fully anonymous, please <strong>do not include your return address</strong> on the envelope. If you would like to receive an acknowledgement with a response regarding your feedback, please let us know within your feedback that you would like to remain anonymous but receive a response back.  We will not identify you with your feedback for anyone beyond the Accessibility Office.</p>
+<p>Please note that all feedback will be anonymized when we report publicly on all feedback that we have received.</p>
+	
+	<h2 id="feedback">Provide feedback</h2>
+	<p>Your feedback is important. It will help us identify and break down accessibility barriers.</p>
+	<p>Provide feedback on:</p>
+<ul>
+	<li>PCH’s Accessibility Plan 2023-2025</li>
+	<li>the accessibility of:
+	<ul>	
+	   <li>our programs</li>
+	   <li>our services</li>
+	   <li>our communications</li>
+		</ul></li>
+        <li>any matter related to accessibility</li>
+	</ul>
+	<p>You can read our <a href="#">accessibility plan</a> or statement of commitment to learn more about our on-going efforts to improve accessibility and foster disability inclusion.</p>
+	<h2 id="what">What we will do with your feedback</h2>
 <p>We will use your feedback to advance our accessibility efforts. Some feedback may be addressed right away, and some may be addressed in the development of our future accessibility plans. The feedback we receive and how we take it into consideration will be included in our progress reports, published in the years between accessibility plans.</p>
 <h3>Acknowledging your feedback</h3>
 <p>If you make comments through the online questionnaire, you will receive an automatic confirmation that we received them.
