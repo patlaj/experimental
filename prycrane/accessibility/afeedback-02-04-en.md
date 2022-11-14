@@ -56,7 +56,7 @@ dateModified: 2022-11-14
 	<li>websites</li>
 	</ul>
 	
-<h2 id="what">What we will do with your feedback<h2>
+<h2 id="what">What we will do with your feedback</h2>
 <p>We will use your feedback to advance our accessibility efforts. Some feedback may be addressed right away, and some may be addressed in the development of our future accessibility plans. The feedback we receive and how we take it into consideration will be included in our progress reports, published in the years between accessibility plans.</p>
 <h3>Acknowledging your feedback</h3>
 <p>If you make comments through the online questionnaire, you will receive an automatic confirmation that we received them.
