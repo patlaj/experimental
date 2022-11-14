@@ -21,7 +21,7 @@ dateModified: 2022-11-14
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Ways to provide feedback</span>: <span>Employment and Social Development Canada (ESDC)</span></span></h1>
 
-<p>There are various way you can submit your feedback. Use our online form to submit anonymous feedback.</p>
+<p>There are various way you can submit your feedback. We will acknowledge the receipt of accessibility feedback unless you choose to provide <strong>fully anonymous</strong> feedback using the online form.  You can choose to recieve feedback with the online form, if you like.</p>
 
 <div><a class="provisional btn btn-call-to-action" href="afeedback-02-02-en.html">Accessibility feedback form</a></div>	
 <p>We will acknowledge the receipt of all accessibility feedback unless you prefer to provide anonymous feedback using the online form.</p>
