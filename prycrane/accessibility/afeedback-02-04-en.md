@@ -47,8 +47,15 @@ dateModified: 2022-11-14
 	<li>websites</li>
 	</ul>
 	
-<h2>How we will use your feedback</h2>
-We will use your feedback to advance our accessibility efforts. Some feedback may be addressed right away, and some may be addressed in the development of our future accessibility plans. The feedback we receive and how we take it into consideration will be included in our progress reports, published in the years between accessibility plans.
+<h2>What we will do with your feedback<h2>
+<p>We will use your feedback to advance our accessibility efforts. Some feedback may be addressed right away, and some may be addressed in the development of our future accessibility plans. The feedback we receive and how we take it into consideration will be included in our progress reports, published in the years between accessibility plans.</p>
+<h3>Acknowledging your feedback</h3>
+<p>If you make comments through the online questionnaire, you will receive an automatic confirmation that we received them.
+Acknowledging receipt for comments made by other means will take longer. We will reply by the same means of communication used to communicate with us.
+Our acknowledgement message will confirm that we have received comments, include our service standard for replying to comments and explain that more complex issues will take more time to solve.</p>
+<h3>Responding and resolving issues</h3>
+<p>We will respond by email to comments received through the online questionnaire or by email within 5 business days.
+Note that finding answers or solutions to more complex issues might take more time. If that is the case for your comment(s), we will let you know within 5 business days upon receiving your feedback.</p>
+<h3>Compiling and analyzing feedback</h3>
+<p>We will compile all comments that we receive to analyze them for trends and patterns. We will present our analysis and explain the follow-up actions we have taken in our annual progress reports on accessibility and in our future accessibility plans.<p>
 
-<h2>Confidentiality</h2>
-<p>Your feedback will not be associated with your name. We will share it only with those ESDC employees directly involved in advancing our accessibility efforts.</p>
