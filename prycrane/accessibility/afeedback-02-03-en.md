@@ -37,7 +37,7 @@ dateModified: 2022-11-14
         <li>e-text</li>
 	<li>DAISY</li>
 </ul>		
-<p>You can <a href="https://www.canada.ca/en/employment-social-development/corporate/reports/order-publication.html">order online</a> or call1 800 O-Canada (1-800-622-6232). If you use a teletypewriter (TTY), call 1-800-926-9105.</p>
+<p>You can <a href="https://www.canada.ca/en/employment-social-development/corporate/reports/order-publication.html">order online</a> or call1 800 O-Canada (1-800-622-6232).</p> <p>If you use a teletypewriter (TTY), call 1-800-926-9105.</p>
 
 
 
