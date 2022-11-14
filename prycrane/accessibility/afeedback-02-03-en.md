@@ -37,7 +37,7 @@ dateModified: 2022-11-14
 	<li><a href="mailto:EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.ca">EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.ca</a></li>
 </ul>
 
-<h2>Telephone</h3>
+<h2>Telephone</h2>
 <ul>
 	<li>1-866-506-6806 (toll-free and video relay service)</li>
 	<li>1 800-465-7735(toll-free teletypewriter)</li>
