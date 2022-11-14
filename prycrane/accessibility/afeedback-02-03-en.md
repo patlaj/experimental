@@ -21,11 +21,24 @@ dateModified: 2022-11-14
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Ways to provide feedback</span>: <span>Employment and Social Development Canada (ESDC)</span></span></h1>
 
-<p>There are various way you can submit your feedback. We will acknowledge the receipt of accessibility feedback unless you choose to provide <strong>fully anonymous</strong> feedback using the online form.  You can choose to recieve feedback with the online form, if you like.</p>
+<p>You can submit accesiblity feedback in the following ways.  We will acknowledge the receipt of accessibility feedback in all cases except when you choose to provide <strong>fully anonymous</strong> feedback using the online form.</p>
+	
+	<ul>
+		<li><a href="#online">Online form</a><li>
+		<li><a href="#alternate">Alternate formats</a><li>
+		<li><a href="#email">Email</a><li>
+		<li><a href="#telephone">Telephone</a><li>
+		<li><a href="#mail">Mail</a><li>
+		</ul>
+	
+	
+	<h2 id="online">Online form</h2>
+	
+	<p>You can provide <strong>fully anonymous</strong> feedback using the online form.  You can still choose to recieve feedback with the online form, if you like.</p>
 
 <div><a class="provisional btn btn-call-to-action" href="afeedback-02-02-en.html">Accessibility feedback form</a></div>	
-<p>We will acknowledge the receipt of all accessibility feedback unless you prefer to provide anonymous feedback using the online form.</p>
-<h2>Alternate formats</h2>
+
+<h2 id="alternate">Alternate formats</h2>
 
 <p>The following alternate formats are available on demand:</p>
 <ul>
@@ -41,17 +54,17 @@ dateModified: 2022-11-14
 
 
 
-<h2>Email</h2>
+<h2 id="email">Email</h2>
 <ul>
 	<li><a href="mailto:EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.ca">EDSC.ACCESSIBLE-ACCESSIBLE.ESDC@hrsdc-rhdcc.gc.ca</a></li>
 </ul>
 
-<h2>Telephone</h2>
+<h2 id="telephone">Telephone</h2>
 <ul>
 	<li>1-866-506-6806 (toll-free and video relay service)</li>
 	<li>1 800-465-7735 (toll-free teletypewriter)</li>
 </ul>
-<h2>Mail</h2>
+<h2 id="mail">Mail</h2>
 <p>Centre of Expertise for Accessible Client Service<br />
    Floor 3 Mail Drop 318<br />
    140 Promenade du Portage<br />
