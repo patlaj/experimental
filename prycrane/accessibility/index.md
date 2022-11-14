@@ -36,7 +36,8 @@ dateModified: 2022-10-24
           <li><a href="afeedback-02-02b-en.html">Accessibilty feedback form</a> - alert after input</li>
           <li><a href="afeedback-02-03-en.html">Ways to provide feedback</a></li>
           <li><a href="afeedback-02-04-en.html">Accessibility feedback process</a></li>
-        </ul>
+          <li><a href="afeedback-02-05-en.html">Accessibility feedback form acknowledgement</a></li>
+      </ul>
       </li>   
       <li class="mrgn-tp-lg"><a href="afeedback-01-en.html">Accessibilty landing page</a> (First iteration)
         <ul>
