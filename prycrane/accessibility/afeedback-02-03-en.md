@@ -24,7 +24,7 @@ dateModified: 2022-11-14
 <p>There are various way you can submit your feedback. Use our online form to submit anonymous feedback.</p>
 
 <div><a class="provisional btn btn-call-to-action" href="afeedback-02-02-en.html">Accessibility feedback form</a></div>	
-<p>With the exception of anonymous feedback using the online form, we will acknowledge the receipt of all accessibility feedback.</p>
+<p>We will acknowledge the receipt of all accessibility feedback unless you prefer to provide anonymous feedback using the online form.</p>
 <h2>Alternate formats</h2>
 
 <p>Large print, print, braille, MP3 (audio), e-text and DAISY formats of this feedback process description are available on demand.</p> 
