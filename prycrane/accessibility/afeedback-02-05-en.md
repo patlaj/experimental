@@ -21,9 +21,9 @@ dateModified: 2022-11-14
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility feedback form acknowledgement</span>: <span>Employment and Social Development Canada (ESDC)</span></span></h1>
 
-<p>[email not provided]</p>
+<p><strong>[email not provided]</strong></p>
 <p>Thank you for submitting accessibility feedback.  You will remain fully anonymous and will not receive personal feedback about your submission.  You can find out how your concern was addressed at ….</p>
-<p>[email provided]</p>
+<p><strong>[email provided]</strong></p>
 <p>Thank you for submitting accessibility feedback.  You can expect to receive feedback at your email address in 1 to 2 weeks.</p>   
 
    <ul class="list-inline mrgn-tp-lg">
