@@ -20,67 +20,69 @@ description:
 dateModified: 2022-11-14
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility feedback process</span>: <span>Employment and Social Development Canada (ESDC)</span></span></h1>
-<p>How you can provide feedback on accessibility issues, providing feedback anonymously and what [institution name] will do with your feedback.</p>	
+<p>How you can provide feedback on accessibility issues, providing feedback anonymously and what [institution name] will do with your feedback.</p>
 <h2>On this page</h2>
 <ul>
-	<li><a href="#ways">Ways to provide feedback</a></li>
-	<li><a href="#alternate">Alternate formats</a></li>
-	<li><a href="#anonymous">Anonymous feedback</a></li>
-	<li><a href="#feedback">Provide feedback</a></li>	
-	<li><a href="#what">What we will do with your feedback</a></li>
+  <li><a href="#ways">Ways to provide feedback</a></li>
+  <li><a href="#alternate">Alternate formats</a></li>
+  <li><a href="#anonymous">Anonymous feedback</a></li>
+  <li><a href="#feedback">Provide feedback</a></li>
+  <li><a href="#what">What we will do with your feedback</a></li>
 </ul>
 <h2 id="ways">Ways to provide feedback</h2>
 <p>To provide feedback on accessibility, you can use:</p>
 <ul>
-	<li>the Accessibilty feedback form <div><a class="provisional btn btn-call-to-action" href="afeedback-03-03-en.html">Provide feedback</a></div>
-</li>
-	<li>Video Relay Services (American Sign Language or Langue des signes québécoise)</li>
-	<li>TTY at: 1-888-997-3123</li>
+  <li>the Accessibilty feedback form
+    <div><a class="provisional btn btn-call-to-action" href="afeedback-03-03-en.html">Provide feedback</a></div>
+  </li>
+  <li>Video Relay Services (American Sign Language or Langue des signes québécoise)</li>
+  <li>TTY at: 1-888-997-3123</li>
 </ul>
-	<p>You can also contact Canadian Heritage’s Accessibility Office’s Engagement Analyst by:</p>
+<p>You can also contact Canadian Heritage’s Accessibility Office’s Engagement Analyst by:</p>
 <ul>
-	<li>Email: <a href="maito;accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a></li>
-	<li>Phone: <a href="tel:1-866-811-0055">1-866-811-0055</a></li>
-	<li>Mail: 15 Eddy Street, Gatineau, QC K1A 0M5</li>
+  <li>Email: <a href="maito;accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a></li>
+  <li>Phone: <a href="tel:1-866-811-0055">1-866-811-0055</a></li>
+  <li>Mail: 15 Eddy Street, Gatineau, QC K1A 0M5</li>
 </ul>
 <p>If you require any additional tool to provide feedback, you can email <a href="maito;accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a> or call us at <a href="tel:1-866-811-0055">1-866-811-0055</a>.</p>
 <h2 id="alternate">Alternate formats</h2>
 <p>You can request the following versions of this description of the feedback process:</p>
 <ul>
-	<li>Print</li>
-	<li>Large print (larger and clearer font)</li>
-	<li>Braille (a system of raised dots that people who are blind or who have low vision can read with their fingers)</li>
-	<li>Audio (a recording of someone reading the text out loud)</li>
-<ul>
+  <li>Print</li>
+  <li>Large print (larger and clearer font)</li>
+  <li>Braille (a system of raised dots that people who are blind or who have low vision can read with their fingers)</li>
+  <li>Audio (a recording of someone reading the text out loud)</li>
+</ul>
 <p>If you require any other format, you can email <a href="maito;accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a> or call us at <a href="tel:1-866-811-0055">1-866-811-0055</a>.</p>
 <h2 id="anonymous">Anonymous feedback</h2>
 <p>You can provide feedback and remain fully anonymous if you use the online questionnaire, the phone or VRS. To ensure anonymity, do not state your name or provide any identifying information.</p>
-<p>If you are using an email address that includes your name and want to remain anonymous, <strong>state that you would like your feedback to remain anonymous</strong>. That way, we will not identify you with your feedback with anyone beyond PCH’s Accessibility Office</p>.
+<p>If you are using an email address that includes your name and want to remain anonymous, <strong>state that you would like your feedback to remain anonymous</strong>. That way, we will not identify you with your feedback with anyone beyond PCH’s Accessibility Office</p>
+.
 <p>For physical mail, if you would like to remain fully anonymous, please <strong>do not include your return address</strong> on the envelope. If you would like to receive an acknowledgement with a response regarding your feedback, please let us know within your feedback that you would like to remain anonymous but receive a response back.  We will not identify you with your feedback for anyone beyond the Accessibility Office.</p>
 <p>Please note that all feedback will be anonymized when we report publicly on all feedback that we have received.</p>
-	
-	<h2 id="feedback">Provide feedback</h2>
-	<p>Your feedback is important. It will help us identify and break down accessibility barriers.</p>
-	<p>Provide feedback on:</p>
+<h2 id="feedback">Provide feedback</h2>
+<p>Your feedback is important. It will help us identify and break down accessibility barriers.</p>
+<p>Provide feedback on:</p>
 <ul>
-	<li>PCH’s Accessibility Plan 2023-2025</li>
-	<li>the accessibility of:
-	<ul>	
-	   <li>our programs</li>
-	   <li>our services</li>
-	   <li>our communications</li>
-		</ul></li>
-        <li>any matter related to accessibility</li>
-	</ul>
-	<p>You can read our <a href="#">accessibility plan</a> or statement of commitment to learn more about our on-going efforts to improve accessibility and foster disability inclusion.</p>
-	<h2 id="what">What we will do with your feedback</h2>
+  <li>PCH’s Accessibility Plan 2023-2025</li>
+  <li>the accessibility of:
+    <ul>
+      <li>our programs</li>
+      <li>our services</li>
+      <li>our communications</li>
+    </ul>
+  </li>
+  <li>any matter related to accessibility</li>
+</ul>
+<p>You can read our <a href="#">accessibility plan</a> or statement of commitment to learn more about our on-going efforts to improve accessibility and foster disability inclusion.</p>
+<h2 id="what">What we will do with your feedback</h2>
 <p>We will use your feedback to advance our accessibility efforts. Some feedback may be addressed right away, and some may be addressed in the development of our future accessibility plans. The feedback we receive and how we take it into consideration will be included in our progress reports, published in the years between accessibility plans.</p>
 <h3>Acknowledging your feedback</h3>
 <p>If you make comments through the online questionnaire, you will receive an automatic confirmation that we received them.
-Acknowledging receipt for comments made by other means will take longer. We will reply by the same means of communication used to communicate with us.
-Our acknowledgement message will confirm that we have received comments, include our service standard for replying to comments and explain that more complex issues will take more time to solve.</p>
+  Acknowledging receipt for comments made by other means will take longer. We will reply by the same means of communication used to communicate with us.
+  Our acknowledgement message will confirm that we have received comments, include our service standard for replying to comments and explain that more complex issues will take more time to solve.</p>
 <h3>Responding and resolving issues</h3>
 <p>We will respond by email to comments received through the online questionnaire or by email within 5 business days.
-Note that finding answers or solutions to more complex issues might take more time. If that is the case for your comment(s), we will let you know within 5 business days upon receiving your feedback.</p>
+  Note that finding answers or solutions to more complex issues might take more time. If that is the case for your comment(s), we will let you know within 5 business days upon receiving your feedback.</p>
 <h3>Compiling and analyzing feedback</h3>
-<p>We will compile all comments that we receive to analyze them for trends and patterns. We will present our analysis and explain the follow-up actions we have taken in our annual progress reports on accessibility and in our future accessibility plans.<p>
+<p>We will compile all comments that we receive to analyze them for trends and patterns. We will present our analysis and explain the follow-up actions we have taken in our annual progress reports on accessibility and in our future accessibility plans.</p>
