@@ -40,15 +40,19 @@ dateModified: 2022-11-14
 <p>The following alternate formats are available on demand:</p>
 <ul>
 	<li>print</li>
-	<li>large print</li>	
-	<li>braille</li>
-	<li>MP3 (audio)</li>
-	<li>VRS services (ASL or LSQ)</li>
+	<li>large print (larger and clearer font)</li>	
+	<li>Braille (a system of raised dots that people who are blind or who have low vision can read with their fingers)</li>
+	<li>Audio (a recording of someone reading the text out loud)</li>
+	<li>Video Relay Services (American Sign Language or Langue des signes québécoise)</li>
         <li>e-text</li>
 	<li>DAISY</li>
 </ul>		
 <p>You can <a href="https://www.canada.ca/en/employment-social-development/corporate/reports/order-publication.html">order online</a> or call1 800 O-Canada (1-800-622-6232).</p> <p>If you use a teletypewriter (TTY), call 1-800-926-9105.</p>
 
+Print
+Large print
+Braille (a system of raised dots that people who are blind or who have low vision can read with their fingers)
+Audio (a recording of someone reading the text out loud)
 
 
 <h2 id="email">Email</h2>
