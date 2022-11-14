@@ -35,13 +35,13 @@ dateModified: 2022-11-14
 	<li>the <a href="afeedback-03-03-en.html">Accessibilty feedback form</a></li>
 	<li>Video Relay Services (American Sign Language or Langue des signes québécoise)</li>
 	<li>TTY at: 1-888-997-3123</li>
-<ul>
+</ul>
 	<p>You can also contact Canadian Heritage’s Accessibility Office’s Engagement Analyst by:</p>
 <ul>
 	<li>Email: <a href="maito;accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a></li>
 	<li>Phone: <a href="tel:1-866-811-0055">1-866-811-0055</a></li>
 	<li>Mail: 15 Eddy Street, Gatineau, QC K1A 0M5</li>
-<ul>
+</ul>
 <p>If you require any additional tool to provide feedback, you can email <a href="maito;accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a> or call us at <a href="tel:1-866-811-0055">1-866-811-0055</a>.</p>
 
 <h2 id="alternate">Alternate formats</h2>
