@@ -64,4 +64,4 @@ dateModified: 2022-11-15
 <p>We will respond by email to comments received through the online questionnaire or by email within 5 business days.
   Note that finding answers or solutions to more complex issues might take more time. If that is the case for your comment(s), we will let you know within 5 business days upon receiving your feedback.</p>
 <h3>Compiling and analyzing feedback</h3>
-<p>We will compile all comments that we receive to analyze them for trends and patterns. We will present our analysis and explain the follow-up actions we have taken in our annual progress reports on accessibility and in our future accessibility plans.</p>
+<p>We will analyze feedback for trends and patterns. We will present our analysis and explain the follow-up actions we have taken in our annual progress reports on accessibility and in our future accessibility plans.</p>
