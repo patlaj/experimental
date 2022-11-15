@@ -50,7 +50,7 @@ dateModified: 2022-10-24
 	</li>
 	<li>
 		<details>
-			<summary>Accessibilty section (Second)</summary>
+			<summary>Accessibilty section (Second iteration)</summary>
  <ul>
  
       <li class="mrgn-tp-lg"><a href="afeedback-02-01-en.html">Accessibilty landing page</a>
@@ -70,32 +70,8 @@ dateModified: 2022-10-24
 	</li>
 	<li>
 		<details>
-			<summary>Example 2</summary>
+			<summary>Accessibilty section (First iteration)</summary>
  <ul>
-      <li class="mrgn-tp-lg"><a href="afeedback-03-01-en.html">Accessibilty landing page</a> (Second iteration)
-        <ul>
-          <li><a href="afeedback-03-03-en.html">Accessibilty feedback form</a></li>
-          <li><a href="afeedback-03-03b-en.html">Accessibilty feedback form</a> - Well and do not include language
-            <ul>
-              <li><a href="afeedback-03-04-en.html">Accessibility feedback form acknowledgement</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li><a href="afeedback-03-02-en.html">Accessibility feedback process</a></li>
-      <li><a href="afeedback-03-05-en.html">Accessibility plan</a></li>     
-      <li class="mrgn-tp-lg"><a href="afeedback-02-01-en.html">Accessibilty landing page</a> (Second iteration)
-        <ul>
-          <li><a href="afeedback-02-02-en.html">Accessibilty feedback form</a> - alert before input</li>
-          <li><a href="afeedback-02-02b-en.html">Accessibilty feedback form</a> - alert after input
-            <ul>
-              <li><a href="afeedback-02-05-en.html">Accessibility feedback form acknowledgement</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li><a href="afeedback-02-03-en.html">Ways to provide feedback</a></li>
-      <li><a href="afeedback-02-04-en.html">Accessibility feedback process</a></li>
       <li class="mrgn-tp-lg"><a href="afeedback-01-en.html">Accessibilty landing page</a> (First iteration)
         <ul>
           <li><a href="afeedback-03-en.html">Accessibility feedback</a></li>
@@ -109,7 +85,12 @@ dateModified: 2022-10-24
         </ul>
       </li>
     </ul>
-  </li>
+
+		</details>
+	</li><li>
+		<details>
+			<summary>Accesssibilty Landing page jam </summary>
+ <ul>
   <li class="mrgn-tp-lg"><strong>Accessibilty landing page</strong> (Monday: <a href="https://scma-dto.monday.com/boards/2632043469/pulses/3416932460" class="">Accessibility landing page mockup</a>)
     <ul>
       <li><a href="accessibility-09-en.html">List style (with accessibility process doormat)</a></li>
