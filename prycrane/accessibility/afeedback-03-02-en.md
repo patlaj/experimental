@@ -52,9 +52,9 @@ dateModified: 2022-11-15
   <li>Other formats</li>
 </ul>
 <h2 id="anonymous">Anonymous feedback</h2>
-<p>You can provide feedback and remain fully anonymous if you use the online questionnaire, the phone or VRS. To ensure anonymity, do not state your name or provide any identifying information.</p>
-<p>If you are using an email address that includes your name and want to remain anonymous, <strong>state that you would like your feedback to remain anonymous</strong>. That way, we will not identify you with your feedback with anyone beyond PCH’s Accessibility Office</p>
-<p>For physical mail, if you would like to remain fully anonymous, please <strong>do not include your return address</strong> on the envelope. If you would like to receive an acknowledgement with a response regarding your feedback, please let us know within your feedback that you would like to remain anonymous but receive a response back.  We will not identify you with your feedback for anyone beyond the Accessibility Office.</p>
+<p>You can provide feedback and remain fully anonymous if you use the online form, the phone or VRS. Do not state your name or provide any identifying information to ensure anonymity.</p>
+<p><strong>State that you would like your feedback to remain anonymous</strong> if your email address includes your name and want to remain anonymous. We will not identify you with your feedback beyond our Accessibility Office</p>
+<p><strong>Do not include your return address</strong> on the envelope for physical mail if you want to remain fully anonymous. If you would like to receive an acknowledgement with a response regarding your feedback, please let us know within your feedback that you would like to remain anonymous but receive a response back.  We will not identify you with your feedback for anyone beyond the Accessibility Office.</p>
 <p>Please note that all feedback will be anonymized when we report publicly on all feedback that we have received.</p>
 <h2 id="what">What we will do with your feedback</h2>
 <p>Your feedback will help us advance our accessibility efforts.  We will address feedback right away where we can.  Some feedback may have to be addressed in the development of future accessibility plans.  This process will be transparent.  The feedback we receive and how we take it into consideration will be included in our progress reports and published in the years between accessibility plans.</p>
