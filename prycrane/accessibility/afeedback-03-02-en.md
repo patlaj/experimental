@@ -26,8 +26,8 @@ dateModified: 2022-11-15
 <ul>
   <li><a href="#ways">Ways to provide feedback</a></li>
   <li><a href="#alternate">Alternate formats</a></li>
-  <li><a href="#anonymous">Anonymous feedback</a></li>
   <li><a href="#what">What we will do with your feedback</a></li>
+  <li><a href="#anonymous">Anonymous feedback</a></li>
 </ul>
 <h2 id="ways">Ways to provide feedback</h2>
 
