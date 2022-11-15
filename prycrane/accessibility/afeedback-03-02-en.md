@@ -59,9 +59,7 @@ dateModified: 2022-11-15
 <h2 id="what">What we will do with your feedback</h2>
 <pYour feedback will help us advance our accessibility efforts.  We will address feedback right away where we can.  Some feedback may have to be addressed in the development of future accessibility plans.  This process will be transparent.  The feedback we receive and how we take it into consideration will be included in our progress reports and published in the years between accessibility plans.</p>
 <h3>Acknowledging your feedback</h3>
-<p>If you make comments through the online questionnaire, you will receive an automatic confirmation that we received them.
-  Acknowledging receipt for comments made by other means will take longer. We will reply by the same means of communication used to communicate with us.
-  Our acknowledgement message will confirm that we have received comments, include our service standard for replying to comments and explain that more complex issues will take more time to solve.</p>
+<p>You will receive an automatic confirmation when you submit the Accessibility feedback form online.  Acknowledging receipt for feedback made by other means will take longer.  We will provide confirmation by the same means of communication used to communicate with us.  Our message will confirm that we have received feedback, include our service standard for replying to comments and explain that more complex issues will take more time to solve.</p>
 <h3>Responding and resolving issues</h3>
 <p>We will respond by email to comments received through the online questionnaire or by email within 5 business days.
   Note that finding answers or solutions to more complex issues might take more time. If that is the case for your comment(s), we will let you know within 5 business days upon receiving your feedback.</p>
