@@ -70,7 +70,7 @@ dateModified: 2022-11-15
     <details>
       <summary>Accessibilty section (07-11-2022)</summary>
       <ul>
-        <li class="mrgn-tp-lg"><a href="afeedback-01-en.html">Accessibilty landing page</a> (First iteration)
+        <li class="mrgn-tp-lg"><a href="afeedback-01-en.html">Accessibilty landing page</a>
           <ul>
             <li><a href="afeedback-03-en.html">Accessibility feedback</a></li>
             <li><a href="afeedback-02-en.html">Accessibility feedback process</a>
