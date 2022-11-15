@@ -49,7 +49,7 @@ dateModified: 2022-11-15
   <li>Large print (larger and clearer font)</li>
   <li>Braille (a system of raised dots that people who are blind or who have low vision can read with their fingers)</li>
   <li>Audio (a recording of someone reading the text out loud)</li>
-  <li>ther formats</li>
+  <li>Other formats</li>
 </ul>
 <h2 id="anonymous">Anonymous feedback</h2>
 <p>You can provide feedback and remain fully anonymous if you use the online questionnaire, the phone or VRS. To ensure anonymity, do not state your name or provide any identifying information.</p>
