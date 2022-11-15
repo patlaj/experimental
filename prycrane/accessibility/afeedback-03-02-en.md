@@ -42,16 +42,15 @@ dateModified: 2022-11-15
   <li>Phone: <a href="tel:1-866-811-0055">1-866-811-0055</a></li>
   <li>Mail: 15 Eddy Street, Gatineau, QC K1A 0M5</li>
 </ul>
-<p>If you require any additional tool to provide feedback, you can email <a href="maito;accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a> or call us at <a href="tel:1-866-811-0055">1-866-811-0055</a>.</p>
 <h2 id="alternate">Alternate formats</h2>
-<p>You can request the following versions of this description of the feedback process:</p>
+<p>You can request the alternate versions of the feedback process by email at <a href="maito;accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a> or telephone at <a href="tel:1-866-811-0055">1-866-811-0055</a>:</p>
 <ul>
   <li>Print</li>
   <li>Large print (larger and clearer font)</li>
   <li>Braille (a system of raised dots that people who are blind or who have low vision can read with their fingers)</li>
   <li>Audio (a recording of someone reading the text out loud)</li>
+  <li>ther formats</p>
 </ul>
-<p>If you require any other format, you can email <a href="maito;accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a> or call us at <a href="tel:1-866-811-0055">1-866-811-0055</a>.</p>
 <h2 id="anonymous">Anonymous feedback</h2>
 <p>You can provide feedback and remain fully anonymous if you use the online questionnaire, the phone or VRS. To ensure anonymity, do not state your name or provide any identifying information.</p>
 <p>If you are using an email address that includes your name and want to remain anonymous, <strong>state that you would like your feedback to remain anonymous</strong>. That way, we will not identify you with your feedback with anyone beyond PCH’s Accessibility Office</p>
