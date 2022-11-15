@@ -57,7 +57,7 @@ dateModified: 2022-11-15
 <p>For physical mail, if you would like to remain fully anonymous, please <strong>do not include your return address</strong> on the envelope. If you would like to receive an acknowledgement with a response regarding your feedback, please let us know within your feedback that you would like to remain anonymous but receive a response back.  We will not identify you with your feedback for anyone beyond the Accessibility Office.</p>
 <p>Please note that all feedback will be anonymized when we report publicly on all feedback that we have received.</p>
 <h2 id="what">What we will do with your feedback</h2>
-<p>We will use your feedback to advance our accessibility efforts. Some feedback may be addressed right away, and some may be addressed in the development of our future accessibility plans. The feedback we receive and how we take it into consideration will be included in our progress reports, published in the years between accessibility plans.</p>
+<pYour feedback will help us advance our accessibility efforts.  We will address feedback right away where we can.  Some feedback may have to be addressed in the development of future accessibility plans.  This process will be transparent.  The feedback we receive and how we take it into consideration will be included in our progress reports and published in the years between accessibility plans.</p>
 <h3>Acknowledging your feedback</h3>
 <p>If you make comments through the online questionnaire, you will receive an automatic confirmation that we received them.
   Acknowledging receipt for comments made by other means will take longer. We will reply by the same means of communication used to communicate with us.
