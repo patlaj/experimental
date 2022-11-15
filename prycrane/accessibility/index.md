@@ -30,7 +30,7 @@ dateModified: 2022-11-15
 <ul class="list-unstyled">
   <li>
     <details open="open">
-      <summary>Accessibilty section (15-11-2022)</summary>
+      <summary>Accessibilty section (15-11-2022) <div class="pull-right">3</div></summary>
       <ul>
         <li class="mrgn-tp-lg"><a href="afeedback-03-01-en.html">Accessibilty landing page</a>
           <ul>
