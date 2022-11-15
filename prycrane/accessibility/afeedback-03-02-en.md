@@ -32,7 +32,7 @@ dateModified: 2022-11-15
 <h2 id="ways">Ways to provide feedback</h2>
 
 <ul class="mrgn-tp-lg">
-  <li><a href="afeedback-03-03-en.html">Accessibilty feedback form</a></li>
+  <li><a href="afeedback-03-03-en.html">Accessibility feedback form</a></li>
   <li>Video Relay Services (American Sign Language or Langue des signes québécoise)</li>
   <li>TTY at: 1-888-997-3123</li>
 </ul>
