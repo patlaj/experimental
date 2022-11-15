@@ -43,13 +43,13 @@ dateModified: 2022-11-15
   <li>Mail: 15 Eddy Street, Gatineau, QC K1A 0M5</li>
 </ul>
 <h2 id="alternate">Alternate formats</h2>
-<p>You can request the alternate versions of the feedback process by email at <a href="maito;accessibilite-accessibility@esdc.gc.ca">accessibilite-accessibility@esdc.gc.ca</a> or telephone at <a href="tel:1-866-811-0055">1-866-811-0055</a>:</p>
+<p>You can request the alternate versions of the feedback process by email at <a href="maito;accessibilite-accessibility@esdc.gc.ca">accessibilite-accessibility@esdc.gc.ca</a> or telephone at <a href="tel:1-866-811-0055">1-866-811-0055</a>.</p>
+<p>Formats available:</p>
 <ul>
   <li>Print</li>
   <li>Large print (larger and clearer font)</li>
   <li>Braille (a system of raised dots that people who are blind or who have low vision can read with their fingers)</li>
   <li>Audio (a recording of someone reading the text out loud)</li>
-  <li>Other formats</li>
 </ul>
 <h2 id="anonymous">Anonymous feedback</h2>
 <p>You can provide feedback and remain fully anonymous if you use the online form, the phone or VRS. Do not state your name or provide any identifying information to ensure anonymity.</p>
