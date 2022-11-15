@@ -20,13 +20,13 @@ description:
 dateModified: 2022-11-15
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility feedback process</span>: <span>Employment and Social Development Canada (ESDC)</span></span></h1>
-<p>How you can provide feedback on accessibility issues, privacy (anonymous feedback) and what [institution name] will do with your feedback.</p>
+<p>Your feedback will help ESDC identify and break down accessibility barriers.  Provide feedback on ESDC’s Accessibility Plan 2023-2025, your experience of our institution’s accessibility, or any matter related to accessibility. Find out how ESDC will use your feedback to make our institution more accessible.</p>
+<p>Read our <a href="afeedback-03-05-en.html">Accessibility plan</a> to learn more about our efforts to improve accessibility and foster disability inclusion. </p>
 <h2>On this page</h2>
 <ul>
   <li><a href="#ways">Ways to provide feedback</a></li>
   <li><a href="#alternate">Alternate formats</a></li>
   <li><a href="#anonymous">Anonymous feedback</a></li>
-  <li><a href="#feedback">Provide feedback</a></li>
   <li><a href="#what">What we will do with your feedback</a></li>
 </ul>
 <h2 id="ways">Ways to provide feedback</h2>
@@ -59,21 +59,6 @@ dateModified: 2022-11-15
 <p>If you are using an email address that includes your name and want to remain anonymous, <strong>state that you would like your feedback to remain anonymous</strong>. That way, we will not identify you with your feedback with anyone beyond PCH’s Accessibility Office</p>
 <p>For physical mail, if you would like to remain fully anonymous, please <strong>do not include your return address</strong> on the envelope. If you would like to receive an acknowledgement with a response regarding your feedback, please let us know within your feedback that you would like to remain anonymous but receive a response back.  We will not identify you with your feedback for anyone beyond the Accessibility Office.</p>
 <p>Please note that all feedback will be anonymized when we report publicly on all feedback that we have received.</p>
-<h2 id="feedback">Provide feedback</h2>
-<p>Your feedback is important. It will help us identify and break down accessibility barriers.</p>
-<p>Provide feedback on:</p>
-<ul>
-  <li>PCH’s Accessibility Plan 2023-2025</li>
-  <li>the accessibility of:
-    <ul>
-      <li>our programs</li>
-      <li>our services</li>
-      <li>our communications</li>
-    </ul>
-  </li>
-  <li>any matter related to accessibility</li>
-</ul>
-<p>You can read our <a href="#">accessibility plan</a> or statement of commitment to learn more about our on-going efforts to improve accessibility and foster disability inclusion.</p>
 <h2 id="what">What we will do with your feedback</h2>
 <p>We will use your feedback to advance our accessibility efforts. Some feedback may be addressed right away, and some may be addressed in the development of our future accessibility plans. The feedback we receive and how we take it into consideration will be included in our progress reports, published in the years between accessibility plans.</p>
 <h3>Acknowledging your feedback</h3>
