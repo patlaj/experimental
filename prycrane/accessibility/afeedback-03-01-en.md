@@ -42,7 +42,7 @@ dateModified: 2022-11-15
           <p>Policies, programs, practices, and services that help our organization contribute to the goal of an accessible and barrier-free Canada</p>
         </div>
                <div class="col-lg-4 col-md-6">
-          <h3><a href="afeedback-03-02-en.html">Accessibility feedback process</a></h3>
+          <h3><a href="afeedback-03-02-en.html">Feedback process</a></h3>
           <p>Find ways to provide feedback.  Description of how we respond to and use your feedback.</p>
         </div>
       </div>
