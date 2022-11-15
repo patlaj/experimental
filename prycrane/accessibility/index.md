@@ -30,7 +30,7 @@ dateModified: 2022-11-15
 <ul class="list-unstyled">
   <li>
     <details open="open">
-      <summary>Accessibilty section (third iteration)</summary>
+      <summary>Accessibilty section (15-11-2022)</summary>
       <ul>
         <li class="mrgn-tp-lg"><a href="afeedback-03-01-en.html">Accessibilty landing page</a>
           <ul>
@@ -49,7 +49,7 @@ dateModified: 2022-11-15
   </li>
   <li>
     <details>
-      <summary>Accessibilty section (Second iteration)</summary>
+      <summary>Accessibilty section (11-11-2022)</summary>
       <ul>
         <li class="mrgn-tp-lg"><a href="afeedback-02-01-en.html">Accessibilty landing page</a>
           <ul>
@@ -68,7 +68,7 @@ dateModified: 2022-11-15
   </li>
   <li>
     <details>
-      <summary>Accessibilty section (First iteration)</summary>
+      <summary>Accessibilty section (07-11-2022)</summary>
       <ul>
         <li class="mrgn-tp-lg"><a href="afeedback-01-en.html">Accessibilty landing page</a> (First iteration)
           <ul>
