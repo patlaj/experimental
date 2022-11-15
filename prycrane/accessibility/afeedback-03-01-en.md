@@ -22,10 +22,10 @@ dateModified: 2022-11-15
 	<div class="row">
 		<div class="col-md-12">
 			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility</span>: <span>Employment and Social Development Canada (ESDC)</span></span></h1>
-			<p>We want your feedback on accessibility so we can improve:</p>
+			<p>We want your feedback on accessibility to help us create an accessible and barrier-free Canada.</p>
 <ul>
-  <li>comment on our accessibility plan</li>
-  <li>share accessibility barriers you have experienced with ESDC</li>				
+  <li>Comment on our accessibility plan.</li>
+  <li>Share accessibility barriers you have experienced with ESDC.</li>				
 </ul>
 <div><a class="provisional btn btn-call-to-action" href="afeedback-03-03-en.html">Provide feedback</a></div>
 		</div>
