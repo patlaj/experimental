@@ -17,6 +17,6 @@ share: True
 title: Accessibility plan
 description: 
   en: Accessibility plan
-dateModified: 2022-11-14
+dateModified: 2022-11-15
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility plan</span>: <span>Employment and Social Development Canada (ESDC)</span></span></h1>
