@@ -13,7 +13,7 @@ breadcrumbs:
   link: https://prycrane.github.io/experimental/prycrane/accessibility/
 description: 
 en: Index of mockups for accessibility requirements. 
-dateModified: 2022-10-24
+dateModified: 2022-11-15
 ---
 <div class="container">
   <div class="row">
@@ -27,83 +27,81 @@ dateModified: 2022-10-24
   </div>
 </div>
 <h2>Mockups</h2>
-
 <ul class="list-unstyled">
-	<li>
-		<details open="open">
-			<summary>Accessibilty section (third iteration)</summary>
- <ul>
-      <li class="mrgn-tp-lg"><a href="afeedback-03-01-en.html">Accessibilty landing page</a>
-        <ul>
-          <li><a href="afeedback-03-03-en.html">Accessibilty feedback form</a></li>
-          <li><a href="afeedback-03-03b-en.html">Accessibilty feedback form</a> - Well and do not include language
-            <ul>
-              <li><a href="afeedback-03-04-en.html">Accessibility feedback form acknowledgement</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li><a href="afeedback-03-02-en.html">Accessibility feedback process</a></li>
-      <li><a href="afeedback-03-05-en.html">Accessibility plan</a></li>  
-			</ul>
-		</details>
-	</li>
-	<li>
-		<details>
-			<summary>Accessibilty section (Second iteration)</summary>
- <ul>
- 
-      <li class="mrgn-tp-lg"><a href="afeedback-02-01-en.html">Accessibilty landing page</a>
-        <ul>
-          <li><a href="afeedback-02-02-en.html">Accessibilty feedback form</a> - alert before input</li>
-          <li><a href="afeedback-02-02b-en.html">Accessibilty feedback form</a> - alert after input
-            <ul>
-              <li><a href="afeedback-02-05-en.html">Accessibility feedback form acknowledgement</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li><a href="afeedback-02-03-en.html">Ways to provide feedback</a></li>
-      <li><a href="afeedback-02-04-en.html">Accessibility feedback process</a></li>
+  <li>
+    <details open="open">
+      <summary>Accessibilty section (third iteration)</summary>
+      <ul>
+        <li class="mrgn-tp-lg"><a href="afeedback-03-01-en.html">Accessibilty landing page</a>
+          <ul>
+            <li><a href="afeedback-03-03-en.html">Accessibilty feedback form</a></li>
+            <li><a href="afeedback-03-03b-en.html">Accessibilty feedback form</a> - Well and do not include language
+              <ul>
+                <li><a href="afeedback-03-04-en.html">Accessibility feedback form acknowledgement</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="afeedback-03-02-en.html">Accessibility feedback process</a></li>
+        <li><a href="afeedback-03-05-en.html">Accessibility plan</a></li>
       </ul>
-		</details>
-	</li>
-	<li>
-		<details>
-			<summary>Accessibilty section (First iteration)</summary>
- <ul>
-      <li class="mrgn-tp-lg"><a href="afeedback-01-en.html">Accessibilty landing page</a> (First iteration)
-        <ul>
-          <li><a href="afeedback-03-en.html">Accessibility feedback</a></li>
-          <li><a href="afeedback-02-en.html">Accessibility feedback process</a>
-            <ul>
-              <li><a href="afeedback-04-en.html">Accessibility feedback form privacy statement</a></li>
-              <li><a href="afeedback-05-en.html">Accessibility feedback form</a> (pop data)</li>
-              <li><a href="afeedback-07-en.html">Accessibility feedback form</a> (all exposed) <span class="far fa-thumbs-down"></span> No good</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-
-		</details>
-	</li><li>
-		<details>
-			<summary>Accesssibilty Landing page jam </summary>
- <ul>
-  <li class="mrgn-tp-lg"><strong>Accessibilty landing page</strong> (Monday: <a href="https://scma-dto.monday.com/boards/2632043469/pulses/3416932460" class="">Accessibility landing page mockup</a>)
-    <ul>
-      <li><a href="accessibility-09-en.html">List style (with accessibility process doormat)</a></li>
-      <li><a href="accessibility-01-en.html">List style</a></li>
-      <li><a href="accessibility-05-en.html">Paragraph style</a></li>
-      <li><a href="accessibility-02-en.html">Without statements doormat</a></li>
-      <li><a href="accessibility-04-en.html">With an image - white background</a></li>
-      <li><a href="accessibility-06-en.html">With an image - black background</a></li>
-    </ul>
+    </details>
   </li>
-</ul>
-		</details>
-	</li>
+  <li>
+    <details>
+      <summary>Accessibilty section (Second iteration)</summary>
+      <ul>
+        <li class="mrgn-tp-lg"><a href="afeedback-02-01-en.html">Accessibilty landing page</a>
+          <ul>
+            <li><a href="afeedback-02-02-en.html">Accessibilty feedback form</a> - alert before input</li>
+            <li><a href="afeedback-02-02b-en.html">Accessibilty feedback form</a> - alert after input
+              <ul>
+                <li><a href="afeedback-02-05-en.html">Accessibility feedback form acknowledgement</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="afeedback-02-03-en.html">Ways to provide feedback</a></li>
+        <li><a href="afeedback-02-04-en.html">Accessibility feedback process</a></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Accessibilty section (First iteration)</summary>
+      <ul>
+        <li class="mrgn-tp-lg"><a href="afeedback-01-en.html">Accessibilty landing page</a> (First iteration)
+          <ul>
+            <li><a href="afeedback-03-en.html">Accessibility feedback</a></li>
+            <li><a href="afeedback-02-en.html">Accessibility feedback process</a>
+              <ul>
+                <li><a href="afeedback-04-en.html">Accessibility feedback form privacy statement</a></li>
+                <li><a href="afeedback-05-en.html">Accessibility feedback form</a> (pop data)</li>
+                <li><a href="afeedback-07-en.html">Accessibility feedback form</a> (all exposed) <span class="far fa-thumbs-down"></span> No good</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Accesssibilty Landing page jam </summary>
+      <ul>
+        <li class="mrgn-tp-lg"><strong>Accessibilty landing page</strong> (Monday: <a href="https://scma-dto.monday.com/boards/2632043469/pulses/3416932460" class="">Accessibility landing page mockup</a>)
+          <ul>
+            <li><a href="accessibility-09-en.html">List style (with accessibility process doormat)</a></li>
+            <li><a href="accessibility-01-en.html">List style</a></li>
+            <li><a href="accessibility-05-en.html">Paragraph style</a></li>
+            <li><a href="accessibility-02-en.html">Without statements doormat</a></li>
+            <li><a href="accessibility-04-en.html">With an image - white background</a></li>
+            <li><a href="accessibility-06-en.html">With an image - black background</a></li>
+          </ul>
+        </li>
+      </ul>
+    </details>
+  </li>
 </ul>
 <h2>Reference</h2>
 <ul>
