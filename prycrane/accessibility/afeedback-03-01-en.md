@@ -15,7 +15,7 @@ share: True
 title: Accessibility
 description: 
   en: Find Employment and Social Development Canada's accessibility plan and provide feedback. 
-dateModified: 2022-11-07
+dateModified: 2022-11-15
 ---
 
 <div class="container">
