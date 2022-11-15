@@ -30,15 +30,13 @@ dateModified: 2022-11-15
   <li><a href="#what">What we will do with your feedback</a></li>
 </ul>
 <h2 id="ways">Ways to provide feedback</h2>
-<p>To provide feedback on accessibility, you can use:</p>
-<ul>
-  <li>the Accessibilty feedback form
-    <div><a class="provisional btn btn-call-to-action" href="afeedback-03-03-en.html">Provide feedback</a></div>
-  </li>
+
+<ul class="mrgn-tp-lg">
+  <li><a href="afeedback-03-03-en.html">Accessibilty feedback form</a></li>
   <li>Video Relay Services (American Sign Language or Langue des signes québécoise)</li>
   <li>TTY at: 1-888-997-3123</li>
 </ul>
-<p>You can also contact Canadian Heritage’s Accessibility Office’s Engagement Analyst by:</p>
+<p>You can also contact our Accessibility Office:</p>
 <ul>
   <li>Email: <a href="maito;accessibilite-accessibility@pch.gc.ca">accessibilite-accessibility@pch.gc.ca</a></li>
   <li>Phone: <a href="tel:1-866-811-0055">1-866-811-0055</a></li>
