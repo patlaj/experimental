@@ -23,13 +23,13 @@ dateModified: 2022-11-14
 
 <p><strong>[email not provided]</strong></p>
 <p>Thank you for your feedback. You will remain fully anonymous and will not receive a response.</p>
-   <ul class="list-inline mrgn-tp-lg">
+   <ul class="list-inline">
         <li><a href="afeedback-03-02-en.html">Accessibility feedback process</a></li>
       </ul>
 
-<p><strong>[email provided]</strong></p>
+<p class="mrgn-tp-lg"><strong>[email provided]</strong></p>
 <p>Thank you for your feedback. You will receive a response within X days.</p>   
 <p>Find out how [institution name] uses accessibility feedback by consulting the description of our process.</p>
-   <ul class="list-inline mrgn-tp-lg">
+   <ul class="list-inline">
         <li><a href="afeedback-03-02-en.html">Accessibility feedback process</a></li>
       </ul>
