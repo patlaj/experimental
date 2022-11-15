@@ -35,7 +35,7 @@ dateModified: 2022-11-07
       <h2 class="wb-inv">Services and information</h2>
       <div class="wb-eqht row">
         <div class="col-lg-4 col-md-6">
-          <h3><a href="#">Accessibility plan</a></h3>
+          <h3><a href="afeedback-03-05-en.html">Accessibility plan</a></h3>
           <p>Policies, programs, practices, and services that help our organization contribute to the goal of an accessible and barrier-free Canada</p>
         </div>
                <div class="col-lg-4 col-md-6">
