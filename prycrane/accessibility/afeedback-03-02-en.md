@@ -20,7 +20,7 @@ description:
 dateModified: 2022-11-15
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Accessibility feedback process</span>: <span>Employment and Social Development Canada (ESDC)</span></span></h1>
-<p>Your feedback will help ESDC identify and break down accessibility barriers.  Provide feedback on ESDC’s Accessibility Plan 2023-2025, your experience of our institution’s accessibility, or any matter related to accessibility. Find out how we'll use your feedback.</p>
+<p>Your feedback will help ESDC identify and break down accessibility barriers.  Provide feedback on our accessibility plan, your experience, our institution’s accessibility, or any other matter related to accessibility. Find out how we'll use your feedback.</p>
 <p>Read our <a href="afeedback-03-05-en.html">Accessibility plan</a> to learn more about our efforts to improve accessibility and foster disability inclusion. </p>
 <h2>On this page</h2>
 <ul>
