@@ -87,7 +87,7 @@ dateModified: 2022-11-15
   </li>
   <li>
     <details>
-      <summary>Accesssibilty Landing page jam </summary>
+      <summary>Accesssibilty Landing page jam (2022-10-21)</summary>
       <ul>
         <li class="mrgn-tp-lg"><strong>Accessibilty landing page</strong> (Monday: <a href="https://scma-dto.monday.com/boards/2632043469/pulses/3416932460" class="">Accessibility landing page mockup</a>)
           <ul>
