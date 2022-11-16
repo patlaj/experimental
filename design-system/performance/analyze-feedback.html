@@ -124,9 +124,8 @@
   <div class="gc-stp-stp">
   		<div class="row">
   			<ul class="toc lst-spcd col-md-12">
-  				<li class="col-md-4 col-sm-6"><a class="list-group-item" href="https://www.gcpedia.gc.ca/wiki/Government_of_Canada_Task_Success_Survey-test#Survey_results_and_reports">Survey results (internal only)</a></li>
-  								<li class="col-md-4 col-sm-6"><a class="list-group-item active">How to analyze feedback</a></li>
-  			<!--	<li class="col-md-4 col-sm-6"><a class="list-group-item" href="take-action.html">Taking action with data</a></li>-->
+  				<li class="col-md-4 col-sm-6"><a class="list-group-item" href="access-results.html">Survey results and reports</a></li>
+  								<li class="col-md-4 col-sm-6"><a class="list-group-item active" href="analyze-feedback.html">How to analyze feedback</a></li>
         <li class="col-md-4 col-sm-6"><a class="list-group-item" href="insights.html">Sharing feedback insights</a></li>
 
         	<li class="col-md-4 col-sm-6"><a class="list-group-item" href="prioritize.html">Deciding what to improve</a></li>
@@ -140,11 +139,11 @@
     <h2>On this page</h2>
     <ul>
      <li><a href="#who">Who should analyze feedback</a></li>
-
-        <li><a href="#research">Research questions shape analysis</a></li>
+<li><a href="#volume">How much feedback to read</a></li>
+        <li><a href="#research">Start with research questions</a></li>
      <li><a href="#manual">Manual analysis methods</a></li>
-     <li><a href="#tools">Tools for analysis</a></li>
-      <li><a href="#pilot"><mark>Automated analysis pilot - content gap</mark></a></li>
+     <li><a href="#tools">Tools and templates</a></li>
+       <li><a href="#triangulate">Include other supporting data sources</a></li>
 
     </ul>
     
@@ -160,16 +159,20 @@
       <p>It’s good to get into the habit of looking at user feedback regularly to identify any emerging or persistent issues affecting task success.</p>
 
 
-  
-
-
-
-      <h2 id="research">Research questions shape analysis</h2>
+      <h2 id="volume">How much feedback to read</h2>
       
-      <p>Start by thinking in terms of research questions and who you will be sharing your findings with.
-      Doing this in advance can help clarify how to group feedback when doing manual analysis.</p>
+      <p>There is no magic number for how many comments you need.</p>
+
+        <p>With feedback, you are looking for enough comments to sufficiently describe an issue or answer a research question. There is a point of diminishing return when reading more feedback does not lead to additional insights. This is called “saturation”.</p>
+        
+        <p>Start with a small timeframe of data to see if you can identify issues and trends in the feedback.  Expand your date range to include more data and gain more clarity.</p>  
+
+      <h2 id="research">Start with research questions</h2>
       
-    <p>Common research questions:</p>
+      <p>Thinking in terms of research questions and who you will be sharing your findings with will shape how you do group your feedback.
+    </p>
+      
+    <p>Common research questions include:</p>
     <ul>
       
 <li>What are the most common issues being reported?</li>
@@ -204,10 +207,72 @@
   <p><strong>Task-based tags</strong> are recommended when analyzing feedback for group of pages where there are multiple user tasks.</p>
 
   <p>To identify tasks, ask yourself why the user came to the site. What were they trying to do, or what question were they trying to answer? </p>
+  
+  
 
-  <p><strong>Issue-based tags</strong> may be a better strategy when gathering feedback on a single page, single topic, or where a single task dominates your feedback.</p>
 
-  <p><strong>For large datasets</strong> you may find a second level of tags is needed to add precision. This can be done at the same time you tag the feedback OR when you are ready to analyze a smaller set of feedback.</p>
+
+          <table class="provisional gc-table table table-striped" id="myTable1">
+            <caption class="wb-inv">Example feedback tagging model by task </caption>
+              <thead>
+               <tr>
+                 <th scope="col">Task tag</th>
+                 <th scope="col">User task</th>
+                 <th scope="col">Topics included</th>
+
+               </tr>
+              </thead>
+              <tbody>
+            
+                <tr>
+                 <td data-label="Tag"><span class="text-left">Vaccine safety</span></td>
+                 <td data-label="User task"><span class="text-left">Is the vaccine safe for me?</span></td>
+                 <td data-label="Topics included"><span class="text-left">Pre-existing conditions, ingredients/allergies, side effects</span></td>
+               </tr>
+             
+               <tr>
+                <td data-label="Tag"><span class="text-left">Getting vaccinated</span></td>
+                <td data-label="User task"><span class="text-left">How do I get vaccinated?</span></td>
+                <td data-label="Topics included"><span class="text-left">Eligibility, when, where, how to register</span></td>
+              </tr>
+              
+              <tr>
+               <td data-label="Tag"><span class="text-left">Proof of vaccination</span></td>
+               <td data-label="User task"><span class="text-left">How do I get a copy of my vaccine record?</span></td>
+               <td data-label="Topics included"><span class="text-left">Vaccine records, provincial apps, federal vaccine proof</span></td>
+             </tr>
+
+                      
+              </tbody>
+            </table>
+  
+
+  <p class="mrgn-tp-xl"><strong>Issue-based tags</strong> may be a better strategy when gathering feedback on a single page, single topic, or where a single task dominates your feedback.</p>
+
+  <table class="provisional gc-table table table-striped" id="myTable1">
+    <caption class="wb-inv">Example feedback tagging model by issue </caption>
+      <thead>
+       <tr>
+         <th scope="col">Issue tag</th>
+         <th scope="col">Issue experienced</th>
+        
+
+       </tr>
+      </thead>
+      <tbody>
+    
+    
+      <tr>
+       <td data-label="Issue tag"><span class="text-left">No appointments</span></td>
+       <td data-label="User issue"><span class="text-left">No appointments, no appointments for serveral weeks</span></td>
+     </tr>
+     
+
+              
+      </tbody>
+    </table>
+
+<p class="mrgn-tp-xl"><strong>For large datasets</strong> you may find a second level of tags is needed to add precision. This can be done at the same time you tag the feedback OR when you are ready to analyze a smaller set of feedback.</p>
 
   </details>
 
@@ -215,6 +280,8 @@
   <summary>Limit the number of tags being used</summary>
 
   <p>Start with broad tags and only include those for which you have multiple examples. Your goal with this first review is to succinctly group recurring topics/issues.</p>
+  
+  
 
   <p>Aim to keep your set of tags to under 15 for the task.  Limiting the number of tags will help surface the issues that need the most assistance.</p>
 
@@ -238,7 +305,12 @@
 
   <p>Ask others to review your tag choices to make sure that the tags are clear to other people.  This is especially critical if more than one person will be helping to analyze feedback.  Agreeing on a common set of tags in the beginning (and when adjusting tags) avoids feedback being tagged poorly between people.</p>
 
-
+  
+            
+            <a class="btn btn-primary" href="images/feedback-tagging-template.xlsx" role="button">
+              <span class="fa fa-download" aria-hidden="true"></span> Download a tagging strategy template (Excel, 61KB)
+          </a>
+    
           
           
 
@@ -258,12 +330,14 @@
 
   <p>If you have more feedback than you can manage to review, classify and analyze, adjust your strategy: choose a specific task or time frame to focus on.</p>
   </details>
-<h2 id="tools">Tools for analysis</h2>
+  
+<h2 id="tools">Tools and templates for analysis</h2>
 
-<p>For small datasets, any spreadsheet software should be adequate (Excel, Google Sheets, etc.). </p>
+<p>For small datasets, any spreadsheet software should be adequate (Excel, Google Sheets) to sort and review feedback. </p>
 
-<p>For larger datasets, it’s helpful to use a tool that has more advanced functionality to sort, filter, and tag.  We’ve relied heavily on Airtable, but if you have a data science specialist, they may prefer or have access to more specialized tools.  </p>
+<p>For larger datasets, it’s helpful to use a tool that has more advanced functionality to sort, filter, and tag.  We’ve relied heavily on Airtable, but if you have a data science specialist, they may prefer or have access to other specialized software.  </p>
 
+<h3>Templates</h3>
 <ul>
   <li><a href="images/feedback-tagging-template.xlsx">
   Download a tagging strategy template
@@ -274,11 +348,21 @@ Download a template to analyze page feedback and/or GC TSS feedback
 </ul>
 
 
-<h2 id="pilot">Automated analysis pilot</h2>
-
-<p><mark>Content gap</mark> </p>
 
 
+<h2 id="triangulate">Include other supporting data sources </h2>
+
+<p>Include other data sources in your reporting to build a more complete picture, confirm your insights, or add urgency from sources such as:</p>
+
+<ul>
+
+<li>analytics</li>
+<li>call centre volumes</li>
+  <li>page feedback</li>
+<li>search trends </li>
+<li>usability study results</li>
+<li>questions received through social media</a>
+</ul>
 
 
 

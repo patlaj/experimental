@@ -146,6 +146,8 @@
 	<li><a href='https://www.canada.ca/en/government/about.html'>About Canada.ca</a></li>
 <li><a href='https://www.canada.ca/en/government/about/design-system.html'>Canada.ca design system</a></li>
 	<li><a href='https://www.canada.ca/en/government/about/design-system/pattern-library.html'>Template and pattern library for Canada.ca</a></li>
+			<li><a href='./site-footer.html'>Global footer</a></li>
+
 </ol>
 </div>
 </nav>
@@ -168,28 +170,20 @@
 
 <p><span class="label label-danger">Mandatory</span></p>
 
-		<p>The sub-footer band is a secondary element of the global footer. It contains a series of links and the Canada wordmark.</p>
+		<p>The sub-footer band is a secondary element of the global footer. It contains a series of corporate links and the Canada wordmark.</p>
 <p>In small screens, it also includes a Top of page link.</p>
 
 	<div class="pattern-demo">
-		<figure class="mrgn-bttm-lg">
-			<figcaption><b>Sub-footer</b></figcaption>
+
 			<img src="../images/footer-sub-crop.jpg" class="img-responsive"
-				alt="Diagram of sub-footer for large screens. Text version below:">
-			<details>
-				<summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-				<p>The sub-footer contains links to: “Social media,”
-					“Mobile applications,” “About Canada.ca,” “Terms and conditions,” and “Privacy,” all aligned to the left in a
-					single
-					row. It also includes the Canada wordmark in the same row, aligned to the right.</p>
-			</details>
-		</figure>
+				alt="">
 	</div>
 
 <h2>On this page</h2>
 <ul>
 	<li><a href="#use">When to use</a></li>
-	<li><a href="#specifications">How to implement</a></li>
+	<li><a href="#design">Content and design</a></li>
+	<li><a href="#implement">How to implement</a></li>
 	<li><a href="#research">Research and rationale</a></li>
 	<li><a href="#latest">Latest changes</a></li>
 	<li><a href="#discuss">Discussion</a></li>
@@ -199,7 +193,7 @@
 <p>The sub-footer band is mandatory on all page types.</p>
 
 
-<h2 id="specifications">How to implement</h2>
+<h2 id="design">Content and design</h2>
 <h3>Content specifications</h3>
 
 <p>Links appear in the following order:</p>
@@ -207,10 +201,10 @@
 	<li>Social media</li>
 	<li>Mobile applications</li>
 	<li>About Canada.ca</li>
-	<li>Terms and condition - should be contextualized to link to the Terms and conditions from the department responsible for the content on that page</li>
-	<li>Privacy - should be contextualized to link to the privacy information from the department responsible for the content on that page</li>
+	<li>Terms and condition - should be contextualized to link to the Terms and conditions of the department responsible for the content on that page</li>
+	<li>Privacy - should be contextualized to link to the privacy information of the department responsible for the content on that page</li>
 </ul>
-<p>You can omit the social media, mobile applications and About Canada.ca links on transactional and campaign pages.</p>
+<p>You can omit the Social media, Mobile applications and About Canada.ca links on transactional and campaign pages.</p>
 </section>
 <section>
 <h4>Canada wordmark</h4>
@@ -232,14 +226,18 @@
 
 </ul>
 
-	<div class="pattern-demo">
+<h3>Visual examples</h3>
+	<details>
+		<summary>Standard pages (desktop and mobile)</summary>
+
+	<div class="pattern-demo mrgn-bttm-md">
 		<figure class="mrgn-bttm-lg">
-			<figcaption><b>Sub-footer – large screen</b></figcaption>
+			<figcaption><b>Sub-footer band – large screen</b></figcaption>
 			<img src="../images/footer-sub.jpg" class="img-responsive"
-				alt="Diagram of sub-footer for large screens. Text version below:">
+				alt="Diagram of sub-footer band for large screens. Text version below:">
 			<details>
 				<summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-				<p>The sub-footer contains links to: “Social media,”
+				<p>On large screens the sub-footer band contains links to “Social media,”
 				“Mobile applications,” “About Canada.ca,” “Terms and conditions,” and “Privacy,” all aligned to the left in a single
 				row. It also includes the Canada wordmark in the same row, aligned to the right.</p>
 			</details>
@@ -247,44 +245,89 @@
 	</div>
 	<div class="pattern-demo">
 		<figure class="mrgn-bttm-lg">
-			<figcaption><b>Sub-footer – small screen</b></figcaption>
+			<figcaption><b>Sub-footer band – small screen</b></figcaption>
 			<img src="../images/footer-sub-mobile.jpg" class="img-responsive"
-				alt="Diagram of sub-footer for large screens. Text version below:">
+				alt="Diagram of sub-footer band for small screens. Text version below:">
 			<details>
 				<summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-				<p>The small screen sub-footer contains links to: “Social media,”
-					“Mobile applications,” “About Canada.ca,” “Terms and conditions,” and “Privacy,” all aligned to the left in a single
-					row. It also includes the Canada wordmark in the same row, aligned to the right.</p>
+				<p>On small screens the sub-footer band contains links to “Social media,”
+					“Mobile applications,” “About Canada.ca,” “Terms and conditions,” and “Privacy,” arranged in 2
+					columns. Below these links is a final row with a "Top of page" link aligned to the left and the Canada wordmark aligned to the right.</p>
 			</details>
 		</figure>
 	</div>
+</details>
+<details>
+			<summary>Transactional and campaign pages (desktop and mobile)</summary>
+			<div class="pattern-demo mrgn-bttm-md">
+				<figure class="mrgn-bttm-lg">
+					<figcaption><b>Minimum global footer – large screen</b></figcaption>
+					<img src="../images/footer-min-en.png" class="img-responsive"
+						alt="Diagram of minimum global footer for large screens. Text version below:">
+					<details>
+						<summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+						<p>On large screens, the minimum global footer for transactional and campaign pages includes only the sub-footer
+							band with links
+							to “Terms and conditions” and “Privacy.” These are aligned to the left in a single row. It also
+							includes the Canada wordmark in the same row, aligned to the right.</p>
+					</details>
+				</figure>
+			</div>
+			
+			<div class="pattern-demo">
+				<figure class="mrgn-bttm-lg">
+					<figcaption><b>Minimum global footer – small screen</b></figcaption>
+					<img src="../images/footer-min-mobile-en.png" class="img-responsive"
+						alt="Diagram of minimum global footer for small screens. Text version below:">
+					<details>
+						<summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+						<p>On small screens, the minimum global footer for transactional and campaign pages includes only the sub-footer
+							band, with
+							links to “Terms and conditions” and “Privacy.” Below these links is a final row with a “Top of page”
+							link, aligned to the left and the Canada wordmark aligned to the right.</p>
+					</details>
+				</figure>
+			</div>
+			</details>
 </section>
+<section>
+	<h2 id="implement">How to implement</h2>
 
+	<p>Check which elements of the Global footer are mandatory for the type of page you’re building before implementing
+		this
+		pattern. See:</p>
+	<ul>
+		<li><a href="./site-footer.html#use">Global footer: When to use</a></li>
+		<li><a href="./site-footer.html#implement">Global footer: How to implement</a></li>
+	</ul>
+</section>
 	<section>
 		<h2 id="research">Research and rationale</h2>
 	
 		<p>We updated the global footer for Canada.ca to align with a new overall navigation strategy that came out of the
 			Wayfinding research project.</p>
-		<ul>
+		<!--<ul>
 			<li><a href="">New blog post title</a></li>
-		</ul>
+		</ul>-->
 	</section>
 	
 	<section>
 		<h2 id="latest">Latest changes</h2>
-		<section>
 			<dl class="dl-horizontal">
 				<dt>
 					<time datetime="2022-10-17" class="link-muted">2022-10-17</time>
 				</dt>
-				<dd><mark>missing</mark></dd>
+				<dd>Created a new page for guidance specific to this band, updated content specifications to include Top of page link and Canada wordmark, added design specifications and visual examples</dd>
 			</dl>
-		</section>
 	</section>
 	<section>
 		<h2 id="discuss">Discussion</h2>
-		<p><a href="https://github.com/canada-ca/design-system-systeme-conception/issues">Discuss the pattern in github
-				issues</a></p>
+	<ul>
+		<li><a href="https://github.com/canada-ca/design-system-systeme-conception/issues">Discuss the pattern in GitHub
+			issues</a></li>
+		<li><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">Join the conversation on Slack</a></li>
+		<li><a href="mailto:dto.btn@tbs-sct.gc.ca">Send an email to the Digital Transformation Office</a></li>
+		</ul>
 	</section>
 
 </div>

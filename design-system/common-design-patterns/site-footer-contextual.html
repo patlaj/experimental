@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-		<title>Contextual footer - Canada.ca design pattern - Canada.ca</title>
+		<title>Contextual footer - Canada.ca design system - Canada.ca</title>
 <meta content="width=device-width,initial-scale=1" name="viewport">
 <meta name="robots" content="noindex">
 
@@ -147,6 +147,8 @@
 	<li><a href='https://www.canada.ca/en/government/about.html'>About Canada.ca</a></li>
 <li><a href='https://www.canada.ca/en/government/about/design-system.html'>Canada.ca design system</a></li>
 	<li><a href='https://www.canada.ca/en/government/about/design-system/pattern-library.html'>Template and pattern library for Canada.ca</a></li>
+		<li><a href='./site-footer.html'>Global footer</a></li>
+
 </ol>
 </div>
 </nav>
@@ -156,8 +158,9 @@
 
 <main role="main" property="mainContentOfPage" class="container">
 
-	<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Contextual footer band</span>: <span>Canada.ca design
-				pattern</span></span></h1>
+	<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global footer: Contextual band</span>: <span>Canada.ca design
+			 system </span></span></h1>
+	<p><strong>Last updated</strong>: 2022-11-01</p>
 
 
 
@@ -166,63 +169,80 @@
 		<div><div class="mwsgeneric-base-html parbase section">
 
 
-
-<p class="gc-byline"><strong>From: <a href="https://www.canada.ca/en/treasury-board-secretariat.html">Treasury Board of Canada Secretariat</a></strong>
-	<div class="gc-stp-stp">
-		<div class="row">
-			<ul class="toc lst-spcd col-md-12">
-				<li class="col-md-4 col-sm-6"><a class="list-group-item" href="site-footer.html">Global footer</a></li>
-				<li class="col-md-4 col-sm-6"><a class="list-group-item" href="site-footer-main.html">Main
-						footer band</a></li>
-				<li class="col-md-4 col-sm-6"><a class="list-group-item" href="site-footer-sub.html">Sub-footer
-						band</a></li>
-				<li class="col-md-4 col-sm-6"><a class="list-group-item active">Contextual footer
-						band</a></li>
-			</ul>
-		</div>
-	</div>
+	
 <section>
 
 <p><span class="label label-info">Optional</span></p>
 
-	<p>The contextual footer band is an optional element of the global footer. It allows departments to add custom links specific
-	to a particular section of the site.
-</p>
+	<p>The contextual footer band is an optional element of the global footer.</p>
 
-<p>Include only one contextual band on any page.</p>
+<p>It provides support links that are specific to an entire group of pages, such as contact details for a program. A group of pages
+might be an entire theme, all the pages related to a specific program, or all the pages related to a single
+organization.</p>
 
-<h2>When to use</h2>
+<p><strong>2022 design update</strong>: We’ve recently updated this pattern as part of a new navigation strategy coming
+	out of the
+	Wayfinding research project.</p>
 
-<p>Use a contextual footer band when you have top tasks specific to your department that should be persistent as footer
-rescue links.</p>
-<p>If you used to customize the contact us link in the main footer so people could contact your department directly, that
-is an indicator that you should include a contextual footer.</p>
+<!--<a href="">Blog post link</a>-->
 
-<h2>Content specifications</h2>
+	<div class="pattern-demo mrgn-tp-lg">
+	
+			<img src="../images/footer-contextual.jpg" class="img-responsive"
+				alt="Diagram of contextual band for large screens. Text version below:">
+	</div>
 
-<p>The contextual footer requires a heading that’s relevant to the included content.</p>
+			<h2>On this page</h2>
+			<ul>
+				<li><a href="#use">When to use</a></li>
+				<li><a href="#avoid">What to avoid</a></li>
+				<li><a href="#design">Content and design</a></li>
+				<li><a href="#implement">How to implement</a></li>
+				<li><a href="#research">Research and rationale</a></li>
+				<li><a href="#latest">Latest changes</a></li>
+				<li><a href="#discuss">Discussion</a></li>
+			</ul>
 
-<p>Typical content might include:</p>
+<h2 id="use">When to use</h2>
+
+<p>The footer generally acts as a rescue for people. They check it if they don't find what they want in the main content of
+the page.</p>
+
+<p>Use a contextual footer band when you have a consistent set of rescue links that should be available throughout a
+specific group of pages.</p>
+
+<ul><li>For example, the Taxes theme pages could have a contextual footer band with a link to Contact the CRA.</li></ul>
+<p><strong>Tip:</strong> If your pages have previously had a contextualized Contact us link in the global footer, you should add a contextual footer band.</p>
+
+<h2 id="avoid">What to avoid</h2>
+
+<p>The content of this band shouldn’t duplicate the Government of Canada links in the <a href="./site-footer.html">main footer band</a>.</p>
+
+<p>Don’t use this band for a single page. It should apply to a group of related pages.</p>
+
+<h2 id="design">Content and design</h2>
+
+<p>Include only 1 contextual footer band on any page.</p>
+
+<h3>Content specifications</h3>
+
+<p>Limit this band to a single row with a maximum of 3 links.</p>
+
+<p>Include a heading that’s relevant to the content in this band, such as the name of the organization, theme or program.</p>
+
+<p>Remember that it's a rescue pattern when you're choosing content for this band. It’s ok if something like a contact link appears
+in both the content area and the footer. If you have a page that has contact information in the body, it’s ok to have another contact link in the footer.</p>
+
+<p>Choose links that people will expect to find in a footer based on web conventions. Common contextual footer links could
+include:</p>
 
 <ul>
-<li>Specific contact details (link to a contact page, direct phone number, etc.)</li>
-<li>Sign in links</li>
-<li>Curated indexes (for news, consultations, etc.)</li>
+<li>Contact [...] (link to the organization or program contact page)</li>
+<li>Careers (link to job postings)</li>
+<li>News (or other curated indexes such as consultations)</li>
 </ul>
 
-<p>When choosing the content for this band, remember that this is a rescue pattern. Focus on the top tasks that people need
-at this point in their journey.</p>
-
-<p>Keep content as specific as possible to the section so you can strictly limit the number of rows required. Best practice
-is to limit this band to a single row of 1 to 3 links.</p>
-
-<h2>What to avoid</h2>
-<p>To avoid duplication, if you only have contact links in your contextual footer, don’t include it on your Institutional
-landing page.</p>
-
-<p>The content of this band shouldn’t compete with what’s in the main footer band.</p>
-
-<h2>Design specifications</h2>
+<h3>Design specifications</h3>
 <p>Design specifications for this band are:</p>
 <ul>
 	<li>Background colour: Contextual footer blue (#33465c)</li>
@@ -232,18 +252,19 @@ landing page.</p>
 	<li>Columns: 3 column in large and medium screen formats, 1 column in small screen format</li>
 </ul>
 
-<h2>Examples</h2>
 
 
+<h3>Visual Examples</h3>
+
+<p>The contextual band should remain the same for the whole group of pages under the theme or institution.</p>
 	<div class="pattern-demo">
 		<figure class="mrgn-bttm-lg">
-			<figcaption><b>Example for a theme</b></figcaption>
+			<figcaption><b>Example for the Veterans and military theme</b></figcaption>
 			<img src="../images/contextual-footer-theme-en.jpg" class="img-responsive"
 				alt="Theme contextual footer. Text version below:">
 					<details>
 						<summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-						<p>Contextual footer for a theme with the title “Contacts“. The 3 contextual links are “Veterans contacts,” “Military
-						contacts,” and “Contact the RCMP.”</p>
+						<p>Contextual band for the Veterans and military theme with the title “Contacts” and 3 contextual links: “Veterans contacts,” “Military contacts,” and “Contact the RCMP”</p>
 					</details>
 		</figure>
 	</div>
@@ -251,13 +272,12 @@ landing page.</p>
 
 	<div class="pattern-demo">
 		<figure class="mrgn-bttm-lg">
-			<figcaption><b>Example for an institutional page</b></figcaption>
+			<figcaption><b>Example for an institution</b></figcaption>
 			<img src="../images/contextual-footer-institutional-en.jpg" class="img-responsive"
 				alt="Institutional contextual footer. Text version below:">
 				<details>
 					<summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-					<p>Contextual footer for an institutional page with the title “Agriculture and Agri-Food Canada.” The 3 contextual links
-					are “Contact us,” “News” and “My AAFC account.”</p>
+					<p>Contextual band for an institution with the title “Agriculture and Agri-Food Canada” and 3 contextual links: “Contact AAFC,” “News” and “Consultations”</p>
 				</details>
 		</figure>
 	</div>
@@ -265,7 +285,45 @@ landing page.</p>
 
 </section>
 
+<section>
+	<h2 id="implement">How to implement</h2>
 
+	<p>Check which elements of the Global footer are mandatory for the type of page you’re building before implementing this
+	pattern. See:</p>
+	<ul>
+		<li><a href="./site-footer.html#use">Global footer: When to use</a></li>
+		<li><a href="./site-footer.html#implement">Global footer: How to implement</a></li>
+	</ul>
+</section>
+
+<section>
+	<h2 id="research">Research and rationale</h2>
+
+	<p>We updated the global footer for Canada.ca to align with a new overall navigation strategy that came out of the
+		Wayfinding research project.</p>
+	<!--<ul>
+		<li><a href="">New blog post title</a></li>
+	</ul>-->
+</section>
+
+<section>
+	<h2 id="latest">Latest changes</h2>
+		<dl class="dl-horizontal">
+			<dt>
+				<time datetime="2022-11-01" class="link-muted">2022-11-01</time>
+			</dt>
+			<dd>Added guidance for this new pattern</dd>
+		</dl>
+</section>
+<section>
+	<h2 id="discuss">Discussion</h2>
+	<ul>
+		<li><a href="https://github.com/canada-ca/design-system-systeme-conception/issues">Discuss the pattern in GitHub
+			issues</a></li>
+		<li><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">Join the conversation on Slack</a></li>
+		<li><a href="mailto:dto.btn@tbs-sct.gc.ca">Send an email to the Digital Transformation Office</a></li>
+	</ul>
+</section>
 </div>
 
 </div>
@@ -356,7 +414,7 @@ landing page.</p>
 				</div>
 				<!-- END PAGE FEEDBACK WIDGET --><div class="pagedetails">        <dl id="wb-dtmd">
     <dt>Date modified:</dt>
-    <dd><time property="dateModified">2021-10-07</time></dd>
+    <dd><time property="dateModified">2022-10-17</time></dd>
 		</dl>
 	</div>
 </main><footer id="wb-info">
