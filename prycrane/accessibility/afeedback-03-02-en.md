@@ -56,7 +56,7 @@ dateModified: 2022-11-15
 <p>You will receive an automatic confirmation when you submit the Accessibility feedback form online.  Acknowledging receipt for feedback made by other means will take longer.  We will provide confirmation by the same means of communication used to communicate with us.  Our message will confirm that we have received feedback, include our service standard for replying to comments and explain that more complex issues will take more time to solve.</p>
 <h3>Responding and resolving issues</h3>
 <p>We will respond by email to comments received through the online form or by email within 5 business days.</p>
-  <p>Note that finding answers or solutions to more complex issues might take more time. If that is the case for your comment(s), we will let you know within 5 business days upon receiving your feedback.</p>
+  <p>Finding answers or solutions to more complex issues might take more time. If that is the case for your comment(s), we will let you know within 5 business days upon receiving your feedback.</p>
 <h3>Compiling and analyzing feedback</h3>
 <p>We will analyze feedback for trends and patterns. We will present our analysis and explain the follow-up actions we have taken in our annual progress reports on accessibility and in our future accessibility plans.</p>
 <h2 id="anonymous">Anonymous feedback</h2>
