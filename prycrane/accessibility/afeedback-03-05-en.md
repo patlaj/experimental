@@ -20,3 +20,5 @@ description:
 dateModified: 2022-11-15
 ---
 <h1 property="name" id="wb-cont" dir="ltr">Accessibility plan</h1>
+
+<p>Use <a href="https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/accessibility-plans/template.html">Sample Accessibility Plan Template</a></p>
