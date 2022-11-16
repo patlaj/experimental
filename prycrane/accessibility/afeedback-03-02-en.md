@@ -63,8 +63,8 @@ dateModified: 2022-11-15
 <p>Your feedback will always remain anonymous in our public reports.  We will not identify you with your feedback beyond our Accessibility Office.  The only time your feedback will be connected to you is when you request a personal response.</p>
 <p>To provide anonymous feedback:</p>
 <ul>
-<li>Do not state your name or provide any identifying information</li>
-<li>State that you would like your feedback to remain anonymous if your email address includes your name</li> 
-<li>Do not include your return address on the envelope for physical mail</li>
+<li>do not state your name or provide any identifying information</li>
+<li>state that you would like your feedback to remain anonymous if your email address includes your name</li> 
+<li>do not include your return address on the envelope for physical mail</li>
 </ul>  
 
