@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: form
 title: Test
 description: 
   en: Test 
