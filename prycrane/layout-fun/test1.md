@@ -1,5 +1,5 @@
 ---
-layout: without-h1
+layout: form
 title: Test
 description: 
   en: Test 
