@@ -44,7 +44,7 @@ dateModified: 2022-11-15
         </div>
                <div class="col-lg-4 col-md-6">
           <h3><a href="afeedback-03-02-en.html">Feedback process</a></h3>
-          <p>Find ways to provide feedback.  Description of how we respond to and use your feedback.</p>
+          <p>Different ways to provide feedback, how to access alternate formats, what we  do with your feedback and how to keep your feedback anonymous</p>
         </div>
       </div>
     </section>
