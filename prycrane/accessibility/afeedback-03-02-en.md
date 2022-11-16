@@ -60,7 +60,11 @@ dateModified: 2022-11-15
 <h3>Compiling and analyzing feedback</h3>
 <p>We will analyze feedback for trends and patterns. We will present our analysis and explain the follow-up actions we have taken in our annual progress reports on accessibility and in our future accessibility plans.</p>
 <h2 id="anonymous">Anonymous feedback</h2>
-<p>All feedback will be anonymized when we report publicly on all feedback that we have received.</p>
-<p>You can provide feedback and remain fully anonymous if you use the online form, the phone or VRS. Do not state your name or provide any identifying information to ensure anonymity.</p>
-<p><strong>State that you would like your feedback to remain anonymous</strong> if your email address includes your name and want to remain anonymous. We will not identify you with your feedback beyond our Accessibility Office</p>
-<p><strong>Do not include your return address</strong> on the envelope for physical mail if you want to remain fully anonymous. If you would like to receive an acknowledgement with a response regarding your feedback, please let us know within your feedback that you would like to remain anonymous but receive a response back.  We will not identify you with your feedback for anyone beyond the Accessibility Office.</p>
+<p>Your feedback will always remain anonymous in our public reports.  We will not identify you with your feedback beyond our Accessibility Office.  The only time your feedback will be connected to you is when you request a personal response.</p>
+<p>To provide anonymous feedback:</p>
+<ul>
+<li>Do not state your name or provide any identifying information</li>
+<li>State that you would like your feedback to remain anonymous if your email address includes your name</li> 
+<li>Do not include your return address on the envelope for physical mail</li>
+</ul>  
+
