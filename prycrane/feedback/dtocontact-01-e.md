@@ -21,13 +21,27 @@ dateModified: 2022-11-17
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Contact DTO</span>: <span>Canada.ca design system</span></span></h1>
- <p>Find our accessibility plan and provide feedback.  This is part of an ongoing effort to:</p>
-        <ul>
-           <li>get input from persons with disabilities</li>
-           <li>reflect on our organization’s accessibility strategy</li>  
-           <li>be accountable for our current and future actions</li>
-        </ul>
+			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Contact Digital transformation officeTO</span>: <span>Canada.ca design system</span></span></h1>
+ 
+			
+<div class="wb-frmvld">
+	<form action="#" method="get" id="validation-example">
+
+		<div class="form-group">
+			<label for="fname1" class="required"><span class="field-name">First name</span> <strong class="required" aria-hidden="true">(required)</strong></label>
+			<input class="form-control" id="fname1" name="fname1" type="text" autocomplete="given-name" required="required" data-rule-minlength="2" />
+		</div>			
+	</form>			
+	</div>				
+			
+			
+			
+			
+			
+			
+			
+			
+			
 		</div>
 	</div>
 </div>
