@@ -28,6 +28,12 @@ dateModified: 2022-11-17
       <label for="fname1" class="required"><span class="field-name">First name</span> <strong class="required" aria-hidden="true">(required)</strong></label>
       <input class="form-control full-width" id="fname1" name="fname1" type="text" autocomplete="given-name" required="required" data-rule-minlength="2" />
   </div>
+ <div class="mrgn-tp-xl">
+        <ul class="list-inline">
+          <li><a href="dtocontact-02-en.html" type="button" class="btn btn-primary btn-lg">Submit feedback</a></li>
+          <li><a href="index.html" type="button" class="btn btn-link btn-lg">Cancel</a></li>
+        </ul>
+      </div>	   
 </form></div>				
 		</div>
 	</div>
