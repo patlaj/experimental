@@ -1,5 +1,5 @@
 ---
-layout: form
+layout: core
 lang: en
 title: Test
 description: 
