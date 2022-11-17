@@ -21,7 +21,7 @@ dateModified: 2022-11-17
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Contact Digital transformation officeTO</span>: <span>Canada.ca design system</span></span></h1>
+			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Contact</span>: <span>Canada.ca design system</span></span></h1>
 <div class="wb-frmvld">
    <form action="#" method="get" id="validation-example">
    <div class="form-group">
