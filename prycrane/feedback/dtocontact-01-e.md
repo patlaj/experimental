@@ -1,20 +1,21 @@
 ---
+layout: form
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
-layout: without-h1
-pageclass: cnt-wdth-lmtd
-altLangPage: /experimental/prycrane/accessibility/accessibilite-01-fr.html
-pageclass: cnt-wdth-lmtd
-breadcrumbs:
-- title: Contact DTO
-  link: #
+- https://use.fontawesome.com/releases/v5.15.4/css/all.css
 lang: en
-share: True
 title: Contact DTO
+altLangPage: /experimental/prycrane/
+pageclass: cnt-wdth-lmtd
+breadcrumbs: false
+share: false
+nomenu: true
+noReportProblem: true
+nositesearch: true
 description: 
-  en: Find our accessibility plan and provide feedback. 
-dateModified: 2022-10-21
+  en: Contact DTO 
+dateModified: 2022-11-17
 ---
 
 <div class="container">
