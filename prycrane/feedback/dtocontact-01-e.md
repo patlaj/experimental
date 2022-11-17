@@ -33,7 +33,7 @@ dateModified: 2022-11-17
 		</div>
 <div class="form-group mrgn-tp-lg">
 			<label for="role"><span class="field-name">My role</span></label>
-			<select class="form-control" id="role" name="role" autocomplete="honorific-prefix">
+			<select class="form-control full-width" id="role" name="role" autocomplete="honorific-prefix">
 				<option label="Select a role"></option>
 				<option value="dr">Dr.</option>
 				<option value="esq">Esq.</option>
