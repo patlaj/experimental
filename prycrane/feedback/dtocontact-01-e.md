@@ -28,8 +28,7 @@ dateModified: 2022-11-17
       <label for="fname1" class="required"><span class="field-name">First name</span> <strong class="required" aria-hidden="true">(required)</strong></label>
       <input class="form-control" id="fname1" name="fname1" type="text" autocomplete="given-name" required="required" data-rule-minlength="2" />
   </div>
-	   
-	</form></div>				
+</form></div>				
 		</div>
 	</div>
 </div>
