@@ -34,7 +34,7 @@ dateModified: 2022-11-17
 <div class="form-group mrgn-tp-lg">
 			<label for="role"><span class="field-name">My role</span></label>
 			<select class="form-control full-width" id="role" name="role" autocomplete="honorific-prefix">
-				<option label="Select a role"></option>
+				<option label="Select a role (optional)"></option>
 				<option value="pm">Project manager</option>
 				<option value="ba">Business analyst</option>				
 				<option value="cm">Content creator</option>
@@ -46,7 +46,7 @@ dateModified: 2022-11-17
 <div class="form-group mrgn-tp-lg">
 			<label for="message_type"><span class="field-name">My message is about <strong class="required" aria-hidden="true">(required)</strong></span></label>
 			<select class="form-control full-width" id="role" name="message_type" autocomplete="honorific-prefix">
-				<option label="Select a topic"></option>
+				<option label="Select a topic (optional)"></option>
 				<option value="de">Canada.ca design element</option>
 				<option value="blog">Canada.ca blog</option>
 				<option value="3">Item 3</option>
