@@ -24,5 +24,4 @@ dateModified: 2022-11-17
 
    <ul class="list-inline">
         <li><a href="https://www.canada.ca/en/government/about/design-system.html">Canada.ca design system</a></li>
-  
-      </ul>
+</ul>
