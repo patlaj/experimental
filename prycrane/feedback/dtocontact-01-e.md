@@ -35,9 +35,11 @@ dateModified: 2022-11-17
 			<label for="role"><span class="field-name">My role</span></label>
 			<select class="form-control full-width" id="role" name="role" autocomplete="honorific-prefix">
 				<option label="Select a role"></option>
-				<option value="pm">Project manager</option>				
+				<option value="pm">Project manager</option>
+				<option value="ba">Business analyst</option>				
 				<option value="cm">Content creator</option>
 				<option value="cd">Content designer</option>
+				<option value="id">Interaction designer</option>				
 				<option value="dev">Developer</option>
 			</select>
 		</div>	   
