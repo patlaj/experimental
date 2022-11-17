@@ -17,11 +17,13 @@ description:
   en: Contact Digital Transformation Office
 dateModified: 2022-11-17
 ---
-<h1 property="name" id="wb-cont" dir="ltr">Contact Digital Transformation Office</h1>
+<h1 property="name" id="wb-cont" dir="ltr">Contact DTO acknowledgement</h1>
 
-<p class="mrgn-tp-lg"><strong>[email provided]</strong></p>
-<p>Thank you for your feedback. You will receive a response within X days.</p>   
+
+<p>Thank you for contacting Digital Transformation Office. [What can users expect as a response?]</p>   
 
    <ul class="list-inline">
+         <li><a href="#">Return to page</a></li>
         <li><a href="https://www.canada.ca/en/government/about/design-system.html">Canada.ca design system</a></li>
+   <li><a href="https://blog.canada.ca/">Canada.ca blog</a></li>
 </ul>
