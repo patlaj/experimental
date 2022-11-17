@@ -18,6 +18,8 @@ description:
 dateModified: 2022-11-17
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Contact Digital Transformation Office</span>: <span>Canada.ca design system</span></span></h1>
+<div class="row">
+<div class="col-md-8">  
 <div class="wb-frmvld">
    <form action="#" method="get" id="validation-example">
    <div class="form-group">
@@ -32,3 +34,5 @@ dateModified: 2022-11-17
       </div>	   
 </form>
 </div>
+  </div>
+  </div>
