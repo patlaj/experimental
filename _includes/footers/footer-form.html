@@ -12,19 +12,6 @@
 		<div class="container d-flex align-items-center">
 			<nav>
 				<h3 class="wb-inv">{{ i18nText-supportLinks }}</h3>
-				{% unless page.noFooterSupportLinks %}
-				<ul>
-					{%- if i18nText-lang == "fr" -%}
-					<li><a href="https://www.canada.ca/fr/sociaux.html">Médias sociaux</a></li>
-					<li><a href="https://www.canada.ca/fr/mobile.html">Applications mobiles</a></li>
-					<li><a href="https://www1.canada.ca/fr/nouveausite.html">À propos de Canada.ca</a></li>
-					{%- elsif i18nText-lang == "en" -%}
-					<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
-					<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
-					<li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a></li>
-					{%- endif -%}
-				</ul>
-				{% endunless %}
 				<h4><span class="wb-inv">{{ i18nText-transparency }}</span></h4>
 				<ul>
 					{%- if i18nText-lang == "fr" -%}
