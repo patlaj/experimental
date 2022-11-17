@@ -47,10 +47,10 @@ dateModified: 2022-11-17
 			<label for="message_type"><span class="field-name">My message is about</span></label>
 			<select class="form-control full-width" id="role" name="message_type" autocomplete="honorific-prefix">
 				<option label="Select a topic"></option>
-				<option value="dr">Dr.</option>
-				<option value="esq">Esq.</option>
-				<option value="mr">Mr.</option>
-				<option value="ms">Ms.</option>
+				<option value="de">Canada.ca design element</option>
+				<option value="blog">Canada.ca blog</option>
+				<option value="3">Item 3</option>
+				<option value="4">Item 4</option>
 			</select>
 		</div>	 	
 <div class="form-group mrgn-tp-lg">	   
