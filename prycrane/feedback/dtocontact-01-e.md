@@ -31,6 +31,16 @@ dateModified: 2022-11-17
 			<label for="email1" class="required"><span class="field-name">Email address</span> (yourname@domain.com) <strong class="required" aria-hidden="true">(required)</strong></label>
 			<input class="form-control full-width" id="email1" name="email1" required="required" type="email" autocomplete="email" />
 		</div>
+<div class="form-group mrgn-tp-lg">
+			<label for="title1" class="required"><span class="field-name">Title</span> <strong class="required">(required)</strong></label>
+			<select class="form-control" id="title1" name="title1" autocomplete="honorific-prefix" required="required">
+				<option label="Select a title"></option>
+				<option value="dr">Dr.</option>
+				<option value="esq">Esq.</option>
+				<option value="mr">Mr.</option>
+				<option value="ms">Ms.</option>
+			</select>
+		</div>	   
      <div class="mrgn-tp-xl">
         <ul class="list-inline">
           <li><a href="dtocontact-02-en.html" type="button" class="btn btn-primary btn-lg">Contact DTO</a></li>
