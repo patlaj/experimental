@@ -44,7 +44,7 @@ dateModified: 2022-11-17
 			</select>
 		</div>	   
 <div class="form-group mrgn-tp-lg">
-			<label for="message_type"><span class="field-name">My message is about</span></label>
+			<label for="message_type"><span class="field-name">My message is about <strong class="required" aria-hidden="true">(required)</strong></span></label>
 			<select class="form-control full-width" id="role" name="message_type" autocomplete="honorific-prefix">
 				<option label="Select a topic"></option>
 				<option value="de">Canada.ca design element</option>
