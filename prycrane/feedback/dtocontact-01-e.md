@@ -50,7 +50,11 @@ dateModified: 2022-11-17
 				<option value="mr">Mr.</option>
 				<option value="ms">Ms.</option>
 			</select>
-		</div>	 	   
+		</div>	 	
+<div class="form-group mrgn-tp-lg">	   
+<label for="role" class="required"><span class="field-name">Message</span></label>	   
+<textarea class="form-control" rows="8"></textarea>
+	   </div>
      <div class="mrgn-tp-xl">
         <ul class="list-inline">
           <li><a href="dtocontact-02-en.html" type="button" class="btn btn-primary btn-lg">Contact DTO</a></li>
