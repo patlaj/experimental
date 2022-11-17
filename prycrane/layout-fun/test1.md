@@ -11,6 +11,7 @@ pageclass: cnt-wdth-lmtd
 breadcrumbs: false
 share: false
 nomenu: true
+noReportProblem: true
 nositesearch: true
 description: 
   en: Test 
