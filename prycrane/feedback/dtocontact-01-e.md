@@ -32,9 +32,9 @@ dateModified: 2022-11-17
 			<input class="form-control full-width" id="email1" name="email1" required="required" type="email" autocomplete="email" />
 		</div>
 <div class="form-group mrgn-tp-lg">
-			<label for="title1" class="required"><span class="field-name">My role</span> <strong class="required">(required)</strong></label>
-			<select class="form-control" id="title1" name="title1" autocomplete="honorific-prefix" required="required">
-				<option label="Select a title"></option>
+			<label for="role"><span class="field-name">My role</span></label>
+			<select class="form-control" id="role" name="role" autocomplete="honorific-prefix">
+				<option label="Select a role"></option>
 				<option value="dr">Dr.</option>
 				<option value="esq">Esq.</option>
 				<option value="mr">Mr.</option>
