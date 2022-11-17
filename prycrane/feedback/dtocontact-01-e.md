@@ -18,6 +18,7 @@ description:
 dateModified: 2022-11-17
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Contact Digital Transformation Office</span>: <span>Canada.ca design system</span></span></h1>
+<p>Ask DTO about the Canada.ca design system or request a design element you'd like to see.</p>
 <div class="row">
 <div class="col-md-7">  
 <div class="wb-frmvld">
@@ -28,7 +29,7 @@ dateModified: 2022-11-17
   </div>
      <div class="form-group">
 			<label for="email1"><span class="field-name">Email address</span> (yourname@domain.com)</label>
-			<input class="form-control" id="email1" name="email1" type="email" autocomplete="email" />
+			<input class="form-control full-width" id="email1" name="email1" type="email" autocomplete="email" />
 		</div>
      <div class="mrgn-tp-xl">
         <ul class="list-inline">
