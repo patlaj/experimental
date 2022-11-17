@@ -22,7 +22,7 @@ dateModified: 2022-11-17
 
 <p>Thank you for contacting Digital Transformation Office. [What can users expect as a response?]</p>   
 
-   <ul class="list-inline">
+   <ul>
          <li><a href="#">Return to page</a></li>
         <li><a href="https://www.canada.ca/en/government/about/design-system.html">Canada.ca design system</a></li>
    <li><a href="https://blog.canada.ca/">Canada.ca blog</a></li>
