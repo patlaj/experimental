@@ -23,10 +23,14 @@ dateModified: 2022-11-17
 <div class="wb-frmvld">
    <form action="#" method="get" id="validation-example">
    <div class="form-group">
-      <label for="fname1" class="required"><span class="field-name">First name</span> <strong class="required" aria-hidden="true">(required)</strong></label>
-      <input class="form-control full-width" id="fname1" name="fname1" type="text" autocomplete="given-name" required="required" data-rule-minlength="2" />
+      <label for="name" class="required"><span class="field-name">Name</span> <strong class="required" aria-hidden="true">(required)</strong></label>
+      <input class="form-control full-width" id="name" name="name" type="text" required="required" data-rule-minlength="2" />
   </div>
- <div class="mrgn-tp-xl">
+     <div class="form-group">
+			<label for="email1"><span class="field-name">Email address</span> (yourname@domain.com)</label>
+			<input class="form-control" id="email1" name="email1" type="email" autocomplete="email" />
+		</div>
+     <div class="mrgn-tp-xl">
         <ul class="list-inline">
           <li><a href="dtocontact-02-en.html" type="button" class="btn btn-primary btn-lg">Contact DTO</a></li>
           <li><a href="index.html" type="button" class="btn btn-link btn-lg">Cancel</a></li>
