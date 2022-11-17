@@ -1,5 +1,5 @@
 ---
-layout: core
+layout: without-h1
 lang: en
 title: Test
 description: 
