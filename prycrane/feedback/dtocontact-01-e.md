@@ -47,7 +47,9 @@ dateModified: 2022-11-17
 			<label for="message_type"><span class="field-name">My message is about <strong class="required" aria-hidden="true">(required)</strong></span></label>
 			<select class="form-control full-width" id="role" name="message_type" autocomplete="honorific-prefix">
 				<option label="Select a topic (optional)"></option>
-				<option value="de">Canada.ca design element</option>
+				<option value="deb">Canada.ca design element is broken</option>
+				<option value="dei">Canada.ca design element needs improvement</option>
+				<option value="der">Request a new Canada.ca design element</option>				
 				<option value="blog">Canada.ca blog</option>
 				<option value="3">Item 3</option>
 				<option value="4">Item 4</option>
