@@ -12,7 +12,7 @@ breadcrumbs:
   link: https://www.canada.ca/en/employment-social-development.html
 lang: en
 share: True
-title: Accessibility
+title: Accessibility - Employment and Social Development Canada (ESDC)
 description: 
   en: Find Employment and Social Development Canada's accessibility plan and provide feedback. 
 dateModified: 2022-11-15
@@ -21,7 +21,7 @@ dateModified: 2022-11-15
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-<h1 property="name" id="wb-cont" dir="ltr">Accessibility</h1>
+<h1 property="name" id="wb-cont" dir="ltr">Accessibility - Employment and Social Development Canada</h1>
 <p>We want your feedback on accessibility to help us create an accessible and barrier-free Canada.</p>
 <ul>
   <li>Comment on our accessibility plan</li>
